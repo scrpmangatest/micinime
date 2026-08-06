@@ -54,119 +54,119 @@ async function fetchPage(url) {
   }
 }
 
+// In-memory cache for home API (speeds up repeated visits)
+const homeCache = new Map();
+const HOME_CACHE_TTL = 5 * 60 * 1000; // 5 minutes
+
+function getLocalMangaArray() {
+  const map = readLocalJson(path.join(DATA_DIR, 'manga-list.json')) || {};
+  return Object.values(map)
+    .filter(m => m && m.title)
+    .map(m => ({
+      title: m.title,
+      url: m.url || (m.slug ? `/manga/${m.slug}` : null),
+      image: m.image || null,
+      chapter: m.chapter || 'Chapter 1',
+      rating: m.rating || '7.00',
+      type: m.type || 'Manga',
+      time: m.time || null,
+      slug: m.slug || null
+    }))
+    .filter(m => m.url);
+}
+
 app.get('/api/home', async (req, res) => {
   try {
     const page = Math.max(1, parseInt(req.query.page || '1', 10) || 1);
     const perPage = 36;
+    const cacheKey = `home:${page}`;
+    const cached = homeCache.get(cacheKey);
+    if (cached && Date.now() - cached.at < HOME_CACHE_TTL) {
+      res.set('X-Cache', 'HIT');
+      return res.json(cached.data);
+    }
 
-    // Page 1: popular from homepage + latest page 1
-    // Page 2+: only latest from site list order=update
+    // Prefer local scraped data (fast) — no live scrape on every request
+    let all = getLocalMangaArray();
+
+    // Sort: higher rating first for "popular", keep list order for latest-ish
     let popularItems = [];
+    if (page === 1 && all.length) {
+      popularItems = [...all]
+        .sort((a, b) => parseFloat(b.rating || 0) - parseFloat(a.rating || 0))
+        .slice(0, 15)
+        .map(m => ({
+          title: m.title,
+          url: m.url,
+          image: m.image,
+          chapter: m.chapter,
+          rating: m.rating,
+          type: m.type
+        }));
+    }
 
-    if (page === 1) {
+    // If local empty, fallback to lightweight live scrape (page 1 only)
+    if (!all.length) {
       const homeHtml = await fetchPage(BASE_URL);
       if (homeHtml) {
         const $h = cheerio.load(homeHtml);
-        $h('.hotslid .popularslider .bs').each((i, el) => {
-          if (i < 16) {
-            popularItems.push({
-              title: $h(el).find('.tt').text().trim(),
-              url: toLocalPath($h(el).find('a').attr('href')),
-              image: $h(el).find('img').attr('src'),
-              chapter: $h(el).find('.epxs').text().trim(),
-              rating: $h(el).find('.numscore').text().trim(),
-              type: $h(el).find('.type').text().trim()
-            });
-          }
+        if (page === 1) {
+          $h('.hotslid .popularslider .bs').each((i, el) => {
+            if (i < 16) {
+              popularItems.push({
+                title: $h(el).find('.tt').text().trim(),
+                url: toLocalPath($h(el).find('a').attr('href')),
+                image: $h(el).find('img').attr('src'),
+                chapter: $h(el).find('.epxs').text().trim(),
+                rating: $h(el).find('.numscore').text().trim(),
+                type: $h(el).find('.type').text().trim()
+              });
+            }
+          });
+        }
+        $h('.postbody .listupd .bs').each((_, el) => {
+          all.push({
+            title: $h(el).find('.tt').text().trim(),
+            url: toLocalPath($h(el).find('a').attr('href')),
+            image: $h(el).find('img').attr('src'),
+            chapter: $h(el).find('.epxs').text().trim(),
+            time: $h(el).find('.epxdate').text().trim(),
+            rating: $h(el).find('.numscore').text().trim(),
+            type: $h(el).find('.type').text().trim()
+          });
         });
       }
     }
 
-    // Latest update: scrape update-ordered list pages until we fill 36 items
-    // Site typically shows ~12-20 per page; collect from consecutive pages
-    const latestItems = [];
-    let sourcePage = page;
-    let hasMore = true;
-    let guard = 0;
+    const total = all.length;
+    const totalPages = Math.max(1, Math.ceil(total / perPage));
+    const currentPage = Math.min(page, totalPages);
+    const start = (currentPage - 1) * perPage;
+    const latestItems = all.slice(start, start + perPage).map(m => ({
+      title: m.title,
+      url: m.url,
+      image: m.image,
+      chapter: m.chapter,
+      time: m.time || null,
+      rating: m.rating,
+      type: m.type
+    }));
 
-    // Map our "home latest page" to source pages:
-    // each of our pages needs 36 items; source pages often have ~12 items
-    // So for page N we start around source page ((N-1)*3 + 1) approx, but better: fetch sequentially
-    const startSource = (page - 1) * 3 + 1;
-    sourcePage = startSource;
-
-    while (latestItems.length < perPage && guard < 6) {
-      guard++;
-      const listUrl = `${BASE_URL}/manga/?page=${sourcePage}&order=update`;
-      const html = await fetchPage(listUrl);
-      if (!html) {
-        hasMore = false;
-        break;
-      }
-      const $ = cheerio.load(html);
-      let found = 0;
-      $('.listupd .bs').each((_, el) => {
-        if (latestItems.length >= perPage) return;
-        latestItems.push({
-          title: $(el).find('.tt').text().trim(),
-          url: toLocalPath($(el).find('a').first().attr('href')),
-          image: $(el).find('img').attr('src'),
-          chapter: $(el).find('.epxs').text().trim(),
-          time: $(el).find('.epxdate').text().trim(),
-          rating: $(el).find('.numscore').text().trim(),
-          type: $(el).find('.type').text().trim()
-        });
-        found++;
-      });
-
-      if (found === 0) {
-        hasMore = false;
-        break;
-      }
-
-      // check if next source page exists
-      const nextLink = $('.pagination .next, .hpage a, a.next, a.page-numbers.next').attr('href')
-        || ($('.page-numbers').filter((_, e) => $(e).text().trim().toLowerCase().includes('next')).attr('href'));
-      if (!nextLink && found < 10) {
-        // likely last pages
-      }
-      sourcePage++;
-    }
-
-    // Estimate total pages from site pagination if available
-    let totalPages = page + (latestItems.length >= perPage ? 1 : 0);
-    try {
-      const probe = await fetchPage(`${BASE_URL}/manga/?page=1&order=update`);
-      if (probe) {
-        const $p = cheerio.load(probe);
-        let max = 1;
-        $p('.pagination a, .page-numbers, .hpage a').each((_, el) => {
-          const t = $p(el).text().trim();
-          const n = parseInt(t, 10);
-          if (!isNaN(n) && n > max) max = n;
-          const href = $p(el).attr('href') || '';
-          const m = href.match(/[?&]page=(\d+)/) || href.match(/\/page\/(\d+)/);
-          if (m) {
-            const pn = parseInt(m[1], 10);
-            if (pn > max) max = pn;
-          }
-        });
-        // site pages * ~12 items / 36 ≈ total home pages
-        totalPages = Math.max(page, Math.ceil((max * 12) / perPage));
-      }
-    } catch (_) {}
-
-    res.json({
+    const payload = {
       popular: popularItems,
       latest: latestItems,
       pagination: {
-        currentPage: page,
+        currentPage,
         perPage,
         totalPages,
-        hasPrev: page > 1,
-        hasNext: page < totalPages && latestItems.length > 0
+        hasPrev: currentPage > 1,
+        hasNext: currentPage < totalPages && latestItems.length > 0
       }
-    });
+    };
+
+    homeCache.set(cacheKey, { at: Date.now(), data: payload });
+    res.set('X-Cache', 'MISS');
+    res.json(payload);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Server error' });
