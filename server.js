@@ -866,8 +866,108 @@ app.post('/api/scrape/run', async (req, res) => {
   res.json({ ok: true, message: 'scrape started', maxMs: SCRAPE_MAX_MS });
 });
 
+// Dynamic SEO for manga / chapter pages (crawlers get useful title & description)
+function escapeHtmlText(s) {
+  return String(s || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function buildSeoHtml(req) {
+  const indexPath = path.join(__dirname, 'public', 'index.html');
+  let html = fs.readFileSync(indexPath, 'utf8');
+  const host = req.get('x-forwarded-host') || req.get('host') || 'micinime.my.id';
+  const proto = (req.get('x-forwarded-proto') || req.protocol || 'https').split(',')[0].trim();
+  const pathName = (req.path || '/').replace(/\/+$/, '') || '/';
+  const pageUrl = `${proto}://${host}${req.originalUrl || '/'}`;
+
+  let title = 'micinime - Baca Manga & Manhwa Hentai Sub Indo Gratis';
+  let desc = 'Baca manga dan manhwa hentai sub Indonesia gratis di micinime. Update chapter terbaru setiap hari, koleksi lengkap, nyaman dibaca di HP dan PC.';
+  let image = `${proto}://${host}/logo.svg`;
+
+  // /manga/:slug
+  const mangaMatch = pathName.match(/^\/manga\/([^/]+)$/);
+  if (mangaMatch) {
+    const slug = decodeURIComponent(mangaMatch[1]);
+    const local = readLocalJson(path.join(DATA_DIR, 'manga', `${slug}.json`));
+    if (local && local.title) {
+      title = `${local.title} - Baca Manga Hentai Sub Indo | micinime`;
+      const genres = Array.isArray(local.genres)
+        ? local.genres.map(g => (typeof g === 'string' ? g : g.name)).filter(Boolean).slice(0, 6).join(', ')
+        : '';
+      const base = local.description
+        ? String(local.description).replace(/\s+/g, ' ').trim().slice(0, 120)
+        : `Baca ${local.title} bahasa Indonesia`;
+      desc = `${base}${genres ? ` Genre: ${genres}.` : ''} Baca manga hentai sub indo gratis di micinime.`.slice(0, 160);
+      if (local.image) image = local.image;
+    }
+  } else if (pathName !== '/' && !pathName.startsWith('/api') && !pathName.includes('.')) {
+    // chapter-like path
+    const slug = decodeURIComponent(pathName.replace(/^\//, ''));
+    const ch = readLocalJson(path.join(DATA_DIR, 'chapters', `${slug}.json`));
+    const mangaSlug = slug.replace(/-chapter-[\d.]+$/i, '').replace(/-ch-[\d.]+$/i, '');
+    const series = readLocalJson(path.join(DATA_DIR, 'manga', `${mangaSlug}.json`));
+    const chTitle = (ch && ch.title) || slug.replace(/-/g, ' ');
+    const seriesTitle = (series && series.title) || mangaSlug.replace(/-/g, ' ');
+    title = `${chTitle} - Baca Chapter Sub Indo | micinime`;
+    desc = `Baca ${chTitle} sub Indonesia gratis. Lanjut baca ${seriesTitle} di micinime, update chapter hentai manga & manhwa setiap hari.`.slice(0, 160);
+    if (series && series.image) image = series.image;
+  } else if (pathName === '/genres') {
+    title = 'Daftar Genre Manga & Manhwa Hentai Sub Indo | micinime';
+    desc = 'Jelajahi daftar genre manga dan manhwa hentai sub Indonesia di micinime. Pilih genre favorit dan baca chapter terbaru gratis.';
+  } else if (pathName.startsWith('/genres/')) {
+    const g = decodeURIComponent(pathName.replace(/^\/genres\//, '')).replace(/-/g, ' ');
+    title = `Genre ${g} - Baca Manga Hentai Sub Indo | micinime`;
+    desc = `Kumpulan manga dan manhwa hentai genre ${g} sub Indonesia. Baca gratis dan update terbaru di micinime.`;
+  } else if (pathName === '/az-lists') {
+    title = 'AZ Lists Manga Hentai Sub Indo | micinime';
+    desc = 'Cari manga dan manhwa hentai sub Indonesia berdasarkan abjad A-Z di micinime.';
+  }
+
+  const seoBlock = `
+    <title>${escapeHtmlText(title)}</title>
+    <meta name="description" content="${escapeHtmlText(desc)}">
+    <link rel="canonical" href="${escapeHtmlText(pageUrl.split('?')[0])}">
+    <meta property="og:title" content="${escapeHtmlText(title)}">
+    <meta property="og:description" content="${escapeHtmlText(desc)}">
+    <meta property="og:url" content="${escapeHtmlText(pageUrl.split('?')[0])}">
+    <meta property="og:image" content="${escapeHtmlText(image)}">
+    <meta name="twitter:title" content="${escapeHtmlText(title)}">
+    <meta name="twitter:description" content="${escapeHtmlText(desc)}">
+    <meta name="twitter:image" content="${escapeHtmlText(image)}">
+  `;
+
+  // Replace default title + inject/replace key SEO tags
+  html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtmlText(title)}</title>`);
+  html = html.replace(/<meta\s+name=["']description["'][^>]*>/i, `<meta name="description" content="${escapeHtmlText(desc)}">`);
+  html = html.replace(/<link\s+rel=["']canonical["'][^>]*>/i, `<link rel="canonical" href="${escapeHtmlText(pageUrl.split('?')[0])}">`);
+  html = html.replace(/<meta\s+property=["']og:title["'][^>]*>/i, `<meta property="og:title" content="${escapeHtmlText(title)}">`);
+  html = html.replace(/<meta\s+property=["']og:description["'][^>]*>/i, `<meta property="og:description" content="${escapeHtmlText(desc)}">`);
+  html = html.replace(/<meta\s+property=["']og:url["'][^>]*>/i, `<meta property="og:url" content="${escapeHtmlText(pageUrl.split('?')[0])}">`);
+  html = html.replace(/<meta\s+property=["']og:image["'][^>]*>/i, `<meta property="og:image" content="${escapeHtmlText(image)}">`);
+  html = html.replace(/<meta\s+name=["']twitter:title["'][^>]*>/i, `<meta name="twitter:title" content="${escapeHtmlText(title)}">`);
+  html = html.replace(/<meta\s+name=["']twitter:description["'][^>]*>/i, `<meta name="twitter:description" content="${escapeHtmlText(desc)}">`);
+  html = html.replace(/<meta\s+name=["']twitter:image["'][^>]*>/i, `<meta name="twitter:image" content="${escapeHtmlText(image)}">`);
+
+  // Ensure description exists if missing after replace fail
+  if (!/name=["']description["']/.test(html)) {
+    html = html.replace(/<head[^>]*>/i, (m) => `${m}\n${seoBlock}`);
+  }
+
+  return html;
+}
+
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  // static files still handled above; this is SPA HTML only
+  try {
+    const html = buildSeoHtml(req);
+    res.setHeader('Content-Type', 'text/html; charset=utf-8');
+    res.send(html);
+  } catch (e) {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  }
 });
 
 app.listen(PORT, () => {
