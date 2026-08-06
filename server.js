@@ -9,23 +9,8 @@ const PORT = process.env.PORT || 3000;
 const BASE_URL = 'https://komikhentaiku.com';
 const DATA_DIR = path.join(__dirname, 'data');
 
-app.use(express.static(path.join(__dirname, 'public'), {
-  setHeaders(res, filePath) {
-    if (filePath.endsWith(`${path.sep}sw.js`) || filePath.endsWith('/sw.js')) {
-      res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
-      res.setHeader('Service-Worker-Allowed', '/');
-      res.setHeader('Cache-Control', 'no-cache');
-    }
-  }
-}));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
-
-app.get('/sw.js', (req, res) => {
-  res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
-  res.setHeader('Service-Worker-Allowed', '/');
-  res.setHeader('Cache-Control', 'no-cache');
-  res.sendFile(path.join(__dirname, 'public', 'sw.js'));
-});
 
 function readLocalJson(filePath) {
   try {
