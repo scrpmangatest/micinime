@@ -866,8 +866,59 @@ app.post('/api/scrape/run', async (req, res) => {
   res.json({ ok: true, message: 'scrape started', maxMs: SCRAPE_MAX_MS });
 });
 
+// Serve SPA with safe Open Graph for social previews (always logo, never chapter cover)
+function escapeHtmlAttr(s) {
+  return String(s || '')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function buildSafeOgHtml(req) {
+  const indexPath = path.join(__dirname, 'public', 'index.html');
+  let html = fs.readFileSync(indexPath, 'utf8');
+  const host = req.get('x-forwarded-host') || req.get('host') || 'micinime.my.id';
+  const proto = (req.get('x-forwarded-proto') || req.protocol || 'https').split(',')[0].trim();
+  const pageUrl = `${proto}://${host}${req.originalUrl || '/'}`;
+  const ogImage = `${proto}://${host}/og-cover.png`;
+  const title = 'micinime - Baca Komik Online';
+  const desc = 'Portal baca komik online. Update setiap hari. Temukan koleksi favoritmu di micinime.';
+
+  // Force safe OG tags for crawlers (Facebook, etc.)
+  const safeMeta = `
+    <meta property="og:site_name" content="micinime">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="${escapeHtmlAttr(title)}">
+    <meta property="og:description" content="${escapeHtmlAttr(desc)}">
+    <meta property="og:url" content="${escapeHtmlAttr(pageUrl)}">
+    <meta property="og:image" content="${escapeHtmlAttr(ogImage)}">
+    <meta property="og:image:secure_url" content="${escapeHtmlAttr(ogImage)}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="micinime">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${escapeHtmlAttr(title)}">
+    <meta name="twitter:description" content="${escapeHtmlAttr(desc)}">
+    <meta name="twitter:image" content="${escapeHtmlAttr(ogImage)}">
+  `;
+
+  // Remove any existing og/twitter tags then inject safe ones after <head>
+  html = html.replace(/<meta\s+(?:property|name)=["'](?:og:[^"']+|twitter:[^"']+)["'][^>]*>\s*/gi, '');
+  html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtmlAttr(title)}</title>`);
+  html = html.replace(/<head[^>]*>/i, (m) => `${m}\n${safeMeta}`);
+  return html;
+}
+
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  try {
+    const html = buildSafeOgHtml(req);
+    res.setHeader('Content-Type', 'text/html; charset=utf-8');
+    res.setHeader('Cache-Control', 'public, max-age=300');
+    res.send(html);
+  } catch (e) {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  }
 });
 
 app.listen(PORT, () => {
