@@ -779,10 +779,98 @@ app.get('/api/az', async (req, res) => {
   }
 });
 
+// ===== Scheduled live scrape (every 6 hours, max ~10 minutes) =====
+const SCRAPE_EVERY_MS = Math.max(60_000, parseInt(process.env.SCRAPE_EVERY_MS || String(6 * 60 * 60 * 1000), 10));
+const SCRAPE_MAX_MS = Math.max(60_000, parseInt(process.env.SCRAPE_MAX_MS || String(10 * 60 * 1000), 10));
+const SCRAPE_ENABLED = String(process.env.SCRAPE_ENABLED || 'true').toLowerCase() !== 'false';
+
+let scrapeRunning = false;
+let scrapeTimer = null;
+let lastScrapeStatus = readLocalJson(path.join(DATA_DIR, 'scrape-schedule-status.json'));
+
+async function triggerScheduledScrape(reason = 'schedule') {
+  if (!SCRAPE_ENABLED) {
+    console.log('[scrape] disabled via SCRAPE_ENABLED=false');
+    return null;
+  }
+  if (scrapeRunning) {
+    console.log('[scrape] skip, already running');
+    return lastScrapeStatus;
+  }
+  scrapeRunning = true;
+  console.log(`[scrape] trigger (${reason})`);
+  try {
+    // clear home cache so visitors see updated list after scrape
+    if (typeof homeCache !== 'undefined' && homeCache.clear) homeCache.clear();
+    const { runScheduledScrape } = require('./scrape-scheduled');
+    lastScrapeStatus = await runScheduledScrape({ maxMs: SCRAPE_MAX_MS });
+    lastScrapeStatus.trigger = reason;
+    // clear cache again after success
+    if (typeof homeCache !== 'undefined' && homeCache.clear) homeCache.clear();
+    return lastScrapeStatus;
+  } catch (err) {
+    console.error('[scrape] failed:', err.message);
+    lastScrapeStatus = {
+      ok: false,
+      error: err.message,
+      finishedAt: new Date().toISOString(),
+      trigger: reason
+    };
+    return lastScrapeStatus;
+  } finally {
+    scrapeRunning = false;
+  }
+}
+
+function startScrapeScheduler() {
+  if (!SCRAPE_ENABLED) {
+    console.log('[scrape] scheduler off');
+    return;
+  }
+  console.log(`[scrape] scheduler on: every ${Math.round(SCRAPE_EVERY_MS / 3600000)}h, max ${Math.round(SCRAPE_MAX_MS / 60000)} min/run`);
+
+  // first run shortly after boot (don't block listen)
+  setTimeout(() => {
+    triggerScheduledScrape('startup');
+  }, 30_000);
+
+  scrapeTimer = setInterval(() => {
+    triggerScheduledScrape('interval');
+  }, SCRAPE_EVERY_MS);
+
+  if (scrapeTimer.unref) scrapeTimer.unref();
+}
+
+app.get('/api/scrape/status', (req, res) => {
+  res.json({
+    enabled: SCRAPE_ENABLED,
+    running: scrapeRunning,
+    everyMs: SCRAPE_EVERY_MS,
+    maxMs: SCRAPE_MAX_MS,
+    last: lastScrapeStatus || null,
+    note: 'On free hosts (Render), disk is ephemeral — scraped files may reset on redeploy/sleep. Prefer always-on hosting for persistent updates.'
+  });
+});
+
+// Manual trigger (optional secret)
+app.post('/api/scrape/run', async (req, res) => {
+  const secret = process.env.SCRAPE_SECRET || '';
+  if (secret && req.headers['x-scrape-secret'] !== secret) {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+  if (scrapeRunning) {
+    return res.json({ ok: true, message: 'already running', last: lastScrapeStatus });
+  }
+  // run async
+  triggerScheduledScrape('manual');
+  res.json({ ok: true, message: 'scrape started', maxMs: SCRAPE_MAX_MS });
+});
+
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
+  startScrapeScheduler();
 });
