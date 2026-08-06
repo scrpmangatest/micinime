@@ -1,0 +1,30 @@
+{
+  "slug": "kanojo-no-okaa-san-momoka-san",
+  "title": "Kanojo no Okaa-san ~ Momoka-san",
+  "image": "https://i1.wp.com/komikhentaiku.com/wp-content/uploads/2026/05/Kanojo-no-Okaa-san-Momoka-san.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 2",
+      "url": "/kanojo-no-okaa-san-momoka-san-chapter-2",
+      "slug": "kanojo-no-okaa-san-momoka-san-chapter-2",
+      "date": "26/05/2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/kanojo-no-okaa-san-momoka-san-chapter-1",
+      "slug": "kanojo-no-okaa-san-momoka-san-chapter-1",
+      "date": "26/05/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:32:35.421Z"
+}

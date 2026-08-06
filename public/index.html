@@ -1,0 +1,2746 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2d091e">
+    <title>micinime - Baca Komik Online</title>
+    <link rel="icon" href="/logo.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary-color: #2d091e;
+            --bg-dark: #1a1a2e;
+            --bg-darker: #16213e;
+            --bg-card: #0f0f23;
+            --text-primary: #ffffff;
+            --text-secondary: #b0b0b0;
+            --border-color: #333;
+        }
+        
+        body {
+            font-family: 'Fira Sans', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+        
+        .darkmode { background-color: var(--bg-dark); color: var(--text-primary); }
+        .darkmode .th.headerni { background: var(--primary-color); }
+        .darkmode footer { background: var(--bg-darker); color: var(--text-secondary); border-top-color: var(--border-color); }
+        .darkmode .hothome { background: #12121f; border-color: #2a2a3d; }
+        .darkmode .tt { color: #e8e8e8; }
+        .darkmode .epxs { color: #9a9ab0; }
+        .darkmode .numscore { color: #cfcfe0; }
+        .darkmode .chapter-select {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border-color: var(--border-color);
+        }
+        .darkmode .chapter-item {
+            background: var(--bg-card);
+            border-color: var(--border-color);
+        }
+        .darkmode .reader-images { background: transparent; }
+
+        /* Light mode */
+        body.lightmode {
+            background-color: #f0f0f5;
+            color: #222;
+            --bg-card: #ffffff;
+            --bg-darker: #e8e8ee;
+            --text-primary: #222;
+            --text-secondary: #666;
+            --border-color: #ddd;
+        }
+        body.lightmode .th.headerni { background: var(--primary-color); }
+        body.lightmode .th.headerni a,
+        body.lightmode #main-menu ul li a,
+        body.lightmode .searchx input,
+        body.lightmode .searchx button,
+        body.lightmode .shme,
+        body.lightmode .srcmob { color: #fff; }
+        body.lightmode .searchx form { background: rgba(255,255,255,0.15); }
+        body.lightmode .searchx input::placeholder { color: rgba(255,255,255,0.7); }
+        body.lightmode .bixbox { background: transparent; color: #222; }
+        body.lightmode .hothome {
+            background: #fff;
+            border-color: #e0e0e8;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+        }
+        body.lightmode .releases h2 { color: #222; }
+        body.lightmode .releases { border-bottom-color: #ddd; }
+        body.lightmode .tt { color: #222; }
+        body.lightmode .epxs { color: #666; }
+        body.lightmode .numscore { color: #444; }
+        body.lightmode .stars .empty { color: #ccc; }
+        body.lightmode .listupd .bsx {
+            background: #fff;
+            border-color: #e5e5ee;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+        }
+        body.lightmode .listupd .epxs {
+            background: #f2f2f7;
+            color: #555;
+        }
+        body.lightmode .limit { background: #eaeaf0; }
+        body.lightmode .chapter-item {
+            background: #fff;
+            border-color: #e0e0e8;
+        }
+        body.lightmode .chapter-date { color: #777; }
+        body.lightmode .chapter-select {
+            background: #fff;
+            color: #222;
+            border-color: #ccc;
+        }
+        body.lightmode .desc-content {
+            background: #fff;
+            border: 1px solid #e5e5ee;
+            color: #333;
+        }
+        body.lightmode .info-meta p { color: #555; }
+        body.lightmode footer {
+            background: #e8e8ee;
+            color: #666;
+            border-top-color: #ddd;
+        }
+        body.lightmode .loading,
+        body.lightmode .error-state { color: #666; }
+        body.lightmode .pagination button,
+        body.lightmode .pagination span {
+            background: #fff;
+            border-color: #ddd;
+            color: #333;
+        }
+        body.lightmode .pagination .current {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+            color: #fff;
+        }
+        body.lightmode .reader-container h1 { color: #222; }
+        body.lightmode .az-btn {
+            background: #2d091e;
+            color: #fff;
+        }
+        body.lightmode .az-btn.active {
+            background: #5a123c;
+            box-shadow: 0 0 0 2px rgba(45,9,30,0.25);
+        }
+        body.lightmode .az-page-btn {
+            background: #2a2a3a;
+            color: #fff;
+        }
+        body.lightmode .az-page-btn.active,
+        body.lightmode .az-page-btn:hover {
+            background: #2d091e;
+        }
+        body.lightmode .genre-card {
+            background: #fff;
+            border-color: #e5e5ee;
+            color: #222;
+        }
+        body.lightmode .genre-card:hover {
+            border-color: #2d091e;
+            background: #faf6f8;
+        }
+        body.lightmode .genre-card .gcount { color: #666; }
+        body.lightmode .genre-search input {
+            background: #fff;
+            color: #222;
+            border-color: #ddd;
+        }
+        
+        a { text-decoration: none; color: inherit; transition: all 0.3s ease; }
+        img { max-width: 100%; height: auto; display: block; }
+        
+        .mainholder { width: 100%; overflow: hidden; }
+        
+        /* Header */
+        .th.headerni {
+            background: var(--primary-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 10px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+        
+        .centernav.bound {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 16px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 12px;
+            flex-wrap: nowrap;
+            min-height: 52px;
+        }
+        
+        .shme { display: none; cursor: pointer; font-size: 20px; color: #fff; flex-shrink: 0; }
+        .srcmob {
+            display: none;
+            cursor: pointer;
+            font-size: 18px;
+            color: #fff;
+            flex-shrink: 0;
+            background: transparent;
+            border: none;
+        }
+        /* desktop: show search bar, hide close btn */
+        .searchx .srccls { display: none; }
+        
+        header.site-branding.logox,
+        .site-branding.logox { flex-shrink: 0; }
+        .logos a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-decoration: none;
+            max-width: 100%;
+        }
+        .logos img,
+        .logos .site-logo {
+            height: 46px;
+            width: auto;
+            max-width: min(210px, 48vw);
+            object-fit: contain;
+            object-position: center;
+            display: block;
+            border-radius: 0;
+            background: transparent;
+        }
+        .hdl {
+            display: none;
+            color: #fff;
+            font-weight: 800;
+            font-size: 18px;
+            letter-spacing: 0.5px;
+        }
+        header.site-branding.logox,
+        .site-branding.logox {
+            flex: 1 1 auto;
+            min-width: 0;
+            display: flex;
+            justify-content: center;
+            overflow: visible;
+        }
+        
+        /* Navigation - single row */
+        #main-menu {
+            flex: 1 1 auto;
+            min-width: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #main-menu ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+            flex-wrap: nowrap;
+            margin: 0;
+            padding: 0;
+            white-space: nowrap;
+        }
+        #main-menu ul li { flex-shrink: 0; }
+        #main-menu ul li a {
+            color: white;
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            padding: 8px 10px;
+            border-radius: 6px;
+            display: block;
+            white-space: nowrap;
+        }
+        #main-menu ul li a:hover,
+        #main-menu ul li.current-menu-item a {
+            background: rgba(255,255,255,0.15);
+        }
+        
+        /* Header right actions */
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-shrink: 0;
+            margin-left: auto;
+            order: 3;
+        }
+
+        /* Search */
+        .searchx.minmb {
+            position: relative;
+            flex-shrink: 0;
+            order: 2;
+            margin-left: auto;
+        }
+        .header-actions {
+            margin-left: 8px;
+        }
+        .searchx form {
+            display: flex;
+            align-items: center;
+            background: rgba(255,255,255,0.1);
+            border-radius: 25px;
+            overflow: hidden;
+        }
+        .searchx input {
+            background: transparent;
+            border: none;
+            padding: 8px 14px;
+            color: white;
+            width: 150px;
+            outline: none;
+            font-family: inherit;
+            font-size: 13px;
+        }
+        .searchx input::placeholder { color: rgba(255,255,255,0.6); }
+        .searchx button {
+            background: transparent;
+            border: none;
+            color: white;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        .searchx .srccls {
+            display: none;
+            background: transparent;
+            border: none;
+            color: white;
+            padding: 8px 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        /* Theme Switcher */
+        #thememode { 
+            display: flex; 
+            align-items: center; 
+            gap: 6px; 
+            font-size: 12px; 
+            color: rgba(255,255,255,0.85);
+            flex-shrink: 0;
+        }
+        #thememode .theme-icon {
+            font-size: 14px;
+            width: 16px;
+            text-align: center;
+            opacity: 0.9;
+        }
+        .switch { position: relative; width: 46px; height: 24px; display: inline-block; }
+        .switch input { opacity: 0; width: 0; height: 0; }
+        .slider.round {
+            position: absolute;
+            cursor: pointer;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: rgba(255,255,255,0.25);
+            transition: 0.3s;
+            border-radius: 24px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .slider.round:before {
+            position: absolute;
+            content: "";
+            height: 18px; width: 18px;
+            left: 2px; bottom: 2px;
+            background-color: #fff;
+            transition: 0.3s;
+            border-radius: 50%;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+        input:checked + .slider.round {
+            background-color: #1a0a16;
+            border-color: rgba(255,255,255,0.15);
+        }
+        input:checked + .slider.round:before {
+            transform: translateX(22px);
+            background: #f0c040;
+        }
+        #switchtext, .xt { display: none; }
+        
+        /* Content */
+        #content { min-height: calc(100vh - 200px); }
+        .wrapper { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* Section Headers */
+        .releases {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        .releases h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .vl {
+            background: var(--primary-color);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .vl:hover { opacity: 0.9; transform: translateY(-1px); }
+        
+        /* Bixbox Container */
+        .bixbox {
+            margin-bottom: 40px;
+        }
+        
+        /* Popular Slider - like original */
+        .hotslid { margin-bottom: 30px; }
+        .hothome {
+            background: #12121f;
+            border-radius: 10px;
+            padding: 16px 16px 20px;
+            border: 1px solid #2a2a3d;
+        }
+        .hothome .releases {
+            border-bottom: none;
+            margin-bottom: 12px;
+            padding-bottom: 0;
+        }
+        .hothome .releases h2 {
+            font-size: 18px;
+            letter-spacing: 0.3px;
+        }
+        .popularslider {
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            scrollbar-width: thin;
+            scrollbar-color: #4a1a35 transparent;
+            -webkit-overflow-scrolling: touch;
+        }
+        .popularslider::-webkit-scrollbar { height: 6px; }
+        .popularslider::-webkit-scrollbar-thumb {
+            background: #4a1a35;
+            border-radius: 4px;
+        }
+        .popconslide {
+            display: flex;
+            gap: 14px;
+            padding: 4px 2px 10px;
+        }
+        
+        /* Manga Cards */
+        .bs { flex-shrink: 0; width: 150px; }
+        .popconslide .bs { width: 138px; }
+        .bsx {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            background: transparent;
+            transition: transform 0.2s ease;
+            border: none;
+        }
+        .bsx:hover { transform: translateY(-4px); }
+        .bsx a { display: block; color: inherit; }
+        
+        .limit {
+            position: relative;
+            aspect-ratio: 2/3;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #1a1a2e;
+        }
+        .limit img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .bsx:hover .limit img { transform: scale(1.04); }
+        
+        .flag-jp {
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            width: 22px;
+            height: 16px;
+            border-radius: 2px;
+            background: linear-gradient(to bottom, #fff 0 45%, #bc002d 45% 55%, #fff 55% 100%);
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            z-index: 2;
+        }
+        .flag-jp::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 7px;
+            height: 7px;
+            background: #bc002d;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .type {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            background: var(--primary-color);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            z-index: 2;
+        }
+        
+        .bigor { padding: 8px 2px 0; }
+        .tt {
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 1.35;
+            margin-bottom: 4px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            min-height: 35px;
+            color: #e8e8e8;
+        }
+        .popconslide .tt {
+            font-size: 12.5px;
+            min-height: 34px;
+        }
+        
+        .adds {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 3px;
+        }
+        .epxs {
+            font-size: 12px;
+            color: #9a9ab0;
+            background: none;
+            padding: 0;
+            border-radius: 0;
+        }
+        .epxdate {
+            font-size: 11px;
+            color: var(--text-secondary);
+            margin-top: 2px;
+        }
+        
+        /* Star rating like original */
+        .star-rating {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-top: 2px;
+        }
+        .stars {
+            display: inline-flex;
+            gap: 1px;
+            color: #f5c518;
+            font-size: 11px;
+            letter-spacing: 0;
+            line-height: 1;
+        }
+        .stars .empty { color: #555; }
+        .stars .half { color: #f5c518; opacity: 0.55; }
+        .numscore {
+            font-size: 12px;
+            font-weight: 600;
+            color: #cfcfe0;
+            position: static;
+            line-height: 1;
+            width: auto;
+        }
+        
+        /* Latest Update Grid */
+        .listupd {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 16px;
+        }
+        .listupd:not(.popularslider) .bs { width: 100%; }
+        .listupd .bsx {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .listupd .bigor { padding: 10px; }
+        .listupd .epxs {
+            background: rgba(255,255,255,0.05);
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+        
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-secondary);
+        }
+        .spinner {
+            border: 4px solid rgba(255,255,255,0.1);
+            border-left-color: var(--primary-color);
+            border-radius: 50%;
+            width: 40px; height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        
+        /* Error State */
+        .error-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+        .error-state i { font-size: 48px; margin-bottom: 15px; color: var(--primary-color); }
+        .error-state p { margin-bottom: 20px; }
+        .retry-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .retry-btn:hover { opacity: 0.9; }
+        
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .pagination button,
+        .pagination span {
+            padding: 10px 18px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: inherit;
+            font-weight: 600;
+        }
+        .pagination button:hover:not(:disabled) {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        .pagination button:disabled { opacity: 0.5; cursor: not-allowed; }
+        .pagination .current {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        /* Detail Page Styles */
+        .detail-container {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 28px;
+            align-items: start;
+        }
+        .thumb-detail {
+            position: sticky;
+            top: 90px;
+            align-self: start;
+        }
+        .thumb-detail img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+            display: block;
+        }
+        .info-desc {
+            background: rgba(20,20,32,0.75);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            padding: 22px 24px;
+        }
+        body.lightmode .info-desc {
+            background: #fff;
+            border-color: #e5e5ee;
+        }
+        .info-desc h1 {
+            font-size: 26px;
+            margin-bottom: 14px;
+            line-height: 1.25;
+        }
+        .info-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 18px;
+            margin: 0 0 14px;
+        }
+        .info-meta p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+        .genre-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 0 0 18px;
+        }
+        .genre-tag {
+            background: #2a2a3a;
+            color: #e8e8f0;
+            padding: 7px 14px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            border: 1px solid rgba(255,255,255,0.08);
+            text-transform: none;
+            display: inline-block;
+            line-height: 1.2;
+        }
+        .genre-tag:hover {
+            background: #3a1530;
+            border-color: rgba(255,255,255,0.15);
+            transform: none;
+        }
+        body.lightmode .genre-tag {
+            background: #f0f0f5;
+            color: #333;
+            border-color: #ddd;
+        }
+        body.lightmode .genre-tag:hover {
+            background: #e4d0dc;
+            border-color: #c9a0b5;
+        }
+        .desc-content {
+            margin-top: 4px;
+            padding: 0;
+            background: transparent;
+            border-radius: 0;
+            line-height: 1.75;
+        }
+        .desc-content h3 {
+            font-size: 15px;
+            margin-bottom: 8px;
+            color: #ddd;
+            font-weight: 700;
+        }
+        body.lightmode .desc-content h3 { color: #333; }
+        .desc-content p {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        /* Chapter List */
+        .chapter-list {
+            margin-top: 30px;
+        }
+        .chapter-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+        .chapter-item:hover {
+            border-color: var(--primary-color);
+            transform: translateX(5px);
+        }
+        .chapter-title { font-weight: 600; }
+        .chapter-date { color: var(--text-secondary); font-size: 13px; }
+        
+        /* Reader Page */
+        .reader-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .reader-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .reader-nav a {
+            flex: 1;
+            min-width: 140px;
+            text-align: center;
+            padding: 12px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+        .reader-nav a:hover { opacity: 0.9; }
+        .reader-nav a.disabled {
+            background: #555;
+            pointer-events: none;
+            opacity: 0.6;
+        }
+        .chapter-select {
+            flex: 1;
+            min-width: 160px;
+            max-width: 280px;
+            padding: 12px 14px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-card);
+            color: var(--text-primary);
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .chapter-select:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+
+        /* Bookmark */
+        .bm-count {
+            background: #f0c040;
+            color: #2d091e;
+            border-radius: 10px;
+            padding: 1px 6px;
+            font-size: 10px;
+            font-weight: 800;
+            margin-left: 2px;
+            vertical-align: super;
+        }
+        .btn-bookmark {
+            width: 100%;
+            margin-top: 10px;
+            padding: 12px 14px;
+            border: none;
+            border-radius: 8px;
+            background: #2a2a3a;
+            color: #fff;
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 14px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: background 0.15s ease, transform 0.15s ease;
+        }
+        .btn-bookmark:hover { background: #3a1530; transform: translateY(-1px); }
+        .btn-bookmark.active {
+            background: var(--primary-color);
+            color: #fff;
+        }
+        .btn-bookmark.active i { color: #f0c040; }
+        .btn-bookmark-sm {
+            width: auto;
+            margin: 0;
+            padding: 8px 12px;
+            font-size: 12px;
+        }
+        .bookmark-empty {
+            text-align: center;
+            padding: 50px 20px;
+            color: var(--text-secondary);
+        }
+        .bookmark-empty i {
+            font-size: 48px;
+            margin-bottom: 12px;
+            color: var(--primary-color);
+            opacity: 0.7;
+        }
+        .bm-card-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+        }
+        .bm-remove {
+            background: transparent;
+            border: 1px solid #553;
+            color: #c99;
+            border-radius: 6px;
+            padding: 6px 10px;
+            font-size: 12px;
+            cursor: pointer;
+            font-family: inherit;
+        }
+        .bm-remove:hover { background: #3a1520; color: #fff; }
+        body.lightmode .btn-bookmark { background: #333; color: #fff; }
+        body.lightmode .btn-bookmark.active { background: var(--primary-color); }
+        body.lightmode .bm-remove { border-color: #ccc; color: #666; }
+
+        .reader-images { text-align: center; }
+        .reader-images img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+        
+        /* Genre list page */
+        .genre-page { margin-bottom: 30px; }
+        .genre-page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 12px;
+            margin-bottom: 18px;
+            flex-wrap: wrap;
+        }
+        .genre-page-header h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin: 0;
+        }
+        .genre-page-header .gmeta {
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+        .genre-search {
+            width: 100%;
+            max-width: 360px;
+            margin-bottom: 18px;
+            display: flex;
+            gap: 8px;
+        }
+        .genre-search input {
+            flex: 1;
+            padding: 10px 14px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-card);
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 14px;
+            outline: none;
+        }
+        .genre-search input:focus {
+            border-color: #5c1540;
+        }
+        .genre-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 12px;
+        }
+        .genre-card {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            padding: 14px 16px;
+            background: #161625;
+            border: 1px solid #2a2a3d;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+            color: #eee;
+        }
+        .genre-card:hover {
+            transform: translateY(-2px);
+            border-color: #5c1540;
+            background: #1c1220;
+        }
+        .genre-card .gname {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.3;
+            word-break: break-word;
+        }
+        .genre-card .gcount {
+            font-size: 12px;
+            color: #9a9ab0;
+        }
+        .genre-card .gcount b {
+            color: #f0c040;
+            font-size: 15px;
+        }
+
+        /* AZ Lists */
+        .az-wrap { margin-bottom: 30px; }
+        .az-header {
+            margin-bottom: 18px;
+        }
+        .az-header h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 14px;
+            color: #fff;
+        }
+        body.lightmode .az-header h2 { color: #222; }
+        .az-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 22px;
+        }
+        .az-btn {
+            min-width: 38px;
+            height: 38px;
+            padding: 0 12px;
+            border: none;
+            border-radius: 8px;
+            background: #2d091e;
+            color: #fff;
+            font-weight: 700;
+            font-size: 13px;
+            font-family: inherit;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.15s ease, background 0.15s ease, opacity 0.15s ease;
+        }
+        .az-btn:hover { transform: translateY(-1px); opacity: 0.92; }
+        .az-btn.active {
+            background: #5c1540;
+            box-shadow: 0 0 0 2px rgba(255,255,255,0.12);
+        }
+        .az-btn.disabled {
+            opacity: 0.35;
+            cursor: default;
+            pointer-events: none;
+        }
+        .az-meta {
+            color: var(--text-secondary);
+            font-size: 13px;
+            margin-bottom: 14px;
+        }
+        .az-pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .az-page-btn {
+            min-width: 40px;
+            height: 40px;
+            padding: 0 14px;
+            border: none;
+            border-radius: 8px;
+            background: #1f1f2e;
+            color: #fff;
+            font-weight: 700;
+            font-family: inherit;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.15s ease;
+        }
+        .az-page-btn:hover { background: #3a1530; }
+        .az-page-btn.active {
+            background: #2d091e;
+        }
+        .az-page-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+        body.lightmode .az-page-btn { background: #333; }
+        body.lightmode .az-page-btn.active { background: #2d091e; }
+
+        /* Scroll to Top */
+        .scrollToTop {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 45px;
+            height: 45px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            z-index: 999;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+        .scrollToTop:hover { transform: translateY(-3px); }
+        
+        /* Footer */
+        footer {
+            background: var(--bg-darker);
+            padding: 30px 20px;
+            text-align: center;
+            color: var(--text-secondary);
+            margin-top: 50px;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .detail-container { grid-template-columns: 250px 1fr; }
+        }
+        
+        @media (max-width: 1024px) {
+            #main-menu ul li a {
+                font-size: 11px;
+                padding: 7px 7px;
+            }
+            .searchx input { width: 120px; }
+        }
+
+        @media (max-width: 800px) {
+            .shme { display: flex; align-items: center; justify-content: center; }
+            .srcmob {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: transparent;
+                border: none;
+                color: #fff;
+                cursor: pointer;
+                padding: 0;
+            }
+            .th.headerni { padding: 8px 0; }
+            .centernav.bound {
+                flex-wrap: nowrap;
+                gap: 6px;
+                min-height: 52px;
+                padding: 0 10px;
+                justify-content: space-between;
+                position: relative;
+            }
+            .shme,
+            .srcmob {
+                width: 40px;
+                height: 40px;
+                flex: 0 0 40px;
+                font-size: 18px;
+            }
+            header.site-branding.logox,
+            .site-branding.logox {
+                flex: 1 1 auto;
+                min-width: 0;
+                max-width: calc(100% - 140px);
+                justify-content: center;
+                overflow: hidden;
+            }
+            .logos {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .logos a {
+                width: 100%;
+                max-width: 220px;
+            }
+            .logos img,
+            .logos .site-logo {
+                height: 44px;
+                width: 100%;
+                max-width: 210px;
+                object-fit: contain;
+                object-position: center;
+            }
+
+            /* Right side: theme + search icon */
+            .header-actions {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                margin-left: 0;
+                flex: 0 0 auto;
+                order: 3;
+            }
+            .searchx.minmb {
+                order: 4;
+            }
+            #thememode {
+                display: flex !important;
+                gap: 4px;
+                scale: 0.9;
+            }
+            #thememode .theme-icon {
+                display: none;
+            }
+            #thememode .switch {
+                width: 40px;
+                height: 22px;
+            }
+            #thememode .slider.round:before {
+                height: 16px;
+                width: 16px;
+            }
+            input:checked + .slider.round:before {
+                transform: translateX(18px);
+            }
+
+            #main-menu {
+                position: fixed;
+                top: 56px;
+                left: -100%;
+                width: min(280px, 85vw);
+                height: calc(100vh - 56px);
+                background: rgba(28,28,28,0.98);
+                padding: 20px;
+                transition: left 0.3s ease;
+                overflow-y: auto;
+                z-index: 999;
+                display: block;
+                flex: none;
+            }
+            #main-menu.shwx { left: 0; }
+            #main-menu ul {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0;
+                white-space: normal;
+            }
+            #main-menu ul li a {
+                display: block;
+                padding: 12px 15px;
+                font-size: 14px;
+                border-bottom: 1px solid rgba(255,255,255,0.05);
+            }
+
+            /* Mobile search panel - full width under header */
+            .searchx.minmb {
+                position: absolute;
+                left: 10px;
+                right: 10px;
+                top: 100%;
+                width: auto;
+                margin: 8px 0 0;
+                padding: 0;
+                background: transparent;
+                z-index: 1001;
+                display: none;
+                opacity: 0;
+                transform: translateY(-6px);
+                transition: opacity 0.2s ease, transform 0.2s ease;
+            }
+            .searchx.minmb.minmbx {
+                display: block;
+                opacity: 1;
+                transform: translateY(0);
+            }
+            .searchx.minmb form {
+                width: 100%;
+                background: #1a1020;
+                border: 1px solid rgba(255,255,255,0.15);
+                border-radius: 12px;
+                box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+                overflow: hidden;
+            }
+            body.lightmode .searchx.minmb form {
+                background: #fff;
+                border-color: #ddd;
+            }
+            body.lightmode .searchx.minmb input {
+                color: #222;
+            }
+            body.lightmode .searchx.minmb button,
+            body.lightmode .searchx.minmb .srccls {
+                color: #333;
+            }
+            .searchx.minmb input {
+                width: 100%;
+                min-width: 0;
+                flex: 1;
+                padding: 12px 14px;
+                font-size: 15px;
+            }
+            .searchx.minmb .srccls {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .listupd { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+            .tt { font-size: 13px; min-height: 36px; }
+            
+            .detail-container { grid-template-columns: 1fr; }
+            .thumb-detail { position: static; max-width: 250px; margin: 0 auto 20px; }
+            
+            .popconslide { gap: 10px; }
+            .bs { width: 140px; }
+        }
+        
+        @media (max-width: 480px) {
+            .listupd { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+            .bs { width: 100%; }
+            .releases h2 { font-size: 16px; }
+            .vl { font-size: 11px; padding: 6px 12px; }
+        }
+    </style>
+</head>
+<body class="darkmode">
+
+<div class="mainholder">
+    <!-- Header -->
+    <div class="th headerni">
+        <div class="centernav bound">
+            <div class="shme"><i class="fa fa-bars"></i></div>
+            
+            <header role="banner" class="site-branding logox">
+                <div class="logos">
+                    <a href="/" title="micinime" onclick="return navigate(event,'/')">
+                        <img class="site-logo" src="/logo.svg?v=2" alt="micinime">
+                        <span class="hdl">micinime</span>
+                    </a>
+                </div>
+            </header>
+            
+            <nav id="main-menu" class="mm">
+                <ul id="menu-menu" class="menu">
+                    <li class="current-menu-item"><a href="/" onclick="return navigate(event,'/')"><span>Home</span></a></li>
+                    <li><a href="/manga" onclick="return navigate(event,'/manga')"><span>List Komik</span></a></li>
+                    <li><a href="/genres" onclick="return navigate(event,'/genres')"><span>Genre</span></a></li>
+                    <li><a href="/az-lists" onclick="return navigate(event,'/az-lists')"><span>AZ Lists</span></a></li>
+                    <li><a href="/bookmark" onclick="return navigate(event,'/bookmark')"><span>Bookmark</span> <sup id="bm-count" class="bm-count" style="display:none">0</sup></a></li>
+                    <li><a href="/history" onclick="return navigate(event,'/history')"><span>History</span> <sup id="hs-count" class="bm-count" style="display:none">0</sup></a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <div id="thememode" title="Mode malam / siang">
+                    <i class="fas fa-sun theme-icon" id="themeSun"></i>
+                    <label class="switch">
+                        <input type="checkbox" id="themeToggle" checked aria-label="Toggle dark mode">
+                        <span class="slider round"></span>
+                    </label>
+                    <i class="fas fa-moon theme-icon" id="themeMoon"></i>
+                </div>
+
+                <button type="button" class="srcmob" id="btnMobileSearch" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+            <div class="searchx minmb" id="mobileSearchPanel">
+                <form action="/" method="get" id="searchForm">
+                    <input type="text" placeholder="Search..." name="s" id="searchInput" autocomplete="off">
+                    <button type="submit" aria-label="Cari"><i class="fas fa-search"></i></button>
+                    <button type="button" class="srccls" id="btnCloseSearch" aria-label="Tutup pencarian">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </form>
+            </div>
+            
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <!-- Content -->
+    <div id="content">
+        <div class="wrapper" id="appContent">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading content...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 micinime. All rights reserved.</p>
+        <p style="margin-top: 5px; font-size: 12px;">Baca komik online gratis.</p>
+    </footer>
+</div>
+
+<button class="scrollToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+<script>
+// Theme Toggle (checked = dark mode)
+function applyTheme(mode) {
+    const isDark = mode !== 'lightmode';
+    document.body.classList.toggle('darkmode', isDark);
+    document.body.classList.toggle('lightmode', !isDark);
+    const toggle = document.getElementById('themeToggle');
+    if (toggle) toggle.checked = isDark;
+    localStorage.setItem('thememode', isDark ? 'darkmode' : 'lightmode');
+    const sun = document.getElementById('themeSun');
+    const moon = document.getElementById('themeMoon');
+    if (sun) sun.style.opacity = isDark ? '0.45' : '1';
+    if (moon) moon.style.opacity = isDark ? '1' : '0.45';
+}
+
+const savedTheme = localStorage.getItem('thememode') || 'darkmode';
+applyTheme(savedTheme);
+
+document.getElementById('themeToggle')?.addEventListener('change', (e) => {
+    applyTheme(e.target.checked ? 'darkmode' : 'lightmode');
+});
+
+// Mobile Menu + Search
+const mobileMenu = document.querySelector('#main-menu');
+const searchPanel = document.getElementById('mobileSearchPanel') || document.querySelector('.searchx.minmb');
+const searchInput = document.getElementById('searchInput');
+
+function closeMobileSearch() {
+    searchPanel?.classList.remove('minmbx');
+}
+function openMobileSearch() {
+    // close menu if open
+    mobileMenu?.classList.remove('shwx');
+    searchPanel?.classList.add('minmbx');
+    setTimeout(() => searchInput?.focus(), 50);
+}
+
+document.querySelector('.shme')?.addEventListener('click', () => {
+    closeMobileSearch();
+    mobileMenu?.classList.toggle('shwx');
+});
+
+document.getElementById('btnMobileSearch')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (searchPanel?.classList.contains('minmbx')) {
+        closeMobileSearch();
+    } else {
+        openMobileSearch();
+    }
+});
+
+document.getElementById('btnCloseSearch')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    closeMobileSearch();
+});
+
+// close search when clicking outside
+document.addEventListener('click', (e) => {
+    if (!searchPanel?.classList.contains('minmbx')) return;
+    const actions = document.querySelector('.header-actions');
+    if (searchPanel.contains(e.target) || actions?.contains(e.target)) return;
+    closeMobileSearch();
+});
+
+// Scroll to Top
+window.addEventListener('scroll', () => {
+    const btn = document.querySelector('.scrollToTop');
+    if (window.scrollY > 100) {
+        btn.style.display = 'flex';
+    } else {
+        btn.style.display = 'none';
+    }
+});
+
+// ===== Bookmark storage (localStorage + cookie backup) =====
+const BM_KEY = 'kh_bookmarks';
+const BM_MAX = 100;
+
+const BookmarkStore = {
+    getAll() {
+        try {
+            const raw = localStorage.getItem(BM_KEY);
+            if (raw) {
+                const arr = JSON.parse(raw);
+                if (Array.isArray(arr)) return arr;
+            }
+        } catch (_) {}
+        // cookie fallback
+        try {
+            const m = document.cookie.match(/(?:^|;\s*)kh_bookmarks=([^;]*)/);
+            if (m) {
+                const arr = JSON.parse(decodeURIComponent(m[1]));
+                if (Array.isArray(arr)) return arr;
+            }
+        } catch (_) {}
+        return [];
+    },
+    save(list) {
+        const data = Array.isArray(list) ? list.slice(0, BM_MAX) : [];
+        try {
+            localStorage.setItem(BM_KEY, JSON.stringify(data));
+        } catch (_) {}
+        try {
+            // lightweight cookie backup (may truncate if too large)
+            const compact = data.map(x => ({
+                slug: x.slug, title: x.title, url: x.url, image: x.image,
+                chapter: x.chapter, rating: x.rating, addedAt: x.addedAt
+            }));
+            const val = encodeURIComponent(JSON.stringify(compact)).slice(0, 3500);
+            document.cookie = `kh_bookmarks=${val};path=/;max-age=31536000;SameSite=Lax`;
+        } catch (_) {}
+        this.updateBadge();
+        return data;
+    },
+    has(slug) {
+        if (!slug) return false;
+        return this.getAll().some(x => x.slug === slug);
+    },
+    add(item) {
+        if (!item || !item.slug) return false;
+        const list = this.getAll().filter(x => x.slug !== item.slug);
+        list.unshift({
+            slug: item.slug,
+            title: item.title || item.slug,
+            url: item.url || `/manga/${item.slug}`,
+            image: item.image || null,
+            chapter: item.chapter || null,
+            rating: item.rating || null,
+            addedAt: new Date().toISOString()
+        });
+        this.save(list);
+        return true;
+    },
+    remove(slug) {
+        const list = this.getAll().filter(x => x.slug !== slug);
+        this.save(list);
+        return true;
+    },
+    toggle(item) {
+        if (this.has(item.slug)) {
+            this.remove(item.slug);
+            return false;
+        }
+        this.add(item);
+        return true;
+    },
+    clear() {
+        this.save([]);
+    },
+    updateBadge() {
+        const n = this.getAll().length;
+        const el = document.getElementById('bm-count');
+        if (!el) return;
+        if (n > 0) {
+            el.style.display = 'inline';
+            el.textContent = String(n);
+        } else {
+            el.style.display = 'none';
+            el.textContent = '0';
+        }
+    }
+};
+
+// Global navigate function
+function navigate(e, url) {
+    if (e) e.preventDefault();
+    if (!url || url === '#' || url.includes('#/')) return false;
+
+    // Convert external absolute URL to local path
+    let localUrl = String(url);
+    try {
+        if (localUrl.startsWith('http://') || localUrl.startsWith('https://')) {
+            const u = new URL(localUrl);
+            localUrl = u.pathname + u.search;
+        }
+    } catch (_) {
+        localUrl = localUrl.replace(/^https?:\/\/[^/]+/i, '');
+    }
+
+    localUrl = localUrl.replace(/\/+$/, '') || '/';
+    if (!localUrl.startsWith('/')) localUrl = '/' + localUrl;
+
+    window.history.pushState({}, '', localUrl);
+    router.routes();
+    window.scrollTo(0, 0);
+    return false;
+}
+
+function toggleBookmarkFromDetail(btn) {
+    const item = {
+        slug: btn.getAttribute('data-slug'),
+        title: btn.getAttribute('data-title'),
+        url: btn.getAttribute('data-url'),
+        image: btn.getAttribute('data-image'),
+        chapter: btn.getAttribute('data-chapter'),
+        rating: btn.getAttribute('data-rating')
+    };
+    const nowBookmarked = BookmarkStore.toggle(item);
+    btn.classList.toggle('active', nowBookmarked);
+    btn.innerHTML = nowBookmarked
+        ? '<i class="fas fa-bookmark"></i> Bookmarked'
+        : '<i class="far fa-bookmark"></i> Bookmark';
+    btn.title = nowBookmarked ? 'Hapus dari bookmark' : 'Tambah ke bookmark';
+}
+
+function removeBookmark(slug) {
+    BookmarkStore.remove(slug);
+    if (window.location.pathname.replace(/\/$/, '') === '/bookmark') {
+        router.loadBookmarks();
+    } else {
+        BookmarkStore.updateBadge();
+    }
+}
+
+// ===== History storage (localStorage + cookie backup) =====
+const HS_KEY = 'kh_history';
+const HS_MAX = 100;
+
+const HistoryStore = {
+    getAll() {
+        try {
+            const raw = localStorage.getItem(HS_KEY);
+            if (raw) {
+                const arr = JSON.parse(raw);
+                if (Array.isArray(arr)) return arr;
+            }
+        } catch (_) {}
+        try {
+            const m = document.cookie.match(/(?:^|;\s*)kh_history=([^;]*)/);
+            if (m) {
+                const arr = JSON.parse(decodeURIComponent(m[1]));
+                if (Array.isArray(arr)) return arr;
+            }
+        } catch (_) {}
+        return [];
+    },
+    save(list) {
+        const data = Array.isArray(list) ? list.slice(0, HS_MAX) : [];
+        try {
+            localStorage.setItem(HS_KEY, JSON.stringify(data));
+        } catch (_) {}
+        try {
+            const compact = data.map(x => ({
+                chapterSlug: x.chapterSlug,
+                mangaSlug: x.mangaSlug,
+                title: x.title,
+                seriesTitle: x.seriesTitle,
+                chapterTitle: x.chapterTitle,
+                chapterUrl: x.chapterUrl,
+                seriesUrl: x.seriesUrl,
+                image: x.image,
+                chapterNumber: x.chapterNumber,
+                readAt: x.readAt
+            }));
+            const val = encodeURIComponent(JSON.stringify(compact)).slice(0, 3500);
+            document.cookie = `kh_history=${val};path=/;max-age=31536000;SameSite=Lax`;
+        } catch (_) {}
+        this.updateBadge();
+        return data;
+    },
+    add(item) {
+        if (!item || !item.chapterSlug) return false;
+        // Keep one entry per manga series (latest chapter read), plus unique by chapter
+        let list = this.getAll().filter(x =>
+            x.chapterSlug !== item.chapterSlug &&
+            !(item.mangaSlug && x.mangaSlug === item.mangaSlug)
+        );
+        list.unshift({
+            chapterSlug: item.chapterSlug,
+            mangaSlug: item.mangaSlug || null,
+            title: item.title || item.seriesTitle || item.chapterSlug,
+            seriesTitle: item.seriesTitle || item.title || null,
+            chapterTitle: item.chapterTitle || item.title || null,
+            chapterUrl: item.chapterUrl || `/${item.chapterSlug}`,
+            seriesUrl: item.seriesUrl || (item.mangaSlug ? `/manga/${item.mangaSlug}` : null),
+            image: item.image || null,
+            chapterNumber: item.chapterNumber != null ? item.chapterNumber : null,
+            readAt: new Date().toISOString()
+        });
+        this.save(list);
+        return true;
+    },
+    remove(chapterSlug) {
+        const list = this.getAll().filter(x => x.chapterSlug !== chapterSlug);
+        this.save(list);
+        return true;
+    },
+    clear() {
+        this.save([]);
+    },
+    updateBadge() {
+        const n = this.getAll().length;
+        const el = document.getElementById('hs-count');
+        if (!el) return;
+        if (n > 0) {
+            el.style.display = 'inline';
+            el.textContent = String(n);
+        } else {
+            el.style.display = 'none';
+            el.textContent = '0';
+        }
+    },
+    formatTime(iso) {
+        if (!iso) return '';
+        try {
+            const d = new Date(iso);
+            const now = new Date();
+            const diff = Math.floor((now - d) / 1000);
+            if (diff < 60) return 'baru saja';
+            if (diff < 3600) return `${Math.floor(diff / 60)} menit lalu`;
+            if (diff < 86400) return `${Math.floor(diff / 3600)} jam lalu`;
+            if (diff < 604800) return `${Math.floor(diff / 86400)} hari lalu`;
+            return d.toLocaleDateString('id-ID');
+        } catch {
+            return '';
+        }
+    }
+};
+
+function removeHistory(chapterSlug) {
+    HistoryStore.remove(chapterSlug);
+    if (window.location.pathname.replace(/\/$/, '') === '/history') {
+        router.loadHistory();
+    } else {
+        HistoryStore.updateBadge();
+    }
+}
+
+// Router object
+const router = {
+    contentEl: null,
+    
+    init() {
+        this.contentEl = document.getElementById('appContent');
+        this.routes();
+    },
+    
+    routes() {
+        let path = window.location.pathname || '/';
+        // Fix accidental full-URL path: /https://domain/manga/slug
+        if (path.includes('komikhentaiku.com') || path.includes('http')) {
+            path = path.replace(/^\/+https?:\/+/, '/').replace(/komikhentaiku\.com/g, '');
+            path = path.replace(/\/+/g, '/');
+            window.history.replaceState({}, '', path + window.location.search);
+        }
+        path = path.replace(/\/$/, '') || '/';
+        const searchParams = new URLSearchParams(window.location.search);
+
+        if (path === '/') {
+            if (searchParams.has('s')) {
+                this.loadSearch(searchParams.get('s'));
+            } else {
+                this.loadHome(searchParams.get('page') || 1);
+            }
+        } else if (path === '/manga') {
+            this.loadList(searchParams.get('page') || 1);
+        } else if (path === '/az-lists' || path === '/az-list' || path === '/az') {
+            this.loadAZ(searchParams.get('show') || 'A', searchParams.get('page') || 1);
+        } else if (path === '/genres' || path === '/genre') {
+            this.loadGenres();
+        } else if (path.startsWith('/genres/')) {
+            const gslug = path.replace(/^\/genres\//, '').replace(/\/$/, '');
+            this.loadGenreDetail(gslug, searchParams.get('page') || 1);
+        } else if (path === '/bookmark' || path === '/bookmarks') {
+            this.loadBookmarks();
+        } else if (path === '/history' || path === '/histories') {
+            this.loadHistory();
+        } else if (path.startsWith('/manga/')) {
+            const slug = path.replace(/^\/manga\//, '').replace(/\/$/, '');
+            this.loadMangaDetail(slug);
+        } else if (path.startsWith('/api/')) {
+            // server API
+        } else {
+            const slug = path.replace(/^\//, '').replace(/\/$/, '');
+            this.loadChapter(slug);
+        }
+    },
+
+    async fetchJson(url) {
+        const res = await fetch(url);
+        const text = await res.text();
+        try {
+            return JSON.parse(text);
+        } catch (e) {
+            throw new Error('API error: expected JSON but got HTML. URL: ' + url);
+        }
+    },
+
+    async loadHome(page = 1) {
+        try {
+            this.showLoading();
+            page = Math.max(1, parseInt(page, 10) || 1);
+            const data = await this.fetchJson(`/api/home?page=${page}`);
+            this.renderHome(data);
+        } catch (err) {
+            console.error('Home error:', err);
+            this.renderError(err.message);
+        }
+    },
+
+    starHtml(score) {
+        const n = Math.max(0, Math.min(10, parseFloat(score) || 0));
+        const stars = n / 2; // 10-scale -> 5 stars
+        let html = '';
+        for (let i = 1; i <= 5; i++) {
+            if (stars >= i) html += '<i class="fas fa-star"></i>';
+            else if (stars >= i - 0.5) html += '<i class="fas fa-star-half-alt half"></i>';
+            else html += '<i class="far fa-star empty"></i>';
+        }
+        return html;
+    },
+
+    cardPopular(item) {
+        const rating = item.rating || '7.00';
+        return `
+            <div class="bs">
+                <div class="bsx">
+                    <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
+                        <div class="limit">
+                            <span class="flag-jp" title="Manga"></span>
+                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+                        </div>
+                        <div class="bigor">
+                            <div class="tt">${this.escapeHtml(item.title)}</div>
+                            <div class="adds">
+                                <div class="epxs">${this.escapeHtml(item.chapter || 'Chapter 1')}</div>
+                                <div class="star-rating">
+                                    <span class="stars">${this.starHtml(rating)}</span>
+                                    <span class="numscore">${rating}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        `;
+    },
+
+    cardLatest(item) {
+        return `
+            <div class="bs styletere">
+                <div class="bsx">
+                    <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
+                        <div class="limit">
+                            <span class="flag-jp" title="Manga"></span>
+                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+                        </div>
+                        <div class="bigor">
+                            <div class="tt">${this.escapeHtml(item.title)}</div>
+                            <div class="adds">
+                                <div class="epxs">${this.escapeHtml(item.chapter || 'Chapter 1')}</div>
+                                ${item.time ? `<div class="epxdate">${this.escapeHtml(item.time)}</div>` : ''}
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        `;
+    },
+
+    renderHome(data) {
+        const page = parseInt(data.pagination?.currentPage || 1, 10) || 1;
+        const totalPages = parseInt(data.pagination?.totalPages || 1, 10) || 1;
+        const popularHTML = (data.popular || []).map(item => this.cardPopular(item)).join('');
+        const latestHTML = (data.latest || []).map(item => this.cardLatest(item)).join('');
+
+        // Pagination buttons
+        let pageBtns = '';
+        const maxButtons = 5;
+        let start = Math.max(1, page - 2);
+        let end = Math.min(totalPages, start + maxButtons - 1);
+        if (end - start < maxButtons - 1) start = Math.max(1, end - maxButtons + 1);
+
+        if (page > 1) {
+            pageBtns += `<button type="button" class="az-page-btn home-page-btn" data-page="${page - 1}">« Prev</button>`;
+        }
+        for (let p = start; p <= end; p++) {
+            pageBtns += `<button type="button" class="az-page-btn home-page-btn ${p === page ? 'active' : ''}" data-page="${p}">${p}</button>`;
+        }
+        if (end < totalPages) {
+            if (end < totalPages - 1) pageBtns += `<button type="button" class="az-page-btn" disabled>…</button>`;
+            pageBtns += `<button type="button" class="az-page-btn home-page-btn" data-page="${totalPages}">${totalPages}</button>`;
+        }
+        if (page < totalPages) {
+            pageBtns += `<button type="button" class="az-page-btn home-page-btn" data-page="${page + 1}">Next »</button>`;
+        }
+
+        this.contentEl.innerHTML = `
+            ${page === 1 ? `
+            <div class="hotslid">
+                <div class="bixbox hothome full">
+                    <div class="releases">
+                        <h2>Popular Today</h2>
+                    </div>
+                    <div class="listupd popularslider">
+                        <div class="popconslide">
+                            ${popularHTML}
+                        </div>
+                    </div>
+                </div>
+            </div>` : ''}
+
+            <div class="postbody">
+                <div class="bixbox">
+                    <div class="releases">
+                        <h2>Latest Update</h2>
+                        <span style="color:var(--text-secondary);font-size:13px;">${(data.latest || []).length} komik · halaman ${page}/${totalPages}</span>
+                    </div>
+                    <div class="listupd">
+                        ${latestHTML || '<p style="color:var(--text-secondary);padding:30px;grid-column:1/-1;text-align:center;">Tidak ada update.</p>'}
+                    </div>
+                    ${totalPages > 1 ? `<div class="az-pagination">${pageBtns}</div>` : ''}
+                </div>
+            </div>
+        `;
+        
+        this.bindNavLinks();
+
+        document.querySelectorAll('.home-page-btn[data-page]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const p = parseInt(btn.getAttribute('data-page'), 10);
+                const url = p <= 1 ? '/' : `/?page=${p}`;
+                window.history.pushState({}, '', url);
+                this.loadHome(p);
+                window.scrollTo(0, 0);
+            });
+        });
+    },
+
+    async loadList(page = 1) {
+        try {
+            this.showLoading();
+            const data = await this.fetchJson(`/api/list?page=${page}`);
+            this.renderList(data);
+        } catch (err) {
+            console.error('List error:', err);
+            this.renderError(err.message);
+        }
+    },
+
+    renderList(data) {
+        const itemsHTML = (data.items || []).map(item => {
+            const rating = item.rating || '';
+            return `
+            <div class="bs styletere">
+                <div class="bsx">
+                    <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
+                        <div class="limit">
+                            <span class="flag-jp" title="Manga"></span>
+                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+                        </div>
+                        <div class="bigor">
+                            <div class="tt">${this.escapeHtml(item.title)}</div>
+                            <div class="adds">
+                                <div class="epxs">${this.escapeHtml(item.chapter || 'Chapter 1')}</div>
+                                ${rating ? `<div class="star-rating"><span class="stars">${this.starHtml(rating)}</span><span class="numscore">${rating}</span></div>` : ''}
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>`;
+        }).join('');
+
+        const currentPage = parseInt(data.pagination?.currentPage || 1);
+        const paginationHTML = `
+            <div class="pagination">
+                ${currentPage > 1 ? `<button onclick="loadPage(${currentPage - 1})">Previous</button>` : '<button disabled>Previous</button>'}
+                <span class="current">Page ${currentPage}</span>
+                <button onclick="loadPage(${currentPage + 1})">Next</button>
+            </div>
+        `;
+
+        this.contentEl.innerHTML = `
+            <div class="postbody">
+                <div class="bixbox">
+                    <div class="releases">
+                        <h2>All Manga</h2>
+                    </div>
+                    <div class="listupd">
+                        ${itemsHTML}
+                    </div>
+                    ${paginationHTML}
+                </div>
+            </div>
+        `;
+        
+        this.bindNavLinks();
+    },
+
+    async loadMangaDetail(slug) {
+        try {
+            this.showLoading();
+            slug = decodeURIComponent(slug).replace(/\/+$/, '');
+            const data = await this.fetchJson(`/api/manga/${encodeURIComponent(slug)}`);
+            this.renderDetail(data);
+        } catch (err) {
+            console.error('Manga detail error:', err);
+            this.renderError(err.message);
+        }
+    },
+
+    renderDetail(data) {
+        const genres = Array.isArray(data.genres) ? data.genres : [];
+        const genresHTML = genres.map(g => {
+            const name = typeof g === 'string' ? g : (g.name || '');
+            if (!name) return '';
+            const slug = name.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+            const href = (typeof g === 'object' && g.url && String(g.url).includes('/genres/'))
+                ? g.url
+                : `/genres/${slug}`;
+            return `<a href="#" class="genre-tag nav-link" data-url="${href}">${this.escapeHtml(name)}</a>`;
+        }).filter(Boolean).join('');
+
+        // Sort chapters ascending: Chapter 1, 2, 3...
+        const chapters = [...(data.chapters || [])].map((ch, i) => {
+            const numMatch = String(ch.title || ch.url || '').match(/(?:chapter|ch\.?)\s*([0-9]+(?:\.[0-9]+)?)/i);
+            return { ...ch, _num: numMatch ? parseFloat(numMatch[1]) : i + 1 };
+        }).sort((a, b) => a._num - b._num);
+
+        const firstChapter = chapters[0];
+        const lastChapter = chapters[chapters.length - 1];
+        const chaptersHTML = chapters.map(ch => `
+            <div class="chapter-item">
+                <a href="#" data-url="${ch.url}" class="chapter-title nav-link">${this.escapeHtml(ch.title)}</a>
+                <span class="chapter-date">${ch.date || ''}</span>
+            </div>
+        `).join('');
+
+        const slug = data.slug || (window.location.pathname.replace(/^\/manga\//, '').replace(/\/$/, ''));
+        const isBm = BookmarkStore.has(slug);
+        const firstTitle = firstChapter ? firstChapter.title : 'Chapter 1';
+
+        this.contentEl.innerHTML = `
+            <div class="bixbox">
+                <div class="detail-container">
+                    <div class="thumb-detail">
+                        <img src="${data.image}" alt="${this.escapeHtml(data.title)}"
+                             onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 450%22><rect fill=%22%23333%22 width=%22300%22 height=%22450%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+                        <button type="button" class="btn-bookmark ${isBm ? 'active' : ''}" id="btnBookmark"
+                            data-slug="${this.escapeHtml(slug)}"
+                            data-title="${this.escapeHtml(data.title || '')}"
+                            data-url="/manga/${this.escapeHtml(slug)}"
+                            data-image="${this.escapeHtml(data.image || '')}"
+                            data-chapter="${this.escapeHtml(firstTitle)}"
+                            data-rating="${this.escapeHtml(String(data.rating || ''))}"
+                            title="${isBm ? 'Hapus dari bookmark' : 'Tambah ke bookmark'}">
+                            <i class="${isBm ? 'fas' : 'far'} fa-bookmark"></i>
+                            ${isBm ? 'Bookmarked' : 'Bookmark'}
+                        </button>
+                        ${firstChapter ? `
+                        <a href="#" data-url="${firstChapter.url}" class="nav-link" style="display:block;margin-top:10px;text-align:center;background:var(--primary-color);color:#fff;padding:12px;border-radius:8px;font-weight:700;">
+                            Baca Chapter 1
+                        </a>` : ''}
+                    </div>
+                    <div class="info-desc">
+                        <h1>${this.escapeHtml(data.title)}</h1>
+
+                        ${genresHTML ? `<div class="genre-list">${genresHTML}</div>` : ''}
+
+                        <div class="info-meta">
+                            ${data.rating ? `<p><strong>Rating:</strong> ${this.escapeHtml(String(data.rating))}/10</p>` : ''}
+                            ${data.status ? `<p><strong>Status:</strong> ${this.escapeHtml(data.status)}</p>` : ''}
+                            ${data.type ? `<p><strong>Type:</strong> ${this.escapeHtml(data.type)}</p>` : ''}
+                        </div>
+
+                        ${data.description ? `
+                        <div class="desc-content">
+                            <h3>Synopsis ${this.escapeHtml(data.title)}</h3>
+                            <p>${this.escapeHtml(data.description)}</p>
+                        </div>` : ''}
+
+                        <div class="chapter-list">
+                            <div class="releases">
+                                <h2>Chapter ${this.escapeHtml(data.title)}</h2>
+                            </div>
+                            ${firstChapter || lastChapter ? `
+                            <div style="display:flex;gap:12px;margin-bottom:16px;flex-wrap:wrap;">
+                                ${firstChapter ? `<a href="#" data-url="${firstChapter.url}" class="nav-link" style="flex:1;min-width:140px;text-align:center;background:#2a2a3a;color:#fff;padding:12px;border-radius:8px;font-weight:600;"><div style="font-size:12px;opacity:.7;">First Chapter</div><div>${this.escapeHtml(firstChapter.title)}</div></a>` : ''}
+                                ${lastChapter ? `<a href="#" data-url="${lastChapter.url}" class="nav-link" style="flex:1;min-width:140px;text-align:center;background:#2a2a3a;color:#fff;padding:12px;border-radius:8px;font-weight:600;"><div style="font-size:12px;opacity:.7;">New Chapter</div><div>${this.escapeHtml(lastChapter.title)}</div></a>` : ''}
+                            </div>` : ''}
+                            <p style="color:var(--text-secondary);font-size:13px;margin-bottom:12px;">Pilih chapter untuk dibaca. Setiap chapter terpisah.</p>
+                            ${chaptersHTML || '<p style="color:var(--text-secondary);padding:20px;">No chapters available</p>'}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        this.bindNavLinks();
+
+        const bmBtn = document.getElementById('btnBookmark');
+        if (bmBtn) {
+            bmBtn.addEventListener('click', () => toggleBookmarkFromDetail(bmBtn));
+        }
+    },
+
+    loadBookmarks() {
+        const list = BookmarkStore.getAll();
+        BookmarkStore.updateBadge();
+
+        if (!list.length) {
+            this.contentEl.innerHTML = `
+                <div class="bookmark-empty">
+                    <i class="far fa-bookmark"></i>
+                    <h2 style="color:inherit;margin-bottom:8px;">Belum ada bookmark</h2>
+                    <p>Tambahkan komik favorit lewat tombol <b>Bookmark</b> di halaman detail.</p>
+                    <br>
+                    <a href="/" class="retry-btn" onclick="return navigate(event,'/')">Kembali ke Home</a>
+                </div>
+            `;
+            return;
+        }
+
+        const itemsHTML = list.map(item => {
+            const rating = item.rating || '';
+            return `
+            <div class="bs styletere">
+                <div class="bsx">
+                    <a href="#" data-url="${item.url || `/manga/${item.slug}`}" class="nav-link" title="${this.escapeHtml(item.title)}">
+                        <div class="limit">
+                            <span class="flag-jp" title="Manga"></span>
+                            <img src="${item.image || ''}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+                        </div>
+                        <div class="bigor">
+                            <div class="tt">${this.escapeHtml(item.title)}</div>
+                            <div class="adds">
+                                <div class="epxs">${this.escapeHtml(item.chapter || 'Chapter 1')}</div>
+                                ${rating ? `<div class="star-rating"><span class="stars">${this.starHtml(rating)}</span><span class="numscore">${rating}</span></div>` : ''}
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bm-card-actions" style="padding:0 10px 10px;">
+                        <button type="button" class="bm-remove" data-remove-slug="${this.escapeHtml(item.slug)}">
+                            <i class="fas fa-trash"></i> Hapus
+                        </button>
+                    </div>
+                </div>
+            </div>`;
+        }).join('');
+
+        this.contentEl.innerHTML = `
+            <div class="postbody">
+                <div class="bixbox">
+                    <div class="releases">
+                        <h2>Bookmark</h2>
+                        <div style="display:flex;gap:10px;align-items:center;">
+                            <span style="color:var(--text-secondary);font-size:13px;">${list.length} komik</span>
+                            <button type="button" id="btnClearBookmarks" class="bm-remove">Hapus semua</button>
+                        </div>
+                    </div>
+                    <div class="listupd">
+                        ${itemsHTML}
+                    </div>
+                </div>
+            </div>
+        `;
+
+        this.bindNavLinks();
+
+        document.querySelectorAll('[data-remove-slug]').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                removeBookmark(btn.getAttribute('data-remove-slug'));
+            });
+        });
+
+        document.getElementById('btnClearBookmarks')?.addEventListener('click', () => {
+            if (confirm('Hapus semua bookmark?')) {
+                BookmarkStore.clear();
+                this.loadBookmarks();
+            }
+        });
+    },
+
+    async loadChapter(slug) {
+        try {
+            this.showLoading();
+            slug = decodeURIComponent(slug).replace(/\/+$/, '');
+            slug = slug.replace(/^https?:\/\/[^/]+\//i, '');
+            const data = await this.fetchJson(`/api/chapter/${encodeURIComponent(slug)}`);
+            // Save reading history
+            HistoryStore.add({
+                chapterSlug: data.slug || slug,
+                mangaSlug: data.mangaSlug || null,
+                title: data.seriesTitle || data.title || slug,
+                seriesTitle: data.seriesTitle || null,
+                chapterTitle: data.title || null,
+                chapterUrl: `/${data.slug || slug}`,
+                seriesUrl: data.seriesUrl || (data.mangaSlug ? `/manga/${data.mangaSlug}` : null),
+                image: null,
+                chapterNumber: data.chapterNumber != null ? data.chapterNumber : null
+            });
+            // Try fill cover from local series later if available
+            this.fillHistoryCover(data.mangaSlug || null, data.slug || slug);
+            this.renderReader(data);
+        } catch (err) {
+            console.error('Chapter error:', err);
+            this.renderError(err.message);
+        }
+    },
+
+    async fillHistoryCover(mangaSlug, chapterSlug) {
+        if (!mangaSlug) return;
+        try {
+            const data = await this.fetchJson(`/api/manga/${encodeURIComponent(mangaSlug)}`);
+            if (!data || !data.image) return;
+            const list = HistoryStore.getAll();
+            let changed = false;
+            for (const item of list) {
+                if ((item.mangaSlug === mangaSlug || item.chapterSlug === chapterSlug) && !item.image) {
+                    item.image = data.image;
+                    if (!item.seriesTitle && data.title) item.seriesTitle = data.title;
+                    if (!item.title && data.title) item.title = data.title;
+                    changed = true;
+                }
+            }
+            if (changed) HistoryStore.save(list);
+        } catch (_) {}
+    },
+
+    loadHistory() {
+        const list = HistoryStore.getAll();
+        HistoryStore.updateBadge();
+
+        if (!list.length) {
+            this.contentEl.innerHTML = `
+                <div class="bookmark-empty">
+                    <i class="fas fa-history"></i>
+                    <h2 style="color:inherit;margin-bottom:8px;">Belum ada history</h2>
+                    <p>Chapter yang kamu baca akan muncul di sini.</p>
+                    <br>
+                    <a href="/" class="retry-btn" onclick="return navigate(event,'/')">Kembali ke Home</a>
+                </div>
+            `;
+            return;
+        }
+
+        const itemsHTML = list.map(item => {
+            const chLabel = item.chapterNumber != null
+                ? `Chapter ${item.chapterNumber}`
+                : (item.chapterTitle || 'Chapter');
+            const time = HistoryStore.formatTime(item.readAt);
+            return `
+            <div class="bs styletere">
+                <div class="bsx">
+                    <a href="#" data-url="${item.chapterUrl || `/${item.chapterSlug}`}" class="nav-link" title="${this.escapeHtml(item.title || '')}">
+                        <div class="limit">
+                            <span class="flag-jp" title="Manga"></span>
+                            <img src="${item.image || ''}" alt="${this.escapeHtml(item.title || '')}" loading="lazy"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+                        </div>
+                        <div class="bigor">
+                            <div class="tt">${this.escapeHtml(item.seriesTitle || item.title || item.chapterSlug)}</div>
+                            <div class="adds">
+                                <div class="epxs">${this.escapeHtml(chLabel)}</div>
+                                ${time ? `<div class="epxdate">${this.escapeHtml(time)}</div>` : ''}
+                            </div>
+                        </div>
+                    </a>
+                    <div class="bm-card-actions" style="padding:0 10px 10px;display:flex;gap:8px;flex-wrap:wrap;">
+                        ${item.seriesUrl ? `<a href="#" data-url="${item.seriesUrl}" class="nav-link bm-remove" style="text-decoration:none;">Series</a>` : ''}
+                        <button type="button" class="bm-remove" data-remove-history="${this.escapeHtml(item.chapterSlug)}">
+                            <i class="fas fa-trash"></i> Hapus
+                        </button>
+                    </div>
+                </div>
+            </div>`;
+        }).join('');
+
+        this.contentEl.innerHTML = `
+            <div class="postbody">
+                <div class="bixbox">
+                    <div class="releases">
+                        <h2>History</h2>
+                        <div style="display:flex;gap:10px;align-items:center;">
+                            <span style="color:var(--text-secondary);font-size:13px;">${list.length} bacaan</span>
+                            <button type="button" id="btnClearHistory" class="bm-remove">Hapus semua</button>
+                        </div>
+                    </div>
+                    <div class="listupd">
+                        ${itemsHTML}
+                    </div>
+                </div>
+            </div>
+        `;
+
+        this.bindNavLinks();
+
+        document.querySelectorAll('[data-remove-history]').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                removeHistory(btn.getAttribute('data-remove-history'));
+            });
+        });
+
+        document.getElementById('btnClearHistory')?.addEventListener('click', () => {
+            if (confirm('Hapus semua history baca?')) {
+                HistoryStore.clear();
+                this.loadHistory();
+            }
+        });
+    },
+
+    renderReader(data) {
+        const images = data.images || [];
+        const imagesHTML = images.map((img, i) => 
+            `<img src="${img}" alt="Chapter page ${i + 1}" loading="lazy" onerror="this.style.display='none'">`
+        ).join('');
+
+        const chapters = data.chapters || [];
+        const chapterOptions = chapters.map(ch => {
+            const isCurrent = ch.slug === data.slug || ch.url === `/${data.slug}` || ch.url === data.slug;
+            return `<option value="${ch.url}" ${isCurrent ? 'selected' : ''}>${this.escapeHtml(ch.title)}</option>`;
+        }).join('');
+
+        const hasPrev = data.prevChapter && !String(data.prevChapter).includes('#/');
+        const hasNext = data.nextChapter && !String(data.nextChapter).includes('#/');
+        const seriesUrl = data.seriesUrl || (data.mangaSlug ? `/manga/${data.mangaSlug}` : '/');
+        const chLabel = data.chapterNumber != null ? `Chapter ${data.chapterNumber}` : 'Chapter';
+
+        this.contentEl.innerHTML = `
+            <div class="reader-container">
+                <div style="margin-bottom:12px;">
+                    <a href="#" data-url="${seriesUrl}" class="nav-link" style="color:var(--text-secondary);font-size:13px;">
+                        <i class="fas fa-arrow-left"></i> ${this.escapeHtml(data.seriesTitle || 'Kembali ke Series')}
+                    </a>
+                </div>
+
+                <h1 style="margin-bottom:8px;font-size:22px;">${this.escapeHtml(data.title)}</h1>
+                <p style="color:var(--text-secondary);margin-bottom:16px;font-size:13px;">
+                    ${chLabel} · ${images.length} halaman · dibaca terpisah per chapter
+                </p>
+                
+                <div class="reader-nav">
+                    ${hasPrev
+                        ? `<a href="#" data-url="${data.prevChapter}" class="nav-link"><i class="fas fa-chevron-left"></i> Chapter Sebelumnya</a>`
+                        : '<a class="disabled"><i class="fas fa-chevron-left"></i> Chapter Sebelumnya</a>'
+                    }
+                    ${chapters.length > 0 ? `
+                    <select id="chapterSelect" class="chapter-select" aria-label="Pilih chapter">
+                        ${chapterOptions}
+                    </select>` : ''}
+                    ${hasNext
+                        ? `<a href="#" data-url="${data.nextChapter}" class="nav-link">Lanjut Chapter Berikutnya <i class="fas fa-chevron-right"></i></a>`
+                        : '<a class="disabled">Lanjut Chapter Berikutnya <i class="fas fa-chevron-right"></i></a>'
+                    }
+                </div>
+
+                <div class="reader-images">
+                    ${imagesHTML || '<p style="color:var(--text-secondary);padding:40px;text-align:center;">Tidak ada gambar chapter</p>'}
+                </div>
+
+                <div class="reader-nav" style="margin-top:20px;">
+                    ${hasPrev
+                        ? `<a href="#" data-url="${data.prevChapter}" class="nav-link"><i class="fas fa-chevron-left"></i> Chapter Sebelumnya</a>`
+                        : '<a class="disabled"><i class="fas fa-chevron-left"></i> Chapter Sebelumnya</a>'
+                    }
+                    ${hasNext
+                        ? `<a href="#" data-url="${data.nextChapter}" class="nav-link">Lanjut Chapter Berikutnya <i class="fas fa-chevron-right"></i></a>`
+                        : '<a class="disabled">Lanjut Chapter Berikutnya <i class="fas fa-chevron-right"></i></a>'
+                    }
+                </div>
+
+                ${hasNext ? `
+                <div style="text-align:center;margin-top:24px;">
+                    <a href="#" data-url="${data.nextChapter}" class="nav-link" style="display:inline-block;background:var(--primary-color);color:#fff;padding:14px 28px;border-radius:8px;font-weight:700;">
+                        Selesai Chapter ini? Lanjut Chapter Berikutnya →
+                    </a>
+                </div>` : ''}
+            </div>
+        `;
+        
+        this.bindNavLinks();
+
+        const select = document.getElementById('chapterSelect');
+        if (select) {
+            select.addEventListener('change', (e) => {
+                const url = e.target.value;
+                if (url) navigate(null, url);
+            });
+        }
+    },
+
+    async loadSearch(query) {
+        try {
+            this.showLoading();
+            console.log('Searching:', query);
+            const res = await fetch(`/api/search?s=${encodeURIComponent(query)}`);
+            const data = await res.json();
+            this.renderSearchResults(data, query);
+        } catch (err) {
+            console.error('Search error:', err);
+            this.renderError(err.message);
+        }
+    },
+
+    renderSearchResults(data, query) {
+        if (!data.results || data.results.length === 0) {
+            this.contentEl.innerHTML = `
+                <div class="error-state">
+                    <i class="fas fa-search"></i>
+                    <p>No results found for "${this.escapeHtml(query)}"</p>
+                    <a href="/" class="retry-btn" onclick="return navigate(event, '/')">Back to Home</a>
+                </div>
+            `;
+            return;
+        }
+
+        const itemsHTML = data.results.map(item => `
+            <div class="bs styletere">
+                <div class="bsx">
+                    <a href="#" data-url="${item.url}" class="nav-link">
+                        <div class="limit">
+                            ${item.type ? `<span class="type">${item.type}</span>` : ''}
+                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+                        </div>
+                        <div class="bigor">
+                            <div class="tt">${this.escapeHtml(item.title)}</div>
+                            <div class="adds">
+                                <div class="epxs">${this.escapeHtml(item.chapter || 'N/A')}</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        `).join('');
+
+        this.contentEl.innerHTML = `
+            <div class="postbody">
+                <div class="bixbox">
+                    <div class="releases">
+                        <h2>Search Results for "${this.escapeHtml(query)}"</h2>
+                        <span style="color:var(--text-secondary);">${data.results.length} results</span>
+                    </div>
+                    <div class="listupd">
+                        ${itemsHTML}
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        this.bindNavLinks();
+    },
+
+    bindNavLinks() {
+        // Bind click events to all navigation links
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const url = this.getAttribute('data-url');
+                console.log('Link clicked:', url);
+                navigate(e, url);
+            });
+        });
+    },
+
+    showLoading() {
+        this.contentEl.innerHTML = `
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading...</p>
+            </div>
+        `;
+    },
+
+    renderError(message) {
+        this.contentEl.innerHTML = `
+            <div class="error-state">
+                <i class="fas fa-exclamation-triangle"></i>
+                <p>Error: ${this.escapeHtml(message)}</p>
+                <button class="retry-btn" onclick="location.reload()">Retry</button>
+                <br><br>
+                <a href="/" class="retry-btn" onclick="return navigate(event, '/')">Back to Home</a>
+            </div>
+        `;
+    },
+    
+    async loadGenres() {
+        try {
+            this.showLoading();
+            const data = await this.fetchJson('/api/genres');
+            this.renderGenres(data);
+        } catch (err) {
+            console.error('Genres error:', err);
+            this.renderError(err.message);
+        }
+    },
+
+    renderGenres(data) {
+        const genres = data.genres || [];
+        const cards = genres.map(g => `
+            <a href="#" class="genre-card nav-link" data-url="/genres/${g.slug}">
+                <span class="gname">${this.escapeHtml(g.name)}</span>
+                <span class="gcount"><b>${g.count}</b> komik</span>
+            </a>
+        `).join('');
+
+        this.contentEl.innerHTML = `
+            <div class="genre-page">
+                <div class="genre-page-header">
+                    <h2>Genre</h2>
+                    <div class="gmeta">${genres.length} genre · dari data lokal</div>
+                </div>
+                <div class="genre-search">
+                    <input type="text" id="genreFilterInput" placeholder="Cari genre..." autocomplete="off">
+                </div>
+                <div class="genre-grid" id="genreGrid">
+                    ${cards || '<p style="color:var(--text-secondary);grid-column:1/-1;padding:30px;text-align:center;">Belum ada data genre. Jalankan scrap dulu.</p>'}
+                </div>
+            </div>
+        `;
+
+        this.bindNavLinks();
+
+        const input = document.getElementById('genreFilterInput');
+        const grid = document.getElementById('genreGrid');
+        if (input && grid) {
+            input.addEventListener('input', () => {
+                const q = input.value.trim().toLowerCase();
+                grid.querySelectorAll('.genre-card').forEach(card => {
+                    const name = (card.querySelector('.gname')?.textContent || '').toLowerCase();
+                    card.style.display = !q || name.includes(q) ? '' : 'none';
+                });
+            });
+        }
+    },
+
+    async loadGenreDetail(slug, page = 1) {
+        try {
+            this.showLoading();
+            slug = decodeURIComponent(slug).replace(/\/+$/, '');
+            page = parseInt(page, 10) || 1;
+            const data = await this.fetchJson(`/api/genres/${encodeURIComponent(slug)}?page=${page}`);
+            this.renderGenreDetail(data);
+        } catch (err) {
+            console.error('Genre detail error:', err);
+            this.renderError(err.message);
+        }
+    },
+
+    renderGenreDetail(data) {
+        const genre = data.genre || {};
+        const page = data.pagination?.currentPage || 1;
+        const totalPages = data.pagination?.totalPages || 1;
+        const itemsHTML = (data.items || []).map(item => {
+            const rating = item.rating || '7.00';
+            return `
+            <div class="bs styletere">
+                <div class="bsx">
+                    <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
+                        <div class="limit">
+                            <span class="flag-jp" title="Manga"></span>
+                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+                        </div>
+                        <div class="bigor">
+                            <div class="tt">${this.escapeHtml(item.title)}</div>
+                            <div class="adds">
+                                <div class="epxs">${this.escapeHtml(item.chapter || 'Chapter 1')}</div>
+                                <div class="star-rating">
+                                    <span class="stars">${this.starHtml(rating)}</span>
+                                    <span class="numscore">${rating}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>`;
+        }).join('');
+
+        let pageBtns = '';
+        if (totalPages > 1) {
+            if (page > 1) pageBtns += `<button type="button" class="az-page-btn genre-page-btn" data-page="${page - 1}">« Prev</button>`;
+            const start = Math.max(1, page - 2);
+            const end = Math.min(totalPages, start + 4);
+            for (let p = start; p <= end; p++) {
+                pageBtns += `<button type="button" class="az-page-btn genre-page-btn ${p === page ? 'active' : ''}" data-page="${p}">${p}</button>`;
+            }
+            if (page < totalPages) pageBtns += `<button type="button" class="az-page-btn genre-page-btn" data-page="${page + 1}">Next »</button>`;
+        }
+
+        this.contentEl.innerHTML = `
+            <div class="genre-page">
+                <div style="margin-bottom:12px;">
+                    <a href="#" data-url="/genres" class="nav-link" style="color:var(--text-secondary);font-size:13px;">
+                        <i class="fas fa-arrow-left"></i> Semua Genre
+                    </a>
+                </div>
+                <div class="genre-page-header">
+                    <h2>${this.escapeHtml(genre.name || 'Genre')}</h2>
+                    <div class="gmeta"><b>${genre.count || 0}</b> komik · halaman ${page}/${totalPages}</div>
+                </div>
+                <div class="listupd">
+                    ${itemsHTML || '<p style="color:var(--text-secondary);padding:30px;grid-column:1/-1;text-align:center;">Tidak ada komik di genre ini.</p>'}
+                </div>
+                ${pageBtns ? `<div class="az-pagination">${pageBtns}</div>` : ''}
+            </div>
+        `;
+
+        this.bindNavLinks();
+
+        document.querySelectorAll('.genre-page-btn[data-page]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const p = parseInt(btn.getAttribute('data-page'), 10);
+                const slug = genre.slug || '';
+                window.history.pushState({}, '', `/genres/${encodeURIComponent(slug)}?page=${p}`);
+                this.loadGenreDetail(slug, p);
+                window.scrollTo(0, 0);
+            });
+        });
+    },
+
+    async loadAZ(show = 'A', page = 1) {
+        try {
+            this.showLoading();
+            show = String(show || 'A').toUpperCase();
+            page = parseInt(page, 10) || 1;
+            const data = await this.fetchJson(`/api/az?show=${encodeURIComponent(show)}&page=${page}`);
+            this.renderAZ(data);
+        } catch (err) {
+            console.error('AZ error:', err);
+            this.renderError(err.message);
+        }
+    },
+
+    renderAZ(data) {
+        const keys = ['#', '0-9', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
+        const show = data.show || 'A';
+        const counts = data.counts || {};
+        const page = data.pagination?.currentPage || 1;
+        const totalPages = data.pagination?.totalPages || 1;
+
+        const filtersHTML = keys.map(k => {
+            const count = counts[k] || 0;
+            const active = k === show ? 'active' : '';
+            const disabled = count === 0 && k !== show ? 'disabled' : '';
+            return `<button type="button" class="az-btn ${active} ${disabled}" data-az="${k}" ${disabled ? 'disabled' : ''}>${k}</button>`;
+        }).join('');
+
+        const itemsHTML = (data.items || []).map(item => {
+            const rating = item.rating || '7.00';
+            return `
+            <div class="bs styletere">
+                <div class="bsx">
+                    <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
+                        <div class="limit">
+                            <span class="flag-jp" title="Manga"></span>
+                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+                        </div>
+                        <div class="bigor">
+                            <div class="tt">${this.escapeHtml(item.title)}</div>
+                            <div class="adds">
+                                <div class="epxs">${this.escapeHtml(item.chapter || 'Chapter 1')}</div>
+                                <div class="star-rating">
+                                    <span class="stars">${this.starHtml(rating)}</span>
+                                    <span class="numscore">${rating}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>`;
+        }).join('');
+
+        // Build pagination like screenshot: 1 2 3 ... last Next
+        let pageBtns = '';
+        const maxButtons = 5;
+        let start = Math.max(1, page - 1);
+        let end = Math.min(totalPages, start + maxButtons - 1);
+        if (end - start < maxButtons - 1) start = Math.max(1, end - maxButtons + 1);
+
+        for (let p = start; p <= end; p++) {
+            pageBtns += `<button type="button" class="az-page-btn ${p === page ? 'active' : ''}" data-page="${p}">${p}</button>`;
+        }
+        if (end < totalPages) {
+            if (end < totalPages - 1) pageBtns += `<button type="button" class="az-page-btn" disabled>…</button>`;
+            pageBtns += `<button type="button" class="az-page-btn" data-page="${totalPages}">${totalPages}</button>`;
+        }
+        if (page < totalPages) {
+            pageBtns += `<button type="button" class="az-page-btn" data-page="${page + 1}">Next »</button>`;
+        }
+        if (page > 1) {
+            pageBtns = `<button type="button" class="az-page-btn" data-page="${page - 1}">« Prev</button>` + pageBtns;
+        }
+
+        this.contentEl.innerHTML = `
+            <div class="az-wrap">
+                <div class="az-header">
+                    <h2>AZ Lists</h2>
+                    <div class="az-filters">${filtersHTML}</div>
+                    <div class="az-meta">Huruf <strong>${show}</strong> · ${data.total || 0} komik · halaman ${page}/${totalPages}</div>
+                </div>
+                <div class="listupd">
+                    ${itemsHTML || '<p style="color:var(--text-secondary);padding:30px;grid-column:1/-1;text-align:center;">Tidak ada komik untuk filter ini.</p>'}
+                </div>
+                ${totalPages > 1 ? `<div class="az-pagination">${pageBtns}</div>` : ''}
+            </div>
+        `;
+
+        this.bindNavLinks();
+
+        document.querySelectorAll('.az-btn:not(:disabled)').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const letter = btn.getAttribute('data-az');
+                window.history.pushState({}, '', `/az-lists?show=${encodeURIComponent(letter)}&page=1`);
+                this.loadAZ(letter, 1);
+                window.scrollTo(0, 0);
+            });
+        });
+
+        document.querySelectorAll('.az-page-btn[data-page]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const p = parseInt(btn.getAttribute('data-page'), 10);
+                window.history.pushState({}, '', `/az-lists?show=${encodeURIComponent(show)}&page=${p}`);
+                this.loadAZ(show, p);
+                window.scrollTo(0, 0);
+            });
+        });
+    },
+
+    escapeHtml(text) {
+        if (!text) return '';
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+};
+
+// Pagination helper
+function loadPage(page) {
+    window.history.pushState({}, '', `/manga?page=${page}`);
+    router.loadList(page);
+    window.scrollTo(0, 0);
+}
+
+function loadAZPage(show, page) {
+    window.history.pushState({}, '', `/az-lists?show=${encodeURIComponent(show)}&page=${page}`);
+    router.loadAZ(show, page);
+    window.scrollTo(0, 0);
+}
+
+// Handle browser back/forward
+window.onpopstate = () => {
+    console.log('Popstate triggered');
+    router.routes();
+};
+
+// Search form handler
+document.getElementById('searchForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const query = document.getElementById('searchInput').value.trim();
+    if (query) {
+        window.history.pushState({}, '', `/?s=${encodeURIComponent(query)}`);
+        router.loadSearch(query);
+        document.querySelector('.minmb')?.classList.remove('minmbx');
+    }
+});
+
+// Initialize app
+router.init();
+BookmarkStore.updateBadge();
+HistoryStore.updateBadge();
+</script>
+
+</body>
+</html>

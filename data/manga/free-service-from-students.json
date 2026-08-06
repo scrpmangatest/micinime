@@ -1,0 +1,24 @@
+{
+  "slug": "free-service-from-students",
+  "title": "Free Service From Students",
+  "image": "https://i0.wp.com/komikhentaiku.com/wp-content/uploads/2026/06/Free-Service-From-Students.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/free-service-from-students-chapter-1",
+      "slug": "free-service-from-students-chapter-1",
+      "date": "04/06/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:22:45.904Z"
+}

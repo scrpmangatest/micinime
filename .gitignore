@@ -1,0 +1,10 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+*.log
+debug-*.html
+debug-*.js
+data/scrape-log.txt
+data/scrape-err.txt
+data/fix-genres-log.txt
+data/fix-genres-err.txt

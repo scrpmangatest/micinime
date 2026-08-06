@@ -1,0 +1,24 @@
+{
+  "slug": "naruto-pelatihan-hokage",
+  "title": "Naruto Pelatihan Hokage",
+  "image": "https://i0.wp.com/komikhentaiku.com/wp-content/uploads/2026/05/Naruto-Pelatihan-Hokage.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/naruto-pelatihan-hokage-chapter-1",
+      "slug": "naruto-pelatihan-hokage-chapter-1",
+      "date": "26/05/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:42:29.181Z"
+}

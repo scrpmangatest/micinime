@@ -1,0 +1,24 @@
+{
+  "slug": "konsekuensi-musim-panas",
+  "title": "Konsekuensi Musim Panas",
+  "image": "https://i3.wp.com/komikhentaiku.com/wp-content/uploads/2026/05/Konsekuensi-Musim-Panas.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/konsekuensi-musim-panas-chapter-1",
+      "slug": "konsekuensi-musim-panas-chapter-1",
+      "date": "23/05/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:35:11.709Z"
+}

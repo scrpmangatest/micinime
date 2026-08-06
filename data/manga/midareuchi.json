@@ -1,0 +1,26 @@
+{
+  "slug": "midareuchi",
+  "title": "Midareuchi",
+  "image": "https://i2.wp.com/komikhentaiku.com/wp-content/uploads/2026/07/Midareuchi.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [],
+  "chapters": [
+    {
+      "title": "Chapter 2",
+      "url": "/midareuchi-chapter-2",
+      "slug": "midareuchi-chapter-2",
+      "date": "13/07/2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/midareuchi-chapter-1",
+      "slug": "midareuchi-chapter-1",
+      "date": "13/07/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:38:38.422Z",
+  "genresFixedAt": "2026-08-06T14:07:06.246Z"
+}

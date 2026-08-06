@@ -1,0 +1,24 @@
+{
+  "slug": "hinata-akatsuki",
+  "title": "Hinata – Akatsuki",
+  "image": "https://i2.wp.com/komikhentaiku.com/wp-content/uploads/2026/06/Hinata-–-Akatsuki.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/hinata-akatsuki-chapter-1",
+      "slug": "hinata-akatsuki-chapter-1",
+      "date": "11/06/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:26:58.186Z"
+}

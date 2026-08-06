@@ -1,0 +1,24 @@
+{
+  "slug": "am-i-the-sensei",
+  "title": "Am I the Sensei",
+  "image": "https://i1.wp.com/komikhentaiku.com/wp-content/uploads/2026/06/Am-I-the-Sensei.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/am-i-the-sensei-chapter-1",
+      "slug": "am-i-the-sensei-chapter-1",
+      "date": "24/06/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:13:35.182Z"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "seiteki-emma",
+  "title": "Seiteki Emma",
+  "image": "https://i3.wp.com/komikhentaiku.com/wp-content/uploads/2026/07/Seiteki-Emma.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/seiteki-emma-chapter-1",
+      "slug": "seiteki-emma-chapter-1",
+      "date": "22/07/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:51:27.252Z",
+  "genresFixedAt": "2026-08-06T14:08:35.638Z"
+}

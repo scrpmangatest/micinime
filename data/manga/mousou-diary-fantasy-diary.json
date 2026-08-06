@@ -1,0 +1,24 @@
+{
+  "slug": "mousou-diary-fantasy-diary",
+  "title": "Mousou Diary – Fantasy Diary",
+  "image": "https://i2.wp.com/komikhentaiku.com/wp-content/uploads/2026/06/Mousou-Diary-–-Fantasy-Diary.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/mousou-diary-fantasy-diary-chapter-1",
+      "slug": "mousou-diary-fantasy-diary-chapter-1",
+      "date": "12/06/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:40:20.486Z"
+}

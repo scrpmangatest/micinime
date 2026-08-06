@@ -1,0 +1,20 @@
+{
+  "slug": "my-cute-little-brother",
+  "title": "My Cute Little Brother",
+  "image": "https://i3.wp.com/komikhentaiku.com/wp-content/uploads/2026/07/My-Cute-Little-Brother.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/my-cute-little-brother-chapter-1",
+      "slug": "my-cute-little-brother-chapter-1",
+      "date": "28/07/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:40:58.412Z",
+  "genresFixedAt": "2026-08-06T14:07:32.423Z"
+}

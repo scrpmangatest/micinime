@@ -1,0 +1,24 @@
+{
+  "slug": "on-a-business-trip",
+  "title": "On a Business Trip",
+  "image": "https://i0.wp.com/komikhentaiku.com/wp-content/uploads/2026/06/On-a-Business-Trip.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/on-a-business-trip-chapter-1",
+      "slug": "on-a-business-trip-chapter-1",
+      "date": "04/06/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:45:13.435Z"
+}

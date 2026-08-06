@@ -1,0 +1,36 @@
+{
+  "slug": "mahasiswi-ngewe-di-kosan",
+  "title": "Mahasiswi Ngewe di Kosan",
+  "image": "https://i1.wp.com/komikhentaiku.com/wp-content/uploads/2026/01/gambar-main-kos.jpg",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "full color",
+      "url": "/genres/full-color"
+    },
+    {
+      "name": "romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School",
+      "url": "/genres/school"
+    },
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/mahasiswi-ngewe-di-kosan-chapter-1",
+      "slug": "mahasiswi-ngewe-di-kosan-chapter-1",
+      "date": "03/05/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:36:36.066Z"
+}

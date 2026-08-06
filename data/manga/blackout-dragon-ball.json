@@ -1,0 +1,20 @@
+{
+  "slug": "blackout-dragon-ball",
+  "title": "Blackout Dragon Ball",
+  "image": "https://i3.wp.com/komikhentaiku.com/wp-content/uploads/2026/07/Blackout-Dragon-Ball.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/blackout-dragon-ball-chapter-1",
+      "slug": "blackout-dragon-ball-chapter-1",
+      "date": "03/07/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:15:58.086Z",
+  "genresFixedAt": "2026-08-06T14:04:41.369Z"
+}

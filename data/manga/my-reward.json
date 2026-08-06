@@ -1,0 +1,20 @@
+{
+  "slug": "my-reward",
+  "title": "My Reward",
+  "image": "https://i2.wp.com/komikhentaiku.com/wp-content/uploads/2026/07/My-Reward-1.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/my-reward-chapter-1",
+      "slug": "my-reward-chapter-1",
+      "date": "05/07/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:41:55.870Z",
+  "genresFixedAt": "2026-08-06T14:07:46.707Z"
+}

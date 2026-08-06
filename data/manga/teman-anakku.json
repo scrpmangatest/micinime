@@ -1,0 +1,36 @@
+{
+  "slug": "teman-anakku",
+  "title": "Teman Anakku",
+  "image": "https://i3.wp.com/komikhentaiku.com/wp-content/uploads/2026/05/Teman-Anakku.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 3",
+      "url": "/teman-anakku-chapter-3",
+      "slug": "teman-anakku-chapter-3",
+      "date": "24/05/2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/teman-anakku-chapter-2",
+      "slug": "teman-anakku-chapter-2",
+      "date": "24/05/2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/teman-anakku-chapter-1",
+      "slug": "teman-anakku-chapter-1",
+      "date": "24/05/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:56:12.789Z"
+}

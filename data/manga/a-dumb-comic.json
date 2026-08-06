@@ -1,0 +1,20 @@
+{
+  "slug": "a-dumb-comic",
+  "title": "A Dumb Comic",
+  "image": "https://i3.wp.com/komikhentaiku.com/wp-content/uploads/2026/07/A-Dumb-Comic.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/a-dumb-comic-chapter-1",
+      "slug": "a-dumb-comic-chapter-1",
+      "date": "02/07/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:11:49.234Z",
+  "genresFixedAt": "2026-08-06T14:04:35.566Z"
+}

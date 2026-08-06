@@ -1,0 +1,36 @@
+{
+  "slug": "sebelum-si-pemabuk-bangun",
+  "title": "Sebelum Si Pemabuk Bangun",
+  "image": "https://i0.wp.com/komikhentaiku.com/wp-content/uploads/2026/02/cover-13.webp",
+  "rating": "9.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "aunt",
+      "url": "/genres/aunt"
+    },
+    {
+      "name": "full color",
+      "url": "/genres/full-color"
+    },
+    {
+      "name": "natorare",
+      "url": "/genres/natorare"
+    },
+    {
+      "name": "Sub Indo",
+      "url": "/genres/sub-indo"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/sebelum-si-pemabuk-bangun-chapter-1",
+      "slug": "sebelum-si-pemabuk-bangun-chapter-1",
+      "date": "12/02/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:50:59.548Z"
+}

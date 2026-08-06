@@ -1,0 +1,20 @@
+{
+  "slug": "guest",
+  "title": "Guest",
+  "image": "https://i1.wp.com/komikhentaiku.com/wp-content/uploads/2026/07/Guest.webp",
+  "rating": "7.00",
+  "description": null,
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/guest-chapter-1",
+      "slug": "guest-chapter-1",
+      "date": "31/07/2026"
+    }
+  ],
+  "scrapedAt": "2026-08-06T13:25:13.764Z",
+  "genresFixedAt": "2026-08-06T14:05:46.558Z"
+}
