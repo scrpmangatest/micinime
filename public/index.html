@@ -1013,9 +1013,11 @@
         .reader-images { text-align: center; }
         .reader-images img {
             width: 100%;
+            max-width: 100%;
             height: auto;
-            margin-bottom: 10px;
-            border-radius: 4px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 0;
         }
         
         /* Genre list page */
@@ -1401,6 +1403,35 @@
 
             .main-layout { grid-template-columns: 1fr; }
             .sidebar { display: block; position: static; margin-top: 20px; }
+
+            /* Reader: full-bleed images on mobile (edge to edge) */
+            #content:has(.reader-container) .wrapper {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .reader-container {
+                max-width: 100%;
+                padding: 12px 0 24px;
+            }
+            .reader-container > div:not(.reader-images),
+            .reader-container > h1,
+            .reader-container > p,
+            .reader-nav {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+            .reader-images {
+                width: 100%;
+                margin: 0;
+            }
+            .reader-images img {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0;
+                border-radius: 0;
+            }
         }
         
         @media (max-width: 480px) {
