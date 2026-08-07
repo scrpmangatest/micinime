@@ -822,6 +822,22 @@ async function triggerScheduledScrape(reason = 'schedule') {
   }
 }
 
+function hoursSinceLastScrape() {
+  if (!lastScrapeStatus || !lastScrapeStatus.finishedAt) return Infinity;
+  const t = new Date(lastScrapeStatus.finishedAt).getTime();
+  if (!t || Number.isNaN(t)) return Infinity;
+  return (Date.now() - t) / 3600000;
+}
+
+// On free hosts the process sleeps — interval timers stop.
+// Also trigger scrape when traffic comes in after 6h gap.
+function maybeScrapeOnTraffic() {
+  if (!SCRAPE_ENABLED || scrapeRunning) return;
+  if (hoursSinceLastScrape() >= (SCRAPE_EVERY_MS / 3600000)) {
+    triggerScheduledScrape('traffic');
+  }
+}
+
 function startScrapeScheduler() {
   if (!SCRAPE_ENABLED) {
     console.log('[scrape] scheduler off');
@@ -841,14 +857,24 @@ function startScrapeScheduler() {
   if (scrapeTimer.unref) scrapeTimer.unref();
 }
 
+// Lightweight keep-alive + scrape-on-traffic for free hosting sleep
+app.use((req, res, next) => {
+  // don't block requests; fire-and-forget check
+  if (!req.path.startsWith('/api/scrape')) {
+    setTimeout(() => maybeScrapeOnTraffic(), 0);
+  }
+  next();
+});
+
 app.get('/api/scrape/status', (req, res) => {
   res.json({
     enabled: SCRAPE_ENABLED,
     running: scrapeRunning,
     everyMs: SCRAPE_EVERY_MS,
     maxMs: SCRAPE_MAX_MS,
+    hoursSinceLast: Math.round(hoursSinceLastScrape() * 10) / 10,
     last: lastScrapeStatus || null,
-    note: 'On free hosts (Render), disk is ephemeral — scraped files may reset on redeploy/sleep. Prefer always-on hosting for persistent updates.'
+    note: 'Free Render sleeps when idle — timers stop. Scrape also runs on visitor traffic if last run > 6h. Disk is ephemeral on free tier.'
   });
 });
 
