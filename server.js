@@ -156,6 +156,49 @@ app.post('/api/track-read', (req, res) => {
   }
 });
 
+const popularGenreCache = new Map();
+const POPULAR_GENRE_TTL = 6 * 60 * 60 * 1000;
+
+async function enrichPopularItem(base) {
+  if (!base || !base.slug) return null;
+  const cached = popularGenreCache.get(base.slug);
+  if (cached && Date.now() - cached.at < POPULAR_GENRE_TTL) {
+    return { ...base, genres: cached.genres, type: cached.type || base.type };
+  }
+  if (Array.isArray(base.genres) && base.genres.length) {
+    popularGenreCache.set(base.slug, { at: Date.now(), genres: base.genres, type: base.type });
+    return base;
+  }
+  try {
+    const detail = await source.fetchManga(base.slug);
+    const genres = (detail.genres || [])
+      .map(g => (typeof g === 'string' ? { name: g } : { name: g.name, url: g.url }))
+      .filter(g => g.name && !/^(manga|manhwa|manhua)$/i.test(g.name))
+      .slice(0, 6);
+    const type = detail.type || base.type || 'Manga';
+    popularGenreCache.set(base.slug, { at: Date.now(), genres, type });
+    return {
+      slug: base.slug,
+      title: detail.title || base.title,
+      image: detail.image || base.image || null,
+      chapter: base.chapter || (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || '',
+      type,
+      genres,
+      url: `/manga/${base.slug}`
+    };
+  } catch {
+    return {
+      slug: base.slug,
+      title: base.title,
+      image: base.image || null,
+      chapter: base.chapter || '',
+      type: base.type || 'Manga',
+      genres: [],
+      url: `/manga/${base.slug}`
+    };
+  }
+}
+
 app.get('/api/popular', async (req, res) => {
   try {
     const db = loadReads();
@@ -164,40 +207,37 @@ app.get('/api/popular', async (req, res) => {
       counts.set(r.mangaSlug, (counts.get(r.mangaSlug) || 0) + 1);
     });
     const topSlugs = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10).map(e => e[0]);
-    const items = [];
+    let bases = [];
 
     for (const slug of topSlugs) {
       const item = findLocalItem(slug);
       if (item) {
-        items.push({
+        bases.push({
           slug: item.slug,
           title: item.title,
           image: item.image || null,
           chapter: item.chapter || '',
           type: item.type || 'Manga',
-          genres: item.genres || [],
-          url: `/manga/${item.slug}`
+          genres: item.genres || []
         });
       }
     }
 
-    if (!items.length && DATA && Array.isArray(DATA.items)) {
+    if (!bases.length && DATA && Array.isArray(DATA.items)) {
       const picked = (DATA.home && DATA.home.popular && DATA.home.popular.length)
         ? DATA.home.popular.slice(0, 10)
         : DATA.items.slice(0, 10);
-      for (const p of picked) {
-        items.push({
-          slug: p.slug,
-          title: p.title,
-          image: p.image || null,
-          chapter: p.chapter || '',
-          type: p.type || 'Manga',
-          genres: p.genres || [],
-          url: `/manga/${p.slug}`
-        });
-      }
+      bases = picked.map(p => ({
+        slug: p.slug,
+        title: p.title,
+        image: p.image || null,
+        chapter: p.chapter || '',
+        type: p.type || 'Manga',
+        genres: p.genres || []
+      }));
     }
 
+    const items = (await Promise.all(bases.map(enrichPopularItem))).filter(Boolean);
     res.json(items);
   } catch (error) {
     res.status(500).json({ error: error.message });
