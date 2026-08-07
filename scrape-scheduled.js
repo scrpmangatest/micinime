@@ -9,7 +9,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = process.env.SCRAPE_BASE_URL || 'https://komikhentaiku.com';
+const BASE_URL = process.env.SCRAPE_BASE_URL || 'https://komiktap.info';
 const DATA_DIR = path.join(__dirname, 'data');
 const DELAY_MS = Math.max(300, parseInt(process.env.SCRAPE_DELAY_MS || '700', 10));
 const MAX_MS = Math.max(60_000, parseInt(process.env.SCRAPE_MAX_MS || String(10 * 60 * 1000), 10)); // 10 min
