@@ -8,6 +8,25 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const BASE_URL = 'https://komikhentaiku.com';
 const DATA_DIR = path.join(__dirname, 'data');
+const READS_FILE = path.join(DATA_DIR, 'reads.json');
+
+function loadReads() {
+  if (!fs.existsSync(READS_FILE)) return { reads: [] };
+  try { return JSON.parse(fs.readFileSync(READS_FILE, 'utf-8')); } catch { return { reads: [] }; }
+}
+
+function saveReads(data) {
+  if (!fs.existsSync(path.dirname(READS_FILE))) fs.mkdirSync(path.dirname(READS_FILE), { recursive: true });
+  fs.writeFileSync(READS_FILE, JSON.stringify(data, null, 2));
+}
+
+function recordRead(mangaSlug) {
+  const db = loadReads();
+  db.reads.push({ mangaSlug, at: Date.now() });
+  const weekAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  db.reads = db.reads.filter(r => r.at > weekAgo);
+  saveReads(db);
+}
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
@@ -864,6 +883,40 @@ app.use((req, res, next) => {
     setTimeout(() => maybeScrapeOnTraffic(), 0);
   }
   next();
+});
+
+app.post('/api/track-read', (req, res) => {
+  try {
+    const { mangaSlug } = req.body;
+    if (mangaSlug) recordRead(mangaSlug);
+    res.json({ ok: true });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/popular', async (req, res) => {
+  try {
+    const db = loadReads();
+    const counts = new Map();
+    db.reads.forEach(r => {
+      counts.set(r.mangaSlug, (counts.get(r.mangaSlug) || 0) + 1);
+    });
+    const topSlugs = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10).map(e => e[0]);
+    const items = [];
+    for (const slug of topSlugs) {
+      const item = readLocalJson(path.join(DATA_DIR, 'manga', `${slug}.json`));
+      if (item && item.title) items.push({ slug: item.slug, title: item.title, image: item.image || null, chapter: (item.chapters && item.chapters[0] && item.chapters[0].title) || '', type: item.type || 'Manga', genres: item.genres || [], url: `/manga/${item.slug}` });
+    }
+    if (!items.length) {
+      const map = readLocalJson(path.join(DATA_DIR, 'manga-list.json')) || {};
+      const picked = Object.values(map).slice(0, 10).sort(() => Math.random() - 0.5);
+      for (const p of picked) { items.push({ slug: p.slug, title: p.title, image: p.image || null, chapter: p.chapter || '', type: p.type || 'Manga', genres: [], url: p.url }); }
+    }
+    res.json(items);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
 });
 
 app.get('/api/scrape/status', (req, res) => {
