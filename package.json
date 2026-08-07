@@ -1,4 +1,4 @@
-{"name": "komikhentai-clone", "version": "1.0.0", "description": "KomikHentaiku Clone with Scraping", "main": "server.js", "scripts": {
+{"name": "micinime", "version": "1.0.0", "description": "KomikHentaiku Clone with Scraping", "main": "server.js", "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
     "local:komiktap": "node server-komiktap.js",
