@@ -76,6 +76,7 @@ app.get('/api/home', async (req, res) => {
       const paged = paginate(allItems, page, 16);
       return res.json({
         popular: (DATA.home && DATA.home.popular) || allItems.slice(0, 15),
+        items: paged.items,
         latest: paged.items,
         pagination: paged.pagination,
         total: allItems.length
@@ -83,11 +84,13 @@ app.get('/api/home', async (req, res) => {
     }
 
     const home = await source.fetchHome();
+    const latest = home.latest || [];
     return res.json({
       popular: home.popular || [],
-      latest: home.latest || [],
+      items: latest,
+      latest,
       pagination: { currentPage: 1, totalPages: 1, perPage: 16, hasPrev: false, hasNext: false },
-      total: (home.latest || []).length
+      total: latest.length
     });
   } catch (error) {
     res.status(502).json({ error: error.message });
