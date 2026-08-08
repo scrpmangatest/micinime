@@ -8,9 +8,16 @@ const headers = {
   'Accept-Language': 'id-ID,id;q=0.9,en;q=0.8'
 };
 
-async function fetchHtml(url) {
-  const { data } = await axios.get(url, { headers, timeout: 15000 });
-  return data;
+async function fetchHtml(url, retries = 2) {
+  for (let i = 0; i <= retries; i++) {
+    try {
+      const { data } = await axios.get(url, { headers, timeout: 30000 });
+      return data;
+    } catch (e) {
+      if (i === retries) throw e;
+      await new Promise(r => setTimeout(r, 2000));
+    }
+  }
 }
 
 function localPath(href) {

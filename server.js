@@ -260,17 +260,36 @@ app.get('/api/local-source', (req, res) => {
 });
 
 app.get('/api/manga/:slug', async (req, res) => {
+  const slug = decodeURIComponent(req.params.slug);
+  const detailFile = path.join(DATA_DIR, 'manga', `${slug}.json`);
+
+  // Try live fetch first
   try {
-    const slug = decodeURIComponent(req.params.slug);
     const detail = await source.fetchManga(slug);
-    res.json(detail);
+    // Cache result for fallback
+    try {
+      if (!fs.existsSync(path.join(DATA_DIR, 'manga'))) fs.mkdirSync(path.join(DATA_DIR, 'manga'), { recursive: true });
+      fs.writeFileSync(detailFile, JSON.stringify(detail, null, 2));
+    } catch (_) {}
+    return res.json(detail);
   } catch (error) {
-    const local = findLocalItem(decodeURIComponent(req.params.slug));
-    if (local) {
-      return res.json({ ...local, chapters: [], genres: [], description: '', status: 'Unknown' });
-    }
-    res.status(502).json({ error: error.message });
+    console.error(`[manga] live fetch failed for ${slug}: ${error.message}`);
   }
+
+  // Fallback: read from local cache file
+  try {
+    if (fs.existsSync(detailFile)) {
+      const detail = JSON.parse(fs.readFileSync(detailFile, 'utf8'));
+      return res.json(detail);
+    }
+  } catch (_) {}
+
+  // Fallback: basic item from catalog
+  const local = findLocalItem(slug);
+  if (local) {
+    return res.json({ ...local, chapters: [], genres: [], description: '', status: 'Unknown' });
+  }
+  res.status(404).json({ error: 'Manga not found' });
 });
 
 app.get('/api/chapter/:slug', async (req, res) => {
