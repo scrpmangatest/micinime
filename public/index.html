@@ -2081,7 +2081,8 @@ const router = {
                         </div>
                     </div>
                 </div>
-                <div class="sidebar" id="sidebar-popular">
+                <div class="sidebar" id="sidebar-wrap">
+                    <div id="sidebar-popular"></div>
                     <div id="sidebar-genres"></div>
                 </div>
             </div>
@@ -2128,10 +2129,10 @@ const router = {
 
     async loadSidebarPopular() {
         try {
-            const sidebar = document.getElementById('sidebar-popular');
-            if (!sidebar) return;
+            const el = document.getElementById('sidebar-popular');
+            if (!el) return;
             const items = await this.fetchJson('/api/popular');
-            sidebar.innerHTML = `
+            el.innerHTML = `
                 <div class="sidebar-box">
                     <h3>Komik Populer</h3>
                     ${items.map(item => `
