@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+    <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js" defer></script>
     <script type="text/javascript">
         aclib.runAutoTag({
             zoneId: 'cqbpti3nk1',
@@ -64,12 +64,16 @@
     }
     </script>
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.href='https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap'">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </noscript>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        img { aspect-ratio: 285/425; width: 100%; height: auto; object-fit: cover; }
+        .chapter-img { aspect-ratio: unset; object-fit: contain; }
         :root {
             --primary-color: #2d091e;
             --bg-dark: #1a1a2e;
@@ -2302,7 +2306,7 @@ const router = {
             <div class="bixbox">
                 <div class="detail-container">
                     <div class="thumb-detail">
-                        <img src="${this.proxyImg(data.image)}" alt="${this.escapeHtml(data.title)}"
+                        <img src="${this.proxyImg(data.image)}" alt="${this.escapeHtml(data.title)}" width="300" height="450"
                              onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 450%22><rect fill=%22%23333%22 width=%22300%22 height=%22450%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
                         <button type="button" class="btn-bookmark ${isBm ? 'active' : ''}" id="btnBookmark"
                             data-slug="${this.escapeHtml(slug)}"
@@ -2579,7 +2583,7 @@ const router = {
     renderReader(data) {
         const images = data.images || [];
         const imagesHTML = images.map((img, i) => 
-            `<img src="${this.proxyImg(img)}" alt="Chapter page ${i + 1}" loading="lazy" onerror="this.style.display='none'">`
+            `<img src="${this.proxyImg(img)}" alt="Chapter page ${i + 1}" loading="lazy" class="chapter-img" onerror="this.style.display='none'">`
         ).join('');
 
         const chapters = data.chapters || [];

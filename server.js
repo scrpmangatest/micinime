@@ -120,7 +120,20 @@ function findLocalItem(slug) {
   return DATA.items.find(i => i.slug === slug) || null;
 }
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'), {
+  maxAge: '7d',
+  etag: true,
+  lastModified: true,
+  setHeaders(res, filePath) {
+    if (filePath.endsWith('.html')) {
+      res.set('Cache-Control', 'no-cache');
+    } else if (filePath.match(/\.(js|css)$/)) {
+      res.set('Cache-Control', 'public, max-age=604800');
+    } else if (filePath.match(/\.(png|jpg|jpeg|gif|svg|webp|ico)$/)) {
+      res.set('Cache-Control', 'public, max-age=2592000');
+    }
+  }
+}));
 app.use(express.json());
 
 app.get('/sitemap.xml', (req, res) => {
