@@ -66,7 +66,7 @@ function refreshData() {
 }
 setInterval(refreshData, 60 * 60 * 1000);
 
-const SCRAPE_EVERY_MS = Math.max(60_000, parseInt(process.env.SCRAPE_EVERY_MS || String(6 * 60 * 60 * 1000), 10));
+const SCRAPE_EVERY_MS = Math.max(60_000, parseInt(process.env.SCRAPE_EVERY_MS || String(1 * 60 * 60 * 1000), 10));
 const SCRAPE_ENABLED = String(process.env.SCRAPE_ENABLED || 'true').toLowerCase() !== 'false';
 let scrapeRunning = false;
 let lastScrapeStatus = null;
@@ -153,10 +153,15 @@ app.get('/api/proxy', async (req, res) => {
       return res.send(cached.buf);
     }
     const axios = require('axios');
+    const UA_LIST = [
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0'
+    ];
     const r = await axios.get(url, {
       responseType: 'arraybuffer',
       timeout: 15000,
-      headers: { 'User-Agent': 'Mozilla/5.0', Referer: 'https://komiktap.info/' }
+      headers: { 'User-Agent': UA_LIST[Math.floor(Math.random() * UA_LIST.length)], Referer: 'https://komiktap.info/' }
     });
     const ct = r.headers['content-type'] || 'image/jpeg';
     imageCache.set(url, { buf: Buffer.from(r.data), ct, ts: Date.now() });
@@ -262,11 +267,29 @@ app.get('/api/local-source', (req, res) => {
 app.get('/api/manga/:slug', async (req, res) => {
   const slug = decodeURIComponent(req.params.slug);
   const detailFile = path.join(DATA_DIR, 'manga', `${slug}.json`);
+  const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
 
-  // Try live fetch first
+  // Check if fresh cache exists
+  let cachedDetail = null;
+  try {
+    if (fs.existsSync(detailFile)) {
+      const stat = fs.statSync(detailFile);
+      const age = Date.now() - stat.mtimeMs;
+      if (age < CACHE_TTL) {
+        cachedDetail = JSON.parse(fs.readFileSync(detailFile, 'utf8'));
+      }
+    }
+  } catch (_) {}
+
+  // Return fresh cache immediately
+  if (cachedDetail && cachedDetail.chapters && cachedDetail.chapters.length) {
+    return res.json(cachedDetail);
+  }
+
+  // Try live fetch
   try {
     const detail = await source.fetchManga(slug);
-    // Cache result for fallback
+    // Cache result
     try {
       if (!fs.existsSync(path.join(DATA_DIR, 'manga'))) fs.mkdirSync(path.join(DATA_DIR, 'manga'), { recursive: true });
       fs.writeFileSync(detailFile, JSON.stringify(detail, null, 2));
@@ -276,7 +299,12 @@ app.get('/api/manga/:slug', async (req, res) => {
     console.error(`[manga] live fetch failed for ${slug}: ${error.message}`);
   }
 
-  // Fallback: read from local cache file
+  // Fallback: stale cache (has chapters even if old)
+  if (cachedDetail) {
+    return res.json(cachedDetail);
+  }
+
+  // Fallback: local cache file (from scraper)
   try {
     if (fs.existsSync(detailFile)) {
       const detail = JSON.parse(fs.readFileSync(detailFile, 'utf8'));
@@ -293,12 +321,46 @@ app.get('/api/manga/:slug', async (req, res) => {
 });
 
 app.get('/api/chapter/:slug', async (req, res) => {
+  const slug = decodeURIComponent(req.params.slug);
+  const chapterFile = path.join(DATA_DIR, 'chapters', `${slug}.json`);
+
+  // Check local cache first (from scraper)
   try {
-    const slug = decodeURIComponent(req.params.slug);
+    if (fs.existsSync(chapterFile)) {
+      const stat = fs.statSync(chapterFile);
+      const age = Date.now() - stat.mtimeMs;
+      if (age < 7 * 24 * 60 * 60 * 1000) { // 7 days
+        const data = JSON.parse(fs.readFileSync(chapterFile, 'utf8'));
+        if (data && data.images && data.images.length) {
+          recordRead(data.mangaSlug || '');
+          return res.json(data);
+        }
+      }
+    }
+  } catch (_) {}
+
+  // Live fetch
+  try {
     const data = await source.fetchChapter(slug);
+    // Cache result
+    try {
+      const dir = path.join(DATA_DIR, 'chapters');
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+      fs.writeFileSync(chapterFile, JSON.stringify(data, null, 2));
+    } catch (_) {}
     recordRead(data.mangaSlug || '');
-    res.json(data);
+    return res.json(data);
   } catch (error) {
+    // Fallback: stale cache
+    try {
+      if (fs.existsSync(chapterFile)) {
+        const data = JSON.parse(fs.readFileSync(chapterFile, 'utf8'));
+        if (data && data.images && data.images.length) {
+          recordRead(data.mangaSlug || '');
+          return res.json(data);
+        }
+      }
+    } catch (_) {}
     res.status(502).json({ error: error.message });
   }
 });

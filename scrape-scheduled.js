@@ -11,12 +11,28 @@ const path = require('path');
 
 const BASE_URL = process.env.SCRAPE_BASE_URL || 'https://komiktap.info';
 const DATA_DIR = path.join(__dirname, 'data');
-const DELAY_MS = Math.max(300, parseInt(process.env.SCRAPE_DELAY_MS || '700', 10));
+const DELAY_MS = Math.max(1000, parseInt(process.env.SCRAPE_DELAY_MS || '3000', 10));
 const MAX_MS = Math.max(60_000, parseInt(process.env.SCRAPE_MAX_MS || String(10 * 60 * 1000), 10)); // 10 min
 const LATEST_PAGES = Math.max(1, parseInt(process.env.SCRAPE_LATEST_PAGES || '4', 10));
 
+const USER_AGENTS = [
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0',
+  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36'
+];
+
+function randomUA() {
+  return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
+}
+
+function randomDelay() {
+  return DELAY_MS + Math.floor(Math.random() * 2000); // base + 0-2s random
+}
+
 const headers = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'User-Agent': randomUA(),
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
   'Accept-Language': 'en-US,en;q=0.5'
 };
@@ -69,10 +85,11 @@ function slugFromPath(p) {
 async function fetchPage(url, retries = 2) {
   for (let i = 0; i < retries; i++) {
     try {
-      const res = await axios.get(url, { headers, timeout: 20000 });
+      const reqHeaders = { ...headers, 'User-Agent': randomUA() };
+      const res = await axios.get(url, { headers: reqHeaders, timeout: 30000 });
       return res.data;
     } catch (err) {
-      if (i < retries - 1) await sleep(1000 * (i + 1));
+      if (i < retries - 1) await sleep(randomDelay());
     }
   }
   return null;
@@ -141,7 +158,7 @@ async function scrapeLatestList(deadline) {
         });
       });
     }
-    await sleep(DELAY_MS);
+    await sleep(randomDelay());
   }
 
   // update-ordered list pages
@@ -167,7 +184,7 @@ async function scrapeLatestList(deadline) {
         chapterUrl: null
       });
     });
-    await sleep(DELAY_MS);
+    await sleep(randomDelay());
   }
 
   return items;
@@ -336,7 +353,7 @@ async function runScheduledScrape(options = {}) {
           };
           saveJson(listFile, mangaMap);
         }
-        await sleep(DELAY_MS);
+        await sleep(randomDelay());
       }
 
       if (now() >= deadline) {
@@ -362,7 +379,7 @@ async function runScheduledScrape(options = {}) {
         console.log(`[scrape] chapter ${chSlug}`);
         const scraped = await scrapeChapter(chSlug, deadline);
         if (scraped && scraped.imageCount > 0) status.chaptersScraped++;
-        await sleep(DELAY_MS);
+        await sleep(randomDelay());
       }
 
       // if latest card pointed to a chapter URL, ensure that chapter exists
@@ -373,7 +390,7 @@ async function runScheduledScrape(options = {}) {
           if (!fs.existsSync(chFile)) {
             const scraped = await scrapeChapter(chSlug, deadline);
             if (scraped && scraped.imageCount > 0) status.chaptersScraped++;
-            await sleep(DELAY_MS);
+            await sleep(randomDelay());
           }
         }
       }
