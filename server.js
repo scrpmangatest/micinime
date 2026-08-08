@@ -51,6 +51,30 @@ function mergeIncrementalData() {
 }
 mergeIncrementalData();
 
+// Build genre index from data/manga/*.json files
+const GENRE_INDEX = {}; // { genreSlug: Set<slug> }
+function buildGenreIndex() {
+  const mangaDir = path.join(DATA_DIR, 'manga');
+  if (!fs.existsSync(mangaDir)) return;
+  const files = fs.readdirSync(mangaDir);
+  let count = 0;
+  for (const f of files) {
+    try {
+      const m = JSON.parse(fs.readFileSync(path.join(mangaDir, f), 'utf8'));
+      if (!m.slug || !m.genres) continue;
+      for (const g of m.genres) {
+        const gSlug = (g.slug || g.name || '').toLowerCase().replace(/\s+/g, '-');
+        if (!gSlug) continue;
+        if (!GENRE_INDEX[gSlug]) GENRE_INDEX[gSlug] = new Set();
+        GENRE_INDEX[gSlug].add(m.slug);
+        count++;
+      }
+    } catch (_) {}
+  }
+  console.log(`[genre-index] built: ${Object.keys(GENRE_INDEX).length} genres, ${count} mappings`);
+}
+buildGenreIndex();
+
 // Re-read files periodically to pick up scraper updates
 function refreshData() {
   try {
@@ -514,37 +538,42 @@ app.get('/api/genres/:slug', async (req, res) => {
     const page = Math.max(1, Number(req.query.page) || 1);
     const genreInfo = (DATA && DATA.genres && DATA.genres.find(g => g.slug === slug))
       || { name: slug, slug, count: 0 };
-    const result = await source.fetchGenreDetail(slug, page);
-    res.json({ genre: genreInfo, items: result.items, pagination: result.pagination });
+
+    // Build manga list from genre index (data/manga/*.json files)
+    let items = [];
+    const indexSlugs = GENRE_INDEX[slug] || new Set();
+    if (indexSlugs.size > 0 && DATA && Array.isArray(DATA.items)) {
+      const slugSet = indexSlugs;
+      items = DATA.items.filter(i => slugSet.has(i.slug));
+    }
+
+    // Merge with live scrape results (may add items not in catalog yet)
+    try {
+      const liveResult = await source.fetchGenreDetail(slug, page);
+      const liveSlugs = new Set(items.map(i => i.slug));
+      for (const item of (liveResult.items || [])) {
+        if (!liveSlugs.has(item.slug)) items.push(item);
+      }
+      // Use live pagination if available
+      if (items.length === 0) {
+        items = liveResult.items || [];
+      }
+    } catch (_) {}
+
+    const perPage = 20;
+    const totalPages = Math.max(1, Math.ceil(items.length / perPage));
+    const paged = items.slice((page - 1) * perPage, page * perPage);
+
+    res.json({
+      genre: { ...genreInfo, count: items.length || genreInfo.count },
+      items: paged,
+      pagination: { currentPage: page, totalPages, hasPrev: page > 1, hasNext: page < totalPages }
+    });
   } catch (error) {
     res.status(502).json({ error: error.message });
   }
 });
 
-app.get('/debug/genre-html', async (req, res) => {
-  try {
-    const html = await source.fetchHtml('https://komiktap.info/genres/ahego/');
-    const $ = require('cheerio').load(html);
-    const body = $('body').html() || '';
-    const selectors = ['.listupd .bs', '.bs', '.bsx', '.listupd', '.page-item-detail', '.manga', '.series', '.post-body', '.entry-header'];
-    const found = {};
-    for (const sel of selectors) {
-      found[sel] = $(sel).length;
-    }
-    const listupd = $('.listupd').html() || '';
-    const bsCount = (listupd.match(/class="bs\b/g) || []).length;
-    const bsxCount = (listupd.match(/class="bsx\b/g) || []).length;
-    res.type('text').send(
-      'Selectors found: ' + JSON.stringify(found, null, 2) + '\n\n' +
-      'listupd bs count: ' + bsCount + '\n' +
-      'listupd bsx count: ' + bsxCount + '\n\n' +
-      'First 5000 chars of listupd:\n' + listupd.substring(0, 5000) + '\n\n' +
-      'All class attrs with "bs": ' + [...new Set(body.match(/class="[^"]*bs[^"]*"/g) || [])].join('\n')
-    );
-  } catch (e) {
-    res.type('text').send('Error: ' + e.message);
-  }
-});
 
 app.get('/api/az', async (req, res) => {
   try {
