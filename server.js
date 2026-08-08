@@ -760,6 +760,71 @@ app.get('/api/scrape', async (req, res) => {
   }
 });
 
+function loadMangaDetail(slug) {
+  // Try catalog first
+  if (DATA && DATA.items) {
+    const item = DATA.items.find(i => i.slug === slug);
+    if (item) {
+      // Load detail file for genres/chapters
+      try {
+        const df = path.join(DATA_DIR, 'manga', `${slug}.json`);
+        if (fs.existsSync(df)) {
+          const d = JSON.parse(fs.readFileSync(df, 'utf8'));
+          return { ...item, genres: d.genres || [], chapters: d.chapters || [], description: d.description || '', status: d.status || '' };
+        }
+      } catch (_) {}
+      return item;
+    }
+  }
+  // Try detail file directly
+  try {
+    const df = path.join(DATA_DIR, 'manga', `${slug}.json`);
+    if (fs.existsSync(df)) return JSON.parse(fs.readFileSync(df, 'utf8'));
+  } catch (_) {}
+  return null;
+}
+
+function buildMangaSsr(detail, proto, host) {
+  const genres = (detail.genres || []).map(g =>
+    `<a href="/genres/${encodeURIComponent((g.name || '').toLowerCase().replace(/\s+/g, '-'))}" style="display:inline-block;padding:4px 10px;background:#1a1a2e;border:1px solid #333;border-radius:4px;color:#e0e0e0;text-decoration:none;font-size:13px;margin:2px;">${escapeHtmlText(g.name)}</a>`
+  ).join('');
+  const chapters = (detail.chapters || []).slice(0, 50).map(ch =>
+    `<li style="padding:8px 12px;border-bottom:1px solid #222;">
+      <a href="${escapeHtmlText(ch.url || '#')}" style="color:#e0e0e0;text-decoration:none;">${escapeHtmlText(ch.title || '')}</a>
+      ${ch.date ? `<span style="color:#888;font-size:12px;margin-left:8px;">${escapeHtmlText(ch.date)}</span>` : ''}
+    </li>`
+  ).join('');
+
+  const chapterCount = (detail.chapters || []).length;
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ComicSeries',
+    name: detail.title,
+    image: detail.image || '',
+    description: detail.description || `Baca ${detail.title} sub Indonesia gratis di micinime.`,
+    genre: (detail.genres || []).map(g => g.name),
+    numberOfEpisodes: chapterCount,
+    url: `${proto}://${host}/manga/${encodeURIComponent(detail.slug || '')}`
+  };
+
+  return `
+    <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
+    <div style="max-width:900px;margin:0 auto;padding:20px;color:#e0e0e0;font-family:sans-serif;">
+      <h1 style="font-size:24px;margin-bottom:12px;">${escapeHtmlText(detail.title || '')}</h1>
+      <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:20px;">
+        ${detail.image ? `<img src="${escapeHtmlText(detail.image)}" alt="${escapeHtmlText(detail.title || '')}" style="width:200px;border-radius:8px;" loading="lazy">` : ''}
+        <div style="flex:1;min-width:200px;">
+          ${detail.status ? `<p><b>Status:</b> ${escapeHtmlText(detail.status)}</p>` : ''}
+          ${detail.type ? `<p><b>Type:</b> ${escapeHtmlText(detail.type)}</p>` : ''}
+          ${detail.rating ? `<p><b>Rating:</b> ${escapeHtmlText(detail.rating)}</p>` : ''}
+          ${detail.description ? `<p style="font-size:14px;color:#aaa;margin-top:10px;">${escapeHtmlText(detail.description)}</p>` : ''}
+          ${genres ? `<div style="margin-top:10px;">${genres}</div>` : ''}
+        </div>
+      </div>
+      ${chapters ? `<h2 style="font-size:18px;margin:20px 0 10px;">Chapter List (${chapterCount})</h2><ul style="list-style:none;padding:0;margin:0;">${chapters}</ul>` : ''}
+    </div>`;
+}
+
 function buildSeoHtml(req) {
   const indexPath = path.join(__dirname, 'public', 'index.html');
   let html = fs.readFileSync(indexPath, 'utf8');
@@ -771,15 +836,17 @@ function buildSeoHtml(req) {
   let title = 'micinime - Baca Manga & Manhwa Hentai Sub Indo Gratis';
   let desc = 'Baca manga dan manhwa hentai sub Indonesia gratis di micinime. Update chapter terbaru setiap hari, koleksi lengkap, nyaman dibaca di HP dan PC.';
   let image = `${proto}://${host}/logo.svg`;
+  let ssrContent = '';
 
   const mangaMatch = pathName.match(/^\/manga\/([^/]+)$/);
   if (mangaMatch) {
     const slug = decodeURIComponent(mangaMatch[1]);
-    const local = findLocalItem(slug);
-    if (local && local.title) {
-      title = `${local.title} - Baca Manga Hentai Sub Indo | micinime`;
-      desc = `Baca ${local.title} bahasa Indonesia gratis di micinime. Update chapter terbaru.`.slice(0, 160);
-      if (local.image) image = local.image;
+    const detail = loadMangaDetail(slug);
+    if (detail && detail.title) {
+      title = `${detail.title} - Baca Manga Hentai Sub Indo | micinime`;
+      desc = `Baca ${detail.title} bahasa Indonesia gratis di micinime. ${detail.genres ? 'Genre: ' + detail.genres.map(g => g.name).join(', ') + '.' : ''} Update chapter terbaru.`.slice(0, 160);
+      if (detail.image) image = detail.image;
+      ssrContent = buildMangaSsr(detail, proto, host);
     }
   } else if (pathName === '/genres') {
     title = 'Daftar Genre Manga & Manhwa Hentai Sub Indo | micinime';
@@ -803,6 +870,10 @@ function buildSeoHtml(req) {
   html = html.replace(/<meta\s+name=["']twitter:title["'][^>]*>/i, `<meta name="twitter:title" content="${escapeHtmlText(title)}">`);
   html = html.replace(/<meta\s+name=["']twitter:description["'][^>]*>/i, `<meta name="twitter:description" content="${escapeHtmlText(desc)}">`);
   html = html.replace(/<meta\s+name=["']twitter:image["'][^>]*>/i, `<meta name="twitter:image" content="${escapeHtmlText(image)}">`);
+
+  if (ssrContent) {
+    html = html.replace(/<div id="appContent"[\s\S]*?<\/div>/i, `<div id="appContent">${ssrContent}</div>`);
+  }
 
   return html;
 }
