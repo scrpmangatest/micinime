@@ -68,6 +68,22 @@ function findLocalItem(slug) {
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
+app.get('/sitemap.xml', (req, res) => {
+  res.set('Content-Type', 'application/xml');
+  const items = (DATA && DATA.items) || [];
+  const urls = items.map(i => {
+    const slug = i.slug || '';
+    const loc = `https://micinime.my.id/manga/${encodeURIComponent(slug)}`;
+    return `  <url><loc>${loc}</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>`;
+  }).join('\n');
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://micinime.my.id</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+${urls}
+</urlset>`;
+  res.send(xml);
+});
+
 const imageCache = new Map();
 const IMAGE_CACHE_TTL = 24 * 60 * 60 * 1000;
 
