@@ -3151,9 +3151,15 @@ function loadAZPage(show, page) {
 
 // Handle browser back/forward
 window.onpopstate = () => {
-    console.log('Popstate triggered');
     router.routes();
 };
+
+// Clean Chatango notification dots from title
+setInterval(() => {
+    if (document.title && (document.title.includes('\u{1F534}') || document.title.includes('\u{1F7E2}'))) {
+        document.title = document.title.replace(/[\u{1F534}\u{1F7E2}\u{1F535}\u{1F7E1}\u{1F7E3}\u{1F7E4}]/gu, '').replace(/^\s+/, '').trim();
+    }
+}, 1000);
 
 // Search form handler
 document.getElementById('searchForm').addEventListener('submit', function(e) {
