@@ -2721,7 +2721,8 @@ const router = {
     },
 
     bindNavLinks() {
-        document.querySelectorAll('.nav-link').forEach(link => {
+        document.querySelectorAll('.nav-link:not([data-bound])').forEach(link => {
+            link.setAttribute('data-bound', '1');
             const url = link.getAttribute('data-url');
             if (url && link.getAttribute('href') === '#') {
                 link.setAttribute('href', url);
