@@ -186,7 +186,7 @@ async function getPopularBases() {
     const item = findLocalItem(slug);
     if (item) {
       bases.push({
-        slug: item.slug, title: item.title, image: item.image || null,
+        slug: item.slug, title: item.title, url: `/manga/${item.slug}`, image: item.image || null,
         chapter: item.chapter || '', type: item.type || 'Manga', genres: item.genres || []
       });
     }
@@ -203,7 +203,7 @@ async function getPopularBases() {
       if (seen.has(p.slug)) continue;
       seen.add(p.slug);
       bases.push({
-        slug: p.slug, title: p.title, image: p.image || null,
+        slug: p.slug, title: p.title, url: p.url || `/manga/${p.slug}`, image: p.image || null,
         chapter: p.chapter || '', type: p.type || 'Manga', genres: p.genres || []
       });
     }
