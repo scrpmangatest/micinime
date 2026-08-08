@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /bookmark
+Disallow: /history
+
+Sitemap: https://micinime.my.id/sitemap.xml
