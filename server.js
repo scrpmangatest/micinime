@@ -269,6 +269,19 @@ app.get('/api/manga/:slug', async (req, res) => {
   const detailFile = path.join(DATA_DIR, 'manga', `${slug}.json`);
   const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
 
+  const catalogItem = findLocalItem(slug);
+
+  function mergeWithCatalog(data) {
+    if (!data) return data;
+    const merged = { ...data };
+    if (!merged.image && catalogItem?.image) merged.image = catalogItem.image;
+    if ((!merged.title || merged.title === slug) && catalogItem?.title) merged.title = catalogItem.title;
+    if (!merged.rating && catalogItem?.rating) merged.rating = catalogItem.rating;
+    if (!merged.type && catalogItem?.type) merged.type = catalogItem.type;
+    if (!merged.url) merged.url = catalogItem?.url || `/manga/${slug}`;
+    return merged;
+  }
+
   // Check if fresh cache exists
   let cachedDetail = null;
   try {
@@ -281,41 +294,41 @@ app.get('/api/manga/:slug', async (req, res) => {
     }
   } catch (_) {}
 
-  // Return fresh cache immediately
+  // Return fresh cache immediately (merged with catalog for image/title)
   if (cachedDetail && cachedDetail.chapters && cachedDetail.chapters.length) {
-    return res.json(cachedDetail);
+    return res.json(mergeWithCatalog(cachedDetail));
   }
 
   // Try live fetch
   try {
     const detail = await source.fetchManga(slug);
+    const merged = mergeWithCatalog(detail);
     // Cache result
     try {
       if (!fs.existsSync(path.join(DATA_DIR, 'manga'))) fs.mkdirSync(path.join(DATA_DIR, 'manga'), { recursive: true });
-      fs.writeFileSync(detailFile, JSON.stringify(detail, null, 2));
+      fs.writeFileSync(detailFile, JSON.stringify(merged, null, 2));
     } catch (_) {}
-    return res.json(detail);
+    return res.json(merged);
   } catch (error) {
     console.error(`[manga] live fetch failed for ${slug}: ${error.message}`);
   }
 
   // Fallback: stale cache (has chapters even if old)
   if (cachedDetail) {
-    return res.json(cachedDetail);
+    return res.json(mergeWithCatalog(cachedDetail));
   }
 
   // Fallback: local cache file (from scraper)
   try {
     if (fs.existsSync(detailFile)) {
       const detail = JSON.parse(fs.readFileSync(detailFile, 'utf8'));
-      return res.json(detail);
+      return res.json(mergeWithCatalog(detail));
     }
   } catch (_) {}
 
   // Fallback: basic item from catalog
-  const local = findLocalItem(slug);
-  if (local) {
-    return res.json({ ...local, chapters: [], genres: [], description: '', status: 'Unknown' });
+  if (catalogItem) {
+    return res.json({ ...catalogItem, chapters: [], genres: [], description: '', status: 'Unknown' });
   }
   res.status(404).json({ error: 'Manga not found' });
 });
