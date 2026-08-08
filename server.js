@@ -52,13 +52,22 @@ function mergeIncrementalData() {
 mergeIncrementalData();
 
 // Build genre index from data/manga/*.json files
-const GENRE_INDEX = {}; // { genreSlug: Set<slug> }
+const GENRE_INDEX = {}; // { genreSlug: Set<catalogSlug> }
 function buildGenreIndex() {
   // Build name→slug map from genre list
   const nameToSlug = {};
   if (DATA && DATA.genres) {
     for (const g of DATA.genres) {
       nameToSlug[(g.name || '').toLowerCase().trim()] = g.slug;
+    }
+  }
+
+  // Build title→catalogSlug map for matching
+  const titleToSlug = {};
+  if (DATA && DATA.items) {
+    for (const item of DATA.items) {
+      const t = (item.title || '').toLowerCase().trim();
+      if (t) titleToSlug[t] = item.slug;
     }
   }
 
@@ -69,15 +78,25 @@ function buildGenreIndex() {
   for (const f of files) {
     try {
       const m = JSON.parse(fs.readFileSync(path.join(mangaDir, f), 'utf8'));
-      if (!m.slug || !m.genres) continue;
+      if (!m.genres || !m.genres.length) continue;
+
+      // Find catalog slug: try filename slug first, then title match
+      const fileSlug = f.replace('.json', '');
+      let catalogSlug = null;
+      if (DATA && DATA.items && DATA.items.some(i => i.slug === fileSlug)) {
+        catalogSlug = fileSlug;
+      } else if (m.title) {
+        catalogSlug = titleToSlug[m.title.toLowerCase().trim()] || null;
+      }
+      if (!catalogSlug) continue;
+
       for (const g of m.genres) {
         const name = (g.name || '').toLowerCase().trim();
         const rawSlug = (g.slug || name || '').toLowerCase().replace(/\s+/g, '-');
-        // Prefer correct slug from genre list by matching name
         const gSlug = nameToSlug[name] || rawSlug;
         if (!gSlug) continue;
         if (!GENRE_INDEX[gSlug]) GENRE_INDEX[gSlug] = new Set();
-        GENRE_INDEX[gSlug].add(m.slug);
+        GENRE_INDEX[gSlug].add(catalogSlug);
         count++;
       }
     } catch (_) {}
@@ -554,12 +573,15 @@ app.get('/api/genres/:slug', async (req, res) => {
     const genreInfo = (DATA && DATA.genres && DATA.genres.find(g => g.slug === slug))
       || { name: slug, slug, count: 0 };
 
-    // Build manga list from genre index (data/manga/*.json files)
+    // Build manga list from genre index (only catalog slugs)
     let items = [];
     const indexSlugs = GENRE_INDEX[slug] || new Set();
     if (indexSlugs.size > 0 && DATA && Array.isArray(DATA.items)) {
-      const slugSet = indexSlugs;
-      items = DATA.items.filter(i => slugSet.has(i.slug));
+      const catalogMap = new Map(DATA.items.map(i => [i.slug, i]));
+      for (const mSlug of indexSlugs) {
+        const item = catalogMap.get(mSlug);
+        if (item) items.push(item);
+      }
     }
 
     const perPage = 20;
