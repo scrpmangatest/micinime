@@ -147,20 +147,40 @@ app.get('/api/proxy', async (req, res) => {
   }
 });
 
-function enrichItemFromDetail(item) {
+const missingImageCache = new Map();
+
+async function enrichItemFromDetail(item) {
   if (item.image && item.chapter) return item;
   try {
     const df = path.join(DATA_DIR, 'manga', `${item.slug}.json`);
-    if (!fs.existsSync(df)) return item;
-    const detail = JSON.parse(fs.readFileSync(df, 'utf8'));
-    return {
-      ...item,
-      image: item.image || detail.image || null,
-      chapter: item.chapter || (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || '',
-      rating: item.rating || detail.rating || '',
-      type: item.type || detail.type || 'Manga'
-    };
-  } catch (_) { return item; }
+    if (fs.existsSync(df)) {
+      const detail = JSON.parse(fs.readFileSync(df, 'utf8'));
+      return {
+        ...item,
+        image: item.image || detail.image || null,
+        chapter: item.chapter || (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || '',
+        rating: item.rating || detail.rating || '',
+        type: item.type || detail.type || 'Manga'
+      };
+    }
+  } catch (_) {}
+  if (item.image) return item;
+  const cached = missingImageCache.get(item.slug);
+  if (cached) return { ...item, image: cached };
+  try {
+    const axios = require('axios');
+    const r = await axios.get(`https://komiktap.info/manga/${item.slug}/`, {
+      timeout: 10000,
+      headers: { 'User-Agent': 'Mozilla/5.0', Referer: 'https://komiktap.info/' }
+    });
+    const $ = require('cheerio').load(r.data);
+    const img = $('meta[property="og:image"]').attr('content') || $('.thumb img').attr('src') || null;
+    if (img) {
+      missingImageCache.set(item.slug, img);
+      return { ...item, image: img };
+    }
+  } catch (_) {}
+  return item;
 }
 
 app.get('/api/home', async (req, res) => {
@@ -169,8 +189,8 @@ app.get('/api/home', async (req, res) => {
     if (DATA && Array.isArray(DATA.items) && DATA.items.length) {
       const allItems = DATA.items;
       const paged = paginate(allItems, page, 16);
-      paged.items = paged.items.map(enrichItemFromDetail);
-      const pop = ((DATA.home && DATA.home.popular) || allItems.slice(0, 15)).map(enrichItemFromDetail);
+      paged.items = await Promise.all(paged.items.map(enrichItemFromDetail));
+      const pop = await Promise.all(((DATA.home && DATA.home.popular) || allItems.slice(0, 15)).map(enrichItemFromDetail));
       return res.json({
         popular: pop,
         items: paged.items,
