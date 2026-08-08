@@ -2081,8 +2081,9 @@ const router = {
                         </div>
                     </div>
                 </div>
-                <div class="sidebar" id="sidebar-popular"></div>
-                <div class="sidebar" id="sidebar-genres"></div>
+                <div class="sidebar" id="sidebar-popular">
+                    <div id="sidebar-genres"></div>
+                </div>
             </div>
         `;
         
@@ -2157,11 +2158,11 @@ const router = {
 
     async loadSidebarGenres() {
         try {
-            const sidebar = document.getElementById('sidebar-genres');
-            if (!sidebar) return;
+            const container = document.getElementById('sidebar-genres');
+            if (!container) return;
             const res = await this.fetchJson('/api/genres');
             const genres = (res.genres || []).sort((a, b) => (b.count || 0) - (a.count || 0)).slice(0, 20);
-            sidebar.innerHTML = `
+            container.innerHTML = `
                 <div class="sidebar-box">
                     <h3>Genre Populer</h3>
                     <div style="display:flex;flex-wrap:wrap;gap:6px;padding:4px 0;">
