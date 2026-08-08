@@ -54,6 +54,14 @@ mergeIncrementalData();
 // Build genre index from data/manga/*.json files
 const GENRE_INDEX = {}; // { genreSlug: Set<slug> }
 function buildGenreIndex() {
+  // Build name→slug map from genre list
+  const nameToSlug = {};
+  if (DATA && DATA.genres) {
+    for (const g of DATA.genres) {
+      nameToSlug[(g.name || '').toLowerCase().trim()] = g.slug;
+    }
+  }
+
   const mangaDir = path.join(DATA_DIR, 'manga');
   if (!fs.existsSync(mangaDir)) return;
   const files = fs.readdirSync(mangaDir);
@@ -63,7 +71,10 @@ function buildGenreIndex() {
       const m = JSON.parse(fs.readFileSync(path.join(mangaDir, f), 'utf8'));
       if (!m.slug || !m.genres) continue;
       for (const g of m.genres) {
-        const gSlug = (g.slug || g.name || '').toLowerCase().replace(/\s+/g, '-');
+        const name = (g.name || '').toLowerCase().trim();
+        const rawSlug = (g.slug || name || '').toLowerCase().replace(/\s+/g, '-');
+        // Prefer correct slug from genre list by matching name
+        const gSlug = nameToSlug[name] || rawSlug;
         if (!gSlug) continue;
         if (!GENRE_INDEX[gSlug]) GENRE_INDEX[gSlug] = new Set();
         GENRE_INDEX[gSlug].add(m.slug);
