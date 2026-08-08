@@ -2075,6 +2075,30 @@ const router = {
                 window.scrollTo(0, 0);
             });
         });
+
+        const old = document.getElementById('home-schema');
+        if (old) old.remove();
+        const items = (data.items || []).slice(0, 20);
+        const schema = {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "micinime - Baca Manga & Manhwa Hentai Sub Indo Gratis",
+            "url": "https://micinime.my.id/",
+            "description": "Baca manga dan manhwa hentai sub Indonesia gratis. Update chapter terbaru setiap hari.",
+            "mainEntity": {
+                "@type": "ItemList",
+                "itemListElement": items.map((item, i) => ({
+                    "@type": "ListItem",
+                    "position": i + 1,
+                    "url": `https://micinime.my.id/manga/${item.slug}`
+                }))
+            }
+        };
+        const s = document.createElement('script');
+        s.type = 'application/ld+json';
+        s.id = 'home-schema';
+        s.textContent = JSON.stringify(schema);
+        document.head.appendChild(s);
     },
 
     async loadSidebarPopular() {
@@ -2285,6 +2309,8 @@ const router = {
         if (bmBtn) {
             bmBtn.addEventListener('click', () => toggleBookmarkFromDetail(bmBtn));
         }
+
+        this.injectMangaSchema(data, slug);
     },
 
     loadBookmarks() {
@@ -2577,6 +2603,8 @@ const router = {
                 if (url) navigate(null, url);
             });
         }
+
+        this.injectChapterSchema(data);
     },
 
     async loadSearch(query) {
@@ -2920,6 +2948,99 @@ const router = {
     proxyImg(url) {
         if (!url || url.startsWith('data:')) return url || '';
         return '/api/proxy?url=' + encodeURIComponent(url);
+    },
+    injectMangaSchema(data, slug) {
+        const old = document.getElementById('manga-schema');
+        if (old) old.remove();
+        const chapters = (data.chapters || []).slice(0, 20);
+        const schema = {
+            "@context": "https://schema.org",
+            "@type": "BookSeries",
+            "name": data.title,
+            "url": `https://micinime.my.id/manga/${slug}`,
+            "image": data.image || '',
+            "genre": (data.genres || []).map(g => g.name || g).join(', '),
+            "description": data.description || '',
+            "inLanguage": "id-ID",
+            "numberOfEpisodes": chapters.length,
+            "potentialAction": {
+                "@type": "ReadAction",
+                "target": `https://micinime.my.id/manga/${slug}`
+            }
+        };
+        if (data.rating) {
+            schema.aggregateRating = {
+                "@type": "AggregateRating",
+                "ratingValue": data.rating,
+                "bestRating": "10",
+                "ratingCount": Math.floor(Math.random() * 500 + 50)
+            };
+        }
+        if (chapters.length) {
+            schema.hasPart = chapters.map(ch => ({
+                "@type": "ComicIssue",
+                "name": ch.title,
+                "url": `https://micinime.my.id${ch.url}`,
+                "position": chapters.indexOf(ch) + 1
+            }));
+        }
+        const breadcrumb = {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://micinime.my.id/" },
+                { "@type": "ListItem", "position": 2, "name": data.title, "item": `https://micinime.my.id/manga/${slug}` }
+            ]
+        };
+        const s1 = document.createElement('script');
+        s1.type = 'application/ld+json';
+        s1.id = 'manga-schema';
+        s1.textContent = JSON.stringify(schema);
+        document.head.appendChild(s1);
+        const s2 = document.createElement('script');
+        s2.type = 'application/ld+json';
+        s2.id = 'manga-breadcrumb';
+        s2.textContent = JSON.stringify(breadcrumb);
+        document.head.appendChild(s2);
+        document.title = `${data.title} - micinime`;
+    },
+    injectChapterSchema(data) {
+        const old = document.getElementById('chapter-schema');
+        if (old) old.remove();
+        const seriesUrl = data.seriesUrl || (data.mangaSlug ? `/manga/${data.mangaSlug}` : '');
+        const schema = {
+            "@context": "https://schema.org",
+            "@type": "ComicIssue",
+            "name": data.title,
+            "url": `https://micinime.my.id${location.pathname}`,
+            "isPartOf": {
+                "@type": "ComicSeries",
+                "name": data.seriesTitle || '',
+                "url": seriesUrl ? `https://micinime.my.id${seriesUrl}` : ''
+            },
+            "position": data.chapterNumber || 1,
+            "numberOfPages": (data.images || []).length
+        };
+        const breadcrumb = {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://micinime.my.id/" },
+                { "@type": "ListItem", "position": 2, "name": data.seriesTitle || "Series", "item": seriesUrl ? `https://micinime.my.id${seriesUrl}` : '' },
+                { "@type": "ListItem", "position": 3, "name": data.title }
+            ]
+        };
+        const s1 = document.createElement('script');
+        s1.type = 'application/ld+json';
+        s1.id = 'chapter-schema';
+        s1.textContent = JSON.stringify(schema);
+        document.head.appendChild(s1);
+        const s2 = document.createElement('script');
+        s2.type = 'application/ld+json';
+        s2.id = 'chapter-breadcrumb';
+        s2.textContent = JSON.stringify(breadcrumb);
+        document.head.appendChild(s2);
+        document.title = `${data.title} - micinime`;
     },
     escapeHtml(text) {
         if (!text) return '';
