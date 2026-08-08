@@ -11,39 +11,17 @@ const READS_FILE = path.join(DATA_DIR, 'reads.json');
 
 let DATA = loadLocal();
 
-// Merge incremental scraper data from manga-list.json + data/manga/*.json
-function mergeIncrementalData() {
+// Re-read komiktap.json periodically to pick up scraper updates
+function refreshData() {
   try {
-    const listFile = path.join(DATA_DIR, 'manga-list.json');
-    if (!fs.existsSync(listFile)) return;
-    const list = JSON.parse(fs.readFileSync(listFile, 'utf8'));
-    if (!DATA || !Array.isArray(DATA.items)) return;
-    const existing = new Set(DATA.items.map(i => i.slug));
-    const mangaDir = path.join(DATA_DIR, 'manga');
-    for (const [slug, item] of Object.entries(list)) {
-      if (existing.has(slug)) continue;
-      let detail = {};
-      try {
-        const df = path.join(mangaDir, `${slug}.json`);
-        if (fs.existsSync(df)) detail = JSON.parse(fs.readFileSync(df, 'utf8'));
-      } catch (_) {}
-      DATA.items.unshift({
-        slug: item.slug || slug,
-        title: detail.title || item.title || slug,
-        url: item.url || `/manga/${slug}`,
-        image: detail.image || item.image || null,
-        chapter: (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || item.chapter || '',
-        rating: detail.rating || item.rating || '',
-        type: detail.type || item.type || 'Manga',
-        genres: detail.genres || []
-      });
-      existing.add(slug);
+    const fresh = loadLocal();
+    if (fresh && fresh.items && fresh.items.length > (DATA?.items?.length || 0)) {
+      DATA = fresh;
+      console.log(`[data] refreshed: ${DATA.items.length} items`);
     }
-  } catch (e) {
-    console.error('merge incremental error:', e.message);
-  }
+  } catch (_) {}
 }
-mergeIncrementalData();
+setInterval(refreshData, 60 * 60 * 1000);
 
 const SCRAPE_EVERY_MS = Math.max(60_000, parseInt(process.env.SCRAPE_EVERY_MS || String(6 * 60 * 60 * 1000), 10));
 const SCRAPE_ENABLED = String(process.env.SCRAPE_ENABLED || 'true').toLowerCase() !== 'false';

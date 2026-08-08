@@ -103,7 +103,7 @@ async function fetchHome() {
       slug,
       title,
       url: href,
-      image: card.find('img').first().attr('src') || null,
+      image: card.find('img').first().attr('src') || card.find('img').first().attr('data-src') || null,
       chapter: card.find('.luf li a, .chapter').first().text().trim() || 'Chapter 1',
       rating: card.find('.numscore').first().text().trim() || '7.00',
       type: card.find('.type').first().text().trim() || 'Manhwa',
@@ -157,7 +157,7 @@ async function fetchManga(slug) {
   return {
     slug,
     title: $('h1.entry-title').first().text().trim(),
-    image: $('.thumb img.wp-post-image, .info-left .thumb img, .main-info .thumb img').first().attr('src') || null,
+    image: $('.thumb img.wp-post-image, .info-left .thumb img, .main-info .thumb img').first().attr('src') || $('.thumb img.wp-post-image, .info-left .thumb img, .main-info .thumb img').first().attr('data-src') || null,
     rating: $('.rating-prc .num, .numscore').first().text().trim() || '7.00',
     description: $('.entry-content-single p, .entry-content p').first().text().replace(/\s+/g, ' ').trim(),
     status: table.status || 'Ongoing',
@@ -283,7 +283,7 @@ async function fetchAzList(show = 'A', page = 1) {
       slug,
       title: card.find('.tt').first().text().trim() || link.attr('title') || '',
       url: href,
-      image: card.find('img').first().attr('src') || null,
+      image: card.find('img').first().attr('src') || card.find('img').first().attr('data-src') || null,
       chapter: card.find('.epxs').first().text().trim() || 'Chapter 1',
       rating: card.find('.numscore').first().text().trim() || '7.00',
       type: card.find('.type').first().text().trim() || 'Manga'

@@ -108,7 +108,7 @@ async function scrapeMangaList() {
         slug,
         title: $(el).find('.tt').text().trim() || a.attr('title') || slug,
         url: href,
-        image: $(el).find('img').attr('src') || null,
+        image: $(el).find('img').attr('src') || $(el).find('img').attr('data-src') || null,
         chapter: $(el).find('.epxs').text().trim() || null,
         rating: $(el).find('.numscore').text().trim() || null,
         type: $(el).find('.type').text().trim() || null
@@ -142,7 +142,7 @@ async function scrapeMangaDetail(slug) {
   const manga = {
     slug,
     title: $('.main-info h1.entry-title').first().text().trim(),
-    image: $('.main-info .thumb img').attr('src') || null,
+    image: $('.main-info .thumb img').attr('src') || $('.main-info .thumb img').attr('data-src') || null,
     rating: $('.rating-prc .num, .numscore').first().text().trim() || null,
     description: $('.entry-content p').first().text().trim() || null,
     status: $('.imptdt:contains("Status") i').first().text().trim() || null,
