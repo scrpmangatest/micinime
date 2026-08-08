@@ -2082,11 +2082,13 @@ const router = {
                     </div>
                 </div>
                 <div class="sidebar" id="sidebar-popular"></div>
+                <div class="sidebar" id="sidebar-genres"></div>
             </div>
         `;
         
         this.bindNavLinks();
         this.loadSidebarPopular();
+        this.loadSidebarGenres();
 
         document.querySelectorAll('.home-page-btn[data-page]').forEach(btn => {
             btn.addEventListener('click', () => {
@@ -2150,6 +2152,30 @@ const router = {
             this.bindNavLinks();
         } catch (e) {
             console.error('Sidebar error:', e);
+        }
+    },
+
+    async loadSidebarGenres() {
+        try {
+            const sidebar = document.getElementById('sidebar-genres');
+            if (!sidebar) return;
+            const res = await this.fetchJson('/api/genres');
+            const genres = (res.genres || []).sort((a, b) => (b.count || 0) - (a.count || 0)).slice(0, 20);
+            sidebar.innerHTML = `
+                <div class="sidebar-box">
+                    <h3>Genre Populer</h3>
+                    <div style="display:flex;flex-wrap:wrap;gap:6px;padding:4px 0;">
+                        ${genres.map(g => `
+                            <a href="#" data-url="${g.url || '/genres/' + g.slug}" class="nav-link" style="display:inline-block;padding:5px 10px;background:var(--bg-card);border:1px solid var(--border-color);border-radius:6px;font-size:12px;color:var(--text-primary);white-space:nowrap;">
+                                ${this.escapeHtml(g.name)} ${g.count ? `<span style="color:var(--text-secondary);font-size:11px;">(${g.count})</span>` : ''}
+                            </a>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+            this.bindNavLinks();
+        } catch (e) {
+            console.error('Sidebar genres error:', e);
         }
     },
 
