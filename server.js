@@ -169,75 +169,70 @@ async function enrichPopularItem(base) {
     popularGenreCache.set(base.slug, { at: Date.now(), genres: base.genres, type: base.type });
     return base;
   }
+  // ponytail: no live fetch — cache is pre-warmed on boot, skip if cold
+  return { ...base, genres: [] };
+}
+
+async function getPopularBases() {
+  const db = loadReads();
+  const counts = new Map();
+  db.reads.forEach(r => {
+    counts.set(r.mangaSlug, (counts.get(r.mangaSlug) || 0) + 1);
+  });
+  const topSlugs = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10).map(e => e[0]);
+  let bases = [];
+
+  for (const slug of topSlugs) {
+    const item = findLocalItem(slug);
+    if (item) {
+      bases.push({
+        slug: item.slug, title: item.title, image: item.image || null,
+        chapter: item.chapter || '', type: item.type || 'Manga', genres: item.genres || []
+      });
+    }
+  }
+
+  if (!bases.length && DATA && Array.isArray(DATA.items)) {
+    const picked = (DATA.home && DATA.home.popular && DATA.home.popular.length)
+      ? DATA.home.popular.slice(0, 10)
+      : DATA.items.slice(0, 10);
+    bases = picked.map(p => ({
+      slug: p.slug, title: p.title, image: p.image || null,
+      chapter: p.chapter || '', type: p.type || 'Manga', genres: p.genres || []
+    }));
+  }
+  return bases;
+}
+
+// ponytail: pre-warm on boot so first visitor gets instant response
+async function warmPopularCache() {
   try {
-    const detail = await source.fetchManga(base.slug);
-    const genres = (detail.genres || [])
-      .map(g => (typeof g === 'string' ? { name: g } : { name: g.name, url: g.url }))
-      .filter(g => g.name && !/^(manga|manhwa|manhua)$/i.test(g.name))
-      .slice(0, 6);
-    const type = detail.type || base.type || 'Manga';
-    popularGenreCache.set(base.slug, { at: Date.now(), genres, type });
-    return {
-      slug: base.slug,
-      title: detail.title || base.title,
-      image: detail.image || base.image || null,
-      chapter: base.chapter || (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || '',
-      type,
-      genres,
-      url: `/manga/${base.slug}`
-    };
-  } catch {
-    return {
-      slug: base.slug,
-      title: base.title,
-      image: base.image || null,
-      chapter: base.chapter || '',
-      type: base.type || 'Manga',
-      genres: [],
-      url: `/manga/${base.slug}`
-    };
+    const bases = await getPopularBases();
+    for (const base of bases) {
+      if (!base || !base.slug) continue;
+      try {
+        const detail = await source.fetchManga(base.slug);
+        const genres = (detail.genres || [])
+          .map(g => (typeof g === 'string' ? { name: g } : { name: g.name, url: g.url }))
+          .filter(g => g.name && !/^(manga|manhwa|manhua)$/i.test(g.name))
+          .slice(0, 6);
+        popularGenreCache.set(base.slug, { at: Date.now(), genres, type: detail.type || base.type || 'Manga' });
+      } catch {
+        popularGenreCache.set(base.slug, { at: Date.now(), genres: [], type: base.type || 'Manga' });
+      }
+    }
+    console.log(`[popular] cache warmed: ${popularGenreCache.size} items`);
+  } catch (e) {
+    console.error('[popular] warm failed:', e.message);
   }
 }
 
 app.get('/api/popular', async (req, res) => {
   try {
-    const db = loadReads();
-    const counts = new Map();
-    db.reads.forEach(r => {
-      counts.set(r.mangaSlug, (counts.get(r.mangaSlug) || 0) + 1);
-    });
-    const topSlugs = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10).map(e => e[0]);
-    let bases = [];
-
-    for (const slug of topSlugs) {
-      const item = findLocalItem(slug);
-      if (item) {
-        bases.push({
-          slug: item.slug,
-          title: item.title,
-          image: item.image || null,
-          chapter: item.chapter || '',
-          type: item.type || 'Manga',
-          genres: item.genres || []
-        });
-      }
-    }
-
-    if (!bases.length && DATA && Array.isArray(DATA.items)) {
-      const picked = (DATA.home && DATA.home.popular && DATA.home.popular.length)
-        ? DATA.home.popular.slice(0, 10)
-        : DATA.items.slice(0, 10);
-      bases = picked.map(p => ({
-        slug: p.slug,
-        title: p.title,
-        image: p.image || null,
-        chapter: p.chapter || '',
-        type: p.type || 'Manga',
-        genres: p.genres || []
-      }));
-    }
-
-    const items = (await Promise.all(bases.map(enrichPopularItem))).filter(Boolean);
+    const bases = await getPopularBases();
+    const items = (await Promise.allSettled(bases.map(enrichPopularItem)))
+      .map(r => r.status === 'fulfilled' ? r.value : null)
+      .filter(Boolean);
     res.json(items);
   } catch (error) {
     res.status(500).json({ error: error.message });
@@ -511,4 +506,5 @@ app.listen(PORT, () => {
     console.log('No local komiktap data — live scrape fallback enabled');
   }
   startScrapeScheduler();
+  setTimeout(() => warmPopularCache(), 5000);
 });
