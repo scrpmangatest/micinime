@@ -11,6 +11,33 @@ const READS_FILE = path.join(DATA_DIR, 'reads.json');
 
 let DATA = loadLocal();
 
+// Merge incremental scraper data from manga-list.json
+function mergeIncrementalData() {
+  try {
+    const listFile = path.join(DATA_DIR, 'manga-list.json');
+    if (!fs.existsSync(listFile)) return;
+    const list = JSON.parse(fs.readFileSync(listFile, 'utf8'));
+    if (!DATA || !Array.isArray(DATA.items)) return;
+    const existing = new Set(DATA.items.map(i => i.slug));
+    for (const [slug, item] of Object.entries(list)) {
+      if (existing.has(slug)) continue;
+      DATA.items.unshift({
+        slug: item.slug || slug,
+        title: item.title || slug,
+        url: item.url || `/manga/${slug}`,
+        image: item.image || null,
+        chapter: item.chapter || '',
+        rating: item.rating || '',
+        type: item.type || 'Manga'
+      });
+      existing.add(slug);
+    }
+  } catch (e) {
+    console.error('merge incremental error:', e.message);
+  }
+}
+mergeIncrementalData();
+
 const SCRAPE_EVERY_MS = Math.max(60_000, parseInt(process.env.SCRAPE_EVERY_MS || String(6 * 60 * 60 * 1000), 10));
 const SCRAPE_ENABLED = String(process.env.SCRAPE_ENABLED || 'true').toLowerCase() !== 'false';
 let scrapeRunning = false;
