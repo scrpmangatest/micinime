@@ -68,6 +68,35 @@ function findLocalItem(slug) {
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
+const imageCache = new Map();
+const IMAGE_CACHE_TTL = 24 * 60 * 60 * 1000;
+
+app.get('/api/proxy', async (req, res) => {
+  const url = req.query.url;
+  if (!url || !url.startsWith('http')) return res.status(400).send('Bad url');
+  try {
+    const cached = imageCache.get(url);
+    if (cached && Date.now() - cached.ts < IMAGE_CACHE_TTL) {
+      res.set('Content-Type', cached.ct);
+      res.set('Cache-Control', 'public, max-age=86400');
+      return res.send(cached.buf);
+    }
+    const axios = require('axios');
+    const r = await axios.get(url, {
+      responseType: 'arraybuffer',
+      timeout: 15000,
+      headers: { 'User-Agent': 'Mozilla/5.0', Referer: 'https://komiktap.info/' }
+    });
+    const ct = r.headers['content-type'] || 'image/jpeg';
+    imageCache.set(url, { buf: Buffer.from(r.data), ct, ts: Date.now() });
+    res.set('Content-Type', ct);
+    res.set('Cache-Control', 'public, max-age=86400');
+    res.send(Buffer.from(r.data));
+  } catch (e) {
+    res.status(502).send('Proxy error');
+  }
+});
+
 app.get('/api/home', async (req, res) => {
   try {
     const page = Math.max(1, Number(req.query.page) || 1);

@@ -1960,7 +1960,7 @@ const router = {
                     <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
                         <div class="limit">
                             <span class="flag-jp">${this.escapeHtml(item.type || 'Manga')}</span>
-                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                            <img src="${this.proxyImg(item.image)}" alt="${this.escapeHtml(item.title)}" loading="lazy"
                                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
                         </div>
                         <div class="bigor">
@@ -1986,7 +1986,7 @@ const router = {
                     <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
                         <div class="limit">
                             <span class="flag-jp">${this.escapeHtml(item.type || 'Manga')}</span>
-                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                            <img src="${this.proxyImg(item.image)}" alt="${this.escapeHtml(item.title)}" loading="lazy"
                                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
                         </div>
                         <div class="bigor">
@@ -2087,7 +2087,7 @@ const router = {
                     <h3>Komik Populer</h3>
                     ${items.map(item => `
                         <a href="#" data-url="${item.url}" class="nav-link sidebar-item" title="${this.escapeHtml(item.title)}">
-                            <img src="${item.image || ''}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                            <img src="${this.proxyImg(item.image || '')}" alt="${this.escapeHtml(item.title)}" loading="lazy"
                                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 50 70%22><rect fill=%22%23333%22 width=%2250%22 height=%2270%22/></svg>'">
                             <div class="sidebar-item-info">
                                 <div class="title">${this.escapeHtml(item.title)}</div>
@@ -2130,7 +2130,7 @@ const router = {
                     <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
                         <div class="limit">
                             <span class="flag-jp">${this.escapeHtml(item.type || 'Manga')}</span>
-                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                            <img src="${this.proxyImg(item.image)}" alt="${this.escapeHtml(item.title)}" loading="lazy"
                                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
                         </div>
                         <div class="bigor">
@@ -2227,7 +2227,7 @@ const router = {
             <div class="bixbox">
                 <div class="detail-container">
                     <div class="thumb-detail">
-                        <img src="${data.image}" alt="${this.escapeHtml(data.title)}"
+                        <img src="${this.proxyImg(data.image)}" alt="${this.escapeHtml(data.title)}"
                              onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 450%22><rect fill=%22%23333%22 width=%22300%22 height=%22450%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
                         <button type="button" class="btn-bookmark ${isBm ? 'active' : ''}" id="btnBookmark"
                             data-slug="${this.escapeHtml(slug)}"
@@ -2312,7 +2312,7 @@ const router = {
                     <a href="#" data-url="${item.url || `/manga/${item.slug}`}" class="nav-link" title="${this.escapeHtml(item.title)}">
                         <div class="limit">
                             <span class="flag-jp">${this.escapeHtml(item.type || 'Manga')}</span>
-                            <img src="${item.image || ''}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                            <img src="${this.proxyImg(item.image || '')}" alt="${this.escapeHtml(item.title)}" loading="lazy"
                                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
                         </div>
                         <div class="bigor">
@@ -2443,7 +2443,7 @@ const router = {
                     <a href="#" data-url="${item.chapterUrl || `/${item.chapterSlug}`}" class="nav-link" title="${this.escapeHtml(item.title || '')}">
                         <div class="limit">
                             <span class="flag-jp">${this.escapeHtml(item.type || 'Manga')}</span>
-                            <img src="${item.image || ''}" alt="${this.escapeHtml(item.title || '')}" loading="lazy"
+                            <img src="${this.proxyImg(item.image || '')}" alt="${this.escapeHtml(item.title || '')}" loading="lazy"
                                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
                         </div>
                         <div class="bigor">
@@ -2502,7 +2502,7 @@ const router = {
     renderReader(data) {
         const images = data.images || [];
         const imagesHTML = images.map((img, i) => 
-            `<img src="${img}" alt="Chapter page ${i + 1}" loading="lazy" onerror="this.style.display='none'">`
+            `<img src="${this.proxyImg(img)}" alt="Chapter page ${i + 1}" loading="lazy" onerror="this.style.display='none'">`
         ).join('');
 
         const chapters = data.chapters || [];
@@ -2610,7 +2610,7 @@ const router = {
                     <a href="#" data-url="${item.url}" class="nav-link">
                         <div class="limit">
                             ${item.type ? `<span class="type">${item.type}</span>` : ''}
-                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                            <img src="${this.proxyImg(item.image)}" alt="${this.escapeHtml(item.title)}" loading="lazy"
                                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
                         </div>
                         <div class="bigor">
@@ -2749,7 +2749,7 @@ const router = {
                     <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
                         <div class="limit">
                             <span class="flag-jp">${this.escapeHtml(item.type || 'Manga')}</span>
-                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                            <img src="${this.proxyImg(item.image)}" alt="${this.escapeHtml(item.title)}" loading="lazy"
                                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
                         </div>
                         <div class="bigor">
@@ -2843,7 +2843,7 @@ const router = {
                     <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
                         <div class="limit">
                             <span class="flag-jp">${this.escapeHtml(item.type || 'Manga')}</span>
-                            <img src="${item.image}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                            <img src="${this.proxyImg(item.image)}" alt="${this.escapeHtml(item.title)}" loading="lazy"
                                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
                         </div>
                         <div class="bigor">
@@ -2917,6 +2917,10 @@ const router = {
         });
     },
 
+    proxyImg(url) {
+        if (!url || url.startsWith('data:')) return url || '';
+        return '/api/proxy?url=' + encodeURIComponent(url);
+    },
     escapeHtml(text) {
         if (!text) return '';
         const div = document.createElement('div');
