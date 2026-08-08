@@ -88,12 +88,27 @@ function parseCards(html, type) {
   const $ = cheerio.load(html);
   const seen = new Set();
   const items = [];
-  $('.listupd .bs').each((_, el) => {
-    const item = cardFromElement($, el, type);
-    if (!item || !item.title || seen.has(item.slug)) return;
-    seen.add(item.slug);
-    items.push(item);
-  });
+  const selectors = ['.listupd .bs', '.bs', '.listupd .bsx', '.manga-list .bs', '.page-item-detail'];
+  for (const sel of selectors) {
+    if (items.length > 0) break;
+    $(sel).each((_, el) => {
+      const item = cardFromElement($, el, type);
+      if (!item || !item.title || seen.has(item.slug)) return;
+      seen.add(item.slug);
+      items.push(item);
+    });
+  }
+  // Fallback: any /manga/ link
+  if (!items.length) {
+    $('a[href*="/manga/"]').each((_, el) => {
+      const href = localPath($(el).attr('href'));
+      if (!href || !href.startsWith('/manga/')) return;
+      const slug = slugFromPath(href);
+      if (seen.has(slug)) return;
+      seen.add(slug);
+      items.push({ slug, title: $(el).attr('title') || slug, url: href, image: null, chapter: 'Chapter 1', rating: '7.00', type: type[0].toUpperCase() + type.slice(1) });
+    });
+  }
   return { $, items };
 }
 
@@ -272,7 +287,47 @@ async function fetchGenreDetail(slug, page = 1) {
   const url = page > 1 ? `${BASE_URL}/genres/${slug}/page/${page}/` : `${BASE_URL}/genres/${slug}/`;
   const html = await fetchHtml(url);
   const $ = cheerio.load(html);
-  const { items } = parseCards(html, 'manga');
+
+  const items = [];
+  const seen = new Set();
+
+  // Try multiple selectors for genre page cards
+  const selectors = ['.listupd .bs', '.bs', '.listupd .bsx', '.manga-list .bs', '.page-item-detail'];
+  for (const sel of selectors) {
+    if (items.length > 0) break;
+    $(sel).each((_, el) => {
+      const card = $(el);
+      const link = card.find('.bsx > a, a').first();
+      const href = localPath(link.attr('href'));
+      if (!href || !href.startsWith('/manga/')) return;
+      const slugVal = slugFromPath(href);
+      if (seen.has(slugVal)) return;
+      seen.add(slugVal);
+      items.push({
+        slug: slugVal,
+        title: card.find('.tt').first().text().trim() || link.attr('title') || '',
+        url: href,
+        image: card.find('img').first().attr('src') || card.find('img').first().attr('data-src') || null,
+        chapter: card.find('.epxs').first().text().trim() || 'Chapter 1',
+        rating: card.find('.numscore').first().text().trim() || '7.00',
+        type: 'Manga'
+      });
+    });
+  }
+
+  // Fallback: parse any /manga/ links if selectors failed
+  if (!items.length) {
+    $('a[href*="/manga/"]').each((_, el) => {
+      const href = localPath($(el).attr('href'));
+      if (!href || !href.startsWith('/manga/')) return;
+      const slugVal = slugFromPath(href);
+      if (seen.has(slugVal)) return;
+      seen.add(slugVal);
+      const title = $(el).attr('title') || $(el).text().trim() || slugVal;
+      items.push({ slug: slugVal, title, url: href, image: null, chapter: 'Chapter 1', rating: '7.00', type: 'Manga' });
+    });
+  }
+
   let totalPages = page;
   $('.pagination a, .page-numbers').each((_, el) => {
     const number = Number($(el).text().trim());
