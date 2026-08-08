@@ -1979,6 +1979,10 @@ const router = {
 
     cardPopular(item) {
         const rating = item.rating || '7.00';
+        const genreHtml = (item.genres || []).slice(0, 3).map(g => {
+            const name = typeof g === 'string' ? g : g.name || '';
+            return `<span style="font-size:11px;padding:2px 6px;background:rgba(255,255,255,0.08);border-radius:3px;color:var(--text-secondary);white-space:nowrap;">${this.escapeHtml(name)}</span>`;
+        }).join(' ');
         return `
             <div class="bs">
                 <div class="bsx">
@@ -1990,6 +1994,7 @@ const router = {
                         </div>
                         <div class="bigor">
                             <div class="tt">${this.escapeHtml(item.title)}</div>
+                            ${genreHtml ? `<div style="display:flex;gap:3px;flex-wrap:wrap;margin:4px 0;">${genreHtml}</div>` : ''}
                             <div class="adds">
                                 <div class="epxs">${this.escapeHtml(item.chapter || 'Chapter 1')}</div>
                                 <div class="star-rating">
