@@ -192,15 +192,23 @@ async function getPopularBases() {
     }
   }
 
-  if (!bases.length && DATA && Array.isArray(DATA.items)) {
-    const picked = (DATA.home && DATA.home.popular && DATA.home.popular.length)
-      ? DATA.home.popular.slice(0, 10)
-      : DATA.items.slice(0, 10);
-    bases = picked.map(p => ({
-      slug: p.slug, title: p.title, image: p.image || null,
-      chapter: p.chapter || '', type: p.type || 'Manga', genres: p.genres || []
-    }));
+  // ponytail: pad with homepage popular if reads < 10
+  if (bases.length < 10 && DATA) {
+    const seen = new Set(bases.map(b => b.slug));
+    const pool = (DATA.home && DATA.home.popular && DATA.home.popular.length)
+      ? DATA.home.popular
+      : (DATA.items || []).slice(0, 20);
+    for (const p of pool) {
+      if (bases.length >= 10) break;
+      if (seen.has(p.slug)) continue;
+      seen.add(p.slug);
+      bases.push({
+        slug: p.slug, title: p.title, image: p.image || null,
+        chapter: p.chapter || '', type: p.type || 'Manga', genres: p.genres || []
+      });
+    }
   }
+
   return bases;
 }
 
