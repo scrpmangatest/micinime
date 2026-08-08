@@ -147,14 +147,32 @@ app.get('/api/proxy', async (req, res) => {
   }
 });
 
+function enrichItemFromDetail(item) {
+  if (item.image && item.chapter) return item;
+  try {
+    const df = path.join(DATA_DIR, 'manga', `${item.slug}.json`);
+    if (!fs.existsSync(df)) return item;
+    const detail = JSON.parse(fs.readFileSync(df, 'utf8'));
+    return {
+      ...item,
+      image: item.image || detail.image || null,
+      chapter: item.chapter || (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || '',
+      rating: item.rating || detail.rating || '',
+      type: item.type || detail.type || 'Manga'
+    };
+  } catch (_) { return item; }
+}
+
 app.get('/api/home', async (req, res) => {
   try {
     const page = Math.max(1, Number(req.query.page) || 1);
     if (DATA && Array.isArray(DATA.items) && DATA.items.length) {
       const allItems = DATA.items;
       const paged = paginate(allItems, page, 16);
+      paged.items = paged.items.map(enrichItemFromDetail);
+      const pop = ((DATA.home && DATA.home.popular) || allItems.slice(0, 15)).map(enrichItemFromDetail);
       return res.json({
-        popular: (DATA.home && DATA.home.popular) || allItems.slice(0, 15),
+        popular: pop,
         items: paged.items,
         latest: paged.items,
         pagination: paged.pagination,
