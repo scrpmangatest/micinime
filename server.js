@@ -11,13 +11,56 @@ const READS_FILE = path.join(DATA_DIR, 'reads.json');
 
 let DATA = loadLocal();
 
-// Re-read komiktap.json periodically to pick up scraper updates
+// Merge incremental scraper data from manga-list.json + data/manga/*.json
+function mergeIncrementalData() {
+  try {
+    const listFile = path.join(DATA_DIR, 'manga-list.json');
+    if (!fs.existsSync(listFile)) return;
+    const list = JSON.parse(fs.readFileSync(listFile, 'utf8'));
+    if (!DATA || !Array.isArray(DATA.items)) return;
+    const existing = new Set(DATA.items.map(i => i.slug));
+    const mangaDir = path.join(DATA_DIR, 'manga');
+    let added = 0;
+    for (const [slug, item] of Object.entries(list)) {
+      if (existing.has(slug)) continue;
+      let detail = {};
+      try {
+        const df = path.join(mangaDir, `${slug}.json`);
+        if (fs.existsSync(df)) detail = JSON.parse(fs.readFileSync(df, 'utf8'));
+      } catch (_) {}
+      DATA.items.unshift({
+        slug: item.slug || slug,
+        title: detail.title || item.title || slug,
+        url: item.url || `/manga/${slug}`,
+        image: detail.image || item.image || null,
+        chapter: (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || item.chapter || '',
+        rating: detail.rating || item.rating || '',
+        type: detail.type || item.type || 'Manga',
+        genres: detail.genres || []
+      });
+      existing.add(slug);
+      added++;
+    }
+    if (added > 0) {
+      DATA.totalItems = DATA.items.length;
+      console.log(`[merge] added ${added} new manga from incremental scraper`);
+    }
+  } catch (e) {
+    console.error('merge incremental error:', e.message);
+  }
+}
+mergeIncrementalData();
+
+// Re-read files periodically to pick up scraper updates
 function refreshData() {
   try {
     const fresh = loadLocal();
-    if (fresh && fresh.items && fresh.items.length > (DATA?.items?.length || 0)) {
-      DATA = fresh;
-      console.log(`[data] refreshed: ${DATA.items.length} items`);
+    if (fresh && fresh.items) {
+      if (fresh.items.length > (DATA?.items?.length || 0)) {
+        DATA = fresh;
+        mergeIncrementalData();
+        console.log(`[data] refreshed: ${DATA.items.length} items`);
+      }
     }
   } catch (_) {}
 }
@@ -610,4 +653,5 @@ app.listen(PORT, () => {
   }
   startScrapeScheduler();
   setTimeout(() => warmPopularCache(), 5000);
+  setTimeout(() => triggerScheduledScrape('startup'), 3000);
 });
