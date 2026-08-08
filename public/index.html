@@ -2025,6 +2025,7 @@ const router = {
     },
 
     renderHome(data) {
+        document.title = 'Micinime - Baca Manga & Manhwa Hentai Sub Indo Gratis';
         const page = parseInt(data.pagination?.currentPage || 1, 10) || 1;
         const totalPages = parseInt(data.pagination?.totalPages || 1, 10) || 1;
         const popularHTML = (data.popular || []).map(item => this.cardPopular(item)).join('');
@@ -2720,12 +2721,14 @@ const router = {
     },
 
     bindNavLinks() {
-        // Bind click events to all navigation links
         document.querySelectorAll('.nav-link').forEach(link => {
+            const url = link.getAttribute('data-url');
+            if (url && link.getAttribute('href') === '#') {
+                link.setAttribute('href', url);
+            }
             link.addEventListener('click', function(e) {
                 e.preventDefault();
                 const url = this.getAttribute('data-url');
-                console.log('Link clicked:', url);
                 navigate(e, url);
             });
         });
@@ -3067,7 +3070,7 @@ const router = {
         s3.id = 'manga-creative';
         s3.textContent = JSON.stringify(cw);
         document.head.appendChild(s3);
-        document.title = `${data.title} - micinime`;
+        document.title = `${data.title} | Micinime`;
     },
     injectChapterSchema(data) {
         const old = document.getElementById('chapter-schema');
@@ -3118,7 +3121,7 @@ const router = {
         s3.id = 'chapter-webpage';
         s3.textContent = JSON.stringify(wp);
         document.head.appendChild(s3);
-        document.title = `${data.title} - micinime`;
+        document.title = `${data.title} | Micinime`;
     },
     escapeHtml(text) {
         if (!text) return '';
