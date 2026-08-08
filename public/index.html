@@ -44,6 +44,25 @@
       }
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "micinime - Baca Manga & Manhwa Hentai Sub Indo Gratis",
+      "url": "https://micinime.my.id/",
+      "description": "Baca manga dan manhwa hentai sub Indonesia gratis di micinime.",
+      "inLanguage": "id-ID",
+      "isPartOf": { "@type": "WebSite", "name": "micinime", "url": "https://micinime.my.id/" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SiteNavigationElement",
+      "name": ["Home", "List Komik", "Genre", "AZ Lists", "Bookmark", "History"],
+      "url": ["https://micinime.my.id/", "https://micinime.my.id/manga", "https://micinime.my.id/genres", "https://micinime.my.id/az-lists", "https://micinime.my.id/bookmark", "https://micinime.my.id/history"]
+    }
+    </script>
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -3002,6 +3021,22 @@ const router = {
         s2.id = 'manga-breadcrumb';
         s2.textContent = JSON.stringify(breadcrumb);
         document.head.appendChild(s2);
+        const cw = {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "name": data.title,
+            "url": `https://micinime.my.id/manga/${slug}`,
+            "image": data.image || '',
+            "description": data.description || '',
+            "genre": (data.genres || []).map(g => g.name || g).join(', '),
+            "inLanguage": "id-ID",
+            "dateModified": data.scrapedAt || new Date().toISOString()
+        };
+        const s3 = document.createElement('script');
+        s3.type = 'application/ld+json';
+        s3.id = 'manga-creative';
+        s3.textContent = JSON.stringify(cw);
+        document.head.appendChild(s3);
         document.title = `${data.title} - micinime`;
     },
     injectChapterSchema(data) {
@@ -3040,6 +3075,19 @@ const router = {
         s2.id = 'chapter-breadcrumb';
         s2.textContent = JSON.stringify(breadcrumb);
         document.head.appendChild(s2);
+        const wp = {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": data.title,
+            "url": `https://micinime.my.id${location.pathname}`,
+            "isPartOf": { "@type": "WebSite", "name": "micinime", "url": "https://micinime.my.id/" },
+            "inLanguage": "id-ID"
+        };
+        const s3 = document.createElement('script');
+        s3.type = 'application/ld+json';
+        s3.id = 'chapter-webpage';
+        s3.textContent = JSON.stringify(wp);
+        document.head.appendChild(s3);
         document.title = `${data.title} - micinime`;
     },
     escapeHtml(text) {
