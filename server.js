@@ -521,6 +521,31 @@ app.get('/api/genres/:slug', async (req, res) => {
   }
 });
 
+app.get('/debug/genre-html', async (req, res) => {
+  try {
+    const html = await source.fetchHtml('https://komiktap.info/genres/ahego/');
+    const $ = require('cheerio').load(html);
+    const body = $('body').html() || '';
+    const selectors = ['.listupd .bs', '.bs', '.bsx', '.listupd', '.page-item-detail', '.manga', '.series', '.post-body', '.entry-header'];
+    const found = {};
+    for (const sel of selectors) {
+      found[sel] = $(sel).length;
+    }
+    const listupd = $('.listupd').html() || '';
+    const bsCount = (listupd.match(/class="bs\b/g) || []).length;
+    const bsxCount = (listupd.match(/class="bsx\b/g) || []).length;
+    res.type('text').send(
+      'Selectors found: ' + JSON.stringify(found, null, 2) + '\n\n' +
+      'listupd bs count: ' + bsCount + '\n' +
+      'listupd bsx count: ' + bsxCount + '\n\n' +
+      'First 5000 chars of listupd:\n' + listupd.substring(0, 5000) + '\n\n' +
+      'All class attrs with "bs": ' + [...new Set(body.match(/class="[^"]*bs[^"]*"/g) || [])].join('\n')
+    );
+  } catch (e) {
+    res.type('text').send('Error: ' + e.message);
+  }
+});
+
 app.get('/api/az', async (req, res) => {
   try {
     const show = String(req.query.show || 'A').toUpperCase();
