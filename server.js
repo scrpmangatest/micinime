@@ -530,10 +530,14 @@ app.get('/api/popular', async (req, res) => {
 app.get('/api/genres', async (req, res) => {
   try {
     if (DATA && Array.isArray(DATA.genres) && DATA.genres.length) {
+      const genres = DATA.genres.map(g => ({
+        ...g,
+        count: (GENRE_INDEX[g.slug] || new Set()).size || g.count || 0
+      }));
       return res.json({
-        total: DATA.genres.length,
-        totalMangaWithGenres: DATA.genres.reduce((s, g) => s + (g.count || 0), 0),
-        genres: DATA.genres
+        total: genres.length,
+        totalMangaWithGenres: genres.reduce((s, g) => s + g.count, 0),
+        genres
       });
     }
     const genres = await source.fetchGenres();
@@ -557,19 +561,6 @@ app.get('/api/genres/:slug', async (req, res) => {
       const slugSet = indexSlugs;
       items = DATA.items.filter(i => slugSet.has(i.slug));
     }
-
-    // Merge with live scrape results (may add items not in catalog yet)
-    try {
-      const liveResult = await source.fetchGenreDetail(slug, page);
-      const liveSlugs = new Set(items.map(i => i.slug));
-      for (const item of (liveResult.items || [])) {
-        if (!liveSlugs.has(item.slug)) items.push(item);
-      }
-      // Use live pagination if available
-      if (items.length === 0) {
-        items = liveResult.items || [];
-      }
-    } catch (_) {}
 
     const perPage = 20;
     const totalPages = Math.max(1, Math.ceil(items.length / perPage));
