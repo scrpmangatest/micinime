@@ -2981,7 +2981,6 @@ const router = {
             "genre": (data.genres || []).map(g => g.name || g).join(', '),
             "description": data.description || '',
             "inLanguage": "id-ID",
-            "numberOfEpisodes": chapters.length,
             "potentialAction": {
                 "@type": "ReadAction",
                 "target": `https://micinime.my.id/manga/${slug}`
