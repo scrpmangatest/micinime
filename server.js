@@ -212,6 +212,11 @@ app.use(express.static(path.join(__dirname, 'public'), {
 }));
 app.use(express.json());
 
+// Yandex verification
+app.get('/yandex_d85a06848b0ab963.html', (req, res) => {
+  res.type('html').send('<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>Verification: d85a06848b0ab963</body></html>');
+});
+
 // Main Sitemap Index
 app.get('/sitemap.xml', (req, res) => {
   res.set('Content-Type', 'application/xml');
