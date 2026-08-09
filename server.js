@@ -212,20 +212,132 @@ app.use(express.static(path.join(__dirname, 'public'), {
 }));
 app.use(express.json());
 
+// XSLT Stylesheet for Sitemaps (Visual UI)
+app.get('/sitemap.xsl', (req, res) => {
+  res.set('Content-Type', 'text/xml');
+  res.send(`<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <xsl:output method="html" indent="yes" encoding="UTF-8"/>
+  <xsl:template match="/">
+    <html>
+      <head>
+        <title>XML Sitemap | micinime</title>
+        <style>
+          body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; color: #333; max-width: 75rem; margin: 0 auto; padding: 2rem; }
+          h1 { margin: 0; }
+          .desc { font-size: 14px; margin: 10px 0 20px; color: #666; }
+          table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 13px; }
+          th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+          th { background: #f5f5f5; font-weight: 600; }
+          tr:nth-child(even) td { background: #fafafa; }
+          tr:hover td { background: #f0f0f0; }
+          a { color: #005bb5; text-decoration: none; }
+          a:hover { text-decoration: underline; }
+        </style>
+      </head>
+      <body>
+        <h1>XML Sitemap</h1>
+        <p class="desc">This is an XML Sitemap, meant for consumption by search engines like Google.</p>
+        <xsl:if test="sitemap:sitemapindex">
+          <p class="desc">This XML Sitemap Index file contains <xsl:value-of select="count(sitemap:sitemapindex/sitemap:sitemap)"/> sitemaps.</p>
+          <table>
+            <tr><th>Sitemap</th><th>Last Modified</th></tr>
+            <xsl:for-each select="sitemap:sitemapindex/sitemap:sitemap">
+              <tr>
+                <td><a href="{sitemap:loc}"><xsl:value-of select="sitemap:loc"/></a></td>
+                <td><xsl:value-of select="sitemap:lastmod"/></td>
+              </tr>
+            </xsl:for-each>
+          </table>
+        </xsl:if>
+        <xsl:if test="sitemap:urlset">
+          <p class="desc">This XML Sitemap contains <xsl:value-of select="count(sitemap:urlset/sitemap:url)"/> URLs.</p>
+          <table>
+            <tr><th>URL</th><th>Last Modified</th></tr>
+            <xsl:for-each select="sitemap:urlset/sitemap:url">
+              <tr>
+                <td><a href="{sitemap:loc}"><xsl:value-of select="sitemap:loc"/></a></td>
+                <td><xsl:value-of select="sitemap:lastmod"/></td>
+              </tr>
+            </xsl:for-each>
+          </table>
+        </xsl:if>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>`);
+});
+
+// Main Sitemap Index
 app.get('/sitemap.xml', (req, res) => {
-  res.set('Content-Type', 'application/xml');
+  res.set('Content-Type', 'text/xml');
   const items = (DATA && DATA.items) || [];
-  const urls = items.map(i => {
-    const slug = i.slug || '';
-    const loc = `https://micinime.my.id/manga/${encodeURIComponent(slug)}`;
-    return `  <url><loc>${loc}</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>`;
-  }).join('\n');
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+  const totalManga = items.length;
+  const chunk = 2000;
+  const parts = Math.ceil(totalManga / chunk);
+  const date = new Date().toISOString();
+  
+  let sitemaps = '';
+  // Add home & genres sitemap
+  sitemaps += `  <sitemap>\n    <loc>https://micinime.my.id/sitemap-pages.xml</loc>\n    <lastmod>${date}</lastmod>\n  </sitemap>\n`;
+  // Add manga sitemaps
+  for (let i = 1; i <= parts; i++) {
+    sitemaps += `  <sitemap>\n    <loc>https://micinime.my.id/sitemap-manga-${i}.xml</loc>\n    <lastmod>${date}</lastmod>\n  </sitemap>\n`;
+  }
+  
+  res.send(`<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemaps}</sitemapindex>`);
+});
+
+// Static pages & genres sitemap
+app.get('/sitemap-pages.xml', (req, res) => {
+  res.set('Content-Type', 'text/xml');
+  const date = new Date().toISOString();
+  let urls = `  <url><loc>https://micinime.my.id/</loc><lastmod>${date}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n`;
+  urls += `  <url><loc>https://micinime.my.id/genres</loc><lastmod>${date}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>\n`;
+  urls += `  <url><loc>https://micinime.my.id/az-lists</loc><lastmod>${date}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>\n`;
+  
+  if (DATA && DATA.genres) {
+    DATA.genres.forEach(g => {
+      if (g.slug) {
+        urls += `  <url><loc>https://micinime.my.id/genres/${encodeURIComponent(g.slug)}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>\n`;
+      }
+    });
+  }
+  
+  res.send(`<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://micinime.my.id</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+${urls}</urlset>`);
+});
+
+// Manga pagination sitemaps
+app.get('/sitemap-manga-:page.xml', (req, res) => {
+  res.set('Content-Type', 'text/xml');
+  const page = parseInt(req.params.page, 10);
+  const items = (DATA && DATA.items) || [];
+  const chunk = 2000;
+  
+  const start = (page - 1) * chunk;
+  const slice = items.slice(start, start + chunk);
+  
+  if (!slice.length) return res.status(404).send('Not found');
+  
+  const urls = slice.map(i => {
+    let rawSlug = i.slug || '';
+    try { rawSlug = decodeURIComponent(rawSlug); } catch(e) {}
+    const loc = `https://micinime.my.id/manga/${encodeURIComponent(rawSlug)}`;
+    const lastMod = i.updatedAt ? new Date(i.updatedAt).toISOString() : new Date().toISOString();
+    return `  <url><loc>${loc}</loc><lastmod>${lastMod}</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>`;
+  }).join('\n');
+
+  res.send(`<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls}
-</urlset>`;
-  res.send(xml);
+</urlset>`);
 });
 
 const imageCache = new Map();
