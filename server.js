@@ -6,6 +6,7 @@ const source = require('./komiktap-source');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const INDEXNOW_KEY = '3df0235d34c9412b9bdb7a8bcf44fc36';
 const DATA_DIR = path.join(__dirname, 'data');
 const READS_FILE = path.join(DATA_DIR, 'reads.json');
 
@@ -224,11 +225,9 @@ app.get('/yandex_d85a06848b0ab963.html', (req, res) => {
 });
 
 // IndexNow key file
-const INDEXNOW_KEY = '3df0235d34c9412b9bdb7a8bcf44fc36';
 app.get(`/${INDEXNOW_KEY}.txt`, (req, res) => {
   res.type('text/plain').send(INDEXNOW_KEY);
 });
-
 // IndexNow submit helper
 async function indexNowSubmit(urls) {
   if (!urls || !urls.length) return;
