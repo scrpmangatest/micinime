@@ -2296,8 +2296,8 @@ const router = {
         const firstChapter = chapters[0];
         const lastChapter = chapters[chapters.length - 1];
         const chaptersHTML = chapters.map(ch => `
-            <div class="chapter-item">
-                <a href="#" data-url="${ch.url}" class="chapter-title nav-link">${this.escapeHtml(ch.title)}</a>
+            <div class="chapter-item" onclick="navigate(event, '${ch.url}')" style="cursor:pointer;">
+                <span class="chapter-title">${this.escapeHtml(ch.title)}</span>
                 <span class="chapter-date">${ch.date || ''}</span>
             </div>
         `).join('');
