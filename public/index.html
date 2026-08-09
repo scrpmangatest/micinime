@@ -912,8 +912,8 @@
             border-color: var(--primary-color);
             transform: translateX(5px);
         }
-        .chapter-title { font-weight: 600; }
-        .chapter-date { color: var(--text-secondary); font-size: 13px; }
+        .chapter-title { font-weight: 600; flex: 1; min-height: 44px; display: flex; align-items: center; touch-action: manipulation; }
+        .chapter-date { color: var(--text-secondary); font-size: 13px; white-space: nowrap; margin-left: 8px; }
         
         /* Reader Page */
         .reader-container {
