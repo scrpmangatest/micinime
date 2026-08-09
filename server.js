@@ -20,14 +20,35 @@ function mergeIncrementalData() {
     if (!DATA || !Array.isArray(DATA.items)) return;
     const existing = new Set(DATA.items.map(i => i.slug));
     const mangaDir = path.join(DATA_DIR, 'manga');
-    let added = 0;
+    let added = 0, updated = 0;
+
     for (const [slug, item] of Object.entries(list)) {
-      if (existing.has(slug)) continue;
       let detail = {};
       try {
         const df = path.join(mangaDir, `${slug}.json`);
         if (fs.existsSync(df)) detail = JSON.parse(fs.readFileSync(df, 'utf8'));
       } catch (_) {}
+
+      if (existing.has(slug)) {
+        // Update existing item if chapter changed
+        const idx = DATA.items.findIndex(i => i.slug === slug);
+        if (idx >= 0) {
+          const cur = DATA.items[idx];
+          const newChapter = (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || item.chapter || '';
+          if (newChapter && newChapter !== cur.chapter) {
+            cur.chapter = newChapter;
+            if (detail.image) cur.image = detail.image;
+            if (detail.rating) cur.rating = detail.rating;
+            cur.updatedAt = Date.now();
+            // Move to front
+            DATA.items.splice(idx, 1);
+            DATA.items.unshift(cur);
+            updated++;
+          }
+        }
+        continue;
+      }
+
       DATA.items.unshift({
         slug: item.slug || slug,
         title: detail.title || item.title || slug,
@@ -36,14 +57,15 @@ function mergeIncrementalData() {
         chapter: (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || item.chapter || '',
         rating: detail.rating || item.rating || '',
         type: detail.type || item.type || 'Manga',
-        genres: detail.genres || []
+        genres: detail.genres || [],
+        updatedAt: Date.now()
       });
       existing.add(slug);
       added++;
     }
-    if (added > 0) {
+    if (added > 0 || updated > 0) {
       DATA.totalItems = DATA.items.length;
-      console.log(`[merge] added ${added} new manga from incremental scraper`);
+      console.log(`[merge] added ${added} new, updated ${updated} existing manga`);
     }
   } catch (e) {
     console.error('merge incremental error:', e.message);
@@ -280,16 +302,16 @@ app.get('/api/home', async (req, res) => {
   try {
     const page = Math.max(1, Number(req.query.page) || 1);
     if (DATA && Array.isArray(DATA.items) && DATA.items.length) {
-      const allItems = DATA.items;
-      const paged = paginate(allItems, page, 16);
+      const sorted = [...DATA.items].sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+      const paged = paginate(sorted, page, 16);
       paged.items = await Promise.all(paged.items.map(enrichItemFromDetail));
-      const pop = await Promise.all(((DATA.home && DATA.home.popular) || allItems.slice(0, 15)).map(enrichItemFromDetail));
+      const pop = await Promise.all(((DATA.home && DATA.home.popular) || sorted.slice(0, 15)).map(enrichItemFromDetail));
       return res.json({
         popular: pop,
         items: paged.items,
         latest: paged.items,
         pagination: paged.pagination,
-        total: allItems.length
+        total: sorted.length
       });
     }
 
