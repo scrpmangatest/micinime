@@ -21,6 +21,7 @@ function mergeIncrementalData() {
     const existing = new Set(DATA.items.map(i => i.slug));
     const mangaDir = path.join(DATA_DIR, 'manga');
     let added = 0, updated = 0;
+    const updatedUrls = [];
 
     for (const [slug, item] of Object.entries(list)) {
       let detail = {};
@@ -44,6 +45,7 @@ function mergeIncrementalData() {
             DATA.items.splice(idx, 1);
             DATA.items.unshift(cur);
             updated++;
+            updatedUrls.push(`/manga/${slug}`);
           }
         }
         continue;
@@ -62,10 +64,14 @@ function mergeIncrementalData() {
       });
       existing.add(slug);
       added++;
+      updatedUrls.push(`/manga/${slug}`);
     }
     if (added > 0 || updated > 0) {
       DATA.totalItems = DATA.items.length;
       console.log(`[merge] added ${added} new, updated ${updated} existing manga`);
+      if (updatedUrls.length > 0 && typeof indexNowSubmit === 'function') {
+        indexNowSubmit(updatedUrls.slice(0, 100)); // submit max 100 per run to avoid spam
+      }
     }
   } catch (e) {
     console.error('merge incremental error:', e.message);
@@ -216,6 +222,33 @@ app.use(express.json());
 app.get('/yandex_d85a06848b0ab963.html', (req, res) => {
   res.type('html').send('<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>Verification: d85a06848b0ab963</body></html>');
 });
+
+// IndexNow key file
+const INDEXNOW_KEY = '3df0235d34c9412b9bdb7a8bcf44fc36';
+app.get(`/${INDEXNOW_KEY}.txt`, (req, res) => {
+  res.type('text/plain').send(INDEXNOW_KEY);
+});
+
+// IndexNow submit helper
+async function indexNowSubmit(urls) {
+  if (!urls || !urls.length) return;
+  const axios = require('axios');
+  const payload = {
+    host: 'micinime.my.id',
+    key: INDEXNOW_KEY,
+    keyLocation: `https://micinime.my.id/${INDEXNOW_KEY}.txt`,
+    urlList: urls.map(u => u.startsWith('http') ? u : `https://micinime.my.id${u}`)
+  };
+  try {
+    const res = await axios.post('https://api.indexnow.org/indexnow', payload, {
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      timeout: 10000
+    });
+    console.log(`[indexnow] submitted ${urls.length} urls, status: ${res.status}`);
+  } catch (e) {
+    console.error(`[indexnow] error: ${e.message}`);
+  }
+}
 
 // Main Sitemap Index
 app.get('/sitemap.xml', (req, res) => {
