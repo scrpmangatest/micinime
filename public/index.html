@@ -2011,6 +2011,14 @@ const router = {
     },
 
     cardLatest(item) {
+        let timeStr = item.time || '';
+        if (!timeStr && item.updatedAt) {
+            const diff = Date.now() - item.updatedAt;
+            const mins = Math.floor(diff / 60000);
+            if (mins < 60) timeStr = `${mins} menit lalu`;
+            else if (mins < 1440) timeStr = `${Math.floor(mins / 60)} jam lalu`;
+            else timeStr = `${Math.floor(mins / 1440)} hari lalu`;
+        }
         return `
             <div class="bs styletere">
                 <div class="bsx">
@@ -2024,7 +2032,7 @@ const router = {
                             <div class="tt">${this.escapeHtml(item.title)}</div>
                             <div class="adds">
                                 <div class="epxs">${this.escapeHtml(item.chapter || 'Chapter 1')}</div>
-                                ${item.time ? `<div class="epxdate">${this.escapeHtml(item.time)}</div>` : ''}
+                                ${timeStr ? `<div class="epxdate">${this.escapeHtml(timeStr)}</div>` : ''}
                             </div>
                         </div>
                     </a>

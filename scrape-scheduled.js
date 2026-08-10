@@ -425,6 +425,7 @@ async function runScheduledScrape(options = {}) {
         chapter: item.chapter || existing.chapter || '',
         rating: item.rating || existing.rating || '',
         type: item.type || existing.type || 'Manga',
+        time: item.time || existing.time || null,
         updatedAt: Date.now()
       });
     }
