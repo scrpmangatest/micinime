@@ -996,6 +996,7 @@ app.get('*', (req, res) => {
   try {
     const html = buildSeoHtml(req);
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
     res.send(html);
   } catch (e) {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
