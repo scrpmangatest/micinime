@@ -407,6 +407,35 @@ async function runScheduledScrape(options = {}) {
   status.finishedAt = new Date().toISOString();
   status.durationMs = now() - started;
   saveJson(path.join(DATA_DIR, 'scrape-schedule-status.json'), status);
+
+  // Update komiktap.json so running server picks up changes immediately
+  try {
+    const komiktapFile = path.join(DATA_DIR, 'komiktap.json');
+    const komiktap = loadJson(komiktapFile, { items: [], totalItems: 0 });
+    const existingMap = new Map((komiktap.items || []).map(i => [i.slug, i]));
+    for (const [slug, item] of Object.entries(mangaMap)) {
+      const existing = existingMap.get(slug) || {};
+      existingMap.set(slug, {
+        ...existing,
+        slug,
+        title: item.title || existing.title || slug,
+        url: item.url || `/manga/${slug}`,
+        image: item.image || existing.image || null,
+        chapter: item.chapter || existing.chapter || '',
+        rating: item.rating || existing.rating || '',
+        type: item.type || existing.type || 'Manga',
+        updatedAt: Date.now()
+      });
+    }
+    komiktap.items = [...existingMap.values()];
+    komiktap.totalItems = komiktap.items.length;
+    komiktap.lastScraped = new Date().toISOString();
+    saveJson(komiktapFile, komiktap);
+    console.log(`[scrape] updated komiktap.json: ${komiktap.items.length} items`);
+  } catch (e) {
+    console.error('[scrape] failed to update komiktap.json:', e.message);
+  }
+
   console.log(`[scrape] done in ${Math.round(status.durationMs / 1000)}s | manga=${status.mangaUpdated} chapters=${status.chaptersScraped} reason=${status.stoppedReason}`);
   return status;
 }

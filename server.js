@@ -32,22 +32,23 @@ function mergeIncrementalData() {
       } catch (_) {}
 
       if (existing.has(slug)) {
-        // Update existing item if chapter changed
+        // Update existing item — always stamp updatedAt if in manga-list.json
         const idx = DATA.items.findIndex(i => i.slug === slug);
         if (idx >= 0) {
           const cur = DATA.items[idx];
           const newChapter = (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || item.chapter || '';
           if (newChapter && newChapter !== cur.chapter) {
             cur.chapter = newChapter;
-            if (detail.image) cur.image = detail.image;
-            if (detail.rating) cur.rating = detail.rating;
-            cur.updatedAt = Date.now();
-            // Move to front
-            DATA.items.splice(idx, 1);
-            DATA.items.unshift(cur);
-            updated++;
-            updatedUrls.push(`/manga/${slug}`);
           }
+          if (detail.image) cur.image = detail.image;
+          if (detail.rating) cur.rating = detail.rating;
+          if (item.title) cur.title = item.title;
+          cur.updatedAt = Date.now();
+          // Move to front
+          DATA.items.splice(idx, 1);
+          DATA.items.unshift(cur);
+          updated++;
+          updatedUrls.push(`/manga/${slug}`);
         }
         continue;
       }
@@ -137,20 +138,9 @@ function buildGenreIndex() {
 }
 
 // Re-read files periodically to pick up scraper updates
-// ponytail: refresh every 6h — also refresh if lastScraped is newer
+// ponytail: refresh every 6h — re-merge from disk
 function refreshData() {
-  try {
-    const fresh = loadLocal();
-    if (fresh && fresh.items) {
-      const shouldRefresh = fresh.items.length > (DATA?.items?.length || 0)
-        || (fresh.lastScraped && DATA?.lastScraped && fresh.lastScraped > DATA.lastScraped);
-      if (shouldRefresh) {
-        DATA = fresh;
-        mergeIncrementalData();
-        console.log(`[data] refreshed: ${DATA.items.length} items`);
-      }
-    }
-  } catch (_) {}
+  refreshLocalData();
 }
 setInterval(refreshData, 6 * 60 * 60 * 1000);
 
@@ -789,39 +779,21 @@ app.get('/api/search', async (req, res) => {
   }
 });
 
-async function refreshHomeOnly() {
-  const home = await source.fetchHome();
-  if (!DATA) {
-    DATA = {
-      lastScraped: new Date().toISOString(),
-      totalItems: 0,
-      home,
-      genres: [],
-      azLetters: [],
-      items: []
-    };
-  } else {
-    DATA.home = home;
-    DATA.lastScraped = new Date().toISOString();
-  }
-  // merge latest into items list (front)
-  const map = new Map((DATA.items || []).map(i => [i.slug, i]));
-  for (const item of [...(home.popular || []), ...(home.latest || [])]) {
-    if (!item || !item.slug) continue;
-    const existing = map.get(item.slug) || {};
-    map.set(item.slug, {
-      ...existing,
-      ...item,
-      updatedAt: Date.now() // always stamp on fresh scrape
-    });
-  }
-  DATA.items = [...map.values()];
-  DATA.totalItems = DATA.items.length;
+// Local-only refresh: re-merge manga-list.json (no network fetch)
+function refreshLocalData() {
   try {
-    if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
-    fs.writeFileSync(path.join(DATA_DIR, 'komiktap.json'), JSON.stringify(DATA));
+    const fresh = loadLocal();
+    if (fresh && fresh.items) {
+      DATA = fresh;
+      DATA.lastScraped = new Date().toISOString();
+      mergeIncrementalData();
+      // Save back so komiktap.json stays fresh
+      DATA.totalItems = DATA.items.length;
+      fs.writeFileSync(path.join(DATA_DIR, 'komiktap.json'), JSON.stringify(DATA));
+      console.log(`[data] local refresh: ${DATA.items.length} items`);
+    }
   } catch (e) {
-    console.error('[scrape] save fail:', e.message);
+    console.error('[data] local refresh error:', e.message);
   }
   return DATA;
 }
@@ -829,17 +801,16 @@ async function refreshHomeOnly() {
 async function triggerScheduledScrape(reason = 'schedule') {
   if (!SCRAPE_ENABLED || scrapeRunning) return lastScrapeStatus;
   scrapeRunning = true;
-  console.log(`[scrape] trigger (${reason}) from ${source.BASE_URL}`);
+  console.log(`[scrape] trigger (${reason}) — local merge from ${source.BASE_URL}`);
   try {
-    // Free Render: only refresh homepage (full catalog scrape is local-only)
-    DATA = await refreshHomeOnly();
+    DATA = refreshLocalData();
     lastScrapeStatus = {
       ok: true,
       finishedAt: new Date().toISOString(),
       total: DATA?.totalItems || 0,
       trigger: reason,
       source: source.BASE_URL,
-      mode: 'home-only'
+      mode: 'local-merge'
     };
     return lastScrapeStatus;
   } catch (err) {
