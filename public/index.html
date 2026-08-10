@@ -738,9 +738,10 @@
         /* Latest card (komiktap style) */
         .latest-card {
             width: 100% !important;
+            overflow: visible !important;
         }
         .latest-card a {
-            display: flex;
+            display: flex !important;
             gap: 12px;
             padding: 10px;
             background: var(--bg-card);
@@ -784,6 +785,8 @@
             flex-wrap: wrap;
         }
         .bs-chapter-btn {
+            flex: 1 1 auto;
+            min-width: 0;
             background: rgba(255,255,255,0.08);
             border: 1px solid var(--border-color);
             padding: 4px 10px;
@@ -791,6 +794,9 @@
             font-size: 12px;
             color: var(--text-secondary);
             white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: center;
         }
         .bs-time {
             font-size: 12px;
