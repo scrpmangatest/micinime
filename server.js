@@ -137,12 +137,19 @@ function buildGenreIndex() {
   console.log(`[genre-index] built: ${Object.keys(GENRE_INDEX).length} genres, ${count} mappings`);
 }
 
-// Re-read files periodically to pick up scraper updates
-// ponytail: refresh every 6h — re-merge from disk
+// Re-read files when komiktap.json changes (check mtime every 60s)
+let lastKomiktapMtime = 0;
 function refreshData() {
-  refreshLocalData();
+  try {
+    const stat = fs.statSync(path.join(DATA_DIR, 'komiktap.json'));
+    const mt = stat.mtimeMs;
+    if (mt > lastKomiktapMtime) {
+      lastKomiktapMtime = mt;
+      refreshLocalData();
+    }
+  } catch (_) {}
 }
-setInterval(refreshData, 6 * 60 * 60 * 1000);
+setInterval(refreshData, 60 * 1000);
 
 const SCRAPE_EVERY_MS = Math.max(60_000, parseInt(process.env.SCRAPE_EVERY_MS || String(6 * 60 * 60 * 1000), 10));
 const SCRAPE_ENABLED = String(process.env.SCRAPE_ENABLED || 'true').toLowerCase() !== 'false';
