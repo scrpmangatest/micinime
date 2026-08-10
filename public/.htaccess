@@ -1,0 +1,4 @@
+PassengerMaxPoolSize 1
+PassengerMinInstances 1
+PassengerPoolIdleTime 300
+PassengerConcurrencyModel thread

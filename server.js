@@ -80,9 +80,11 @@ function mergeIncrementalData() {
 }
 mergeIncrementalData();
 
-// Build genre index from data/manga/*.json files
+// Build genre index from data/manga/*.json files (lazy — built on first request)
 const GENRE_INDEX = {}; // { genreSlug: Set<catalogSlug> }
+let genreIndexBuilt = false;
 function buildGenreIndex() {
+  if (genreIndexBuilt) return;
   // Build name→slug map from genre list
   const nameToSlug = {};
   if (DATA && DATA.genres) {
@@ -101,7 +103,7 @@ function buildGenreIndex() {
   }
 
   const mangaDir = path.join(DATA_DIR, 'manga');
-  if (!fs.existsSync(mangaDir)) return;
+  if (!fs.existsSync(mangaDir)) { genreIndexBuilt = true; return; }
   const files = fs.readdirSync(mangaDir);
   let count = 0;
   for (const f of files) {
@@ -130,11 +132,12 @@ function buildGenreIndex() {
       }
     } catch (_) {}
   }
+  genreIndexBuilt = true;
   console.log(`[genre-index] built: ${Object.keys(GENRE_INDEX).length} genres, ${count} mappings`);
 }
-buildGenreIndex();
 
 // Re-read files periodically to pick up scraper updates
+// ponytail: refresh every 6h instead of 1h to save memory churn
 function refreshData() {
   try {
     const fresh = loadLocal();
@@ -147,9 +150,9 @@ function refreshData() {
     }
   } catch (_) {}
 }
-setInterval(refreshData, 60 * 60 * 1000);
+setInterval(refreshData, 6 * 60 * 60 * 1000);
 
-const SCRAPE_EVERY_MS = Math.max(60_000, parseInt(process.env.SCRAPE_EVERY_MS || String(1 * 60 * 60 * 1000), 10));
+const SCRAPE_EVERY_MS = Math.max(60_000, parseInt(process.env.SCRAPE_EVERY_MS || String(6 * 60 * 60 * 1000), 10));
 const SCRAPE_ENABLED = String(process.env.SCRAPE_ENABLED || 'true').toLowerCase() !== 'false';
 let scrapeRunning = false;
 let lastScrapeStatus = null;
@@ -660,6 +663,7 @@ app.get('/api/popular', async (req, res) => {
 
 app.get('/api/genres', async (req, res) => {
   try {
+    buildGenreIndex();
     if (DATA && Array.isArray(DATA.genres) && DATA.genres.length) {
       const genres = DATA.genres.map(g => ({
         ...g,
@@ -680,6 +684,7 @@ app.get('/api/genres', async (req, res) => {
 
 app.get('/api/genres/:slug', async (req, res) => {
   try {
+    buildGenreIndex();
     const slug = decodeURIComponent(req.params.slug);
     const page = Math.max(1, Number(req.query.page) || 1);
     const genreInfo = (DATA && DATA.genres && DATA.genres.find(g => g.slug === slug))
@@ -1021,5 +1026,6 @@ app.listen(PORT, () => {
   }
   startScrapeScheduler();
   setTimeout(() => warmPopularCache(), 5000);
-  setTimeout(() => triggerScheduledScrape('startup'), 3000);
+  // ponytail: startup scrape disabled — cron handles it, saves memory on boot
+  // setTimeout(() => triggerScheduledScrape('startup'), 3000);
 });
