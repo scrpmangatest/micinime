@@ -2011,13 +2011,15 @@ const router = {
     },
 
     cardLatest(item) {
-        let timeStr = item.time || '';
-        if (!timeStr && item.updatedAt) {
+        let timeStr = '';
+        if (item.time && item.time.length > 0) {
+            timeStr = item.time;
+        } else if (item.updatedAt) {
             const diff = Date.now() - item.updatedAt;
-            const mins = Math.floor(diff / 60000);
-            if (mins < 60) timeStr = `${mins} menit lalu`;
-            else if (mins < 1440) timeStr = `${Math.floor(mins / 60)} jam lalu`;
-            else timeStr = `${Math.floor(mins / 1440)} hari lalu`;
+            if (diff < 24 * 60 * 60 * 1000) {
+                const d = new Date(item.updatedAt);
+                timeStr = d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
+            }
         }
         return `
             <div class="bs styletere">
