@@ -137,12 +137,14 @@ function buildGenreIndex() {
 }
 
 // Re-read files periodically to pick up scraper updates
-// ponytail: refresh every 6h instead of 1h to save memory churn
+// ponytail: refresh every 6h — also refresh if lastScraped is newer
 function refreshData() {
   try {
     const fresh = loadLocal();
     if (fresh && fresh.items) {
-      if (fresh.items.length > (DATA?.items?.length || 0)) {
+      const shouldRefresh = fresh.items.length > (DATA?.items?.length || 0)
+        || (fresh.lastScraped && DATA?.lastScraped && fresh.lastScraped > DATA.lastScraped);
+      if (shouldRefresh) {
         DATA = fresh;
         mergeIncrementalData();
         console.log(`[data] refreshed: ${DATA.items.length} items`);
@@ -806,7 +808,12 @@ async function refreshHomeOnly() {
   const map = new Map((DATA.items || []).map(i => [i.slug, i]));
   for (const item of [...(home.popular || []), ...(home.latest || [])]) {
     if (!item || !item.slug) continue;
-    map.set(item.slug, { ...(map.get(item.slug) || {}), ...item });
+    const existing = map.get(item.slug) || {};
+    map.set(item.slug, {
+      ...existing,
+      ...item,
+      updatedAt: Date.now() // always stamp on fresh scrape
+    });
   }
   DATA.items = [...map.values()];
   DATA.totalItems = DATA.items.length;
