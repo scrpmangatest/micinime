@@ -367,7 +367,7 @@ async function enrichItemFromDetail(item) {
         chapter: item.chapter || (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || '',
         rating: item.rating || detail.rating || '',
         type: item.type || detail.type || 'Manga',
-        status: detail.status || item.status || '',
+        status: detail.status || item.status || 'Ongoing',
         chapters: (detail.chapters || []).slice(0, 3).map(ch => ({
           title: ch.title,
           url: ch.url || `/manga/${item.slug}/${ch.slug || ''}`,
@@ -376,6 +376,8 @@ async function enrichItemFromDetail(item) {
       };
     }
   } catch (_) {}
+  // No detail file — default status to Ongoing
+  if (!item.status) item.status = 'Ongoing';
   if (item.image) return item;
   const cached = missingImageCache.get(item.slug);
   if (cached) return { ...item, image: cached };
