@@ -395,7 +395,14 @@ app.get('/api/home', async (req, res) => {
   try {
     const page = Math.max(1, Number(req.query.page) || 1);
     if (DATA && Array.isArray(DATA.items) && DATA.items.length) {
-      const sorted = [...DATA.items].sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+      const sorted = [...DATA.items]
+        .map((item, idx) => ({ ...item, _origIdx: idx }))
+        .sort((a, b) => {
+          const ta = a.updatedAt || 0;
+          const tb = b.updatedAt || 0;
+          if (ta !== tb) return tb - ta;
+          return a._origIdx - b._origIdx; // items without updatedAt keep original order
+        });
       const paged = paginate(sorted, page, 16);
       paged.items = await Promise.all(paged.items.map(enrichItemFromDetail));
       const pop = await Promise.all(((DATA.home && DATA.home.popular) || sorted.slice(0, 15)).map(enrichItemFromDetail));
