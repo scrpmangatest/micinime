@@ -357,7 +357,6 @@ app.get('/api/proxy', async (req, res) => {
 const missingImageCache = new Map();
 
 async function enrichItemFromDetail(item) {
-  if (item.image && item.chapter) return item;
   try {
     const df = path.join(DATA_DIR, 'manga', `${item.slug}.json`);
     if (fs.existsSync(df)) {
@@ -368,7 +367,7 @@ async function enrichItemFromDetail(item) {
         chapter: item.chapter || (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || '',
         rating: item.rating || detail.rating || '',
         type: item.type || detail.type || 'Manga',
-        status: item.status || detail.status || '',
+        status: detail.status || item.status || '',
         chapters: (detail.chapters || []).slice(0, 3).map(ch => ({
           title: ch.title,
           url: ch.url || `/manga/${item.slug}/${ch.slug || ''}`,
