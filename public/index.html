@@ -718,8 +718,8 @@
         /* Latest Update Grid */
         .listupd {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 16px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
         }
         .listupd:not(.popularslider) .bs { width: 100%; }
         .listupd .bsx {
@@ -734,6 +734,85 @@
             padding: 3px 8px;
             border-radius: 4px;
         }
+
+        /* Latest card (komiktap style) */
+        .latest-card {
+            width: 100% !important;
+        }
+        .latest-card a {
+            display: flex;
+            gap: 12px;
+            padding: 10px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .latest-card a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        .bs-img {
+            flex-shrink: 0;
+            width: 80px;
+        }
+        .bs-img img {
+            width: 80px;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .bs-info {
+            flex: 1;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .bs-title {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .bs-chapters {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .bs-chapter-btn {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid var(--border-color);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+        .bs-time {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+        .bs-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 12px;
+            width: fit-content;
+        }
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .status-ongoing .status-dot { background: #f59e0b; }
+        .status-ongoing { color: #f59e0b; }
+        .status-completed .status-dot { background: #10b981; }
+        .status-completed { color: #10b981; }
         
         /* Loading */
         .loading {
@@ -1419,7 +1498,7 @@
                 justify-content: center;
             }
             
-            .listupd { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+            .listupd { grid-template-columns: 1fr; gap: 10px; }
             .tt { font-size: 13px; min-height: 36px; }
             
             .detail-container { grid-template-columns: 1fr; }
@@ -1462,7 +1541,7 @@
         }
         
         @media (max-width: 480px) {
-            .listupd { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+            .listupd { grid-template-columns: 1fr; gap: 8px; }
             .bs { width: 100%; }
             .releases h2 { font-size: 16px; }
             .vl { font-size: 11px; padding: 6px 12px; }
@@ -2021,24 +2100,25 @@ const router = {
                 timeStr = d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
             }
         }
+        const status = item.status || '';
+        const statusClass = /ongoing/i.test(status) ? 'status-ongoing' : /completed/i.test(status) ? 'status-completed' : '';
+        const chapters = (item.chapters || []).slice(0, 2);
         return `
-            <div class="bs styletere">
-                <div class="bsx">
-                    <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
-                        <div class="limit">
-                            <span class="flag-jp">${this.escapeHtml(item.type || 'Manga')}</span>
-                            <img src="${this.proxyImg(item.image)}" alt="${this.escapeHtml(item.title)}" loading="lazy"
-                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+            <div class="bsx latest-card">
+                <a href="#" data-url="${item.url}" class="nav-link" title="${this.escapeHtml(item.title)}">
+                    <div class="bs-img">
+                        <img src="${this.proxyImg(item.image)}" alt="${this.escapeHtml(item.title)}" loading="lazy"
+                             onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 285 425%22><rect fill=%22%23333%22 width=%22285%22 height=%22425%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23666%22 text-anchor=%22middle%22>No Image</text></svg>'">
+                    </div>
+                    <div class="bs-info">
+                        <div class="bs-title">${this.escapeHtml(item.title)}</div>
+                        <div class="bs-chapters">
+                            ${chapters.map(ch => `<div class="bs-chapter-btn">${this.escapeHtml(ch.title || item.chapter || 'Chapter 1')}</div>`).join('')}
                         </div>
-                        <div class="bigor">
-                            <div class="tt">${this.escapeHtml(item.title)}</div>
-                            <div class="adds">
-                                <div class="epxs">${this.escapeHtml(item.chapter || 'Chapter 1')}</div>
-                                ${timeStr ? `<div class="epxdate">${this.escapeHtml(timeStr)}</div>` : ''}
-                            </div>
-                        </div>
-                    </a>
-                </div>
+                        ${timeStr ? `<div class="bs-time">${this.escapeHtml(timeStr)}</div>` : ''}
+                        ${status ? `<div class="bs-status ${statusClass}"><span class="status-dot"></span>${this.escapeHtml(status)}</div>` : ''}
+                    </div>
+                </a>
             </div>
         `;
     },

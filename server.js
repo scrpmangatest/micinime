@@ -367,7 +367,13 @@ async function enrichItemFromDetail(item) {
         image: item.image || detail.image || null,
         chapter: item.chapter || (detail.chapters && detail.chapters[0] && detail.chapters[0].title) || '',
         rating: item.rating || detail.rating || '',
-        type: item.type || detail.type || 'Manga'
+        type: item.type || detail.type || 'Manga',
+        status: item.status || detail.status || '',
+        chapters: (detail.chapters || []).slice(0, 3).map(ch => ({
+          title: ch.title,
+          url: ch.url || `/manga/${item.slug}/${ch.slug || ''}`,
+          time: ch.date || null
+        }))
       };
     }
   } catch (_) {}
