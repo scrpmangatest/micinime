@@ -288,9 +288,10 @@ async function runScheduledScrape(options = {}) {
 
   console.log(`[scrape] start (max ${Math.round((options.maxMs || MAX_MS) / 60000)} min)`);
 
+  const listFile = path.join(DATA_DIR, 'manga-list.json');
+  let mangaMap = loadJson(listFile, {});
+
   try {
-    const listFile = path.join(DATA_DIR, 'manga-list.json');
-    const mangaMap = loadJson(listFile, {});
 
     const latest = await scrapeLatestList(deadline);
     status.latestFound = latest.length;
