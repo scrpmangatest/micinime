@@ -251,27 +251,40 @@ async function indexNowSubmit(urls) {
   }
 }
 
-// Main Sitemap Index
+// Flat sitemap — all URLs in one file (under 50k limit)
 app.get('/sitemap.xml', (req, res) => {
-  res.set('Content-Type', 'application/xml');
+  res.set('Content-Type', 'application/xml; charset=utf-8');
   res.set('Cache-Control', 'public, max-age=3600');
   const items = (DATA && DATA.items) || [];
-  const totalManga = items.length;
-  const chunk = 200;
-  const parts = Math.ceil(totalManga / chunk);
   const date = new Date().toISOString();
-  
-  let sitemaps = '';
-  // Add home & genres sitemap
-  sitemaps += `  <sitemap>\n    <loc>https://micinime.my.id/sitemap-pages.xml</loc>\n    <lastmod>${date}</lastmod>\n  </sitemap>\n`;
-  // Add manga sitemaps
-  for (let i = 1; i <= parts; i++) {
-    sitemaps += `  <sitemap>\n    <loc>https://micinime.my.id/sitemap-manga-${i}.xml</loc>\n    <lastmod>${date}</lastmod>\n  </sitemap>\n`;
+  let urls = '';
+
+  // Static pages
+  urls += `  <url><loc>https://micinime.my.id/</loc><lastmod>${date}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n`;
+  urls += `  <url><loc>https://micinime.my.id/genres</loc><lastmod>${date}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>\n`;
+  urls += `  <url><loc>https://micinime.my.id/az-lists</loc><lastmod>${date}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>\n`;
+
+  // Genres
+  if (DATA && DATA.genres) {
+    DATA.genres.forEach(g => {
+      if (g.slug) {
+        urls += `  <url><loc>https://micinime.my.id/genres/${encodeURIComponent(g.slug)}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>\n`;
+      }
+    });
   }
-  
+
+  // Manga
+  items.forEach(i => {
+    let rawSlug = i.slug || '';
+    try { rawSlug = decodeURIComponent(rawSlug); } catch(e) {}
+    const loc = `https://micinime.my.id/manga/${encodeURIComponent(rawSlug)}`;
+    const lastMod = i.updatedAt ? new Date(i.updatedAt).toISOString() : date;
+    urls += `  <url><loc>${loc}</loc><lastmod>${lastMod}</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>\n`;
+  });
+
   res.send(`<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sitemaps}</sitemapindex>`);
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls}</urlset>`);
 });
 
 // Static pages & genres sitemap
