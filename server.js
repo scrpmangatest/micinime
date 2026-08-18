@@ -254,6 +254,7 @@ async function indexNowSubmit(urls) {
 // Main Sitemap Index
 app.get('/sitemap.xml', (req, res) => {
   res.set('Content-Type', 'application/xml');
+  res.set('Cache-Control', 'public, max-age=3600');
   const items = (DATA && DATA.items) || [];
   const totalManga = items.length;
   const chunk = 200;
@@ -276,6 +277,7 @@ ${sitemaps}</sitemapindex>`);
 // Static pages & genres sitemap
 app.get('/sitemap-pages.xml', (req, res) => {
   res.set('Content-Type', 'application/xml');
+  res.set('Cache-Control', 'public, max-age=3600');
   const date = new Date().toISOString();
   let urls = `  <url><loc>https://micinime.my.id/</loc><lastmod>${date}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n`;
   urls += `  <url><loc>https://micinime.my.id/genres</loc><lastmod>${date}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>\n`;
@@ -297,6 +299,7 @@ ${urls}</urlset>`);
 // Manga pagination sitemaps
 app.get('/sitemap-manga-:page.xml', (req, res) => {
   res.set('Content-Type', 'application/xml');
+  res.set('Cache-Control', 'public, max-age=3600');
   const page = parseInt(req.params.page, 10);
   const items = (DATA && DATA.items) || [];
   const chunk = 200;
