@@ -1,0 +1,36 @@
+{
+  "slug": "dare",
+  "title": "Dare",
+  "image": "https://komiktap.info/wp-content/uploads/2021/05/001-2.jpg",
+  "rating": "8.3",
+  "description": "Kejebak Hujan",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "dare-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/dare-chapter-1",
+      "number": 1,
+      "date": "Mei 9, 2021"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "torokeru-tsuma-chichi",
+  "title": "torokeru-tsuma-chichi",
+  "image": null,
+  "rating": "8.5",
+  "description": "baca aja gan",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 2",
+      "url": "/torokeru-tsuma-chichi-chapter-2",
+      "slug": "torokeru-tsuma-chichi-chapter-2",
+      "date": "Agustus 31, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/torokeru-tsuma-chichi-chapter-1",
+      "slug": "torokeru-tsuma-chichi-chapter-1",
+      "date": "Agustus 28, 2026"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:14:57.038Z"
+}

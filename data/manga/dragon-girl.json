@@ -1,0 +1,32 @@
+{
+  "slug": "dragon-girl",
+  "title": "Dragon Girl",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/02-3.jpg",
+  "rating": "8.3",
+  "description": "Kisah asmara Penyihir dan Gadis Naga",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "dragon-girl-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/dragon-girl-chapter-1",
+      "number": 1,
+      "date": "September 5, 2020"
+    }
+  ]
+}

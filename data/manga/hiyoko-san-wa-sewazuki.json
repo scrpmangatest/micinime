@@ -1,0 +1,40 @@
+{
+  "slug": "hiyoko-san-wa-sewazuki",
+  "title": "Hiyoko-san wa Sewazuki",
+  "image": "https://komiktap.info/wp-content/uploads/2023/11/01-26.jpg",
+  "rating": "8.5",
+  "description": "Cuma mas mas kantoran yang di ajak sama cewe minimarket",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "hiyoko-san-wa-sewazuki-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/hiyoko-san-wa-sewazuki-chapter-1",
+      "number": 1,
+      "date": "November 28, 2023"
+    }
+  ]
+}

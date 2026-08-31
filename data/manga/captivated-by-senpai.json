@@ -1,0 +1,36 @@
+{
+  "slug": "captivated-by-senpai",
+  "title": "Captivated by senpai",
+  "image": "https://komiktap.info/wp-content/uploads/2023/10/01-15.jpg",
+  "rating": "8.5",
+  "description": "Seorang senpai dan kouhainya yang sedang menikmati satu sama lain.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "captivated-by-senpai-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/captivated-by-senpai-chapter-1",
+      "number": 1,
+      "date": "Oktober 31, 2023"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "cold-weather-bunny-end",
+  "title": "Cold Weather Bunny End",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/01-6.jpg",
+  "rating": "8.2",
+  "description": "Melihat cewe di luar memakai pakaian terbuka di musim dingin, memang aneh",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "cold-weather-bunny-end-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/cold-weather-bunny-end-chapter-1",
+      "number": 1,
+      "date": "September 5, 2020"
+    }
+  ]
+}

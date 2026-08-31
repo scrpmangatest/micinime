@@ -1,0 +1,28 @@
+{
+  "slug": "hentaiteki-kyouiku-shidou",
+  "title": "Hentaiteki Kyouiku Shidou",
+  "image": "https://komiktap.info/wp-content/uploads/2022/07/01-8.jpg",
+  "rating": "8.5",
+  "description": "seorang murid teladan yang selalu dipandang oleh teman-temannya dan juga orang tuanya. akan tetapi perlahan dia memiliki tekanan yang sangat besar sekali di dalam dirinya. dan akhirnya dimanfaatkan oleh seorang guru yang mesum. bagaimana kisahnya? lanjut saja membanca!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "hentaiteki-kyouiku-shidou-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/hentaiteki-kyouiku-shidou-chapter-1",
+      "number": 1,
+      "date": "Juli 12, 2022"
+    }
+  ]
+}

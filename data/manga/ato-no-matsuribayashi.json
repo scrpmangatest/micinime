@@ -1,0 +1,40 @@
+{
+  "slug": "ato-no-matsuribayashi",
+  "title": "Ato no Matsuribayashi",
+  "image": "https://komiktap.info/wp-content/uploads/2022/01/002.jpg",
+  "rating": "8.3",
+  "description": "Meski aku punya trauma dimasa lalu setelah ditolak wanita kusukai aku bertemu denga juniorku di festival kembang api",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ato-no-matsuribayashi-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ato-no-matsuribayashi-chapter-1",
+      "number": 1,
+      "date": "Januari 4, 2022"
+    }
+  ]
+}

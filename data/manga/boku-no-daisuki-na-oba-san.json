@@ -1,0 +1,74 @@
+{
+  "slug": "boku-no-daisuki-na-oba-san",
+  "title": "Boku no Daisuki na Oba-san",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/001-4.jpg",
+  "rating": "8.5",
+  "description": "Tsutomu mencintai ibu teman masa kecilnya, sehingga terjadi drama konflik yang dilaluinya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "boku-no-daisuki-na-oba-san-chapter-7",
+      "title": "Chapter 7 End",
+      "url": "/boku-no-daisuki-na-oba-san-chapter-7",
+      "number": 7,
+      "date": "September 22, 2020"
+    },
+    {
+      "slug": "boku-no-daisuki-na-oba-san-chapter-6",
+      "title": "Chapter 6",
+      "url": "/boku-no-daisuki-na-oba-san-chapter-6",
+      "number": 6,
+      "date": "September 19, 2020"
+    },
+    {
+      "slug": "boku-no-daisuki-na-oba-san-chapter-5",
+      "title": "Chapter 5",
+      "url": "/boku-no-daisuki-na-oba-san-chapter-5",
+      "number": 5,
+      "date": "September 19, 2020"
+    },
+    {
+      "slug": "boku-no-daisuki-na-oba-san-chapter-4",
+      "title": "Chapter 4",
+      "url": "/boku-no-daisuki-na-oba-san-chapter-4",
+      "number": 4,
+      "date": "September 17, 2020"
+    },
+    {
+      "slug": "boku-no-daisuki-na-oba-san-chapter-3",
+      "title": "Chapter 3",
+      "url": "/boku-no-daisuki-na-oba-san-chapter-3",
+      "number": 3,
+      "date": "September 16, 2020"
+    },
+    {
+      "slug": "boku-no-daisuki-na-oba-san-chapter-2",
+      "title": "Chapter 2",
+      "url": "/boku-no-daisuki-na-oba-san-chapter-2",
+      "number": 2,
+      "date": "September 15, 2020"
+    },
+    {
+      "slug": "boku-no-daisuki-na-oba-san-chapter-1",
+      "title": "Chapter 1",
+      "url": "/boku-no-daisuki-na-oba-san-chapter-1",
+      "number": 1,
+      "date": "September 13, 2020"
+    }
+  ]
+}

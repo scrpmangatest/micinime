@@ -1,0 +1,32 @@
+{
+  "slug": "houkago-dosukebe-nightpool",
+  "title": "Houkago Dosukebe Nightpool",
+  "image": "https://komiktap.info/wp-content/uploads/2024/11/01-1.jpg",
+  "rating": "8.5",
+  "description": "Rumor mengatakan ada hantu di kolam renang sekolah pada malam hari tapi ternyata bukan hanyalah ketua osis yg berenang saja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "houkago-dosukebe-nightpool-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/houkago-dosukebe-nightpool-chapter-1",
+      "number": 1,
+      "date": "November 2, 2024"
+    }
+  ]
+}

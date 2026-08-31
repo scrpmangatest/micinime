@@ -1,0 +1,42 @@
+{
+  "slug": "closet",
+  "title": "Closet",
+  "image": "https://komiktap.info/wp-content/uploads/2021/08/covercloset.jpg",
+  "rating": "7",
+  "description": "Ini NTR.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "closet-chapter-2",
+      "title": "Chapter 2",
+      "url": "/closet-chapter-2",
+      "number": 2,
+      "date": "Agustus 22, 2021"
+    },
+    {
+      "slug": "closet-chapter-1",
+      "title": "Chapter 1",
+      "url": "/closet-chapter-1",
+      "number": 1,
+      "date": "Agustus 22, 2021"
+    },
+    {
+      "slug": "closet-chapter-0",
+      "title": "Chapter 0",
+      "url": "/closet-chapter-0",
+      "number": 0,
+      "date": "Agustus 22, 2021"
+    }
+  ]
+}

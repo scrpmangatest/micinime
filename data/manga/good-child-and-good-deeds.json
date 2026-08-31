@@ -1,0 +1,32 @@
+{
+  "slug": "good-child-and-good-deeds",
+  "title": "Good Child and Good Deeds",
+  "image": "https://komiktap.info/wp-content/uploads/2024/09/01-6.jpg",
+  "rating": "8.5",
+  "description": "Sayang anak sayang anak",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "good-child-and-good-deeds-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/good-child-and-good-deeds-chapter-1",
+      "number": 1,
+      "date": "September 19, 2024"
+    }
+  ]
+}

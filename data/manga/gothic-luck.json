@@ -1,0 +1,36 @@
+{
+  "slug": "gothic-luck",
+  "title": "Gothic Luck",
+  "image": "https://komiktap.info/wp-content/uploads/2022/09/01-7.jpg",
+  "rating": "8.0",
+  "description": "maid yang baik! sini kamu ku ksih knt*l",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "gothic-luck-chapter-1-end",
+      "title": "Chapter 1 End",
+      "url": "/gothic-luck-chapter-1-end",
+      "number": 1,
+      "date": "September 5, 2022"
+    }
+  ]
+}

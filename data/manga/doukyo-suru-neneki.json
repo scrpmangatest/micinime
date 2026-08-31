@@ -1,0 +1,77 @@
+{
+  "slug": "doukyo-suru-neneki",
+  "title": "Doukyo Suru Neneki",
+  "image": "https://komiktap.info/wp-content/uploads/2021/04/009.jpg",
+  "rating": "2020",
+  "description": "Cewenya Monster, Vanilla Doujin",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "doukyo-suru-neneki-chapter-8",
+      "title": "Chapter 8",
+      "url": "/doukyo-suru-neneki-chapter-8",
+      "number": 8,
+      "date": "April 22, 2021"
+    },
+    {
+      "slug": "doukyo-suru-neneki-chapter-7",
+      "title": "Chapter 7",
+      "url": "/doukyo-suru-neneki-chapter-7",
+      "number": 7,
+      "date": "April 22, 2021"
+    },
+    {
+      "slug": "doukyo-suru-neneki-chapter-6",
+      "title": "Chapter 6",
+      "url": "/doukyo-suru-neneki-chapter-6",
+      "number": 6,
+      "date": "April 22, 2021"
+    },
+    {
+      "slug": "doukyo-suru-neneki-chapter-5",
+      "title": "Chapter 5",
+      "url": "/doukyo-suru-neneki-chapter-5",
+      "number": 5,
+      "date": "April 22, 2021"
+    },
+    {
+      "slug": "doukyo-suru-neneki-chapter-4",
+      "title": "Chapter 4",
+      "url": "/doukyo-suru-neneki-chapter-4",
+      "number": 4,
+      "date": "April 22, 2021"
+    },
+    {
+      "slug": "doukyo-suru-neneki-chapter-3",
+      "title": "Chapter 3",
+      "url": "/doukyo-suru-neneki-chapter-3",
+      "number": 3,
+      "date": "April 22, 2021"
+    },
+    {
+      "slug": "doukyo-suru-neneki-chapter-2",
+      "title": "Chapter 2",
+      "url": "/doukyo-suru-neneki-chapter-2",
+      "number": 2,
+      "date": "April 22, 2021"
+    },
+    {
+      "slug": "doukyo-suru-neneki-chapter-1",
+      "title": "Chapter 1",
+      "url": "/doukyo-suru-neneki-chapter-1",
+      "number": 1,
+      "date": "April 22, 2021"
+    }
+  ]
+}

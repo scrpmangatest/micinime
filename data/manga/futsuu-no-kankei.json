@@ -1,0 +1,28 @@
+{
+  "slug": "futsuu-no-kankei",
+  "title": "Futsuu no Kankei",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/03-3.jpg",
+  "rating": "8.3",
+  "description": "Mempunyai Kakak Terlalu mencintaiku.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "futsuu-no-kankei-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/futsuu-no-kankei-chapter-1",
+      "number": 1,
+      "date": "September 5, 2020"
+    }
+  ]
+}

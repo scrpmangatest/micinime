@@ -1,0 +1,32 @@
+{
+  "slug": "dopyu-dopyu-of-the-dead-kouhen",
+  "title": "Dopyu-Dopyu of The Dead Kouhen",
+  "image": "https://komiktap.info/wp-content/uploads/2022/02/01.jpg",
+  "rating": "8.3",
+  "description": "Sekolah menjadi kacau karena virus sange menyebar di seluruh ruangan",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "dopyu-dopyu-of-the-dead-kouhen-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/dopyu-dopyu-of-the-dead-kouhen-chapter-1",
+      "number": 1,
+      "date": "Februari 4, 2022"
+    }
+  ]
+}

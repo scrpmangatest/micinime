@@ -1,0 +1,32 @@
+{
+  "slug": "cookies-cream",
+  "title": "Cookies & Cream",
+  "image": "https://komiktap.info/wp-content/uploads/2023/11/01-3.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Blue Archive",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Yuri",
+      "url": "/genres/yuri"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "cookies-cream-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/cookies-cream-chapter-1",
+      "number": 1,
+      "date": "November 3, 2023"
+    }
+  ]
+}

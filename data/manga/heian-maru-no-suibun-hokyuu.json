@@ -1,0 +1,28 @@
+{
+  "slug": "heian-maru-no-suibun-hokyuu",
+  "title": "Heian Maru no Suibun Hokyuu",
+  "image": "https://komiktap.info/wp-content/uploads/2025/01/01-8.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Kantai Collection",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "heian-maru-no-suibun-hokyuu-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/heian-maru-no-suibun-hokyuu-chapter-1",
+      "number": 1,
+      "date": "Januari 13, 2025"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "doutei-yachin",
+  "title": "Doutei Yachin",
+  "image": "https://komiktap.info/wp-content/uploads/2022/01/1.jpg",
+  "rating": "8.5",
+  "description": "Aku pindah ke kota untuk sekolah namun aku tidak membayar uang sewa kedepannya tetapi ada cara lain untuk membayarnya….",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "doutei-yachin-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/doutei-yachin-chapter-1",
+      "number": 1,
+      "date": "Januari 9, 2022"
+    }
+  ]
+}

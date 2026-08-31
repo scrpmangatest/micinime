@@ -1,0 +1,61 @@
+{
+  "slug": "dorobou-chan",
+  "title": "Dorobou-chan",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/17ebade1-5cbb-4662-af4c-c7678995b15b.png",
+  "rating": "7.00",
+  "description": "Yonaga-kun, siswa SMA tahun kedua, sedang memikirkan seseorang. Tetangga tempat duduknya, Nemukata-san yang pendiam dan rapi. Dia suka melihat matanya yang berkilauan melalui kacamatanya saat dia membaca buku. Namun, suatu hari dia menemukan gadis yang sama masuk tanpa izin di kamarnya sebagai “Dorobou-chan”!? Sebuah romcom yang cerah, menyenangkan, dan tidak sepenuhnya kriminal",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    },
+    {
+      "name": "Shounen",
+      "url": "/genres/shounen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "dorobou-chan-chapter-04",
+      "title": "Chapter 04",
+      "url": "/dorobou-chan-chapter-04",
+      "number": 4,
+      "date": "September 1, 2023"
+    },
+    {
+      "slug": "dorobou-chan-chapter-03",
+      "title": "Chapter 03",
+      "url": "/dorobou-chan-chapter-03",
+      "number": 3,
+      "date": "Juli 25, 2023"
+    },
+    {
+      "slug": "dorobou-chan-chapter-02",
+      "title": "Chapter 02",
+      "url": "/dorobou-chan-chapter-02",
+      "number": 2,
+      "date": "Juli 25, 2023"
+    },
+    {
+      "slug": "dorobou-chan-chapter-01",
+      "title": "Chapter 01",
+      "url": "/dorobou-chan-chapter-01",
+      "number": 1,
+      "date": "Juli 25, 2023"
+    }
+  ]
+}

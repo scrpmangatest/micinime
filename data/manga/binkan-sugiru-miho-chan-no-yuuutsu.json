@@ -1,0 +1,32 @@
+{
+  "slug": "binkan-sugiru-miho-chan-no-yuuutsu",
+  "title": "Binkan Sugiru Miho-chan no Yuuutsu",
+  "image": "https://komiktap.info/wp-content/uploads/2023/05/01-45.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Idol Master",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "binkan-sugiru-miho-chan-no-yuuutsu-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/binkan-sugiru-miho-chan-no-yuuutsu-chapter-1",
+      "number": 1,
+      "date": "Mei 24, 2023"
+    }
+  ]
+}

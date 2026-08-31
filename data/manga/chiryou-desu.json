@@ -1,0 +1,44 @@
+{
+  "slug": "chiryou-desu",
+  "title": "Chiryou desu",
+  "image": "https://komiktap.info/wp-content/uploads/2023/01/01-23.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Pregnant",
+      "url": "/genres/pregnant"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "chiryou-desu-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/chiryou-desu-chapter-1",
+      "number": 1,
+      "date": "Januari 8, 2023"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "love-cheer",
+  "title": "love-cheer",
+  "image": null,
+  "rating": "7.8",
+  "description": "“Ayo, ayo, tim! Kami akan menyemangati kalian dengan segenap jiwa raga kami.” Mari kita intip kehidupan pribadi seorang maskot yang dulunya pemain bisbol profesional dan kini bekerja paruh waktu di dalam kostum maskot, serta para pemandu sorak di sekitarnya?",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 18",
+      "url": "/love-cheer-chapter-18",
+      "slug": "love-cheer-chapter-18",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 17",
+      "url": "/love-cheer-chapter-17",
+      "slug": "love-cheer-chapter-17",
+      "date": "Agustus 21, 2026"
+    },
+    {
+      "title": "Chapter 16",
+      "url": "/love-cheer-chapter-16",
+      "slug": "love-cheer-chapter-16",
+      "date": "Agustus 16, 2026"
+    },
+    {
+      "title": "Chapter 15",
+      "url": "/love-cheer-chapter-15",
+      "slug": "love-cheer-chapter-15",
+      "date": "Agustus 8, 2026"
+    },
+    {
+      "title": "Chapter 14",
+      "url": "/love-cheer-chapter-14",
+      "slug": "love-cheer-chapter-14",
+      "date": "Juli 30, 2026"
+    },
+    {
+      "title": "Chapter 13",
+      "url": "/love-cheer-chapter-13",
+      "slug": "love-cheer-chapter-13",
+      "date": "Juli 21, 2026"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/love-cheer-chapter-12",
+      "slug": "love-cheer-chapter-12",
+      "date": "Juli 21, 2026"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/love-cheer-chapter-11",
+      "slug": "love-cheer-chapter-11",
+      "date": "Juli 8, 2026"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/love-cheer-chapter-10",
+      "slug": "love-cheer-chapter-10",
+      "date": "Juli 7, 2026"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/love-cheer-chapter-9",
+      "slug": "love-cheer-chapter-9",
+      "date": "Juni 23, 2026"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/love-cheer-chapter-8",
+      "slug": "love-cheer-chapter-8",
+      "date": "Juni 18, 2026"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/love-cheer-chapter-7",
+      "slug": "love-cheer-chapter-7",
+      "date": "Juni 18, 2026"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/love-cheer-chapter-6",
+      "slug": "love-cheer-chapter-6",
+      "date": "Juni 12, 2026"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/love-cheer-chapter-5",
+      "slug": "love-cheer-chapter-5",
+      "date": "Juni 12, 2026"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/love-cheer-chapter-4",
+      "slug": "love-cheer-chapter-4",
+      "date": "Juni 10, 2026"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/love-cheer-chapter-3",
+      "slug": "love-cheer-chapter-3",
+      "date": "Juni 5, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/love-cheer-chapter-2",
+      "slug": "love-cheer-chapter-2",
+      "date": "Juni 5, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/love-cheer-chapter-1",
+      "slug": "love-cheer-chapter-1",
+      "date": "Juni 5, 2026"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:17:01.981Z"
+}

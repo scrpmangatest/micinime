@@ -1,49 +1,452 @@
 {
   "slug": "from-pauper-to-prince",
-  "title": "From Pauper to Prince",
-  "image": "https://i0.wp.com/komikhentaiku.com/wp-content/uploads/2026/03/cover-118.jpg",
-  "rating": "9.00",
-  "description": "Having lived in poverty all his life, Brian gets a second chance when he is offered the role of the sole heir to a conglomerate family’s enormous fortune.",
-  "status": "Ongoing",
-  "type": "Manga",
+  "title": "from-pauper-to-prince",
+  "image": null,
+  "rating": "7.8",
+  "description": "Setelah hidup dalam kemiskinan sepanjang hidupnya, Brian mendapat kesempatan kedua ketika ia ditawari peran sebagai pewaris tunggal kekayaan besar keluarga konglomerat.",
+  "status": null,
+  "type": null,
   "genres": [
     {
-      "name": "berwarna",
-      "url": "/genres/berwarna"
+      "name": "Adult",
+      "url": "/genres/adult"
     },
     {
-      "name": "big ass",
-      "url": "/genres/big-ass"
+      "name": "Drama",
+      "url": "/genres/drama"
     },
     {
-      "name": "big breasts",
-      "url": "/genres/big-breasts"
+      "name": "Harem",
+      "url": "/genres/harem"
     },
     {
-      "name": "big penis",
-      "url": "/genres/big-penis"
+      "name": "Mature",
+      "url": "/genres/mature"
     },
     {
-      "name": "big tits",
-      "url": "/genres/big-tits"
+      "name": "Romance",
+      "url": "/genres/romance"
     },
     {
-      "name": "full color",
-      "url": "/genres/full-color"
-    },
-    {
-      "name": "toker besar",
-      "url": "/genres/toker-besar"
-    },
-    {
-      "name": "toket besar",
-      "url": "/genres/toket-besar"
-    },
-    {
-      "name": "Uncensored",
-      "url": "/genres/uncensored"
+      "name": "Smut",
+      "url": "/genres/smut"
     }
   ],
-  "chapters": [],
-  "scrapedAt": "2026-08-06T13:22:54.818Z"
+  "chapters": [
+    {
+      "title": "Chapter 69",
+      "url": "/from-pauper-to-prince-chapter-69",
+      "slug": "from-pauper-to-prince-chapter-69",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 68",
+      "url": "/from-pauper-to-prince-chapter-68",
+      "slug": "from-pauper-to-prince-chapter-68",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 67",
+      "url": "/from-pauper-to-prince-chapter-67",
+      "slug": "from-pauper-to-prince-chapter-67",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 66",
+      "url": "/from-pauper-to-prince-chapter-66",
+      "slug": "from-pauper-to-prince-chapter-66",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 65",
+      "url": "/from-pauper-to-prince-chapter-65",
+      "slug": "from-pauper-to-prince-chapter-65",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 64",
+      "url": "/from-pauper-to-prince-chapter-64",
+      "slug": "from-pauper-to-prince-chapter-64",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 63",
+      "url": "/from-pauper-to-prince-chapter-63",
+      "slug": "from-pauper-to-prince-chapter-63",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 62",
+      "url": "/from-pauper-to-prince-chapter-62",
+      "slug": "from-pauper-to-prince-chapter-62",
+      "date": "Juli 24, 2026"
+    },
+    {
+      "title": "Chapter 61",
+      "url": "/from-pauper-to-prince-chapter-61",
+      "slug": "from-pauper-to-prince-chapter-61",
+      "date": "Juli 24, 2026"
+    },
+    {
+      "title": "Chapter 60",
+      "url": "/from-pauper-to-prince-chapter-60",
+      "slug": "from-pauper-to-prince-chapter-60",
+      "date": "Juli 22, 2026"
+    },
+    {
+      "title": "Chapter 59",
+      "url": "/from-pauper-to-prince-chapter-59",
+      "slug": "from-pauper-to-prince-chapter-59",
+      "date": "Juni 10, 2026"
+    },
+    {
+      "title": "Chapter 58",
+      "url": "/from-pauper-to-prince-chapter-58",
+      "slug": "from-pauper-to-prince-chapter-58",
+      "date": "Juni 4, 2026"
+    },
+    {
+      "title": "Chapter 57",
+      "url": "/from-pauper-to-prince-chapter-57",
+      "slug": "from-pauper-to-prince-chapter-57",
+      "date": "Mei 25, 2026"
+    },
+    {
+      "title": "Chapter 56",
+      "url": "/from-pauper-to-prince-chapter-56",
+      "slug": "from-pauper-to-prince-chapter-56",
+      "date": "Mei 21, 2026"
+    },
+    {
+      "title": "Chapter 55",
+      "url": "/from-pauper-to-prince-chapter-55",
+      "slug": "from-pauper-to-prince-chapter-55",
+      "date": "Mei 14, 2026"
+    },
+    {
+      "title": "Chapter 54",
+      "url": "/from-pauper-to-prince-chapter-54",
+      "slug": "from-pauper-to-prince-chapter-54",
+      "date": "Mei 8, 2026"
+    },
+    {
+      "title": "Chapter 53",
+      "url": "/from-pauper-to-prince-chapter-53",
+      "slug": "from-pauper-to-prince-chapter-53",
+      "date": "April 27, 2026"
+    },
+    {
+      "title": "Chapter 52",
+      "url": "/from-pauper-to-prince-chapter-52",
+      "slug": "from-pauper-to-prince-chapter-52",
+      "date": "April 27, 2026"
+    },
+    {
+      "title": "Chapter 51",
+      "url": "/from-pauper-to-prince-chapter-51",
+      "slug": "from-pauper-to-prince-chapter-51",
+      "date": "April 27, 2026"
+    },
+    {
+      "title": "Chapter 50",
+      "url": "/from-pauper-to-prince-chapter-50",
+      "slug": "from-pauper-to-prince-chapter-50",
+      "date": "April 27, 2026"
+    },
+    {
+      "title": "Chapter 49",
+      "url": "/from-pauper-to-prince-chapter-49",
+      "slug": "from-pauper-to-prince-chapter-49",
+      "date": "April 27, 2026"
+    },
+    {
+      "title": "Chapter 48",
+      "url": "/from-pauper-to-prince-chapter-48",
+      "slug": "from-pauper-to-prince-chapter-48",
+      "date": "April 9, 2026"
+    },
+    {
+      "title": "Chapter 47",
+      "url": "/from-pauper-to-prince-chapter-47",
+      "slug": "from-pauper-to-prince-chapter-47",
+      "date": "April 9, 2026"
+    },
+    {
+      "title": "Chapter 46",
+      "url": "/from-pauper-to-prince-chapter-46",
+      "slug": "from-pauper-to-prince-chapter-46",
+      "date": "Maret 17, 2026"
+    },
+    {
+      "title": "Chapter 45",
+      "url": "/from-pauper-to-prince-chapter-45",
+      "slug": "from-pauper-to-prince-chapter-45",
+      "date": "Maret 3, 2026"
+    },
+    {
+      "title": "Chapter 44",
+      "url": "/from-pauper-to-prince-chapter-44",
+      "slug": "from-pauper-to-prince-chapter-44",
+      "date": "Maret 3, 2026"
+    },
+    {
+      "title": "Chapter 43",
+      "url": "/from-pauper-to-prince-chapter-43",
+      "slug": "from-pauper-to-prince-chapter-43",
+      "date": "Maret 3, 2026"
+    },
+    {
+      "title": "Chapter 42",
+      "url": "/from-pauper-to-prince-chapter-42",
+      "slug": "from-pauper-to-prince-chapter-42",
+      "date": "Maret 3, 2026"
+    },
+    {
+      "title": "Chapter 41",
+      "url": "/from-pauper-to-prince-chapter-41",
+      "slug": "from-pauper-to-prince-chapter-41",
+      "date": "Maret 3, 2026"
+    },
+    {
+      "title": "Chapter 40",
+      "url": "/from-pauper-to-prince-chapter-40",
+      "slug": "from-pauper-to-prince-chapter-40",
+      "date": "Februari 28, 2026"
+    },
+    {
+      "title": "Chapter 39",
+      "url": "/from-pauper-to-prince-chapter-39",
+      "slug": "from-pauper-to-prince-chapter-39",
+      "date": "Februari 27, 2026"
+    },
+    {
+      "title": "Chapter 38",
+      "url": "/from-pauper-to-prince-chapter-38",
+      "slug": "from-pauper-to-prince-chapter-38",
+      "date": "Februari 13, 2026"
+    },
+    {
+      "title": "Chapter 37",
+      "url": "/from-pauper-to-prince-chapter-37",
+      "slug": "from-pauper-to-prince-chapter-37",
+      "date": "Januari 22, 2026"
+    },
+    {
+      "title": "Chapter 36",
+      "url": "/from-pauper-to-prince-chapter-36",
+      "slug": "from-pauper-to-prince-chapter-36",
+      "date": "Januari 22, 2026"
+    },
+    {
+      "title": "Chapter 35",
+      "url": "/from-pauper-to-prince-chapter-35",
+      "slug": "from-pauper-to-prince-chapter-35",
+      "date": "Januari 22, 2026"
+    },
+    {
+      "title": "Chapter 34",
+      "url": "/from-pauper-to-prince-chapter-34",
+      "slug": "from-pauper-to-prince-chapter-34",
+      "date": "Januari 22, 2026"
+    },
+    {
+      "title": "Chapter 33",
+      "url": "/from-pauper-to-prince-chapter-33",
+      "slug": "from-pauper-to-prince-chapter-33",
+      "date": "November 19, 2025"
+    },
+    {
+      "title": "Chapter 32",
+      "url": "/from-pauper-to-prince-chapter-32",
+      "slug": "from-pauper-to-prince-chapter-32",
+      "date": "November 10, 2025"
+    },
+    {
+      "title": "Chapter 31",
+      "url": "/from-pauper-to-prince-chapter-31",
+      "slug": "from-pauper-to-prince-chapter-31",
+      "date": "November 4, 2025"
+    },
+    {
+      "title": "Chapter 30",
+      "url": "/from-pauper-to-prince-chapter-30",
+      "slug": "from-pauper-to-prince-chapter-30",
+      "date": "Oktober 27, 2025"
+    },
+    {
+      "title": "Chapter 29",
+      "url": "/from-pauper-to-prince-chapter-29",
+      "slug": "from-pauper-to-prince-chapter-29",
+      "date": "Oktober 22, 2025"
+    },
+    {
+      "title": "Chapter 28",
+      "url": "/from-pauper-to-prince-chapter-28",
+      "slug": "from-pauper-to-prince-chapter-28",
+      "date": "Oktober 14, 2025"
+    },
+    {
+      "title": "Chapter 27",
+      "url": "/from-pauper-to-prince-chapter-27",
+      "slug": "from-pauper-to-prince-chapter-27",
+      "date": "Oktober 9, 2025"
+    },
+    {
+      "title": "Chapter 26",
+      "url": "/from-pauper-to-prince-chapter-26",
+      "slug": "from-pauper-to-prince-chapter-26",
+      "date": "September 29, 2025"
+    },
+    {
+      "title": "Chapter 25",
+      "url": "/from-pauper-to-prince-chapter-25",
+      "slug": "from-pauper-to-prince-chapter-25",
+      "date": "September 22, 2025"
+    },
+    {
+      "title": "Chapter 24",
+      "url": "/from-pauper-to-prince-chapter-24",
+      "slug": "from-pauper-to-prince-chapter-24",
+      "date": "September 18, 2025"
+    },
+    {
+      "title": "Chapter 23",
+      "url": "/from-pauper-to-prince-chapter-23",
+      "slug": "from-pauper-to-prince-chapter-23",
+      "date": "September 9, 2025"
+    },
+    {
+      "title": "Chapter 22",
+      "url": "/from-pauper-to-prince-chapter-22",
+      "slug": "from-pauper-to-prince-chapter-22",
+      "date": "September 5, 2025"
+    },
+    {
+      "title": "Chapter 21",
+      "url": "/from-pauper-to-prince-chapter-21",
+      "slug": "from-pauper-to-prince-chapter-21",
+      "date": "September 5, 2025"
+    },
+    {
+      "title": "Chapter 20",
+      "url": "/from-pauper-to-prince-chapter-20",
+      "slug": "from-pauper-to-prince-chapter-20",
+      "date": "Agustus 17, 2025"
+    },
+    {
+      "title": "Chapter 19",
+      "url": "/from-pauper-to-prince-chapter-19",
+      "slug": "from-pauper-to-prince-chapter-19",
+      "date": "Agustus 11, 2025"
+    },
+    {
+      "title": "Chapter 18",
+      "url": "/from-pauper-to-prince-chapter-18",
+      "slug": "from-pauper-to-prince-chapter-18",
+      "date": "Agustus 6, 2025"
+    },
+    {
+      "title": "Chapter 17",
+      "url": "/from-pauper-to-prince-chapter-17",
+      "slug": "from-pauper-to-prince-chapter-17",
+      "date": "Juli 28, 2025"
+    },
+    {
+      "title": "Chapter 16",
+      "url": "/from-pauper-to-prince-chapter-16",
+      "slug": "from-pauper-to-prince-chapter-16",
+      "date": "Juli 22, 2025"
+    },
+    {
+      "title": "Chapter 15",
+      "url": "/from-pauper-to-prince-chapter-15",
+      "slug": "from-pauper-to-prince-chapter-15",
+      "date": "Juli 13, 2025"
+    },
+    {
+      "title": "Chapter 14",
+      "url": "/from-pauper-to-prince-chapter-14",
+      "slug": "from-pauper-to-prince-chapter-14",
+      "date": "Juli 13, 2025"
+    },
+    {
+      "title": "Chapter 13",
+      "url": "/from-pauper-to-prince-chapter-13",
+      "slug": "from-pauper-to-prince-chapter-13",
+      "date": "Juli 1, 2025"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/from-pauper-to-prince-chapter-12",
+      "slug": "from-pauper-to-prince-chapter-12",
+      "date": "Juni 22, 2025"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/from-pauper-to-prince-chapter-11",
+      "slug": "from-pauper-to-prince-chapter-11",
+      "date": "Juni 16, 2025"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/from-pauper-to-prince-chapter-10",
+      "slug": "from-pauper-to-prince-chapter-10",
+      "date": "Juni 9, 2025"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/from-pauper-to-prince-chapter-9",
+      "slug": "from-pauper-to-prince-chapter-9",
+      "date": "Juni 2, 2025"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/from-pauper-to-prince-chapter-8",
+      "slug": "from-pauper-to-prince-chapter-8",
+      "date": "Juni 2, 2025"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/from-pauper-to-prince-chapter-7",
+      "slug": "from-pauper-to-prince-chapter-7",
+      "date": "Juni 2, 2025"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/from-pauper-to-prince-chapter-6",
+      "slug": "from-pauper-to-prince-chapter-6",
+      "date": "Juni 1, 2025"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/from-pauper-to-prince-chapter-5",
+      "slug": "from-pauper-to-prince-chapter-5",
+      "date": "Juni 1, 2025"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/from-pauper-to-prince-chapter-4",
+      "slug": "from-pauper-to-prince-chapter-4",
+      "date": "Mei 31, 2025"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/from-pauper-to-prince-chapter-3",
+      "slug": "from-pauper-to-prince-chapter-3",
+      "date": "Mei 30, 2025"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/from-pauper-to-prince-chapter-2",
+      "slug": "from-pauper-to-prince-chapter-2",
+      "date": "Mei 29, 2025"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/from-pauper-to-prince-chapter-1",
+      "slug": "from-pauper-to-prince-chapter-1",
+      "date": "Mei 29, 2025"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:33:27.578Z"
 }

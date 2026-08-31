@@ -1,0 +1,57 @@
+{
+  "slug": "boy-meets-nyaa-god-boy-meets-cat-goddess",
+  "title": "Boy Meets Nyaa God Boy Meets Cat Goddess",
+  "image": "https://komiktap.info/wp-content/uploads/2021/04/03.jpg",
+  "rating": "8.5",
+  "description": "Bercerita seorang pemuda bernama Natsume dan keduanya 2 Dewi Kucing, yang dimaksudkan Dewi tersebut Meminta Natsume untuk menjadikan Pasangan Musim Kawinnya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "boy-meets-nyaa-god-boy-meets-cat-goddess-chapter-4",
+      "title": "Chapter 4 End",
+      "url": "/boy-meets-nyaa-god-boy-meets-cat-goddess-chapter-4",
+      "number": 4,
+      "date": "September 5, 2020"
+    },
+    {
+      "slug": "boy-meets-nyaa-god-boy-meets-cat-goddess-chapter-3",
+      "title": "Chapter 3",
+      "url": "/boy-meets-nyaa-god-boy-meets-cat-goddess-chapter-3",
+      "number": 3,
+      "date": "September 5, 2020"
+    },
+    {
+      "slug": "boy-meets-nyaa-god-boy-meets-cat-goddess-chapter-2",
+      "title": "Chapter 2",
+      "url": "/boy-meets-nyaa-god-boy-meets-cat-goddess-chapter-2",
+      "number": 2,
+      "date": "September 5, 2020"
+    },
+    {
+      "slug": "boy-meets-nyaa-god-boy-meets-cat-goddess-chapter-1",
+      "title": "Chapter 1",
+      "url": "/boy-meets-nyaa-god-boy-meets-cat-goddess-chapter-1",
+      "number": 1,
+      "date": "September 5, 2020"
+    }
+  ]
+}

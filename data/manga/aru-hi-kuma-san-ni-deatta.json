@@ -1,0 +1,36 @@
+{
+  "slug": "aru-hi-kuma-san-ni-deatta",
+  "title": "Aru Hi Kuma-san ni Deatta",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/05.jpg",
+  "rating": "8.2",
+  "description": "Inoue dan Amane bertemu di tempat game center, Cerita romansa pun terus berjalan",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "aru-hi-kuma-san-ni-deatta-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/aru-hi-kuma-san-ni-deatta-chapter-1",
+      "number": 1,
+      "date": "September 5, 2020"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "dosukebe-chinpo-dorei-yokai-nekomata",
+  "title": "Dosukebe Chinpo Dorei ~Yokai Nekomata~",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-55.jpg",
+  "rating": "8.5",
+  "description": "Mempunyai Pheromon yang besar",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Monster Girl",
+      "url": "/genres/monster-girl"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "dosukebe-chinpo-dorei-yokai-nekomata-chapter-1",
+      "title": "Chapter 1",
+      "url": "/dosukebe-chinpo-dorei-yokai-nekomata-chapter-1",
+      "number": 1,
+      "date": "Maret 20, 2023"
+    }
+  ]
+}

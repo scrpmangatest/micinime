@@ -1,0 +1,32 @@
+{
+  "slug": "chounyuu-mama-yakumo-yukari-2",
+  "title": "Chounyuu Mama Yakumo Yukari 2",
+  "image": "https://komiktap.info/wp-content/uploads/2023/02/01-54.jpg",
+  "rating": "8.5",
+  "description": "Seorang wanita yang dimintai tuan tanah untuk mengurus putranya. Namun setelah sampai, putranya itu tidak sesuai dengan bayang di wanita itu.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "chounyuu-mama-yakumo-yukari-2-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/chounyuu-mama-yakumo-yukari-2-chapter-1",
+      "number": 1,
+      "date": "Februari 19, 2023"
+    }
+  ]
+}

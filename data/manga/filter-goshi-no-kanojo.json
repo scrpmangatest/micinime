@@ -1,0 +1,54 @@
+{
+  "slug": "filter-goshi-no-kanojo",
+  "title": "Filter-Goshi no Kanojo",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/04ac6c33-8e3e-4796-8ccb-7ebeae067b0f.webp",
+  "rating": "7.00",
+  "description": "Gadis Rahasia dibalik Filter",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "filter-goshi-no-kanojo-chapter-03-bahasa-indonesia",
+      "title": "Chapter 03 bahasa indonesia",
+      "url": "/filter-goshi-no-kanojo-chapter-03-bahasa-indonesia",
+      "number": 3,
+      "date": "Juli 6, 2023"
+    },
+    {
+      "slug": "filter-goshi-no-kanojo-chapter-02-bahasa-indonesia",
+      "title": "Chapter 02 bahasa indonesia",
+      "url": "/filter-goshi-no-kanojo-chapter-02-bahasa-indonesia",
+      "number": 2,
+      "date": "Juli 6, 2023"
+    },
+    {
+      "slug": "filter-goshi-no-kanojo-chapter-01-bahasa-indonesia",
+      "title": "Chapter 01 bahasa indonesia",
+      "url": "/filter-goshi-no-kanojo-chapter-01-bahasa-indonesia",
+      "number": 1,
+      "date": "Juli 6, 2023"
+    }
+  ]
+}

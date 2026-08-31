@@ -1,0 +1,40 @@
+{
+  "slug": "gargantua-no-kyuujitsu",
+  "title": "Gargantua no Kyuujitsu",
+  "image": "https://komiktap.info/wp-content/uploads/2022/02/01-2.jpg",
+  "rating": "8.3",
+  "description": "Seorang komandan Iblis membawa pulang seorang pahlawan untuk dijadikan kekasihnya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "gargantua-no-kyuujitsu-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/gargantua-no-kyuujitsu-chapter-1",
+      "number": 1,
+      "date": "Februari 7, 2022"
+    }
+  ]
+}

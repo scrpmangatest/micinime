@@ -1,0 +1,32 @@
+{
+  "slug": "haha-to-majiwaru-hi",
+  "title": "Haha to Majiwaru Hi",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/01-16.jpg",
+  "rating": "8.4",
+  "description": "Tomoya hidup sendirian atas kemauannya sendiri, namun sebulan sekali ibunya jenguk Tomoya karena khawatir dengan kehidupannya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "haha-to-majiwaru-hi-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/haha-to-majiwaru-hi-chapter-1",
+      "number": 1,
+      "date": "September 6, 2020"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "haramase-mamizou-oba-chan",
+  "title": "Haramase Mamizou Oba-chan",
+  "image": "https://komiktap.info/wp-content/uploads/2024/07/01-14.jpg",
+  "rating": "8.5",
+  "description": "Parodi tohou project",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "haramase-mamizou-oba-chan-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/haramase-mamizou-oba-chan-chapter-1",
+      "number": 1,
+      "date": "Juli 25, 2024"
+    }
+  ]
+}

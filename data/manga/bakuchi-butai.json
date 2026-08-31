@@ -1,0 +1,32 @@
+{
+  "slug": "bakuchi-butai",
+  "title": "Bakuchi Butai",
+  "image": "https://komiktap.info/wp-content/uploads/2023/10/01-15.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Anime Naruto",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Threesome",
+      "url": "/genres/threesome"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "bakuchi-butai-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/bakuchi-butai-chapter-1",
+      "number": 1,
+      "date": "Oktober 17, 2023"
+    }
+  ]
+}

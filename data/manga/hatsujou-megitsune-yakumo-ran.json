@@ -1,0 +1,36 @@
+{
+  "slug": "hatsujou-megitsune-yakumo-ran",
+  "title": "Hatsujou Megitsune Yakumo Ran",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/01-32.jpg",
+  "rating": "8.5",
+  "description": "Paroi dari Tohou project",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "hatsujou-megitsune-yakumo-ran-ran-yakumo-vixen-in-heat-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/hatsujou-megitsune-yakumo-ran-ran-yakumo-vixen-in-heat-chapter-1",
+      "number": 1,
+      "date": "Juli 17, 2023"
+    }
+  ]
+}

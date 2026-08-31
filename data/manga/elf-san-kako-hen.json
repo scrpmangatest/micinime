@@ -1,0 +1,60 @@
+{
+  "slug": "elf-san-kako-hen",
+  "title": "Elf-san Kako-hen",
+  "image": "https://komiktap.info/wp-content/uploads/2023/05/elf-san-kako-hen.jpg",
+  "rating": "7.3",
+  "description": "Masa lalu Elf",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Hentai",
+      "url": "/genres/hentai"
+    },
+    {
+      "name": "Tragedy",
+      "url": "/genres/tragedy"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "elf-san-kako-hen-chapter-05",
+      "title": "Chapter 5",
+      "url": "/elf-san-kako-hen-chapter-05",
+      "number": 5,
+      "date": "Mei 17, 2023"
+    },
+    {
+      "slug": "elf-san-kako-hen-chapter-04",
+      "title": "Chapter 4",
+      "url": "/elf-san-kako-hen-chapter-04",
+      "number": 4,
+      "date": "Mei 17, 2023"
+    },
+    {
+      "slug": "elf-san-kako-hen-chapter-03",
+      "title": "Chapter 3",
+      "url": "/elf-san-kako-hen-chapter-03",
+      "number": 3,
+      "date": "Mei 17, 2023"
+    },
+    {
+      "slug": "elf-san-kako-hen-chapter-02",
+      "title": "Chapter 2",
+      "url": "/elf-san-kako-hen-chapter-02",
+      "number": 2,
+      "date": "Mei 17, 2023"
+    },
+    {
+      "slug": "elf-san-kako-hen-chapter-01",
+      "title": "Chapter 1",
+      "url": "/elf-san-kako-hen-chapter-01",
+      "number": 1,
+      "date": "Mei 17, 2023"
+    }
+  ]
+}

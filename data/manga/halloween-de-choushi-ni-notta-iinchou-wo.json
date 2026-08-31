@@ -1,0 +1,32 @@
+{
+  "slug": "halloween-de-choushi-ni-notta-iinchou-wo",
+  "title": "Halloween de Choushi ni Notta Iinchou wo",
+  "image": "https://komiktap.info/wp-content/uploads/2023/11/01-7.jpg",
+  "rating": "8.5",
+  "description": "yang dilakukan ketua pada hari halloween…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "halloween-de-choushi-ni-notta-iinchou-wo-uchi-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/halloween-de-choushi-ni-notta-iinchou-wo-uchi-chapter-1",
+      "number": 1,
+      "date": "November 5, 2023"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "torokemo",
+  "title": "torokemo",
+  "image": null,
+  "rating": "8.0",
+  "description": "Baja aja",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Ahegao",
+      "url": "/genres/ahegao"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 9 End",
+      "url": "/torokemo-chapter-9",
+      "slug": "torokemo-chapter-9",
+      "date": "Agustus 28, 2026"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/torokemo-chapter-8",
+      "slug": "torokemo-chapter-8",
+      "date": "Agustus 26, 2026"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/torokemo-chapter-7",
+      "slug": "torokemo-chapter-7",
+      "date": "Agustus 25, 2026"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/torokemo-chapter-6",
+      "slug": "torokemo-chapter-6",
+      "date": "Agustus 23, 2026"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/torokemo-chapter-5",
+      "slug": "torokemo-chapter-5",
+      "date": "Agustus 19, 2026"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/torokemo-chapter-4",
+      "slug": "torokemo-chapter-4",
+      "date": "Agustus 18, 2026"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/torokemo-chapter-3",
+      "slug": "torokemo-chapter-3",
+      "date": "Agustus 15, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/torokemo-chapter-2",
+      "slug": "torokemo-chapter-2",
+      "date": "Agustus 14, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/torokemo-chapter-1",
+      "slug": "torokemo-chapter-1",
+      "date": "Agustus 13, 2026"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:20:34.690Z"
+}

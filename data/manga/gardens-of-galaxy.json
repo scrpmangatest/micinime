@@ -1,0 +1,40 @@
+{
+  "slug": "gardens-of-galaxy",
+  "title": "Gardens of Galaxy",
+  "image": "https://komiktap.info/wp-content/uploads/2023/01/01-48.jpg",
+  "rating": "8.5",
+  "description": "Tokoh utama kita adalah pemuda yang terjebak di dunia servant. Ia dan para servantnya berusaha untuk menjadi yang terkuat dan memulangkan si tokoh utama. Namun sebelum itu, sebagai pemuda yang sehat ada masalah lain yang perlu dia atasi",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "gardens-of-galaxy-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/gardens-of-galaxy-chapter-1",
+      "number": 1,
+      "date": "Januari 15, 2023"
+    }
+  ]
+}

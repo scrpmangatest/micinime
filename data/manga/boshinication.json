@@ -1,0 +1,51 @@
+{
+  "slug": "boshinication",
+  "title": "Boshinication",
+  "image": "https://komiktap.info/wp-content/uploads/2022/09/02.png",
+  "rating": "8.5",
+  "description": "Ibuku yang cerewet tiba tiba menjadi sangat mabuk! dia mulai bertingkah seksi dan cabul, apa yang harus kulakukan?",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "boshinication-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/boshinication-chapter-2",
+      "number": 2,
+      "date": "September 22, 2022"
+    },
+    {
+      "slug": "boshinication-chapter-1",
+      "title": "Chapter 1",
+      "url": "/boshinication-chapter-1",
+      "number": 1,
+      "date": "September 21, 2022"
+    }
+  ]
+}

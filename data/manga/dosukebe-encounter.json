@@ -1,0 +1,32 @@
+{
+  "slug": "dosukebe-encounter",
+  "title": "Dosukebe Encounter",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/03-1.jpg",
+  "rating": "8.3",
+  "description": "Tatsuya dan Minami sedang berkencan,namun pada disaat didalam kereta ada tindakan pemerkosaan dengan sigap Tatsuya menyelamatkan wanita tersebut, sebaga balas budinya Tatsuya dan Minami diajak kerumah Wanita tersebut",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "dosukebe-encounter-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/dosukebe-encounter-chapter-1",
+      "number": 1,
+      "date": "September 5, 2020"
+    }
+  ]
+}

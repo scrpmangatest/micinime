@@ -1,0 +1,36 @@
+{
+  "slug": "cheer-gal",
+  "title": "Cheer Gal!",
+  "image": "https://komiktap.info/wp-content/uploads/2022/10/01-34.jpg",
+  "rating": "8.5",
+  "description": "Aku ketahuan oleh siswaku sendiri bahwa aku sering memfoto dia tanpa izinnya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "BDSM",
+      "url": "/genres/bdsm"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "cheer-gal-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/cheer-gal-chapter-1",
+      "number": 1,
+      "date": "Oktober 17, 2022"
+    }
+  ]
+}

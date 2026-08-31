@@ -1,0 +1,32 @@
+{
+  "slug": "ame-yo-muchi-yo-yumi-to-gen",
+  "title": "Ame yo Muchi yo, Yumi to Gen",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/01-2.jpg",
+  "rating": "7",
+  "description": "Shiba dan Inukai mempunyai hubungan tersembunyi di klub panah, namun ada kesalahpahaman saat shiba menerima surat dari wanita lain dan membuat inukai merasa cemburu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ame-yo-muchi-yo-yumi-to-gen-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ame-yo-muchi-yo-yumi-to-gen-chapter-1",
+      "number": 1,
+      "date": "September 4, 2020"
+    }
+  ]
+}

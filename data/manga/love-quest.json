@@ -1,0 +1,224 @@
+{
+  "slug": "love-quest",
+  "title": "love-quest",
+  "image": null,
+  "rating": "8.2",
+  "description": "Emosi adalah sesuatu yang tidak bisa ditekan bahkan di perusahaan game yang membebankan lembur kepada karyawannya! Inilah awal dari kehidupan kantor rahasia di mana anak muda menolak untuk menyerah pada pekerjaan atau cinta mereka! “Aneh sekali… Mengapa kau terus terbayang di benakku?”",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 31",
+      "url": "/love-quest-chapter-31",
+      "slug": "love-quest-chapter-31",
+      "date": "Agustus 31, 2026"
+    },
+    {
+      "title": "Chapter 30",
+      "url": "/love-quest-chapter-30",
+      "slug": "love-quest-chapter-30",
+      "date": "Agustus 24, 2026"
+    },
+    {
+      "title": "Chapter 29",
+      "url": "/love-quest-chapter-29",
+      "slug": "love-quest-chapter-29",
+      "date": "Agustus 17, 2026"
+    },
+    {
+      "title": "Chapter 28",
+      "url": "/love-quest-chapter-28",
+      "slug": "love-quest-chapter-28",
+      "date": "Agustus 10, 2026"
+    },
+    {
+      "title": "Chapter 27",
+      "url": "/love-quest-chapter-27",
+      "slug": "love-quest-chapter-27",
+      "date": "Agustus 3, 2026"
+    },
+    {
+      "title": "Chapter 26",
+      "url": "/love-quest-chapter-26",
+      "slug": "love-quest-chapter-26",
+      "date": "Juli 27, 2026"
+    },
+    {
+      "title": "Chapter 25",
+      "url": "/love-quest-chapter-25",
+      "slug": "love-quest-chapter-25",
+      "date": "Juli 20, 2026"
+    },
+    {
+      "title": "Chapter 24",
+      "url": "/love-quest-chapter-24",
+      "slug": "love-quest-chapter-24",
+      "date": "Juli 6, 2026"
+    },
+    {
+      "title": "Chapter 23",
+      "url": "/love-quest-chapter-23",
+      "slug": "love-quest-chapter-23",
+      "date": "Juni 29, 2026"
+    },
+    {
+      "title": "Chapter 22",
+      "url": "/love-quest-chapter-22",
+      "slug": "love-quest-chapter-22",
+      "date": "Juni 22, 2026"
+    },
+    {
+      "title": "Chapter 21",
+      "url": "/love-quest-chapter-21",
+      "slug": "love-quest-chapter-21",
+      "date": "Juni 15, 2026"
+    },
+    {
+      "title": "Chapter 20",
+      "url": "/love-quest-chapter-20",
+      "slug": "love-quest-chapter-20",
+      "date": "Juni 8, 2026"
+    },
+    {
+      "title": "Chapter 19",
+      "url": "/love-quest-chapter-19",
+      "slug": "love-quest-chapter-19",
+      "date": "Juni 1, 2026"
+    },
+    {
+      "title": "Chapter 18",
+      "url": "/love-quest-chapter-18",
+      "slug": "love-quest-chapter-18",
+      "date": "Mei 25, 2026"
+    },
+    {
+      "title": "Chapter 17",
+      "url": "/love-quest-chapter-17",
+      "slug": "love-quest-chapter-17",
+      "date": "Mei 18, 2026"
+    },
+    {
+      "title": "Chapter 16",
+      "url": "/love-quest-chapter-16",
+      "slug": "love-quest-chapter-16",
+      "date": "Mei 11, 2026"
+    },
+    {
+      "title": "Chapter 15",
+      "url": "/love-quest-chapter-15",
+      "slug": "love-quest-chapter-15",
+      "date": "Mei 4, 2026"
+    },
+    {
+      "title": "Chapter 14",
+      "url": "/love-quest-chapter-14",
+      "slug": "love-quest-chapter-14",
+      "date": "April 27, 2026"
+    },
+    {
+      "title": "Chapter 13",
+      "url": "/love-quest-chapter-13",
+      "slug": "love-quest-chapter-13",
+      "date": "April 20, 2026"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/love-quest-chapter-12",
+      "slug": "love-quest-chapter-12",
+      "date": "April 13, 2026"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/love-quest-chapter-11",
+      "slug": "love-quest-chapter-11",
+      "date": "April 6, 2026"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/love-quest-chapter-10",
+      "slug": "love-quest-chapter-10",
+      "date": "Maret 30, 2026"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/love-quest-chapter-9",
+      "slug": "love-quest-chapter-9",
+      "date": "Maret 23, 2026"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/love-quest-chapter-8",
+      "slug": "love-quest-chapter-8",
+      "date": "Maret 16, 2026"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/love-quest-chapter-7",
+      "slug": "love-quest-chapter-7",
+      "date": "Maret 9, 2026"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/love-quest-chapter-6",
+      "slug": "love-quest-chapter-6",
+      "date": "Maret 4, 2026"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/love-quest-chapter-5",
+      "slug": "love-quest-chapter-5",
+      "date": "Maret 4, 2026"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/love-quest-chapter-4",
+      "slug": "love-quest-chapter-4",
+      "date": "Maret 4, 2026"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/love-quest-chapter-3",
+      "slug": "love-quest-chapter-3",
+      "date": "Maret 3, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/love-quest-chapter-2",
+      "slug": "love-quest-chapter-2",
+      "date": "Maret 3, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/love-quest-chapter-1",
+      "slug": "love-quest-chapter-1",
+      "date": "Maret 2, 2026"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:12:22.823Z"
+}

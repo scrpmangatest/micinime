@@ -1,0 +1,56 @@
+{
+  "slug": "fuufu-nara-doko-e-demo",
+  "title": "Fuufu nara Doko e demo",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/278963.jpg",
+  "rating": "8.18",
+  "description": "berkisah tentang MC kita Joji yang pekerja kantoran biasa yang sebelumnya ngejones sekarang udah dapat istri cantik dari Rusia, perjalanan bulan madu komedi romantis mereka sebagai pasangan suami istri akan membuat jonesmania ketar-ketir, apalagi Istrinya cantik banget (liat cover). Contoh yang bisa kita ambil dari sang MC adalah jangan berputus asa dalam mencari pasangan hidup karena jodoh udah ada yang atur.",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "fuufu-nara-doko-e-demo-chapter-04-bahasa-indonesia",
+      "title": "Chapter 04 bahasa indonesia",
+      "url": "/fuufu-nara-doko-e-demo-chapter-04-bahasa-indonesia",
+      "number": 4,
+      "date": "Juni 25, 2023"
+    },
+    {
+      "slug": "fuufu-nara-doko-e-demo-chapter-03-bahasa-indonesia",
+      "title": "Chapter 03 bahasa indonesia",
+      "url": "/fuufu-nara-doko-e-demo-chapter-03-bahasa-indonesia",
+      "number": 3,
+      "date": "Juni 25, 2023"
+    },
+    {
+      "slug": "fuufu-nara-doko-e-demo-chapter-02-bahasa-indonesia",
+      "title": "Chapter 02 bahasa indonesia",
+      "url": "/fuufu-nara-doko-e-demo-chapter-02-bahasa-indonesia",
+      "number": 2,
+      "date": "Juni 25, 2023"
+    },
+    {
+      "slug": "fuufu-nara-doko-e-demo-chapter-01-2-bahasa-indonesia",
+      "title": "Chapter 01.2 bahasa indonesia",
+      "url": "/fuufu-nara-doko-e-demo-chapter-01-2-bahasa-indonesia",
+      "number": 1.2,
+      "date": "Juni 25, 2023"
+    },
+    {
+      "slug": "fuufu-nara-doko-e-demo-chapter-01-1-bahasa-indonesia",
+      "title": "Chapter 01.1 bahasa indonesia",
+      "url": "/fuufu-nara-doko-e-demo-chapter-01-1-bahasa-indonesia",
+      "number": 1.1,
+      "date": "Juni 25, 2023"
+    }
+  ]
+}

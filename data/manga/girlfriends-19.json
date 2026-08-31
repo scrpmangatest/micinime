@@ -1,0 +1,40 @@
+{
+  "slug": "girlfriends-19",
+  "title": "GIRLFriend’s 19",
+  "image": "https://komiktap.info/wp-content/uploads/2022/10/01-21.jpg",
+  "rating": "8.5",
+  "description": "parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "girlfriends-19-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/girlfriends-19-chapter-1",
+      "number": 1,
+      "date": "Oktober 10, 2022"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "hayami-san-wa-me-ga-mienai",
+  "title": "Hayami-san wa Me ga Mienai",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/02-11.jpg",
+  "rating": "8.1",
+  "description": "Gadis Tuna Netra yang diperkosa oleh teman sekelasnya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "hayami-san-wa-me-ga-mienai-chapter-1",
+      "title": "Chapter 1",
+      "url": "/hayami-san-wa-me-ga-mienai-chapter-1",
+      "number": 1,
+      "date": "September 6, 2020"
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "slug": "no-mans-land",
+  "title": "no-mans-land",
+  "image": null,
+  "rating": "7.7",
+  "description": "Mirip Parallel paradise tapi versi Manhwa :v",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Adventure",
+      "url": "/genres/adventure"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Fantasy",
+      "url": "/genres/fantasy"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 73",
+      "url": "/no-mans-land-chapter-73",
+      "slug": "no-mans-land-chapter-73",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 72",
+      "url": "/no-mans-land-chapter-72",
+      "slug": "no-mans-land-chapter-72",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 71",
+      "url": "/no-mans-land-chapter-71",
+      "slug": "no-mans-land-chapter-71",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 70",
+      "url": "/no-mans-land-chapter-70",
+      "slug": "no-mans-land-chapter-70",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 69",
+      "url": "/no-mans-land-chapter-69",
+      "slug": "no-mans-land-chapter-69",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 68",
+      "url": "/no-mans-land-chapter-68",
+      "slug": "no-mans-land-chapter-68",
+      "date": "Agustus 2, 2026"
+    },
+    {
+      "title": "Chapter 67",
+      "url": "/no-mans-land-chapter-67",
+      "slug": "no-mans-land-chapter-67",
+      "date": "Agustus 2, 2026"
+    },
+    {
+      "title": "Chapter 66",
+      "url": "/no-mans-land-chapter-66",
+      "slug": "no-mans-land-chapter-66",
+      "date": "Agustus 2, 2026"
+    },
+    {
+      "title": "Chapter 65",
+      "url": "/no-mans-land-chapter-65",
+      "slug": "no-mans-land-chapter-65",
+      "date": "Agustus 2, 2026"
+    },
+    {
+      "title": "Chapter 64 S1 End",
+      "url": "/no-mans-land-chapter-64-s1-end",
+      "slug": "no-mans-land-chapter-64-s1-end",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 63",
+      "url": "/no-mans-land-chapter-63",
+      "slug": "no-mans-land-chapter-63",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 62",
+      "url": "/no-mans-land-chapter-62",
+      "slug": "no-mans-land-chapter-62",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 61",
+      "url": "/no-mans-land-chapter-61",
+      "slug": "no-mans-land-chapter-61",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 60",
+      "url": "/no-mans-land-chapter-60",
+      "slug": "no-mans-land-chapter-60",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 59",
+      "url": "/no-mans-land-chapter-59",
+      "slug": "no-mans-land-chapter-59",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 58",
+      "url": "/no-mans-land-chapter-58",
+      "slug": "no-mans-land-chapter-58",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 57",
+      "url": "/no-mans-land-chapter-57",
+      "slug": "no-mans-land-chapter-57",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 56",
+      "url": "/no-mans-land-chapter-56",
+      "slug": "no-mans-land-chapter-56",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 55",
+      "url": "/no-mans-land-chapter-55",
+      "slug": "no-mans-land-chapter-55",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 54",
+      "url": "/no-mans-land-chapter-54",
+      "slug": "no-mans-land-chapter-54",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 53",
+      "url": "/no-mans-land-chapter-53",
+      "slug": "no-mans-land-chapter-53",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 52",
+      "url": "/no-mans-land-chapter-52",
+      "slug": "no-mans-land-chapter-52",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 51",
+      "url": "/no-mans-land-chapter-51",
+      "slug": "no-mans-land-chapter-51",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 50",
+      "url": "/no-mans-land-chapter-50",
+      "slug": "no-mans-land-chapter-50",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 49",
+      "url": "/no-mans-land-chapter-49",
+      "slug": "no-mans-land-chapter-49",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 48",
+      "url": "/no-mans-land-chapter-48",
+      "slug": "no-mans-land-chapter-48",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 47",
+      "url": "/no-mans-land-chapter-47",
+      "slug": "no-mans-land-chapter-47",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 46",
+      "url": "/no-mans-land-chapter-46",
+      "slug": "no-mans-land-chapter-46",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 45",
+      "url": "/no-mans-land-chapter-45",
+      "slug": "no-mans-land-chapter-45",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 44",
+      "url": "/no-mans-land-chapter-44",
+      "slug": "no-mans-land-chapter-44",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 43",
+      "url": "/no-mans-land-chapter-43",
+      "slug": "no-mans-land-chapter-43",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 42",
+      "url": "/no-mans-land-chapter-42",
+      "slug": "no-mans-land-chapter-42",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 41",
+      "url": "/no-mans-land-chapter-41",
+      "slug": "no-mans-land-chapter-41",
+      "date": "Mei 22, 2024"
+    },
+    {
+      "title": "Chapter 40",
+      "url": "/no-mans-land-chapter-40",
+      "slug": "no-mans-land-chapter-40",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 39",
+      "url": "/no-mans-land-chapter-39",
+      "slug": "no-mans-land-chapter-39",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 38",
+      "url": "/no-mans-land-chapter-38",
+      "slug": "no-mans-land-chapter-38",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 37",
+      "url": "/no-mans-land-chapter-37",
+      "slug": "no-mans-land-chapter-37",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 36",
+      "url": "/no-mans-land-chapter-36",
+      "slug": "no-mans-land-chapter-36",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 35",
+      "url": "/no-mans-land-chapter-35",
+      "slug": "no-mans-land-chapter-35",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 34",
+      "url": "/no-mans-land-chapter-34",
+      "slug": "no-mans-land-chapter-34",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 33",
+      "url": "/no-mans-land-chapter-33",
+      "slug": "no-mans-land-chapter-33",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 32",
+      "url": "/no-mans-land-chapter-32",
+      "slug": "no-mans-land-chapter-32",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 31",
+      "url": "/no-mans-land-chapter-31",
+      "slug": "no-mans-land-chapter-31",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 30",
+      "url": "/no-mans-land-chapter-30",
+      "slug": "no-mans-land-chapter-30",
+      "date": "Desember 13, 2023"
+    },
+    {
+      "title": "Chapter 29",
+      "url": "/no-mans-land-chapter-29",
+      "slug": "no-mans-land-chapter-29",
+      "date": "Desember 13, 2023"
+    },
+    {
+      "title": "Chapter 28",
+      "url": "/no-mans-land-chapter-28",
+      "slug": "no-mans-land-chapter-28",
+      "date": "Desember 13, 2023"
+    },
+    {
+      "title": "Chapter 27",
+      "url": "/no-mans-land-chapter-27",
+      "slug": "no-mans-land-chapter-27",
+      "date": "Desember 13, 2023"
+    },
+    {
+      "title": "Chapter 26",
+      "url": "/no-mans-land-chapter-26",
+      "slug": "no-mans-land-chapter-26",
+      "date": "Desember 13, 2023"
+    },
+    {
+      "title": "Chapter 25",
+      "url": "/no-mans-land-chapter-25",
+      "slug": "no-mans-land-chapter-25",
+      "date": "Desember 13, 2023"
+    },
+    {
+      "title": "Chapter 24",
+      "url": "/no-mans-land-chapter-24",
+      "slug": "no-mans-land-chapter-24",
+      "date": "Desember 13, 2023"
+    },
+    {
+      "title": "Chapter 23",
+      "url": "/no-mans-land-chapter-23",
+      "slug": "no-mans-land-chapter-23",
+      "date": "Desember 13, 2023"
+    },
+    {
+      "title": "Chapter 22",
+      "url": "/no-mans-land-chapter-22",
+      "slug": "no-mans-land-chapter-22",
+      "date": "Desember 13, 2023"
+    },
+    {
+      "title": "Chapter 21",
+      "url": "/no-mans-land-chapter-21",
+      "slug": "no-mans-land-chapter-21",
+      "date": "Desember 13, 2023"
+    },
+    {
+      "title": "Chapter 20",
+      "url": "/no-mans-land-chapter-20",
+      "slug": "no-mans-land-chapter-20",
+      "date": "Desember 12, 2023"
+    },
+    {
+      "title": "Chapter 19",
+      "url": "/no-mans-land-chapter-19",
+      "slug": "no-mans-land-chapter-19",
+      "date": "Desember 12, 2023"
+    },
+    {
+      "title": "Chapter 18",
+      "url": "/no-mans-land-chapter-18",
+      "slug": "no-mans-land-chapter-18",
+      "date": "Desember 12, 2023"
+    },
+    {
+      "title": "Chapter 17",
+      "url": "/no-mans-land-chapter-17",
+      "slug": "no-mans-land-chapter-17",
+      "date": "Desember 12, 2023"
+    },
+    {
+      "title": "Chapter 16",
+      "url": "/no-mans-land-chapter-16",
+      "slug": "no-mans-land-chapter-16",
+      "date": "Desember 12, 2023"
+    },
+    {
+      "title": "Chapter 15",
+      "url": "/no-mans-land-chapter-15",
+      "slug": "no-mans-land-chapter-15",
+      "date": "Desember 12, 2023"
+    },
+    {
+      "title": "Chapter 14",
+      "url": "/no-mans-land-chapter-14",
+      "slug": "no-mans-land-chapter-14",
+      "date": "Desember 12, 2023"
+    },
+    {
+      "title": "Chapter 13",
+      "url": "/no-mans-land-chapter-13",
+      "slug": "no-mans-land-chapter-13",
+      "date": "Desember 12, 2023"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/no-mans-land-chapter-12",
+      "slug": "no-mans-land-chapter-12",
+      "date": "Desember 12, 2023"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/no-mans-land-chapter-11",
+      "slug": "no-mans-land-chapter-11",
+      "date": "Desember 12, 2023"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/no-mans-land-chapter-10",
+      "slug": "no-mans-land-chapter-10",
+      "date": "Desember 11, 2023"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/no-mans-land-chapter-9",
+      "slug": "no-mans-land-chapter-9",
+      "date": "Desember 11, 2023"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/no-mans-land-chapter-8",
+      "slug": "no-mans-land-chapter-8",
+      "date": "Desember 11, 2023"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/no-mans-land-chapter-7",
+      "slug": "no-mans-land-chapter-7",
+      "date": "Desember 11, 2023"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/no-mans-land-chapter-6",
+      "slug": "no-mans-land-chapter-6",
+      "date": "Desember 11, 2023"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/no-mans-land-chapter-5",
+      "slug": "no-mans-land-chapter-5",
+      "date": "Desember 11, 2023"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/no-mans-land-chapter-4",
+      "slug": "no-mans-land-chapter-4",
+      "date": "Desember 11, 2023"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/no-mans-land-chapter-3",
+      "slug": "no-mans-land-chapter-3",
+      "date": "Desember 11, 2023"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/no-mans-land-chapter-2",
+      "slug": "no-mans-land-chapter-2",
+      "date": "Desember 11, 2023"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/no-mans-land-chapter-1",
+      "slug": "no-mans-land-chapter-1",
+      "date": "Desember 11, 2023"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:32:48.653Z"
+}

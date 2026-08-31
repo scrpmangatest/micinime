@@ -1,0 +1,40 @@
+{
+  "slug": "ex-perience",
+  "title": "EX PERIENCE",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-49.jpg",
+  "rating": "8.5",
+  "description": "padori dari FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Threesome",
+      "url": "/genres/threesome"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ex-perience-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ex-perience-chapter-1",
+      "number": 1,
+      "date": "Maret 17, 2023"
+    }
+  ]
+}

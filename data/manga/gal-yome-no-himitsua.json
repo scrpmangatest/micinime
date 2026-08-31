@@ -1,0 +1,85 @@
+{
+  "slug": "gal-yome-no-himitsua",
+  "title": "Gal Yome no Himitsua",
+  "image": "https://komiktap.info/wp-content/uploads/2023/10/Gal-Yome-no-Himitsua.webp",
+  "rating": "7.00",
+  "description": "skskk gada sinop dari sononya cuy, buat sendiri aja nanti gw kopas awkakwak",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "gal-yome-no-himitsua-chapter-08-bahasa-indonesia",
+      "title": "Chapter 08 bahasa indonesia",
+      "url": "/gal-yome-no-himitsua-chapter-08-bahasa-indonesia",
+      "number": 8,
+      "date": "Januari 26, 2024"
+    },
+    {
+      "slug": "gal-yome-no-himitsua-chapter-07-bahasa-indonesia",
+      "title": "Chapter 07 bahasa indonesia",
+      "url": "/gal-yome-no-himitsua-chapter-07-bahasa-indonesia",
+      "number": 7,
+      "date": "Januari 26, 2024"
+    },
+    {
+      "slug": "gal-yome-no-himitsua-chapter-06-bahasa-indonesia",
+      "title": "Chapter 06 bahasa indonesia",
+      "url": "/gal-yome-no-himitsua-chapter-06-bahasa-indonesia",
+      "number": 6,
+      "date": "Januari 26, 2024"
+    },
+    {
+      "slug": "gal-yome-no-himitsua-chapter-05-bahasa-indonesia",
+      "title": "Chapter 05 bahasa indonesia",
+      "url": "/gal-yome-no-himitsua-chapter-05-bahasa-indonesia",
+      "number": 5,
+      "date": "Januari 26, 2024"
+    },
+    {
+      "slug": "gal-yome-no-himitsua-chapter-04-bahasa-indonesia",
+      "title": "Chapter 04 bahasa indonesia",
+      "url": "/gal-yome-no-himitsua-chapter-04-bahasa-indonesia",
+      "number": 4,
+      "date": "Januari 26, 2024"
+    },
+    {
+      "slug": "gal-yome-no-himitsua-chapter-03-bahasa-indonesia",
+      "title": "Chapter 03 bahasa indonesia",
+      "url": "/gal-yome-no-himitsua-chapter-03-bahasa-indonesia",
+      "number": 3,
+      "date": "Oktober 29, 2023"
+    },
+    {
+      "slug": "gal-yome-no-himitsua-chapter-02-bahasa-indonesia",
+      "title": "Chapter 02 bahasa indonesia",
+      "url": "/gal-yome-no-himitsua-chapter-02-bahasa-indonesia",
+      "number": 2,
+      "date": "Oktober 29, 2023"
+    },
+    {
+      "slug": "gal-yome-no-himitsua-chapter-01-bahasa-indonesia",
+      "title": "Chapter 01 bahasa indonesia",
+      "url": "/gal-yome-no-himitsua-chapter-01-bahasa-indonesia",
+      "number": 1,
+      "date": "Oktober 29, 2023"
+    }
+  ]
+}

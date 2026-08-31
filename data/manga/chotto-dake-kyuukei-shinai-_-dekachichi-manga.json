@@ -1,0 +1,28 @@
+{
+  "slug": "chotto-dake-kyuukei-shinai-_-dekachichi-manga",
+  "title": "Chotto dake, kyuukei Shinai _ Dekachichi Manga",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/01-53.jpg",
+  "rating": "8.5",
+  "description": "Seorang gadis berdada besar liburan dengan pacarnya ke pemandian air panas",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "chotto-dake-kyuukei-shinai-_-dekachichi-manga-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/chotto-dake-kyuukei-shinai-_-dekachichi-manga-chapter-1",
+      "number": 1,
+      "date": "Juli 27, 2023"
+    }
+  ]
+}

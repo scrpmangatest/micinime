@@ -1,0 +1,74 @@
+{
+  "slug": "emergence-uncensored",
+  "title": "Emergence Uncensored",
+  "image": "https://komiktap.info/wp-content/uploads/2022/02/002-1.jpg",
+  "rating": "6.9",
+  "description": "Uji Nyali Anda dengan baca Doujin Kampret ini dengan Versi Uncen Yang lebih Anjng ceritanya, bngsad lah kena mental aku cuk!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Hentai",
+      "url": "/genres/hentai"
+    },
+    {
+      "name": "Tragedy",
+      "url": "/genres/tragedy"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "emergence-chapter-7-end",
+      "title": "Chapter 7 End",
+      "url": "/emergence-chapter-7-end",
+      "number": 7,
+      "date": "Maret 1, 2022"
+    },
+    {
+      "slug": "emergence-chapter-6",
+      "title": "Chapter 6",
+      "url": "/emergence-chapter-6",
+      "number": 6,
+      "date": "Maret 1, 2022"
+    },
+    {
+      "slug": "emergence-chapter-5",
+      "title": "Chapter 5",
+      "url": "/emergence-chapter-5",
+      "number": 5,
+      "date": "Maret 1, 2022"
+    },
+    {
+      "slug": "emergence-chapter-4",
+      "title": "Chapter 4",
+      "url": "/emergence-chapter-4",
+      "number": 4,
+      "date": "Februari 28, 2022"
+    },
+    {
+      "slug": "emergence-chapter-3",
+      "title": "Chapter 3",
+      "url": "/emergence-chapter-3",
+      "number": 3,
+      "date": "Februari 28, 2022"
+    },
+    {
+      "slug": "emergence-chapter-2",
+      "title": "Chapter 2",
+      "url": "/emergence-chapter-2",
+      "number": 2,
+      "date": "Februari 27, 2022"
+    },
+    {
+      "slug": "emergence-chapter-1",
+      "title": "Chapter 1",
+      "url": "/emergence-chapter-1",
+      "number": 1,
+      "date": "Februari 27, 2022"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "dopyu-marugoto-ninshin-shojyo-darake-no-konyoku-onsen",
+  "title": "Dopyu! Marugoto Ninshin Shojyo darake no Konyoku Onsen",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-66.jpg",
+  "rating": "8.5",
+  "description": "parodi tohou project",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Threesome",
+      "url": "/genres/threesome"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "dopyu-marugoto-ninshin-shojyo-darake-no-konyoku-onsen-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/dopyu-marugoto-ninshin-shojyo-darake-no-konyoku-onsen-chapter-1",
+      "number": 1,
+      "date": "Maret 24, 2023"
+    }
+  ]
+}

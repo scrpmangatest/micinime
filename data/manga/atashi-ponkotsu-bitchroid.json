@@ -1,0 +1,36 @@
+{
+  "slug": "atashi-ponkotsu-bitchroid",
+  "title": "Atashi Ponkotsu Bitchroid",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-65.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Idolmaster",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "atashi-ponkotsu-bitchroid-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/atashi-ponkotsu-bitchroid-chapter-1",
+      "number": 1,
+      "date": "Maret 24, 2023"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "bakunyuu-deka-onna-no-gyakushuu",
+  "title": "Bakunyuu Deka Onna no Gyakushuu",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-6.jpg",
+  "rating": "8.5",
+  "description": "Dua orang teman sekelas yang berhubungan seksual",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "bakunyuu-deka-onna-no-gyakushuu-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/bakunyuu-deka-onna-no-gyakushuu-chapter-1",
+      "number": 1,
+      "date": "Maret 3, 2023"
+    }
+  ]
+}

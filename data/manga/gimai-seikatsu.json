@@ -1,0 +1,236 @@
+{
+  "slug": "gimai-seikatsu",
+  "title": "Gimai Seikatsu",
+  "image": "https://komiktap.info/wp-content/uploads/2023/08/V4_00.webp",
+  "rating": "7.3",
+  "description": "Ini adalah sebuah kisah yang suatu hari nanti mungkin akan jadi kisah cinta. Karena orang tuanya menikah lagi, seorang pelajar SMA bernama Yuuta Asamura akan menjalani kehidupan bersama sebagai adik dan kakak dengan teman sekolah yanh seangkatan dengannya bernama Saki Ayase. Awalnya mereka berdya sama-sama cuek, tapi?! Hubungan antara Laki-laki sederhana dan Gal cantik dimulai!!",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    },
+    {
+      "name": "Shounen",
+      "url": "/genres/shounen"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "gimai-seikatsu-chapter-18-1",
+      "title": "Chapter 18.1",
+      "url": "/gimai-seikatsu-chapter-18-1",
+      "number": 18.1,
+      "date": "November 27, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-17-2",
+      "title": "Chapter 17.2",
+      "url": "/gimai-seikatsu-chapter-17-2",
+      "number": 17.2,
+      "date": "November 27, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-17-1",
+      "title": "Chapter 17.1",
+      "url": "/gimai-seikatsu-chapter-17-1",
+      "number": 17.1,
+      "date": "November 27, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-16-2",
+      "title": "Chapter 16.2",
+      "url": "/gimai-seikatsu-chapter-16-2",
+      "number": 16.2,
+      "date": "November 27, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-16-1",
+      "title": "Chapter 16.1",
+      "url": "/gimai-seikatsu-chapter-16-1",
+      "number": 16.1,
+      "date": "September 1, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-15-2",
+      "title": "Chapter 15.2",
+      "url": "/gimai-seikatsu-chapter-15-2",
+      "number": 15.2,
+      "date": "Agustus 30, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-15-1",
+      "title": "Chapter 15.1",
+      "url": "/gimai-seikatsu-chapter-15-1",
+      "number": 15.1,
+      "date": "Agustus 30, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-14-2",
+      "title": "Chapter 14.2",
+      "url": "/gimai-seikatsu-chapter-14-2",
+      "number": 14.2,
+      "date": "Agustus 19, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-14-1",
+      "title": "Chapter 14.1",
+      "url": "/gimai-seikatsu-chapter-14-1",
+      "number": 14.1,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-13-2",
+      "title": "Chapter 13.2",
+      "url": "/gimai-seikatsu-chapter-13-2",
+      "number": 13.2,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-13-1",
+      "title": "Chapter 13.1",
+      "url": "/gimai-seikatsu-chapter-13-1",
+      "number": 13.1,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-12-2",
+      "title": "Chapter 12.2",
+      "url": "/gimai-seikatsu-chapter-12-2",
+      "number": 12.2,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-12-1",
+      "title": "Chapter 12.1",
+      "url": "/gimai-seikatsu-chapter-12-1",
+      "number": 12.1,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-11-2",
+      "title": "Chapter 11.2",
+      "url": "/gimai-seikatsu-chapter-11-2",
+      "number": 11.2,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-11-1",
+      "title": "Chapter 11.1",
+      "url": "/gimai-seikatsu-chapter-11-1",
+      "number": 11.1,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-10-2",
+      "title": "Chapter 10.2",
+      "url": "/gimai-seikatsu-chapter-10-2",
+      "number": 10.2,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-10-1",
+      "title": "Chapter 10.1",
+      "url": "/gimai-seikatsu-chapter-10-1",
+      "number": 10.1,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-09-2",
+      "title": "Chapter 09.2",
+      "url": "/gimai-seikatsu-chapter-09-2",
+      "number": 9.2,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-09-1",
+      "title": "Chapter 09.1",
+      "url": "/gimai-seikatsu-chapter-09-1",
+      "number": 9.1,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-08",
+      "title": "Chapter 08",
+      "url": "/gimai-seikatsu-chapter-08",
+      "number": 8,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-07",
+      "title": "Chapter 07",
+      "url": "/gimai-seikatsu-chapter-07",
+      "number": 7,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-06-2",
+      "title": "Chapter 06.2",
+      "url": "/gimai-seikatsu-chapter-06-2",
+      "number": 6.2,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-06-1",
+      "title": "Chapter 06.1",
+      "url": "/gimai-seikatsu-chapter-06-1",
+      "number": 6.1,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-05",
+      "title": "Chapter 05",
+      "url": "/gimai-seikatsu-chapter-05",
+      "number": 5,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-04",
+      "title": "Chapter 04.",
+      "url": "/gimai-seikatsu-chapter-04",
+      "number": 4,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-03",
+      "title": "Chapter 03",
+      "url": "/gimai-seikatsu-chapter-03",
+      "number": 3,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-02",
+      "title": "Chapter 02",
+      "url": "/gimai-seikatsu-chapter-02",
+      "number": 2,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-01-2",
+      "title": "Chapter 01.2",
+      "url": "/gimai-seikatsu-chapter-01-2",
+      "number": 1.2,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "gimai-seikatsu-chapter-01-1",
+      "title": "Chapter 01.1",
+      "url": "/gimai-seikatsu-chapter-01-1",
+      "number": 1.1,
+      "date": "Agustus 8, 2023"
+    }
+  ]
+}

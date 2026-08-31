@@ -1,0 +1,112 @@
+{
+  "slug": "affair-agency",
+  "title": "affair-agency",
+  "image": null,
+  "rating": "7.8",
+  "description": "Setelah kematian ayahnya menyisakan utang yang sangat membebani, kehidupan mewah Ian berakhir dalam sekejap. Tanpa jalan keluar lain, ia menerima pekerjaan misterius demi melunasi utangnya.",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 13",
+      "url": "/affair-agency-chapter-13",
+      "slug": "affair-agency-chapter-13",
+      "date": "Agustus 30, 2026"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/affair-agency-chapter-12",
+      "slug": "affair-agency-chapter-12",
+      "date": "Agustus 30, 2026"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/affair-agency-chapter-11",
+      "slug": "affair-agency-chapter-11",
+      "date": "Agustus 30, 2026"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/affair-agency-chapter-10",
+      "slug": "affair-agency-chapter-10",
+      "date": "Agustus 30, 2026"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/affair-agency-chapter-9",
+      "slug": "affair-agency-chapter-9",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/affair-agency-chapter-8",
+      "slug": "affair-agency-chapter-8",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/affair-agency-chapter-7",
+      "slug": "affair-agency-chapter-7",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/affair-agency-chapter-6",
+      "slug": "affair-agency-chapter-6",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/affair-agency-chapter-5",
+      "slug": "affair-agency-chapter-5",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/affair-agency-chapter-4",
+      "slug": "affair-agency-chapter-4",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/affair-agency-chapter-3",
+      "slug": "affair-agency-chapter-3",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/affair-agency-chapter-2",
+      "slug": "affair-agency-chapter-2",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/affair-agency-chapter-1",
+      "slug": "affair-agency-chapter-1",
+      "date": "Agustus 29, 2026"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:11:27.806Z"
+}

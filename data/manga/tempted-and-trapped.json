@@ -1,0 +1,80 @@
+{
+  "slug": "tempted-and-trapped",
+  "title": "tempted-and-trapped",
+  "image": null,
+  "rating": "7",
+  "description": "Paul mendapati dirinya terjebak di dalam kontainer kargo yang sangat panas bersama orang yang paling tidak ia inginkan. Ketegangan berubah menjadi hasrat; mereka melampaui batas dan mengubah hidup mereka selamanya.",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 9",
+      "url": "/tempted-and-trapped-chapter-9",
+      "slug": "tempted-and-trapped-chapter-9",
+      "date": "Agustus 30, 2026"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/tempted-and-trapped-chapter-8",
+      "slug": "tempted-and-trapped-chapter-8",
+      "date": "Agustus 30, 2026"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/tempted-and-trapped-chapter-7",
+      "slug": "tempted-and-trapped-chapter-7",
+      "date": "Agustus 30, 2026"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/tempted-and-trapped-chapter-6",
+      "slug": "tempted-and-trapped-chapter-6",
+      "date": "Agustus 30, 2026"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/tempted-and-trapped-chapter-5",
+      "slug": "tempted-and-trapped-chapter-5",
+      "date": "Agustus 30, 2026"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/tempted-and-trapped-chapter-4",
+      "slug": "tempted-and-trapped-chapter-4",
+      "date": "Agustus 30, 2026"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/tempted-and-trapped-chapter-3",
+      "slug": "tempted-and-trapped-chapter-3",
+      "date": "Agustus 28, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/tempted-and-trapped-chapter-2",
+      "slug": "tempted-and-trapped-chapter-2",
+      "date": "Agustus 28, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/tempted-and-trapped-chapter-1",
+      "slug": "tempted-and-trapped-chapter-1",
+      "date": "Agustus 28, 2026"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:13:40.689Z"
+}

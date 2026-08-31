@@ -1,0 +1,68 @@
+{
+  "slug": "gal-no-onapet",
+  "title": "Gal no OnaPet",
+  "image": "https://komiktap.info/wp-content/uploads/2022/05/1-1.jpg",
+  "rating": "8.5",
+  "description": "Sang protagonis kehilangan rumahnya karena kebakaran bersama saat itu gajinya yang belum di bayarkan… sudah putus asa… sebelum bunuh diri dia ingin melepas keperjakaannya dia inisiatif untuk memperkosa salah satu wanita",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "gal-no-onapet-chapter-5",
+      "title": "Chapter 5",
+      "url": "/gal-no-onapet-chapter-5",
+      "number": 5,
+      "date": "Juni 11, 2022"
+    },
+    {
+      "slug": "gal-no-onapet-chapter-4",
+      "title": "Chapter 4",
+      "url": "/gal-no-onapet-chapter-4",
+      "number": 4,
+      "date": "Juni 10, 2022"
+    },
+    {
+      "slug": "gal-no-onapet-chapter-3",
+      "title": "Chapter 3",
+      "url": "/gal-no-onapet-chapter-3",
+      "number": 3,
+      "date": "Juni 7, 2022"
+    },
+    {
+      "slug": "gal-no-onapet-chapter-2",
+      "title": "Chapter 2",
+      "url": "/gal-no-onapet-chapter-2",
+      "number": 2,
+      "date": "Juni 3, 2022"
+    },
+    {
+      "slug": "gal-no-onapet-chapter-1",
+      "title": "Chapter 1",
+      "url": "/gal-no-onapet-chapter-1",
+      "number": 1,
+      "date": "Mei 31, 2022"
+    }
+  ]
+}

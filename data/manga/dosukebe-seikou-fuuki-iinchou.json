@@ -1,0 +1,43 @@
+{
+  "slug": "dosukebe-seikou-fuuki-iinchou",
+  "title": "Dosukebe Seikou Fuuki Iinchou",
+  "image": "https://komiktap.info/wp-content/uploads/2021/11/01-1.jpg",
+  "rating": "8.5",
+  "description": "Baca aja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "dosukebe-seikou-fuuki-iinchou-chapter-2",
+      "title": "Chapter 2",
+      "url": "/dosukebe-seikou-fuuki-iinchou-chapter-2",
+      "number": 2,
+      "date": "Desember 2, 2024"
+    },
+    {
+      "slug": "dosukebe-seikou-fuuki-iinchou-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/dosukebe-seikou-fuuki-iinchou-chapter-1",
+      "number": 1,
+      "date": "November 4, 2021"
+    }
+  ]
+}

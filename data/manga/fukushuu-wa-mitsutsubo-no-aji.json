@@ -1,0 +1,36 @@
+{
+  "slug": "fukushuu-wa-mitsutsubo-no-aji",
+  "title": "Fukushuu wa Mitsutsubo no Aji",
+  "image": "https://komiktap.info/wp-content/uploads/2024/05/01-9.jpg",
+  "rating": "8.5",
+  "description": "Dendam pribadi pada saat semasa SMA",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "fukushuu-wa-mitsutsubo-no-aji-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/fukushuu-wa-mitsutsubo-no-aji-chapter-1",
+      "number": 1,
+      "date": "Mei 9, 2024"
+    }
+  ]
+}

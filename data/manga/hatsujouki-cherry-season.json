@@ -1,0 +1,36 @@
+{
+  "slug": "hatsujouki-cherry-season",
+  "title": "Hatsujouki Cherry Season",
+  "image": "https://komiktap.info/wp-content/uploads/2022/11/01-51.jpg",
+  "rating": "8.5",
+  "description": "Doujin ini mengisahkan tentang seorang wanita yang sangat polos dan tidak pernah melakukan hal aneh yang ingin melepas keperawanan nya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "hatsujouki-cherry-season-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/hatsujouki-cherry-season-chapter-1",
+      "number": 1,
+      "date": "November 28, 2022"
+    }
+  ]
+}

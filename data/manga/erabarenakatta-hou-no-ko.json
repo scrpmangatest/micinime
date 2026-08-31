@@ -1,0 +1,32 @@
+{
+  "slug": "erabarenakatta-hou-no-ko",
+  "title": "Erabarenakatta Hou no Ko",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/01-24.jpg",
+  "rating": "8.5",
+  "description": "Hubungan guru dan murid",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "erabarenakatta-hou-no-ko-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/erabarenakatta-hou-no-ko-chapter-1",
+      "number": 1,
+      "date": "Juli 15, 2023"
+    }
+  ]
+}

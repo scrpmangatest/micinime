@@ -1,0 +1,366 @@
+{
+  "slug": "each-building",
+  "title": "each-building",
+  "image": null,
+  "rating": "8.3",
+  "description": null,
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 56",
+      "url": "/each-building-chapter-56",
+      "slug": "each-building-chapter-56",
+      "date": "Agustus 26, 2026"
+    },
+    {
+      "title": "Chapter 55",
+      "url": "/each-building-chapter-55",
+      "slug": "each-building-chapter-55",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 54",
+      "url": "/each-building-chapter-54",
+      "slug": "each-building-chapter-54",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 53",
+      "url": "/each-building-chapter-53",
+      "slug": "each-building-chapter-53",
+      "date": "Agustus 22, 2026"
+    },
+    {
+      "title": "Chapter 52",
+      "url": "/each-building-chapter-52",
+      "slug": "each-building-chapter-52",
+      "date": "Agustus 20, 2026"
+    },
+    {
+      "title": "Chapter 51",
+      "url": "/each-building-chapter-51",
+      "slug": "each-building-chapter-51",
+      "date": "Agustus 20, 2026"
+    },
+    {
+      "title": "Chapter 50",
+      "url": "/each-building-chapter-50",
+      "slug": "each-building-chapter-50",
+      "date": "Juni 28, 2026"
+    },
+    {
+      "title": "Chapter 49",
+      "url": "/each-building-chapter-49",
+      "slug": "each-building-chapter-49",
+      "date": "Juni 25, 2026"
+    },
+    {
+      "title": "Chapter 48",
+      "url": "/each-building-chapter-48",
+      "slug": "each-building-chapter-48",
+      "date": "Juni 25, 2026"
+    },
+    {
+      "title": "Chapter 47",
+      "url": "/each-building-chapter-47",
+      "slug": "each-building-chapter-47",
+      "date": "Juni 25, 2026"
+    },
+    {
+      "title": "Chapter 46",
+      "url": "/each-building-chapter-46",
+      "slug": "each-building-chapter-46",
+      "date": "Juni 25, 2026"
+    },
+    {
+      "title": "Chapter 45",
+      "url": "/each-building-chapter-45",
+      "slug": "each-building-chapter-45",
+      "date": "Juni 2, 2026"
+    },
+    {
+      "title": "Chapter 44",
+      "url": "/each-building-chapter-44",
+      "slug": "each-building-chapter-44",
+      "date": "Juni 2, 2026"
+    },
+    {
+      "title": "Chapter 43",
+      "url": "/each-building-chapter-43",
+      "slug": "each-building-chapter-43",
+      "date": "Juni 2, 2026"
+    },
+    {
+      "title": "Chapter 42",
+      "url": "/each-building-chapter-42",
+      "slug": "each-building-chapter-42",
+      "date": "Mei 18, 2026"
+    },
+    {
+      "title": "Chapter 41",
+      "url": "/each-building-chapter-41",
+      "slug": "each-building-chapter-41",
+      "date": "Mei 18, 2026"
+    },
+    {
+      "title": "Chapter 40",
+      "url": "/each-building-chapter-40",
+      "slug": "each-building-chapter-40",
+      "date": "Mei 18, 2026"
+    },
+    {
+      "title": "Chapter 39",
+      "url": "/each-building-chapter-39",
+      "slug": "each-building-chapter-39",
+      "date": "April 30, 2026"
+    },
+    {
+      "title": "Chapter 38",
+      "url": "/each-building-chapter-38",
+      "slug": "each-building-chapter-38",
+      "date": "April 30, 2026"
+    },
+    {
+      "title": "Chapter 37",
+      "url": "/each-building-chapter-37",
+      "slug": "each-building-chapter-37",
+      "date": "April 15, 2026"
+    },
+    {
+      "title": "Chapter 36",
+      "url": "/each-building-chapter-36",
+      "slug": "each-building-chapter-36",
+      "date": "April 15, 2026"
+    },
+    {
+      "title": "Chapter 35",
+      "url": "/each-building-chapter-35",
+      "slug": "each-building-chapter-35",
+      "date": "April 15, 2026"
+    },
+    {
+      "title": "Chapter 34",
+      "url": "/each-building-chapter-34",
+      "slug": "each-building-chapter-34",
+      "date": "April 15, 2026"
+    },
+    {
+      "title": "Chapter 33",
+      "url": "/each-building-chapter-33",
+      "slug": "each-building-chapter-33",
+      "date": "Maret 21, 2026"
+    },
+    {
+      "title": "Chapter 32",
+      "url": "/each-building-chapter-32",
+      "slug": "each-building-chapter-32",
+      "date": "Maret 19, 2026"
+    },
+    {
+      "title": "Chapter 31",
+      "url": "/each-building-chapter-31",
+      "slug": "each-building-chapter-31",
+      "date": "Maret 19, 2026"
+    },
+    {
+      "title": "Chapter 30",
+      "url": "/each-building-chapter-30",
+      "slug": "each-building-chapter-30",
+      "date": "Maret 19, 2026"
+    },
+    {
+      "title": "Chapter 29",
+      "url": "/each-building-chapter-29",
+      "slug": "each-building-chapter-29",
+      "date": "Februari 16, 2026"
+    },
+    {
+      "title": "Chapter 28",
+      "url": "/each-building-chapter-28",
+      "slug": "each-building-chapter-28",
+      "date": "Februari 3, 2026"
+    },
+    {
+      "title": "Chapter 27",
+      "url": "/each-building-chapter-27",
+      "slug": "each-building-chapter-27",
+      "date": "Januari 23, 2026"
+    },
+    {
+      "title": "Chapter 26",
+      "url": "/each-building-chapter-26",
+      "slug": "each-building-chapter-26",
+      "date": "Januari 12, 2026"
+    },
+    {
+      "title": "Chapter 25",
+      "url": "/each-building-chapter-25",
+      "slug": "each-building-chapter-25",
+      "date": "Januari 11, 2026"
+    },
+    {
+      "title": "Chapter 24",
+      "url": "/each-building-chapter-24",
+      "slug": "each-building-chapter-24",
+      "date": "Januari 11, 2026"
+    },
+    {
+      "title": "Chapter 23",
+      "url": "/each-building-chapter-23",
+      "slug": "each-building-chapter-23",
+      "date": "Januari 11, 2026"
+    },
+    {
+      "title": "Chapter 22",
+      "url": "/each-building-chapter-22",
+      "slug": "each-building-chapter-22",
+      "date": "Januari 11, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/each-building-chapter-21",
+      "slug": "each-building-chapter-21",
+      "date": "Januari 11, 2026"
+    },
+    {
+      "title": "Chapter 20",
+      "url": "/each-building-chapter-20",
+      "slug": "each-building-chapter-20",
+      "date": "Januari 10, 2026"
+    },
+    {
+      "title": "Chapter 19",
+      "url": "/each-building-chapter-19",
+      "slug": "each-building-chapter-19",
+      "date": "Januari 10, 2026"
+    },
+    {
+      "title": "Chapter 18",
+      "url": "/each-building-chapter-18",
+      "slug": "each-building-chapter-18",
+      "date": "Januari 10, 2026"
+    },
+    {
+      "title": "Chapter 17",
+      "url": "/each-building-chapter-17",
+      "slug": "each-building-chapter-17",
+      "date": "Januari 10, 2026"
+    },
+    {
+      "title": "Chapter 16",
+      "url": "/each-building-chapter-16",
+      "slug": "each-building-chapter-16",
+      "date": "November 17, 2025"
+    },
+    {
+      "title": "Chapter 15",
+      "url": "/each-building-chapter-15",
+      "slug": "each-building-chapter-15",
+      "date": "Oktober 24, 2025"
+    },
+    {
+      "title": "Chapter 14",
+      "url": "/each-building-chapter-14",
+      "slug": "each-building-chapter-14",
+      "date": "Oktober 16, 2025"
+    },
+    {
+      "title": "Chapter 13",
+      "url": "/each-building-chapter-13",
+      "slug": "each-building-chapter-13",
+      "date": "Oktober 16, 2025"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/each-building-chapter-12",
+      "slug": "each-building-chapter-12",
+      "date": "September 30, 2025"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/each-building-chapter-11",
+      "slug": "each-building-chapter-11",
+      "date": "September 30, 2025"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/each-building-chapter-10",
+      "slug": "each-building-chapter-10",
+      "date": "September 30, 2025"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/each-building-chapter-9",
+      "slug": "each-building-chapter-9",
+      "date": "September 20, 2025"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/each-building-chapter-8",
+      "slug": "each-building-chapter-8",
+      "date": "September 3, 2025"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/each-building-chapter-7",
+      "slug": "each-building-chapter-7",
+      "date": "Agustus 29, 2025"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/each-building-chapter-6",
+      "slug": "each-building-chapter-6",
+      "date": "Agustus 16, 2025"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/each-building-chapter-5",
+      "slug": "each-building-chapter-5",
+      "date": "Agustus 16, 2025"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/each-building-chapter-4",
+      "slug": "each-building-chapter-4",
+      "date": "Agustus 16, 2025"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/each-building-chapter-3",
+      "slug": "each-building-chapter-3",
+      "date": "Agustus 1, 2025"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/each-building-chapter-2",
+      "slug": "each-building-chapter-2",
+      "date": "Juli 30, 2025"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/each-building-chapter-1",
+      "slug": "each-building-chapter-1",
+      "date": "Juli 30, 2025"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:26:44.467Z"
+}

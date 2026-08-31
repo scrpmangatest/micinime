@@ -1,0 +1,36 @@
+{
+  "slug": "horoyoi-h",
+  "title": "Horoyoi H!!",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-65.jpg",
+  "rating": "8.5",
+  "description": "Kouhai yang mabuk",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "horoyoi-h-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/horoyoi-h-chapter-1",
+      "number": 1,
+      "date": "Desember 23, 2022"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "boy-and-girl",
+  "title": "Boy and Girl",
+  "image": "https://komiktap.info/wp-content/uploads/2021/07/001-2.jpg",
+  "rating": "8.3",
+  "description": "Hubungan Teman masa kecil hingga jadian",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "boy-and-girl-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/boy-and-girl-chapter-1",
+      "number": 1,
+      "date": "Juli 20, 2021"
+    }
+  ]
+}

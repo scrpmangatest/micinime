@@ -1,0 +1,36 @@
+{
+  "slug": "boku-to-rina-senpai-no-himitsu-no-bukatsudou",
+  "title": "Boku to Rina Senpai no Himitsu no Bukatsudou",
+  "image": "https://komiktap.info/wp-content/uploads/2022/10/01-45.jpg",
+  "rating": "8.5",
+  "description": "Super Vanilla",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "boku-to-rina-senpai-no-himitsu-no-bukatsudou-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/boku-to-rina-senpai-no-himitsu-no-bukatsudou-chapter-1",
+      "number": 1,
+      "date": "Oktober 22, 2022"
+    }
+  ]
+}

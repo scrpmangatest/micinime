@@ -1,0 +1,67 @@
+{
+  "slug": "ane-zukushi",
+  "title": "Ane Zukushi (YUUKI Homura)",
+  "image": "https://komiktap.info/wp-content/uploads/2021/01/Ane-Zukushi.jpg",
+  "rating": "6",
+  "description": "dah lah baca aja, ane cmn post doang jdi gk tau :v",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ane-zukushi-chapter-5-5",
+      "title": "Chapter 5.5",
+      "url": "/ane-zukushi-chapter-5-5",
+      "number": 5.5,
+      "date": "Januari 10, 2021"
+    },
+    {
+      "slug": "ane-zukushi-chapter-5",
+      "title": "Chapter 5",
+      "url": "/ane-zukushi-chapter-5",
+      "number": 5,
+      "date": "Januari 10, 2021"
+    },
+    {
+      "slug": "ane-zukushi-chapter-4",
+      "title": "Chapter 4",
+      "url": "/ane-zukushi-chapter-4",
+      "number": 4,
+      "date": "Januari 10, 2021"
+    },
+    {
+      "slug": "ane-zukushi-chapter-3",
+      "title": "Chapter 3",
+      "url": "/ane-zukushi-chapter-3",
+      "number": 3,
+      "date": "Januari 10, 2021"
+    },
+    {
+      "slug": "ane-zukushi-chapter-2",
+      "title": "Chapter 2",
+      "url": "/ane-zukushi-chapter-2",
+      "number": 2,
+      "date": "Januari 10, 2021"
+    },
+    {
+      "slug": "ane-zukushi-chapter-1",
+      "title": "Chapter 1",
+      "url": "/ane-zukushi-chapter-1",
+      "number": 1,
+      "date": "Januari 10, 2021"
+    }
+  ]
+}

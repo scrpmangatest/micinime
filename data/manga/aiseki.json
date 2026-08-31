@@ -1,0 +1,28 @@
+{
+  "slug": "aiseki",
+  "title": "Aiseki",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/02.jpg",
+  "rating": "8.3",
+  "description": "Harutaka mampir kerumah Kana untuk makan siang, betapa nostalgia sejak itu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "aiseki-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/aiseki-chapter-1",
+      "number": 1,
+      "date": "September 4, 2020"
+    }
+  ]
+}

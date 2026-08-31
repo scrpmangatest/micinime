@@ -1,0 +1,36 @@
+{
+  "slug": "henyou",
+  "title": "Henyou",
+  "image": "https://komiktap.info/wp-content/uploads/2023/02/01-40.jpg",
+  "rating": "8.5",
+  "description": "Doujin ini mengisahkan tentang seorang pria yang mendekati ibu satu anak!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "henyou-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/henyou-chapter-1",
+      "number": 1,
+      "date": "Februari 13, 2023"
+    }
+  ]
+}

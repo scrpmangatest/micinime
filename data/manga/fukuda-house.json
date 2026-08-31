@@ -1,0 +1,32 @@
+{
+  "slug": "fukuda-house",
+  "title": "Fukuda House",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/02-7.jpg",
+  "rating": "8.3",
+  "description": "Terjadi badai di Kontrakan Sugimoto dikarenakan atapnya bocor, Fukuda menawarkan Sugimoto untuk menginap dirumahnya, Sugimoto kaget dikarenakan Fukuda mempunyai 2 putri dirumahnya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "fukuda-house-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/fukuda-house-chapter-1",
+      "number": 1,
+      "date": "September 5, 2020"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "comic-mobile-legends",
+  "title": "Comic Mobile Legends",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/31219d83a.webp",
+  "rating": "7.4",
+  "description": "bosan up doujin mulu bukan dojin ML ya cok!",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Action",
+      "url": "/genres/action"
+    },
+    {
+      "name": "Adventure",
+      "url": "/genres/adventure"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "comic-mobile-legends-chapter-joy",
+      "title": "Chapter Joy",
+      "url": "/comic-mobile-legends-chapter-joy",
+      "number": null,
+      "date": "Juli 1, 2023"
+    },
+    {
+      "slug": "comic-mobile-legends-chapter-valir",
+      "title": "Chapter Valir",
+      "url": "/comic-mobile-legends-chapter-valir",
+      "number": null,
+      "date": "Juli 1, 2023"
+    },
+    {
+      "slug": "comic-mobile-legends-chapter-yu-zhong-2",
+      "title": "Chapter Yu Zhong 2",
+      "url": "/comic-mobile-legends-chapter-yu-zhong-2",
+      "number": null,
+      "date": "Juli 1, 2023"
+    },
+    {
+      "slug": "comic-mobile-legends-chapter-yu-zhong",
+      "title": "Chapter Yu Zhong 1",
+      "url": "/comic-mobile-legends-chapter-yu-zhong",
+      "number": null,
+      "date": "Juli 1, 2023"
+    },
+    {
+      "slug": "comic-mobile-legends-chapter-luo-yi",
+      "title": "Chapter Luo Yi",
+      "url": "/comic-mobile-legends-chapter-luo-yi",
+      "number": null,
+      "date": "Juni 25, 2023"
+    },
+    {
+      "slug": "comic-mobile-legends-chapter-oriental-fighters",
+      "title": "Chapter Oriental Fighters",
+      "url": "/comic-mobile-legends-chapter-oriental-fighters",
+      "number": null,
+      "date": "Juni 25, 2023"
+    },
+    {
+      "slug": "comic-mobile-legends-chapter-wanwan",
+      "title": "Chapter Wanwan",
+      "url": "/comic-mobile-legends-chapter-wanwan",
+      "number": null,
+      "date": "Juni 25, 2023"
+    },
+    {
+      "slug": "comic-mobile-legends-chapter-ling",
+      "title": "Chapter Ling",
+      "url": "/comic-mobile-legends-chapter-ling",
+      "number": null,
+      "date": "Juni 24, 2023"
+    },
+    {
+      "slug": "comic-mobile-legends-chapter-esmeralda",
+      "title": "Chapter Esmeralda",
+      "url": "/comic-mobile-legends-chapter-esmeralda",
+      "number": null,
+      "date": "Juni 24, 2023"
+    },
+    {
+      "slug": "comic-mobile-legends-chapter-baxia",
+      "title": "Chapter Baxia",
+      "url": "/comic-mobile-legends-chapter-baxia",
+      "number": null,
+      "date": "Juni 24, 2023"
+    }
+  ]
+}

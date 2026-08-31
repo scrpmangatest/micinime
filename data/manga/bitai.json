@@ -1,0 +1,48 @@
+{
+  "slug": "bitai",
+  "title": "Bitai",
+  "image": "https://komiktap.info/wp-content/uploads/2022/06/01-5.jpg",
+  "rating": "8.5",
+  "description": "Soichiro dihapadi oleh pernikahan demi kelangsungan garis keturuna klannya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "bitai-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/bitai-chapter-1",
+      "number": 1,
+      "date": "Juni 6, 2022"
+    }
+  ]
+}

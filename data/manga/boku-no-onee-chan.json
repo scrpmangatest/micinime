@@ -1,0 +1,32 @@
+{
+  "slug": "boku-no-onee-chan",
+  "title": "Boku no Onee-chan",
+  "image": "https://komiktap.info/wp-content/uploads/2023/12/01-25.jpg",
+  "rating": "8.5",
+  "description": "Baca aja lah",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "boku-no-onee-chan-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/boku-no-onee-chan-chapter-1",
+      "number": 1,
+      "date": "Desember 29, 2023"
+    }
+  ]
+}

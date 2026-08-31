@@ -1,0 +1,32 @@
+{
+  "slug": "chikyuu-ga-achuachu-dakara-kanojo",
+  "title": "Chikyuu ga Achuachu dakara Kanojo",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/03-2.jpg",
+  "rating": "8.3",
+  "description": "Teman masa kecilnya mampir kerumah untuk bermain namun cuacanya terlalu panas…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "chikyuu-ga-achuachu-dakara-kanojo-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/chikyuu-ga-achuachu-dakara-kanojo-chapter-1",
+      "number": 1,
+      "date": "September 5, 2020"
+    }
+  ]
+}

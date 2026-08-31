@@ -1,0 +1,40 @@
+{
+  "slug": "girlfriend-next-door",
+  "title": "Girlfriend Next Door",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/02.jpg",
+  "rating": "7.1",
+  "description": "asataga ceweku suka selingkuh",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "girlfriend-next-door-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/girlfriend-next-door-chapter-1",
+      "number": 1,
+      "date": "Desember 6, 2022"
+    }
+  ]
+}

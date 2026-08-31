@@ -1,0 +1,32 @@
+{
+  "slug": "gomennasai-senpai",
+  "title": "Gomennasai Senpai",
+  "image": "https://komiktap.info/wp-content/uploads/2023/08/01.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "gomennasai-senpai-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/gomennasai-senpai-chapter-1",
+      "number": 1,
+      "date": "Agustus 1, 2023"
+    }
+  ]
+}

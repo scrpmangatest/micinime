@@ -1,0 +1,36 @@
+{
+  "slug": "15-nengo-no-onna",
+  "title": "15-nengo no Onna",
+  "image": "https://komiktap.info/wp-content/uploads/2021/08/01-5.jpg",
+  "rating": "8.3",
+  "description": "15 tahun telah berlalu, namun dia bertemu kembali dengan murid lamanya sewaktu sekolah",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "15-nengo-no-onna-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/15-nengo-no-onna-chapter-1",
+      "number": 1,
+      "date": "Agustus 28, 2021"
+    }
+  ]
+}

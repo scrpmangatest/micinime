@@ -1,0 +1,43 @@
+{
+  "slug": "hazukashi-isouna-kao-de-oppai-misete-moraitai-sekimen-oppai-anthology",
+  "title": "Hazukashi isouna Kao de Oppai Misete Moraitai: Sekimen Oppai Anthology",
+  "image": "https://komiktap.info/wp-content/uploads/2020/12/Hazukashi-isouna-Kao-de-Oppai.jpg",
+  "rating": "7.3",
+  "description": "Sebuah anthology berisikan oppai-oppai dari berbagai karangan komik yang berbeda",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "hazukashi-isouna-kao-de-oppai-misete-moraitai-sekimen-oppai-anthology-chapter-02-bahasa-indonesia",
+      "title": "Chapter 2",
+      "url": "/hazukashi-isouna-kao-de-oppai-misete-moraitai-sekimen-oppai-anthology-chapter-02-bahasa-indonesia",
+      "number": 2,
+      "date": "Desember 21, 2020"
+    },
+    {
+      "slug": "hazukashi-isouna-kao-de-oppai-misete-moraitai-sekimen-oppai-anthology-chapter-01-bahasa-indonesia",
+      "title": "Chapter 1",
+      "url": "/hazukashi-isouna-kao-de-oppai-misete-moraitai-sekimen-oppai-anthology-chapter-01-bahasa-indonesia",
+      "number": 1,
+      "date": "Desember 21, 2020"
+    }
+  ]
+}

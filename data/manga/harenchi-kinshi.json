@@ -1,0 +1,43 @@
+{
+  "slug": "harenchi-kinshi",
+  "title": "Harenchi Kinshi!",
+  "image": "https://komiktap.info/wp-content/uploads/2022/11/01-25.jpg",
+  "rating": "8.5",
+  "description": "Tak kusangka ketua begitu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "harenchi-kinshi-chapter-2",
+      "title": "Chapter 2 After",
+      "url": "/harenchi-kinshi-chapter-2",
+      "number": 2,
+      "date": "November 15, 2022"
+    },
+    {
+      "slug": "harenchi-kinshi-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/harenchi-kinshi-chapter-1",
+      "number": 1,
+      "date": "November 13, 2022"
+    }
+  ]
+}

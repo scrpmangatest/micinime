@@ -1,0 +1,28 @@
+{
+  "slug": "dare-mo-okite-wa-naranu",
+  "title": "Dare mo Okite wa Naranu",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/03-217.jpg",
+  "rating": "8.2",
+  "description": "Dare mo Okite wa Naranu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "dare-mo-okite-wa-naranu-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/dare-mo-okite-wa-naranu-chapter-1",
+      "number": 1,
+      "date": "September 5, 2020"
+    }
+  ]
+}

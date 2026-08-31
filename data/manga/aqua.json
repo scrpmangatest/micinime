@@ -1,0 +1,330 @@
+{
+  "slug": "aqua",
+  "title": "Aqua",
+  "image": "https://komiktap.info/wp-content/uploads/2021/02/Aqua-193x278-1.jpg",
+  "rating": "8",
+  "description": "Aqua memiliki sesuatu yang spesial hingga dia dikejar keluarga choi, apa itu?",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "aqua-chapter-43",
+      "title": "Chapter 43",
+      "url": "/aqua-chapter-43",
+      "number": 43,
+      "date": "Oktober 7, 2022"
+    },
+    {
+      "slug": "aqua-chapter-42",
+      "title": "Chapter 42",
+      "url": "/aqua-chapter-42",
+      "number": 42,
+      "date": "Oktober 7, 2022"
+    },
+    {
+      "slug": "aqua-chapter-41",
+      "title": "Chapter 41",
+      "url": "/aqua-chapter-41",
+      "number": 41,
+      "date": "September 23, 2022"
+    },
+    {
+      "slug": "aqua-chapter-40",
+      "title": "Chapter 40",
+      "url": "/aqua-chapter-40",
+      "number": 40,
+      "date": "September 23, 2022"
+    },
+    {
+      "slug": "aqua-chapter-39",
+      "title": "Chapter 39",
+      "url": "/aqua-chapter-39",
+      "number": 39,
+      "date": "September 21, 2022"
+    },
+    {
+      "slug": "aqua-chapter-38",
+      "title": "Chapter 38",
+      "url": "/aqua-chapter-38",
+      "number": 38,
+      "date": "September 21, 2022"
+    },
+    {
+      "slug": "aqua-chapter-37",
+      "title": "Chapter 37",
+      "url": "/aqua-chapter-37",
+      "number": 37,
+      "date": "September 10, 2022"
+    },
+    {
+      "slug": "aqua-chapter-36",
+      "title": "Chapter 36",
+      "url": "/aqua-chapter-36",
+      "number": 36,
+      "date": "September 10, 2022"
+    },
+    {
+      "slug": "aqua-chapter-35",
+      "title": "Chapter 35",
+      "url": "/aqua-chapter-35",
+      "number": 35,
+      "date": "September 10, 2022"
+    },
+    {
+      "slug": "aqua-chapter-34",
+      "title": "Chapter 34",
+      "url": "/aqua-chapter-34",
+      "number": 34,
+      "date": "Desember 11, 2021"
+    },
+    {
+      "slug": "aqua-chapter-33",
+      "title": "Chapter 33",
+      "url": "/aqua-chapter-33",
+      "number": 33,
+      "date": "Desember 11, 2021"
+    },
+    {
+      "slug": "aqua-chapter-32",
+      "title": "Chapter 32",
+      "url": "/aqua-chapter-32",
+      "number": 32,
+      "date": "Desember 11, 2021"
+    },
+    {
+      "slug": "aqua-chapter-31",
+      "title": "Chapter 31",
+      "url": "/aqua-chapter-31",
+      "number": 31,
+      "date": "Desember 11, 2021"
+    },
+    {
+      "slug": "aqua-chapter-30",
+      "title": "Chapter 30",
+      "url": "/aqua-chapter-30",
+      "number": 30,
+      "date": "Desember 11, 2021"
+    },
+    {
+      "slug": "aqua-chapter-29",
+      "title": "Chapter 29",
+      "url": "/aqua-chapter-29",
+      "number": 29,
+      "date": "Desember 11, 2021"
+    },
+    {
+      "slug": "aqua-chapter-28",
+      "title": "Chapter 28",
+      "url": "/aqua-chapter-28",
+      "number": 28,
+      "date": "November 3, 2021"
+    },
+    {
+      "slug": "aqua-chapter-27",
+      "title": "Chapter 27",
+      "url": "/aqua-chapter-27",
+      "number": 27,
+      "date": "November 3, 2021"
+    },
+    {
+      "slug": "aqua-chapter-26",
+      "title": "Chapter 26",
+      "url": "/aqua-chapter-26",
+      "number": 26,
+      "date": "November 3, 2021"
+    },
+    {
+      "slug": "aqua-chapter-25",
+      "title": "Chapter 25",
+      "url": "/aqua-chapter-25",
+      "number": 25,
+      "date": "November 3, 2021"
+    },
+    {
+      "slug": "aqua-chapter-24",
+      "title": "Chapter 24",
+      "url": "/aqua-chapter-24",
+      "number": 24,
+      "date": "November 3, 2021"
+    },
+    {
+      "slug": "aqua-chapter-23",
+      "title": "Chapter 23",
+      "url": "/aqua-chapter-23",
+      "number": 23,
+      "date": "November 3, 2021"
+    },
+    {
+      "slug": "aqua-chapter-22",
+      "title": "Chapter 22",
+      "url": "/aqua-chapter-22",
+      "number": 22,
+      "date": "Oktober 26, 2021"
+    },
+    {
+      "slug": "aqua-chapter-21",
+      "title": "Chapter 21",
+      "url": "/aqua-chapter-21",
+      "number": 21,
+      "date": "Oktober 26, 2021"
+    },
+    {
+      "slug": "aqua-chapter-20",
+      "title": "Chapter 20",
+      "url": "/aqua-chapter-20",
+      "number": 20,
+      "date": "Oktober 26, 2021"
+    },
+    {
+      "slug": "aqua-chapter-19",
+      "title": "Chapter 19",
+      "url": "/aqua-chapter-19",
+      "number": 19,
+      "date": "Oktober 26, 2021"
+    },
+    {
+      "slug": "aqua-chapter-18",
+      "title": "Chapter 18",
+      "url": "/aqua-chapter-18",
+      "number": 18,
+      "date": "Oktober 26, 2021"
+    },
+    {
+      "slug": "aqua-chapter-17",
+      "title": "Chapter 17",
+      "url": "/aqua-chapter-17",
+      "number": 17,
+      "date": "Oktober 26, 2021"
+    },
+    {
+      "slug": "aqua-chapter-16",
+      "title": "Chapter 16",
+      "url": "/aqua-chapter-16",
+      "number": 16,
+      "date": "Oktober 26, 2021"
+    },
+    {
+      "slug": "aqua-chapter-15",
+      "title": "Chapter 15",
+      "url": "/aqua-chapter-15",
+      "number": 15,
+      "date": "April 6, 2021"
+    },
+    {
+      "slug": "aqua-chapter-14",
+      "title": "Chapter 14",
+      "url": "/aqua-chapter-14",
+      "number": 14,
+      "date": "April 6, 2021"
+    },
+    {
+      "slug": "aqua-chapter-13",
+      "title": "Chapter 13",
+      "url": "/aqua-chapter-13",
+      "number": 13,
+      "date": "April 2, 2021"
+    },
+    {
+      "slug": "aqua-chapter-12",
+      "title": "Chapter 12",
+      "url": "/aqua-chapter-12",
+      "number": 12,
+      "date": "April 2, 2021"
+    },
+    {
+      "slug": "aqua-chapter-11",
+      "title": "Chapter 11",
+      "url": "/aqua-chapter-11",
+      "number": 11,
+      "date": "Maret 19, 2021"
+    },
+    {
+      "slug": "aqua-chapter-10",
+      "title": "Chapter 10",
+      "url": "/aqua-chapter-10",
+      "number": 10,
+      "date": "Maret 19, 2021"
+    },
+    {
+      "slug": "aqua-chapter-09",
+      "title": "Chapter 09",
+      "url": "/aqua-chapter-09",
+      "number": 9,
+      "date": "Februari 15, 2021"
+    },
+    {
+      "slug": "aqua-chapter-8",
+      "title": "Chapter 08",
+      "url": "/aqua-chapter-8",
+      "number": 8,
+      "date": "Februari 15, 2021"
+    },
+    {
+      "slug": "aqua-chapter-07",
+      "title": "Chapter 07",
+      "url": "/aqua-chapter-07",
+      "number": 7,
+      "date": "Februari 12, 2021"
+    },
+    {
+      "slug": "aqua-chapter-06",
+      "title": "Chapter 06",
+      "url": "/aqua-chapter-06",
+      "number": 6,
+      "date": "Februari 12, 2021"
+    },
+    {
+      "slug": "aqua-chapter-05",
+      "title": "Chapter 05",
+      "url": "/aqua-chapter-05",
+      "number": 5,
+      "date": "Februari 12, 2021"
+    },
+    {
+      "slug": "aqua-chapter-04",
+      "title": "Chapter 04",
+      "url": "/aqua-chapter-04",
+      "number": 4,
+      "date": "Februari 12, 2021"
+    },
+    {
+      "slug": "aqua-chapter-03",
+      "title": "Chapter 03",
+      "url": "/aqua-chapter-03",
+      "number": 3,
+      "date": "Februari 12, 2021"
+    },
+    {
+      "slug": "aqua-chapter-02",
+      "title": "Chapter 02",
+      "url": "/aqua-chapter-02",
+      "number": 2,
+      "date": "Februari 12, 2021"
+    },
+    {
+      "slug": "aqua-chapter-01",
+      "title": "Chapter 01",
+      "url": "/aqua-chapter-01",
+      "number": 1,
+      "date": "Februari 12, 2021"
+    }
+  ]
+}

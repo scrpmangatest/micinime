@@ -1,0 +1,40 @@
+{
+  "slug": "alpha-side",
+  "title": "Alpha side",
+  "image": "https://komiktap.info/wp-content/uploads/2023/12/01-6.jpg",
+  "rating": "8.5",
+  "description": "dijadikan objek penelitian",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Pregnant",
+      "url": "/genres/pregnant"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "alpha-side-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/alpha-side-chapter-1",
+      "number": 1,
+      "date": "Desember 8, 2023"
+    }
+  ]
+}

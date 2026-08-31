@@ -1,0 +1,36 @@
+{
+  "slug": "av-family",
+  "title": "AV Family",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/01-45.jpg",
+  "rating": "8.5",
+  "description": "Studio Film porno yang di dirikan oleh sebuah keluarga",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "av-family-chapter-1",
+      "title": "Chapter 1",
+      "url": "/av-family-chapter-1",
+      "number": 1,
+      "date": "Juni 23, 2023"
+    }
+  ]
+}

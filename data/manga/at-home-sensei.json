@@ -1,0 +1,36 @@
+{
+  "slug": "at-home-sensei",
+  "title": "At Home Sensei",
+  "image": "https://komiktap.info/wp-content/uploads/2022/01/01-1.jpg",
+  "rating": "8.5",
+  "description": "Baru pertama kali melihat pacarku mengajar di sekolah TK",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "at-home-sensei-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/at-home-sensei-chapter-1",
+      "number": 1,
+      "date": "Januari 3, 2022"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "homura-to-kitanai-oji-san-netorase-takuran-koubi",
+  "title": "Homura to Kitanai Oji-san Netorase Takuran Koubi",
+  "image": "https://komiktap.info/wp-content/uploads/2024/02/01-3.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Xenoblade Chronicles",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "homura-to-kitanai-oji-san-netorase-takuran-koubi-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/homura-to-kitanai-oji-san-netorase-takuran-koubi-chapter-1",
+      "number": 1,
+      "date": "Februari 8, 2024"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "douzo-okawarinaku",
+  "title": "Douzo, Okawarinaku",
+  "image": "https://komiktap.info/wp-content/uploads/2022/04/01-4.jpg",
+  "rating": "8.5",
+  "description": "Bertemunya teman masa kecil di klub karate pada saat pesta campuran mahasiswa pada malam itu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "douzo-okawarinaku-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/douzo-okawarinaku-chapter-1",
+      "number": 1,
+      "date": "April 26, 2022"
+    }
+  ]
+}

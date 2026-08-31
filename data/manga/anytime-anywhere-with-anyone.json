@@ -1,0 +1,32 @@
+{
+  "slug": "anytime-anywhere-with-anyone",
+  "title": "Anytime, Anywhere, with Anyone",
+  "image": "https://komiktap.info/wp-content/uploads/2024/01/01-26.jpg",
+  "rating": "8.5",
+  "description": "Baca aja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "anytime-anywhere-with-anyone-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/anytime-anywhere-with-anyone-chapter-1",
+      "number": 1,
+      "date": "Januari 18, 2024"
+    }
+  ]
+}

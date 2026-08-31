@@ -1,0 +1,32 @@
+{
+  "slug": "dessert-syndrome",
+  "title": "Dessert Syndrome",
+  "image": "https://komiktap.info/wp-content/uploads/2024/04/01-23.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Idolmaster",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "dessert-syndrome-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/dessert-syndrome-chapter-1",
+      "number": 1,
+      "date": "April 30, 2024"
+    }
+  ]
+}

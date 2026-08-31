@@ -1,0 +1,476 @@
+{
+  "slug": "cleaning-service",
+  "title": "cleaning-service",
+  "image": null,
+  "rating": "8",
+  "description": "Berkat koneksi ibunya, Junho mendapatkan pekerjaan baru bekerja untuk seorang ibu dan anak perempuan yang ditaksirnya. Terpikat oleh daya pikat sang ibu yang sederhana, ia mulai menyentuhnya… “Saya melakukannya… dengan seorang pria yang seumuran dengan putri saya…”",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 75",
+      "url": "/cleaning-service-chapter-75",
+      "slug": "cleaning-service-chapter-75",
+      "date": "Agustus 26, 2026"
+    },
+    {
+      "title": "Chapter 74",
+      "url": "/cleaning-service-chapter-74",
+      "slug": "cleaning-service-chapter-74",
+      "date": "Agustus 16, 2026"
+    },
+    {
+      "title": "Chapter 73",
+      "url": "/cleaning-service-chapter-73",
+      "slug": "cleaning-service-chapter-73",
+      "date": "Agustus 16, 2026"
+    },
+    {
+      "title": "Chapter 72",
+      "url": "/cleaning-service-chapter-72",
+      "slug": "cleaning-service-chapter-72",
+      "date": "Agustus 16, 2026"
+    },
+    {
+      "title": "Chapter 71",
+      "url": "/cleaning-service-chapter-71",
+      "slug": "cleaning-service-chapter-71",
+      "date": "Agustus 16, 2026"
+    },
+    {
+      "title": "Chapter 70",
+      "url": "/cleaning-service-chapter-70",
+      "slug": "cleaning-service-chapter-70",
+      "date": "Juli 21, 2026"
+    },
+    {
+      "title": "Chapter 69",
+      "url": "/cleaning-service-chapter-69",
+      "slug": "cleaning-service-chapter-69",
+      "date": "Juli 21, 2026"
+    },
+    {
+      "title": "Chapter 68",
+      "url": "/cleaning-service-chapter-68",
+      "slug": "cleaning-service-chapter-68",
+      "date": "Juli 10, 2026"
+    },
+    {
+      "title": "Chapter 67",
+      "url": "/cleaning-service-chapter-67",
+      "slug": "cleaning-service-chapter-67",
+      "date": "Juli 2, 2026"
+    },
+    {
+      "title": "Chapter 66",
+      "url": "/cleaning-service-chapter-66",
+      "slug": "cleaning-service-chapter-66",
+      "date": "Juli 2, 2026"
+    },
+    {
+      "title": "Chapter 65",
+      "url": "/cleaning-service-chapter-65",
+      "slug": "cleaning-service-chapter-65",
+      "date": "Juli 2, 2026"
+    },
+    {
+      "title": "Chapter 64",
+      "url": "/cleaning-service-chapter-64",
+      "slug": "cleaning-service-chapter-64",
+      "date": "Juli 2, 2026"
+    },
+    {
+      "title": "Chapter 63",
+      "url": "/cleaning-service-chapter-63",
+      "slug": "cleaning-service-chapter-63",
+      "date": "Mei 29, 2026"
+    },
+    {
+      "title": "Chapter 62",
+      "url": "/cleaning-service-chapter-62",
+      "slug": "cleaning-service-chapter-62",
+      "date": "Mei 29, 2026"
+    },
+    {
+      "title": "Chapter 61",
+      "url": "/cleaning-service-chapter-61",
+      "slug": "cleaning-service-chapter-61",
+      "date": "Mei 16, 2026"
+    },
+    {
+      "title": "Chapter 60",
+      "url": "/cleaning-service-chapter-60",
+      "slug": "cleaning-service-chapter-60",
+      "date": "Mei 16, 2026"
+    },
+    {
+      "title": "Chapter 59",
+      "url": "/cleaning-service-chapter-59",
+      "slug": "cleaning-service-chapter-59",
+      "date": "Mei 16, 2026"
+    },
+    {
+      "title": "Chapter 58",
+      "url": "/cleaning-service-chapter-58",
+      "slug": "cleaning-service-chapter-58",
+      "date": "Mei 16, 2026"
+    },
+    {
+      "title": "Chapter 57",
+      "url": "/cleaning-service-chapter-57",
+      "slug": "cleaning-service-chapter-57",
+      "date": "Mei 7, 2026"
+    },
+    {
+      "title": "Chapter 56",
+      "url": "/cleaning-service-chapter-56",
+      "slug": "cleaning-service-chapter-56",
+      "date": "Mei 7, 2026"
+    },
+    {
+      "title": "Chapter 55",
+      "url": "/cleaning-service-chapter-55",
+      "slug": "cleaning-service-chapter-55",
+      "date": "Mei 7, 2026"
+    },
+    {
+      "title": "Chapter 54",
+      "url": "/cleaning-service-chapter-54",
+      "slug": "cleaning-service-chapter-54",
+      "date": "Mei 7, 2026"
+    },
+    {
+      "title": "Chapter 53",
+      "url": "/cleaning-service-chapter-53",
+      "slug": "cleaning-service-chapter-53",
+      "date": "Mei 7, 2026"
+    },
+    {
+      "title": "Chapter 52",
+      "url": "/cleaning-service-chapter-52",
+      "slug": "cleaning-service-chapter-52",
+      "date": "Maret 23, 2026"
+    },
+    {
+      "title": "Chapter 51",
+      "url": "/cleaning-service-chapter-51",
+      "slug": "cleaning-service-chapter-51",
+      "date": "Maret 23, 2026"
+    },
+    {
+      "title": "Chapter 50",
+      "url": "/cleaning-service-chapter-50",
+      "slug": "cleaning-service-chapter-50",
+      "date": "Maret 23, 2026"
+    },
+    {
+      "title": "Chapter 49",
+      "url": "/cleaning-service-chapter-49",
+      "slug": "cleaning-service-chapter-49",
+      "date": "Maret 23, 2026"
+    },
+    {
+      "title": "Chapter 48",
+      "url": "/cleaning-service-chapter-48",
+      "slug": "cleaning-service-chapter-48",
+      "date": "September 30, 2025"
+    },
+    {
+      "title": "Chapter 47",
+      "url": "/cleaning-service-chapter-47",
+      "slug": "cleaning-service-chapter-47",
+      "date": "September 22, 2025"
+    },
+    {
+      "title": "Chapter 46",
+      "url": "/cleaning-service-chapter-46",
+      "slug": "cleaning-service-chapter-46",
+      "date": "September 9, 2025"
+    },
+    {
+      "title": "Chapter 45",
+      "url": "/cleaning-service-chapter-45",
+      "slug": "cleaning-service-chapter-45",
+      "date": "September 7, 2025"
+    },
+    {
+      "title": "Chapter 44",
+      "url": "/cleaning-service-chapter-44",
+      "slug": "cleaning-service-chapter-44",
+      "date": "September 7, 2025"
+    },
+    {
+      "title": "Chapter 43",
+      "url": "/cleaning-service-chapter-43",
+      "slug": "cleaning-service-chapter-43",
+      "date": "September 7, 2025"
+    },
+    {
+      "title": "Chapter 42",
+      "url": "/cleaning-service-chapter-42",
+      "slug": "cleaning-service-chapter-42",
+      "date": "Agustus 17, 2025"
+    },
+    {
+      "title": "Chapter 41",
+      "url": "/cleaning-service-chapter-41",
+      "slug": "cleaning-service-chapter-41",
+      "date": "Agustus 5, 2025"
+    },
+    {
+      "title": "Chapter 40",
+      "url": "/cleaning-service-chapter-40",
+      "slug": "cleaning-service-chapter-40",
+      "date": "Agustus 5, 2025"
+    },
+    {
+      "title": "Chapter 39",
+      "url": "/cleaning-service-chapter-39",
+      "slug": "cleaning-service-chapter-39",
+      "date": "Juli 24, 2025"
+    },
+    {
+      "title": "Chapter 38",
+      "url": "/cleaning-service-chapter-38",
+      "slug": "cleaning-service-chapter-38",
+      "date": "Juli 24, 2025"
+    },
+    {
+      "title": "Chapter 37",
+      "url": "/cleaning-service-chapter-37",
+      "slug": "cleaning-service-chapter-37",
+      "date": "Juli 9, 2025"
+    },
+    {
+      "title": "Chapter 36",
+      "url": "/cleaning-service-chapter-36",
+      "slug": "cleaning-service-chapter-36",
+      "date": "Juli 1, 2025"
+    },
+    {
+      "title": "Chapter 35",
+      "url": "/cleaning-service-chapter-35",
+      "slug": "cleaning-service-chapter-35",
+      "date": "Juni 30, 2025"
+    },
+    {
+      "title": "Chapter 34",
+      "url": "/cleaning-service-chapter-34",
+      "slug": "cleaning-service-chapter-34",
+      "date": "Juni 16, 2025"
+    },
+    {
+      "title": "Chapter 33",
+      "url": "/cleaning-service-chapter-33",
+      "slug": "cleaning-service-chapter-33",
+      "date": "Juni 16, 2025"
+    },
+    {
+      "title": "Chapter 32",
+      "url": "/cleaning-service-chapter-32",
+      "slug": "cleaning-service-chapter-32",
+      "date": "Juni 7, 2025"
+    },
+    {
+      "title": "Chapter 31",
+      "url": "/cleaning-service-chapter-31",
+      "slug": "cleaning-service-chapter-31",
+      "date": "Mei 31, 2025"
+    },
+    {
+      "title": "Chapter 30",
+      "url": "/cleaning-service-chapter-30",
+      "slug": "cleaning-service-chapter-30",
+      "date": "Mei 31, 2025"
+    },
+    {
+      "title": "Chapter 29",
+      "url": "/cleaning-service-chapter-29",
+      "slug": "cleaning-service-chapter-29",
+      "date": "Mei 29, 2025"
+    },
+    {
+      "title": "Chapter 28",
+      "url": "/cleaning-service-chapter-28",
+      "slug": "cleaning-service-chapter-28",
+      "date": "Mei 29, 2025"
+    },
+    {
+      "title": "Chapter 27",
+      "url": "/cleaning-service-chapter-27",
+      "slug": "cleaning-service-chapter-27",
+      "date": "Mei 4, 2025"
+    },
+    {
+      "title": "Chapter 26",
+      "url": "/cleaning-service-chapter-26",
+      "slug": "cleaning-service-chapter-26",
+      "date": "April 24, 2025"
+    },
+    {
+      "title": "Chapter 25",
+      "url": "/cleaning-service-chapter-25",
+      "slug": "cleaning-service-chapter-25",
+      "date": "April 24, 2025"
+    },
+    {
+      "title": "Chapter 24",
+      "url": "/cleaning-service-chapter-24",
+      "slug": "cleaning-service-chapter-24",
+      "date": "April 9, 2025"
+    },
+    {
+      "title": "Chapter 23",
+      "url": "/cleaning-service-chapter-23",
+      "slug": "cleaning-service-chapter-23",
+      "date": "April 9, 2025"
+    },
+    {
+      "title": "Chapter 22",
+      "url": "/cleaning-service-chapter-22",
+      "slug": "cleaning-service-chapter-22",
+      "date": "Maret 23, 2025"
+    },
+    {
+      "title": "Chapter 21",
+      "url": "/cleaning-service-chapter-21",
+      "slug": "cleaning-service-chapter-21",
+      "date": "Maret 23, 2025"
+    },
+    {
+      "title": "Chapter 20",
+      "url": "/cleaning-service-chapter-20",
+      "slug": "cleaning-service-chapter-20",
+      "date": "Maret 16, 2025"
+    },
+    {
+      "title": "Chapter 19",
+      "url": "/cleaning-service-chapter-19",
+      "slug": "cleaning-service-chapter-19",
+      "date": "Maret 8, 2025"
+    },
+    {
+      "title": "Chapter 18",
+      "url": "/cleaning-service-chapter-18",
+      "slug": "cleaning-service-chapter-18",
+      "date": "Februari 28, 2025"
+    },
+    {
+      "title": "Chapter 17",
+      "url": "/cleaning-service-chapter-17",
+      "slug": "cleaning-service-chapter-17",
+      "date": "Februari 21, 2025"
+    },
+    {
+      "title": "Chapter 16",
+      "url": "/cleaning-service-chapter-16",
+      "slug": "cleaning-service-chapter-16",
+      "date": "Februari 14, 2025"
+    },
+    {
+      "title": "Chapter 15",
+      "url": "/cleaning-service-chapter-15",
+      "slug": "cleaning-service-chapter-15",
+      "date": "Februari 7, 2025"
+    },
+    {
+      "title": "Chapter 14",
+      "url": "/cleaning-service-chapter-14",
+      "slug": "cleaning-service-chapter-14",
+      "date": "Februari 7, 2025"
+    },
+    {
+      "title": "Chapter 13",
+      "url": "/cleaning-service-chapter-13",
+      "slug": "cleaning-service-chapter-13",
+      "date": "Januari 23, 2025"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/cleaning-service-chapter-12",
+      "slug": "cleaning-service-chapter-12",
+      "date": "Januari 17, 2025"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/cleaning-service-chapter-11",
+      "slug": "cleaning-service-chapter-11",
+      "date": "Januari 15, 2025"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/cleaning-service-chapter-10",
+      "slug": "cleaning-service-chapter-10",
+      "date": "Januari 6, 2025"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/cleaning-service-chapter-9",
+      "slug": "cleaning-service-chapter-9",
+      "date": "Januari 6, 2025"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/cleaning-service-chapter-8",
+      "slug": "cleaning-service-chapter-8",
+      "date": "Desember 26, 2024"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/cleaning-service-chapter-7",
+      "slug": "cleaning-service-chapter-7",
+      "date": "Desember 13, 2024"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/cleaning-service-chapter-6",
+      "slug": "cleaning-service-chapter-6",
+      "date": "Desember 9, 2024"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/cleaning-service-chapter-5",
+      "slug": "cleaning-service-chapter-5",
+      "date": "Desember 5, 2024"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/cleaning-service-chapter-4",
+      "slug": "cleaning-service-chapter-4",
+      "date": "Desember 5, 2024"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/cleaning-service-chapter-3",
+      "slug": "cleaning-service-chapter-3",
+      "date": "Desember 5, 2024"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/cleaning-service-chapter-2",
+      "slug": "cleaning-service-chapter-2",
+      "date": "Desember 5, 2024"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/cleaning-service-chapter-1",
+      "slug": "cleaning-service-chapter-1",
+      "date": "Desember 5, 2024"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:26:03.323Z"
+}

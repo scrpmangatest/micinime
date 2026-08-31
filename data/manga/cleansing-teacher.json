@@ -1,0 +1,28 @@
+{
+  "slug": "cleansing-teacher",
+  "title": "Cleansing Teacher",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/01-5.jpg",
+  "rating": "8.4",
+  "description": "Pertengkaran Takuto dan Manami diketahui oleh Guru konseling, namun cuma pertengkaran kecil saja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "cleansing-teacher-ch-1",
+      "title": "Chapter 1 End",
+      "url": "/cleansing-teacher-ch-1",
+      "number": 1,
+      "date": "September 5, 2020"
+    }
+  ]
+}

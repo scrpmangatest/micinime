@@ -1,0 +1,376 @@
+{
+  "slug": "housekeeper",
+  "title": "Housekeeper (Paper)",
+  "image": "https://komiktap.info/wp-content/uploads/2020/11/Housekeeper.jpg",
+  "rating": "4",
+  "description": "Yura dan JungHyun adalah kekasih dari hari-hari murid Tae-jun. Saat ini Tae-jun adalah pelayan publik dan bertunangan dengan Min-ah, putri walikota. Tae-jun memutuskan untuk menyewa pembantu untuk pengantin baru, yang mengejutkannya adalah JungHyun, cinta masa lalunya.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Full Color",
+      "url": "/genres/full-color"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "housekeeper-chapter-49-end",
+      "title": "Chapter 49 End",
+      "url": "/housekeeper-chapter-49-end",
+      "number": 49,
+      "date": "Maret 19, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-48",
+      "title": "Chapter 48",
+      "url": "/housekeeper-chapter-48",
+      "number": 48,
+      "date": "Maret 19, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-47",
+      "title": "Chapter 47",
+      "url": "/housekeeper-chapter-47",
+      "number": 47,
+      "date": "Maret 19, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-46",
+      "title": "Chapter 46",
+      "url": "/housekeeper-chapter-46",
+      "number": 46,
+      "date": "Maret 19, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-45",
+      "title": "Chapter 45",
+      "url": "/housekeeper-chapter-45",
+      "number": 45,
+      "date": "Februari 23, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-44",
+      "title": "Chapter 44",
+      "url": "/housekeeper-chapter-44",
+      "number": 44,
+      "date": "Februari 23, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-43",
+      "title": "Chapter 43",
+      "url": "/housekeeper-chapter-43",
+      "number": 43,
+      "date": "Februari 23, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-42",
+      "title": "Chapter 42",
+      "url": "/housekeeper-chapter-42",
+      "number": 42,
+      "date": "Februari 9, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-41",
+      "title": "Chapter 41",
+      "url": "/housekeeper-chapter-41",
+      "number": 41,
+      "date": "Februari 9, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-40",
+      "title": "Chapter 40",
+      "url": "/housekeeper-chapter-40",
+      "number": 40,
+      "date": "Februari 6, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-39",
+      "title": "Chapter 39",
+      "url": "/housekeeper-chapter-39",
+      "number": 39,
+      "date": "Februari 6, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-38",
+      "title": "Chapter 38",
+      "url": "/housekeeper-chapter-38",
+      "number": 38,
+      "date": "Januari 22, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-37",
+      "title": "Chapter 37",
+      "url": "/housekeeper-chapter-37",
+      "number": 37,
+      "date": "Januari 17, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-36",
+      "title": "Chapter 36",
+      "url": "/housekeeper-chapter-36",
+      "number": 36,
+      "date": "Januari 17, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-35",
+      "title": "Chapter 35",
+      "url": "/housekeeper-chapter-35",
+      "number": 35,
+      "date": "Januari 1, 2021"
+    },
+    {
+      "slug": "housekeeper-chapter-34",
+      "title": "Chapter 34",
+      "url": "/housekeeper-chapter-34",
+      "number": 34,
+      "date": "Desember 27, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-33",
+      "title": "Chapter 33",
+      "url": "/housekeeper-chapter-33",
+      "number": 33,
+      "date": "Desember 27, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-32",
+      "title": "Chapter 32",
+      "url": "/housekeeper-chapter-32",
+      "number": 32,
+      "date": "Desember 24, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-31",
+      "title": "Chapter 31",
+      "url": "/housekeeper-chapter-31",
+      "number": 31,
+      "date": "Desember 24, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-30",
+      "title": "Chapter 30",
+      "url": "/housekeeper-chapter-30",
+      "number": 30,
+      "date": "Desember 24, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-29",
+      "title": "Chapter 29",
+      "url": "/housekeeper-chapter-29",
+      "number": 29,
+      "date": "Desember 19, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-28",
+      "title": "Chapter 28",
+      "url": "/housekeeper-chapter-28",
+      "number": 28,
+      "date": "Desember 19, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-27",
+      "title": "Chapter 27",
+      "url": "/housekeeper-chapter-27",
+      "number": 27,
+      "date": "Desember 17, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-26",
+      "title": "Chapter 26",
+      "url": "/housekeeper-chapter-26",
+      "number": 26,
+      "date": "Desember 17, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-25",
+      "title": "Chapter 25",
+      "url": "/housekeeper-chapter-25",
+      "number": 25,
+      "date": "Desember 15, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-24",
+      "title": "Chapter 24",
+      "url": "/housekeeper-chapter-24",
+      "number": 24,
+      "date": "Desember 15, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-23",
+      "title": "Chapter 23",
+      "url": "/housekeeper-chapter-23",
+      "number": 23,
+      "date": "Desember 14, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-22",
+      "title": "Chapter 22",
+      "url": "/housekeeper-chapter-22",
+      "number": 22,
+      "date": "Desember 11, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-21",
+      "title": "Chapter 21",
+      "url": "/housekeeper-chapter-21",
+      "number": 21,
+      "date": "Desember 10, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-20",
+      "title": "Chapter 20",
+      "url": "/housekeeper-chapter-20",
+      "number": 20,
+      "date": "Desember 8, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-19",
+      "title": "Chapter 19",
+      "url": "/housekeeper-chapter-19",
+      "number": 19,
+      "date": "Desember 5, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-18",
+      "title": "Chapter 18",
+      "url": "/housekeeper-chapter-18",
+      "number": 18,
+      "date": "Desember 5, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-17",
+      "title": "Chapter 17",
+      "url": "/housekeeper-chapter-17",
+      "number": 17,
+      "date": "Desember 4, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-16",
+      "title": "Chapter 16",
+      "url": "/housekeeper-chapter-16",
+      "number": 16,
+      "date": "Desember 3, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-15",
+      "title": "Chapter 15",
+      "url": "/housekeeper-chapter-15",
+      "number": 15,
+      "date": "Desember 3, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-14",
+      "title": "Chapter 14",
+      "url": "/housekeeper-chapter-14",
+      "number": 14,
+      "date": "Desember 1, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-13",
+      "title": "Chapter 13",
+      "url": "/housekeeper-chapter-13",
+      "number": 13,
+      "date": "November 28, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-12",
+      "title": "Chapter 12",
+      "url": "/housekeeper-chapter-12",
+      "number": 12,
+      "date": "November 28, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-11",
+      "title": "Chapter 11",
+      "url": "/housekeeper-chapter-11",
+      "number": 11,
+      "date": "November 27, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-10",
+      "title": "Chapter 10",
+      "url": "/housekeeper-chapter-10",
+      "number": 10,
+      "date": "November 25, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-9",
+      "title": "Chapter 9",
+      "url": "/housekeeper-chapter-9",
+      "number": 9,
+      "date": "November 25, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-8",
+      "title": "Chapter 8",
+      "url": "/housekeeper-chapter-8",
+      "number": 8,
+      "date": "November 23, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-7",
+      "title": "Chapter 7",
+      "url": "/housekeeper-chapter-7",
+      "number": 7,
+      "date": "November 20, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-6",
+      "title": "Chapter 6",
+      "url": "/housekeeper-chapter-6",
+      "number": 6,
+      "date": "November 18, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-5",
+      "title": "Chapter 5",
+      "url": "/housekeeper-chapter-5",
+      "number": 5,
+      "date": "November 18, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-4",
+      "title": "Chapter 4",
+      "url": "/housekeeper-chapter-4",
+      "number": 4,
+      "date": "November 18, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-3",
+      "title": "Chapter 3",
+      "url": "/housekeeper-chapter-3",
+      "number": 3,
+      "date": "November 16, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-2",
+      "title": "Chapter 2",
+      "url": "/housekeeper-chapter-2",
+      "number": 2,
+      "date": "November 15, 2020"
+    },
+    {
+      "slug": "housekeeper-chapter-1",
+      "title": "Chapter 1",
+      "url": "/housekeeper-chapter-1",
+      "number": 1,
+      "date": "November 15, 2020"
+    }
+  ]
+}

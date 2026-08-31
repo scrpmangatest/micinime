@@ -1,0 +1,50 @@
+{
+  "slug": "romantic-buzzer-beater",
+  "title": "romantic-buzzer-beater",
+  "image": null,
+  "rating": "6.6",
+  "description": "manhwa asal garap njir",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Smut",
+      "url": "/genres/smut"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 4 END",
+      "url": "/romantic-buzzer-beater-chapter-4-end",
+      "slug": "romantic-buzzer-beater-chapter-4-end",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/romantic-buzzer-beater-chapter-3",
+      "slug": "romantic-buzzer-beater-chapter-3",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/romantic-buzzer-beater-chapter-2",
+      "slug": "romantic-buzzer-beater-chapter-2",
+      "date": "Agustus 29, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/romantic-buzzer-beater-chapter-1",
+      "slug": "romantic-buzzer-beater-chapter-1",
+      "date": "Agustus 29, 2026"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:17:20.678Z"
+}

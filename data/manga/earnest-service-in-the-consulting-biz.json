@@ -1,0 +1,32 @@
+{
+  "slug": "earnest-service-in-the-consulting-biz",
+  "title": "Earnest service in the consulting biz",
+  "image": "https://komiktap.info/wp-content/uploads/2026/04/01-3.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari azur lane",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Ahegao",
+      "url": "/genres/ahegao"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "earnest-service-in-the-consulting-biz-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/earnest-service-in-the-consulting-biz-chapter-1",
+      "number": 1,
+      "date": "April 4, 2026"
+    }
+  ]
+}

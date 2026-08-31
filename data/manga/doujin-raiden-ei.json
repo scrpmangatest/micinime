@@ -1,0 +1,36 @@
+{
+  "slug": "doujin-raiden-ei",
+  "title": "Doujin Raiden Ei",
+  "image": "https://komiktap.info/wp-content/uploads/2021/10/56.jpg",
+  "rating": "9.2",
+  "description": "Kumpulan Random Doujin Raiden Shougun",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "doujin-raiden-ei-chapter-1",
+      "title": "Chapter 1",
+      "url": "/doujin-raiden-ei-chapter-1",
+      "number": 1,
+      "date": "Oktober 14, 2021"
+    }
+  ]
+}

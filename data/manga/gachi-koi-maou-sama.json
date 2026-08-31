@@ -1,0 +1,64 @@
+{
+  "slug": "gachi-koi-maou-sama",
+  "title": "Gachi Koi Maou-sama",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/2.rawkuma.com_.thumb_500x.jpg",
+  "rating": "7.00",
+  "description": "Manga Gachi Koi Maou-sama Seorang pahlawan bertugas untuk mengalahkan Raja Iblis demi perdamaian dunia. Ketika ia tiba di istana Raja Iblis, ia disambut oleh Raja Iblis dengan sertifikat pernikahan di tangannya! Sang pahlawan bingung dengan rayuan Raja Iblis yang kuat untuk menikahinya, tetapi…? Sebuah kisah romantis antara iblis yang jatuh cinta dengan pahlawan yang sedang mencoba menyelamatkan dunia!",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Fantasy",
+      "url": "/genres/fantasy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "gachi-koi-maou-sama-chapter-05",
+      "title": "Chapter 05",
+      "url": "/gachi-koi-maou-sama-chapter-05",
+      "number": 5,
+      "date": "Agustus 13, 2023"
+    },
+    {
+      "slug": "gachi-koi-maou-sama-chapter-04",
+      "title": "Chapter 04",
+      "url": "/gachi-koi-maou-sama-chapter-04",
+      "number": 4,
+      "date": "Juli 6, 2023"
+    },
+    {
+      "slug": "gachi-koi-maou-sama-chapter-03",
+      "title": "Chapter 03",
+      "url": "/gachi-koi-maou-sama-chapter-03",
+      "number": 3,
+      "date": "Juni 26, 2023"
+    },
+    {
+      "slug": "gachi-koi-maou-sama-chapter-02",
+      "title": "Chapter 02",
+      "url": "/gachi-koi-maou-sama-chapter-02",
+      "number": 2,
+      "date": "Juni 26, 2023"
+    },
+    {
+      "slug": "gachi-koi-maou-sama-chapter-01",
+      "title": "Chapter 01",
+      "url": "/gachi-koi-maou-sama-chapter-01",
+      "number": 1,
+      "date": "Juni 26, 2023"
+    }
+  ]
+}

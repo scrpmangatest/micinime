@@ -1,0 +1,55 @@
+{
+  "slug": "even",
+  "title": "Even",
+  "image": "https://komiktap.info/wp-content/uploads/2024/06/001-8.jpg",
+  "rating": "8.4",
+  "description": "Kisah seorang pria yang menyukai teman tomboynya karena banyak menghabiskan waktu dengannya…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Busty",
+      "url": "/genres/busty"
+    },
+    {
+      "name": "Kimono",
+      "url": "/genres/kimono"
+    },
+    {
+      "name": "Pubic hair",
+      "url": "/genres/pubic-hair"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Short Hair",
+      "url": "/genres/short-hair"
+    },
+    {
+      "name": "Tomboy",
+      "url": "/genres/tomboy"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "even-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/even-chapter-2",
+      "number": 2,
+      "date": "Juni 25, 2024"
+    },
+    {
+      "slug": "even-chapter-1",
+      "title": "Chapter 1",
+      "url": "/even-chapter-1",
+      "number": 1,
+      "date": "Juni 25, 2024"
+    }
+  ]
+}

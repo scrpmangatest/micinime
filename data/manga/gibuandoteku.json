@@ -1,0 +1,36 @@
+{
+  "slug": "gibuandoteku",
+  "title": "Gibuandoteku",
+  "image": "https://komiktap.info/wp-content/uploads/2024/03/01-14.jpg",
+  "rating": "8.5",
+  "description": "Demi melindungi Projek tunangan melakukan segala apapun",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "gibuandoteku-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/gibuandoteku-chapter-1",
+      "number": 1,
+      "date": "Maret 9, 2024"
+    }
+  ]
+}

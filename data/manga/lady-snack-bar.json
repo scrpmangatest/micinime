@@ -1,0 +1,146 @@
+{
+  "slug": "lady-snack-bar",
+  "title": "lady-snack-bar",
+  "image": null,
+  "rating": "7.6",
+  "description": "Seorang pemuda dari pedesaan pindah ke rumah kos yang dikelola oleh “Nyonya Tteokbokki” yang baik hati, yang membantu mereka yang membutuhkan.",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Smut",
+      "url": "/genres/smut"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 18",
+      "url": "/lady-snack-bar-chapter-18",
+      "slug": "lady-snack-bar-chapter-18",
+      "date": "Agustus 21, 2026"
+    },
+    {
+      "title": "Chapter 17",
+      "url": "/lady-snack-bar-chapter-17",
+      "slug": "lady-snack-bar-chapter-17",
+      "date": "Agustus 14, 2026"
+    },
+    {
+      "title": "Chapter 16",
+      "url": "/lady-snack-bar-chapter-16",
+      "slug": "lady-snack-bar-chapter-16",
+      "date": "Agustus 9, 2026"
+    },
+    {
+      "title": "Chapter 15",
+      "url": "/lady-snack-bar-chapter-15",
+      "slug": "lady-snack-bar-chapter-15",
+      "date": "Agustus 4, 2026"
+    },
+    {
+      "title": "Chapter 14",
+      "url": "/lady-snack-bar-chapter-14",
+      "slug": "lady-snack-bar-chapter-14",
+      "date": "Juli 29, 2026"
+    },
+    {
+      "title": "Chapter 13",
+      "url": "/lady-snack-bar-chapter-13",
+      "slug": "lady-snack-bar-chapter-13",
+      "date": "Juli 21, 2026"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/lady-snack-bar-chapter-12",
+      "slug": "lady-snack-bar-chapter-12",
+      "date": "Juli 10, 2026"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/lady-snack-bar-chapter-11",
+      "slug": "lady-snack-bar-chapter-11",
+      "date": "Juli 8, 2026"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/lady-snack-bar-chapter-10",
+      "slug": "lady-snack-bar-chapter-10",
+      "date": "Juli 8, 2026"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/lady-snack-bar-chapter-9",
+      "slug": "lady-snack-bar-chapter-9",
+      "date": "Juni 23, 2026"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/lady-snack-bar-chapter-8",
+      "slug": "lady-snack-bar-chapter-8",
+      "date": "Juni 23, 2026"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/lady-snack-bar-chapter-7",
+      "slug": "lady-snack-bar-chapter-7",
+      "date": "Juni 23, 2026"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/lady-snack-bar-chapter-6",
+      "slug": "lady-snack-bar-chapter-6",
+      "date": "Juni 18, 2026"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/lady-snack-bar-chapter-5",
+      "slug": "lady-snack-bar-chapter-5",
+      "date": "Juni 18, 2026"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/lady-snack-bar-chapter-4",
+      "slug": "lady-snack-bar-chapter-4",
+      "date": "Juni 18, 2026"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/lady-snack-bar-chapter-3",
+      "slug": "lady-snack-bar-chapter-3",
+      "date": "Juni 18, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/lady-snack-bar-chapter-2",
+      "slug": "lady-snack-bar-chapter-2",
+      "date": "Juni 18, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/lady-snack-bar-chapter-1",
+      "slug": "lady-snack-bar-chapter-1",
+      "date": "Juni 18, 2026"
+    }
+  ],
+  "scrapedAt": "2026-08-31T12:34:21.641Z"
+}
