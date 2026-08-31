@@ -8,3 +8,5 @@ data/scrape-log.txt
 data/scrape-err.txt
 data/fix-genres-log.txt
 data/fix-genres-err.txt
+.wrangler/
+.cloudflare/

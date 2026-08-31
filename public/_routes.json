@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "include": ["/api/*", "/sitemap.xml"],
+  "exclude": ["/favicon.png", "/logo.svg", "/robots.txt", "/googled*", "/yandex*", "/3df023*", "/data/*"]
+}
