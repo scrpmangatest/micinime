@@ -1,0 +1,40 @@
+{
+  "slug": "ill-help-with-anything-i-can",
+  "title": "I’ll Help with Anything I Can",
+  "image": "https://komiktap.info/wp-content/uploads/2025/12/01-10.jpg",
+  "rating": "8.5",
+  "description": "gak tau, baca aja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Pregnant",
+      "url": "/genres/pregnant"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ill-help-with-anything-i-can-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ill-help-with-anything-i-can-chapter-1",
+      "number": 1,
+      "date": "Desember 16, 2025"
+    }
+  ]
+}

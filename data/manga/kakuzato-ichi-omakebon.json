@@ -1,0 +1,32 @@
+{
+  "slug": "kakuzato-ichi-omakebon",
+  "title": "Kakuzato-ichi Omakebon",
+  "image": "https://komiktap.info/wp-content/uploads/2023/09/01-1.jpg",
+  "rating": "8.5",
+  "description": "Parodi Zetto",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kakuzato-ichi-omakebon-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kakuzato-ichi-omakebon-chapter-1",
+      "number": 1,
+      "date": "September 1, 2023"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "komagitsune-no-yue",
+  "title": "Komagitsune no Yue",
+  "image": "https://komiktap.info/wp-content/uploads/2023/08/01-59.jpg",
+  "rating": "8.5",
+  "description": "Kuil yang disitu di huni seekor rubah kecil",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Lolicon",
+      "url": "/genres/lolicon"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Supernatural",
+      "url": "/genres/supernatural"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "komagitsune-no-yue-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/komagitsune-no-yue-chapter-1",
+      "number": 1,
+      "date": "Agustus 25, 2023"
+    }
+  ]
+}

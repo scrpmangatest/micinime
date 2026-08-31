@@ -1,0 +1,32 @@
+{
+  "slug": "kimi-no-koe-o-kinagara",
+  "title": "Kimi no Koe o Kinagara",
+  "image": "https://komiktap.info/wp-content/uploads/2024/01/01-12.jpg",
+  "rating": "8.0",
+  "description": "NTR baca aja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kimi-no-koe-o-kinagara-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kimi-no-koe-o-kinagara-chapter-1",
+      "number": 1,
+      "date": "Januari 11, 2024"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "koi-no-susumekata",
+  "title": "Koi no Susumekata",
+  "image": "https://komiktap.info/wp-content/uploads/2022/10/01-57.jpg",
+  "rating": "8.5",
+  "description": "badanku besar dan tinggi tapi aku selalu ceroboh dalam hal, namun temanku dan cowo yang kusukai menolongku selalu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "koi-no-susumekata-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/koi-no-susumekata-chapter-1",
+      "number": 1,
+      "date": "Oktober 27, 2022"
+    }
+  ]
+}

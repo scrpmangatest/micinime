@@ -1,0 +1,32 @@
+{
+  "slug": "mousou-theater-66",
+  "title": "Mousou Theater 66",
+  "image": "https://komiktap.info/wp-content/uploads/2021/01/01-23.jpg",
+  "rating": "8.3",
+  "description": "Parody dar anime Tonikaku kawaii",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mousou-theater-66-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/mousou-theater-66-chapter-1",
+      "number": 1,
+      "date": "Januari 15, 2021"
+    }
+  ]
+}

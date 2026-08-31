@@ -1,0 +1,32 @@
+{
+  "slug": "mama-matching",
+  "title": "Mama-Matching",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/03-7.jpg",
+  "rating": "8.4",
+  "description": "Furukawa Pergi kerumah teman Cewenya untuk mengerjakan PR sedangkan dirumah ada Ibunya, Namun Ibunya mengetes kekuatan Cintanya untuk Putrinya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mama-matching-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/mama-matching-chapter-1",
+      "number": 1,
+      "date": "September 8, 2020"
+    }
+  ]
+}

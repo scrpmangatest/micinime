@@ -1,0 +1,40 @@
+{
+  "slug": "my-dullahan-girlfriend",
+  "title": "My Dullahan Girlfriend",
+  "image": "https://komiktap.info/wp-content/uploads/2022/11/01-9.jpg",
+  "rating": "8.5",
+  "description": "Pacarku seorang Dullahan",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "my-dullahan-girlfriend-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/my-dullahan-girlfriend-chapter-1",
+      "number": 1,
+      "date": "November 6, 2022"
+    }
+  ]
+}

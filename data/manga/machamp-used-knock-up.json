@@ -1,0 +1,40 @@
+{
+  "slug": "machamp-used-knock-up",
+  "title": "Machamp used Knock up!",
+  "image": "https://komiktap.info/wp-content/uploads/2024/05/01-7.jpg",
+  "rating": "8.8",
+  "description": "Machamp suka tusuk sana tusuk sini hehehe",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Pregnant",
+      "url": "/genres/pregnant"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "machamp-used-knock-up-chapter-1-end",
+      "title": "Chapter 1 End",
+      "url": "/machamp-used-knock-up-chapter-1-end",
+      "number": 1,
+      "date": "Mei 8, 2024"
+    }
+  ]
+}

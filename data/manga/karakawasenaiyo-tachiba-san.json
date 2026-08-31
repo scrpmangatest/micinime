@@ -1,0 +1,36 @@
+{
+  "slug": "karakawasenaiyo-tachiba-san",
+  "title": "Karakawasenaiyo Tachiba-san",
+  "image": "https://komiktap.info/wp-content/uploads/2022/10/01-49.jpg",
+  "rating": "8.5",
+  "description": "kedatangan tamu spesial tak terduga",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "karakawasenaiyo-tachiba-san-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/karakawasenaiyo-tachiba-san-chapter-1",
+      "number": 1,
+      "date": "Oktober 24, 2022"
+    }
+  ]
+}

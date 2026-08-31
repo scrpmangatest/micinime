@@ -1,0 +1,40 @@
+{
+  "slug": "narutophole",
+  "title": "NARUTOPHOLE",
+  "image": "https://komiktap.info/wp-content/uploads/2026/03/01-6.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari anime naruto",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Threesome",
+      "url": "/genres/threesome"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "narutophole-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/narutophole-chapter-1",
+      "number": 1,
+      "date": "Maret 13, 2026"
+    }
+  ]
+}

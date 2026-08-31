@@ -1,0 +1,36 @@
+{
+  "slug": "kisekae-battle",
+  "title": "Kisekae Battle",
+  "image": "https://komiktap.info/wp-content/uploads/2022/06/01-3.jpg",
+  "rating": "8.5",
+  "description": "Sepasang kekasih melakukan taruhan siapa nilai tes paling tinggi yang kalah akan menuruti perintah pemenang",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kisekae-battle-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kisekae-battle-chapter-1",
+      "number": 1,
+      "date": "Juni 4, 2022"
+    }
+  ]
+}

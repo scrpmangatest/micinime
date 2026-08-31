@@ -1,0 +1,36 @@
+{
+  "slug": "junjou-lovers",
+  "title": "Junjou Lovers",
+  "image": "https://komiktap.info/wp-content/uploads/2021/11/01-3.jpg",
+  "rating": "8.3",
+  "description": "Keseharian anak sekolah",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "junjou-lovers-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/junjou-lovers-chapter-1",
+      "number": 1,
+      "date": "November 22, 2021"
+    }
+  ]
+}

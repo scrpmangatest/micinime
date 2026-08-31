@@ -1,0 +1,32 @@
+{
+  "slug": "mou-ichido-shitemitai",
+  "title": "Mou Ichido, Shitemitai",
+  "image": "https://komiktap.info/wp-content/uploads/2024/03/01-20.jpg",
+  "rating": "8.5",
+  "description": "Sepasang Cowo cewe saling berdebat satu sama lain dan berakhir di hotel",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mou-ichido-shitemitai-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/mou-ichido-shitemitai-chapter-1",
+      "number": 1,
+      "date": "Maret 18, 2024"
+    }
+  ]
+}

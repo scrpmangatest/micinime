@@ -1,0 +1,32 @@
+{
+  "slug": "mata-ashita-anata-to",
+  "title": "Mata Ashita, Anata to…",
+  "image": "https://komiktap.info/wp-content/uploads/2024/08/001-7.jpg",
+  "rating": "7.2",
+  "description": "bertemu mantan lagi",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Blackmail",
+      "url": "/genres/blackmail"
+    },
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mata-ashita-anata-to-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/mata-ashita-anata-to-chapter-1",
+      "number": 1,
+      "date": "Agustus 11, 2024"
+    }
+  ]
+}

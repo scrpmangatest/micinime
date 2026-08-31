@@ -1,0 +1,28 @@
+{
+  "slug": "im-not-waiting-any-more",
+  "title": "I’m Not Waiting Any More",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/001-9.jpg",
+  "rating": "8.2",
+  "description": "Ada maksud tertentu gadis itu masuk ke klub sastra.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "im-not-waiting-any-more-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/im-not-waiting-any-more-chapter-1",
+      "number": 1,
+      "date": "September 6, 2020"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "kiraware-onna-o-tasuketara",
+  "title": "Kiraware Onna o Tasuketara",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/01-11.jpg",
+  "rating": "8.5",
+  "description": "Baca aja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kiraware-onna-o-tasuketara-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kiraware-onna-o-tasuketara-chapter-1",
+      "number": 1,
+      "date": "Juli 8, 2023"
+    }
+  ]
+}

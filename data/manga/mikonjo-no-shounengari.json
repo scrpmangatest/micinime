@@ -1,0 +1,35 @@
+{
+  "slug": "mikonjo-no-shounengari",
+  "title": "Mikonjo no Shounengari",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/01-235.jpg",
+  "rating": "8.3",
+  "description": "Perawan tua yang memperkosa anak kecil",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mikonjo-no-shounengari-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/mikonjo-no-shounengari-chapter-2",
+      "number": 2,
+      "date": "Mei 23, 2021"
+    },
+    {
+      "slug": "mikonjo-no-shounengari-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/mikonjo-no-shounengari-chapter-1",
+      "number": 1,
+      "date": "September 8, 2020"
+    }
+  ]
+}

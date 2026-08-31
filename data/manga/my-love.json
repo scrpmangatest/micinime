@@ -1,0 +1,32 @@
+{
+  "slug": "my-love",
+  "title": "My Love",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/001-11.jpg",
+  "rating": "8.3",
+  "description": "Yuuki ditembak oleh Hida Mari namun Yuuki menolak alasannya dia tidak percaya diri tapi Hida Mari tidak pernah menyerah begitu saja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "my-love-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/my-love-chapter-1",
+      "number": 1,
+      "date": "September 9, 2020"
+    }
+  ]
+}

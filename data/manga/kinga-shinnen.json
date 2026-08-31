@@ -1,0 +1,28 @@
+{
+  "slug": "kinga-shinnen",
+  "title": "Kinga Shinnen",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/02-12.jpg",
+  "rating": "8.4",
+  "description": "Keisuke merayakan tahun baru dirumah pacarnya namun disan malah melakukan yang tidak sopan pada ibunya Miki",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kinga-shinnen-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kinga-shinnen-chapter-1",
+      "number": 1,
+      "date": "September 7, 2020"
+    }
+  ]
+}

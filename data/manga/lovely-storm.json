@@ -1,0 +1,59 @@
+{
+  "slug": "lovely-storm",
+  "title": "Lovely Storm",
+  "image": "https://komiktap.info/wp-content/uploads/2022/10/01-22.jpg",
+  "rating": "8.5",
+  "description": "Komik ini mengisahkan tentang sebuah manusia biasa yang mencintai seekor rubah-manusia, hingga hubungan mereka berakhir sangat bahagia",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Monster Girl",
+      "url": "/genres/monster-girl"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "lovely-storm-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/lovely-storm-chapter-2",
+      "number": 2,
+      "date": "Oktober 11, 2022"
+    },
+    {
+      "slug": "lovely-storm-chapter-1",
+      "title": "Chapter 1",
+      "url": "/lovely-storm-chapter-1",
+      "number": 1,
+      "date": "Oktober 10, 2022"
+    }
+  ]
+}

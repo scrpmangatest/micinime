@@ -1,0 +1,32 @@
+{
+  "slug": "michelle-hitchhiking",
+  "title": "Michelle, Hitchhiking",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-69.jpg",
+  "rating": "8.5",
+  "description": "Doujin ini mengisahkan tentang seorang wanita yang menumpang untuk pergi ke suatu tempat",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "michelle-hitchhiking-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/michelle-hitchhiking-chapter-1",
+      "number": 1,
+      "date": "Desember 24, 2022"
+    }
+  ]
+}

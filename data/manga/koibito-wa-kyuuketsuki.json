@@ -1,0 +1,79 @@
+{
+  "slug": "koibito-wa-kyuuketsuki",
+  "title": "Koibito wa Kyuuketsuki!",
+  "image": "https://komiktap.info/wp-content/uploads/2021/07/001-3.jpg",
+  "rating": "8.7",
+  "description": "Orihara berpacar dengan Tsukishiro yang seorang vampir",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "koibito-wa-kyuuketsuki-chapter-6",
+      "title": "Chapter 6 Reiya-san",
+      "url": "/koibito-wa-kyuuketsuki-chapter-6",
+      "number": 6,
+      "date": "Agustus 25, 2021"
+    },
+    {
+      "slug": "koibito-wa-kyuuketsuki-chapter-5",
+      "title": "Chapter 5 End",
+      "url": "/koibito-wa-kyuuketsuki-chapter-5",
+      "number": 5,
+      "date": "Agustus 25, 2021"
+    },
+    {
+      "slug": "koibito-wa-kyuuketsuki-chapter-4",
+      "title": "Chapter 4",
+      "url": "/koibito-wa-kyuuketsuki-chapter-4",
+      "number": 4,
+      "date": "Agustus 20, 2021"
+    },
+    {
+      "slug": "koibito-wa-kyuuketsuki-chapter-3",
+      "title": "Chapter 3",
+      "url": "/koibito-wa-kyuuketsuki-chapter-3",
+      "number": 3,
+      "date": "Agustus 11, 2021"
+    },
+    {
+      "slug": "koibito-wa-kyuuketsuki-chapter-2",
+      "title": "Chapter 2",
+      "url": "/koibito-wa-kyuuketsuki-chapter-2",
+      "number": 2,
+      "date": "Juli 29, 2021"
+    },
+    {
+      "slug": "koibito-wa-kyuuketsuki-chapter-1",
+      "title": "Chapter 1",
+      "url": "/koibito-wa-kyuuketsuki-chapter-1",
+      "number": 1,
+      "date": "Juli 23, 2021"
+    }
+  ]
+}

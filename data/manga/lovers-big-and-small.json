@@ -1,0 +1,32 @@
+{
+  "slug": "lovers-big-and-small",
+  "title": "Lovers Big And Small",
+  "image": "https://komiktap.info/wp-content/uploads/2025/05/01.webp",
+  "rating": "8.5",
+  "description": "Cewe tinggi dan Cowo pendek",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "lovers-big-and-small-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/lovers-big-and-small-chapter-1",
+      "number": 1,
+      "date": "Mei 5, 2025"
+    }
+  ]
+}

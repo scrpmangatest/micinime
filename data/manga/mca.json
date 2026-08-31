@@ -1,0 +1,35 @@
+{
+  "slug": "mca",
+  "title": "MCA",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/001-233.jpg",
+  "rating": "8.3",
+  "description": "Melayani seksualitas para Ibu2 sange",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mca-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/mca-chapter-2",
+      "number": 2,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "mca-chapter-1",
+      "title": "Chapter 1",
+      "url": "/mca-chapter-1",
+      "number": 1,
+      "date": "September 8, 2020"
+    }
+  ]
+}

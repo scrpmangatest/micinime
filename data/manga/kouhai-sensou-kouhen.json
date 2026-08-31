@@ -1,0 +1,36 @@
+{
+  "slug": "kouhai-sensou-kouhen",
+  "title": "Kouhai Sensou Kouhen",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/01-37.jpg",
+  "rating": "8.5",
+  "description": "Parodi FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Threesome",
+      "url": "/genres/threesome"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kouhai-sensou-kouhen-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kouhai-sensou-kouhen-chapter-1",
+      "number": 1,
+      "date": "Juni 20, 2023"
+    }
+  ]
+}

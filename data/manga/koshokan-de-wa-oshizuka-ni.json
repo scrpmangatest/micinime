@@ -1,0 +1,32 @@
+{
+  "slug": "koshokan-de-wa-oshizuka-ni",
+  "title": "Koshokan de wa Oshizuka ni",
+  "image": "https://komiktap.info/wp-content/uploads/2023/01/01-50.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Lolicon",
+      "url": "/genres/lolicon"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "koshokan-de-wa-oshizuka-ni-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/koshokan-de-wa-oshizuka-ni-chapter-1",
+      "number": 1,
+      "date": "Januari 16, 2023"
+    }
+  ]
+}

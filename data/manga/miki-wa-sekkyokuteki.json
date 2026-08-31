@@ -1,0 +1,32 @@
+{
+  "slug": "miki-wa-sekkyokuteki",
+  "title": "Miki wa Sekkyokuteki",
+  "image": "https://komiktap.info/wp-content/uploads/2023/01/01-31.jpg",
+  "rating": "8.5",
+  "description": "Seorang idol yang mulai berpacaran dengan produsernya. Awalnya idol ini agak menjaga jarak dari pacarnya. Namun ternyata idol ini berbeda dengan yang dibayangkan produser. Bagaimana sifat asli dari idol itu dan apa yang akan terjadi?",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "miki-wa-sekkyokuteki-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/miki-wa-sekkyokuteki-chapter-1",
+      "number": 1,
+      "date": "Januari 10, 2023"
+    }
+  ]
+}

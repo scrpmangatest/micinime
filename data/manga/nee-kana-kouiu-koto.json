@@ -1,0 +1,28 @@
+{
+  "slug": "nee-kana-kouiu-koto",
+  "title": "Nee kana~, Kouiu Koto",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/03-221.jpg",
+  "rating": "8.3",
+  "description": "Sepasang Karyawan yang saling mencintai, sejak insiden dibelakang Toko",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "nee-kana-kouiu-koto-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/nee-kana-kouiu-koto-chapter-1",
+      "number": 1,
+      "date": "September 9, 2020"
+    }
+  ]
+}

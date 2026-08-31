@@ -1,0 +1,36 @@
+{
+  "slug": "muchimuchi-jotei-plump-empress",
+  "title": "Muchimuchi Jotei Plump Empress",
+  "image": "https://komiktap.info/wp-content/uploads/2023/01/01-9.jpg",
+  "rating": "8.5",
+  "description": "parodi dari one piece",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "muchimuchi-jotei-plump-empress-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/muchimuchi-jotei-plump-empress-chapter-1",
+      "number": 1,
+      "date": "Januari 4, 2023"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "kurai-max",
+  "title": "Kurai MAX",
+  "image": "https://komiktap.info/wp-content/uploads/2025/04/011.webp",
+  "rating": "8.5",
+  "description": "Parodi dari Bayonetta",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kurai-max-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kurai-max-chapter-1",
+      "number": 1,
+      "date": "April 21, 2025"
+    }
+  ]
+}

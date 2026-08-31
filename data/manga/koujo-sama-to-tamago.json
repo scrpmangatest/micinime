@@ -1,0 +1,32 @@
+{
+  "slug": "koujo-sama-to-tamago",
+  "title": "Koujo-sama to tamago",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-50.jpg",
+  "rating": "8.5",
+  "description": "Seorang tuan putri sekaligus servant yang kelihatan suci dan polos ternyata sudah bebuat hal tak senonoh dengan masternya.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "koujo-sama-to-tamago-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/koujo-sama-to-tamago-chapter-1",
+      "number": 1,
+      "date": "Maret 17, 2023"
+    }
+  ]
+}

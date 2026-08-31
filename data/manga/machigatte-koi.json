@@ -1,0 +1,32 @@
+{
+  "slug": "machigatte-koi",
+  "title": "Machigatte Koi",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/04-199.jpg",
+  "rating": "8.3",
+  "description": "Kyouya berniat menaruh surat cintanya ke pada Suzune diloker, namun yang datang Naiki seorang cewe dengan tampang premannya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "machigatte-koi-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/machigatte-koi-chapter-1",
+      "number": 1,
+      "date": "September 8, 2020"
+    }
+  ]
+}

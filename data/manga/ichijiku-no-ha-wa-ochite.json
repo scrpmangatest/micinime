@@ -1,0 +1,36 @@
+{
+  "slug": "ichijiku-no-ha-wa-ochite",
+  "title": "Ichijiku no Ha wa Ochite",
+  "image": "https://komiktap.info/wp-content/uploads/2025/05/01-8.webp",
+  "rating": "8.5",
+  "description": "Parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ichijiku-no-ha-wa-ochite-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ichijiku-no-ha-wa-ochite-chapter-1",
+      "number": 1,
+      "date": "Mei 26, 2025"
+    }
+  ]
+}

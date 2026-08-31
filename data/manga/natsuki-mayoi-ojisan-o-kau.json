@@ -1,0 +1,32 @@
+{
+  "slug": "natsuki-mayoi-ojisan-o-kau",
+  "title": "Natsuki Mayoi Ojisan o Kau",
+  "image": "https://komiktap.info/wp-content/uploads/2025/01/01-17.jpg",
+  "rating": "8.5",
+  "description": "ada Om om tersesat",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Pregnant",
+      "url": "/genres/pregnant"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "natsuki-mayoi-ojisan-o-kau-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/natsuki-mayoi-ojisan-o-kau-chapter-1",
+      "number": 1,
+      "date": "Januari 22, 2025"
+    }
+  ]
+}

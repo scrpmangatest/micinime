@@ -1,0 +1,32 @@
+{
+  "slug": "hypnotized-princess2",
+  "title": "Hypnotized Princess2",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-20.jpg",
+  "rating": "8.5",
+  "description": "parodi dari Princess Connect",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "hypnotized-princess2-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/hypnotized-princess2-chapter-1",
+      "number": 1,
+      "date": "Desember 7, 2022"
+    }
+  ]
+}

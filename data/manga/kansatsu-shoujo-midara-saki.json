@@ -1,0 +1,32 @@
+{
+  "slug": "kansatsu-shoujo-midara-saki",
+  "title": "Kansatsu ~Shoujo Midara Saki~",
+  "image": "https://komiktap.info/wp-content/uploads/2022/08/01-1.png",
+  "rating": "8.5",
+  "description": "Aku suka mengamati bunga dan serangga….. namun aku melihat karin aku ingin lebih dekatnya aku memberanikan diri untuk menyatakannya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kansatsu-shoujo-midara-saki-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kansatsu-shoujo-midara-saki-chapter-1",
+      "number": 1,
+      "date": "Agustus 10, 2022"
+    }
+  ]
+}

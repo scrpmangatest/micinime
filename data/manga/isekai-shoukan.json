@@ -1,0 +1,97 @@
+{
+  "slug": "isekai-shoukan",
+  "title": "Isekai Shoukan",
+  "image": "https://komiktap.info/wp-content/uploads/2024/06/001-3.jpg",
+  "rating": "8.5",
+  "description": "Aku reinkarnasi di isekai dan bekerja disebuah tempat prostitusi manusia setengah hewan",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "isekai-shoukan-chapter-8",
+      "title": "Chapter 8 End",
+      "url": "/isekai-shoukan-chapter-8",
+      "number": 8,
+      "date": "Juli 6, 2024"
+    },
+    {
+      "slug": "isekai-shoukan-chapter-7",
+      "title": "Chapter 7",
+      "url": "/isekai-shoukan-chapter-7",
+      "number": 7,
+      "date": "Juli 2, 2024"
+    },
+    {
+      "slug": "isekai-shoukan-chapter-6",
+      "title": "Chapter 6",
+      "url": "/isekai-shoukan-chapter-6",
+      "number": 6,
+      "date": "Juni 29, 2024"
+    },
+    {
+      "slug": "isekai-shoukan-chapter-5",
+      "title": "Chapter 5",
+      "url": "/isekai-shoukan-chapter-5",
+      "number": 5,
+      "date": "Juni 26, 2024"
+    },
+    {
+      "slug": "isekai-shoukan-chapter-4",
+      "title": "Chapter 4",
+      "url": "/isekai-shoukan-chapter-4",
+      "number": 4,
+      "date": "Juni 22, 2024"
+    },
+    {
+      "slug": "isekai-shoukan-chapter-3",
+      "title": "Chapter 3",
+      "url": "/isekai-shoukan-chapter-3",
+      "number": 3,
+      "date": "Juni 20, 2024"
+    },
+    {
+      "slug": "isekai-shoukan-chapter-2",
+      "title": "Chapter 2",
+      "url": "/isekai-shoukan-chapter-2",
+      "number": 2,
+      "date": "Juni 19, 2024"
+    },
+    {
+      "slug": "isekai-shoukan-chapter-1",
+      "title": "Chapter 1",
+      "url": "/isekai-shoukan-chapter-1",
+      "number": 1,
+      "date": "Juni 15, 2024"
+    }
+  ]
+}

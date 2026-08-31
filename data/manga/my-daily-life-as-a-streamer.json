@@ -1,0 +1,19 @@
+{
+  "slug": "my-daily-life-as-a-streamer",
+  "title": "My Daily Life As a Streamer",
+  "image": "https://komiktap.info/wp-content/uploads/2024/12/1-4.jpg",
+  "rating": "8.4",
+  "description": "",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [],
+  "chapters": [
+    {
+      "slug": "my-daily-life-as-a-streamer-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/my-daily-life-as-a-streamer-chapter-1",
+      "number": 1,
+      "date": "Desember 30, 2024"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "mesu-kagura-ishigaki-takashi",
+  "title": "Mesu Kagura [Ishigaki Takashi]",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/25.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Mahou Shoujo Lyrical Nanoha",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mesu-kagura-chapter-1-2",
+      "title": "Chapter 1 End",
+      "url": "/mesu-kagura-chapter-1-2",
+      "number": 1,
+      "date": "Desember 23, 2022"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "netorare-miboujin",
+  "title": "Netorare Miboujin",
+  "image": "https://komiktap.info/wp-content/uploads/2023/05/01-41.jpg",
+  "rating": "8.5",
+  "description": "seorang istri yang awalnya menolak selingkuh dengan pria lain. Namun ternyata pria itu punya rahsia milik si wanita itu.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "netorare-miboujin-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/netorare-miboujin-chapter-1",
+      "number": 1,
+      "date": "Mei 21, 2023"
+    }
+  ]
+}

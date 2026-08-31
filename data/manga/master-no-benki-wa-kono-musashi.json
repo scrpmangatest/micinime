@@ -1,0 +1,36 @@
+{
+  "slug": "master-no-benki-wa-kono-musashi",
+  "title": "Master no Benki wa kono Musashi",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-19.jpg",
+  "rating": "8.5",
+  "description": "Seorang servant yang gak mau jujur dengan masternya sendiri, akhirnya tersadarkan…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "master-no-benki-wa-kono-musashi-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/master-no-benki-wa-kono-musashi-chapter-1",
+      "number": 1,
+      "date": "Maret 7, 2023"
+    }
+  ]
+}

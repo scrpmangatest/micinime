@@ -1,0 +1,32 @@
+{
+  "slug": "narutop-106",
+  "title": "NARUTOP 106",
+  "image": "https://komiktap.info/wp-content/uploads/2026/03/01-11.jpg",
+  "rating": "8.5",
+  "description": "parodi dari naruto",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Ahegao",
+      "url": "/genres/ahegao"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Threesome",
+      "url": "/genres/threesome"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "narutop-106-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/narutop-106-chapter-1",
+      "number": 1,
+      "date": "Maret 24, 2026"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "minna-de-nakayoku-clannad",
+  "title": "Minna de Nakayoku (CLANNAD)",
+  "image": "https://komiktap.info/wp-content/uploads/2022/06/04-2.jpg",
+  "rating": "6.3",
+  "description": "Cerita lain dari manga serial Clannad.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Full Color",
+      "url": "/genres/full-color"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Lolicon",
+      "url": "/genres/lolicon"
+    },
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "minna-de-nakayoku-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/minna-de-nakayoku-chapter-1",
+      "number": 1,
+      "date": "Juni 7, 2022"
+    }
+  ]
+}

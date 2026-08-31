@@ -1,0 +1,32 @@
+{
+  "slug": "kuroneko-wa-otoshigoro",
+  "title": "Kuroneko wa Otoshigoro",
+  "image": "https://komiktap.info/wp-content/uploads/2023/02/01-28.jpg",
+  "rating": "8.5",
+  "description": "ini adalah cerita parodi dari game blue archive!!! suatu hari ada seorang gadis bernama kazusa dia sedang di bis dan mendengarkan temannya tentang gosip gurunya bernama vinny sensei!! ternyata pernah ada seorang murid yang tidur dengan vinny sensei dan memfoto penisnya yang besar!!! lalu kazusa tidak percaya… tiba tiba temannya natsu mengirim pesan ke kazusa, dan ternyata yang dia kirim adalah foto penisnya sensei!! lalu ceritapun dimulai!!!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kuroneko-wa-otoshigoro-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kuroneko-wa-otoshigoro-chapter-1",
+      "number": 1,
+      "date": "Februari 8, 2023"
+    }
+  ]
+}

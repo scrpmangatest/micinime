@@ -1,0 +1,61 @@
+{
+  "slug": "kiite-kuremasu-yo-ne-senpai",
+  "title": "Kiite kuremasu yo ne? Senpai",
+  "image": "https://komiktap.info/wp-content/uploads/2023/08/02e0302e-effb-4d33-b5ab-68648a1da530-925963.jpg",
+  "rating": "7.00",
+  "description": "Suatu hari seorang gadis cantik yang terkenal di sekolah tiba-tiba datang ke apartemen kento Ikuno. Dia menunjukkan kepadanya sebuah “tiket” yang ditulis dengan tulisan tangan buruk yang mengingatkannya pada masa kecilnya. Ini adalah komedi cinta tentang “tiket yang membuat Anda melakukan apa pun yang mereka inginkan”",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
+    },
+    {
+      "name": "Supernatural",
+      "url": "/genres/supernatural"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kiite-kuremasu-yo-ne-senpai-chapter-04",
+      "title": "Chapter 04",
+      "url": "/kiite-kuremasu-yo-ne-senpai-chapter-04",
+      "number": 4,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "kiite-kuremasu-yo-ne-senpai-chapter-03",
+      "title": "Chapter 03",
+      "url": "/kiite-kuremasu-yo-ne-senpai-chapter-03",
+      "number": 3,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "kiite-kuremasu-yo-ne-senpai-chapter-02",
+      "title": "Chapter 02",
+      "url": "/kiite-kuremasu-yo-ne-senpai-chapter-02",
+      "number": 2,
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "slug": "kiite-kuremasu-yo-ne-senpai-chapter-01",
+      "title": "Chapter 01",
+      "url": "/kiite-kuremasu-yo-ne-senpai-chapter-01",
+      "number": 1,
+      "date": "Agustus 8, 2023"
+    }
+  ]
+}

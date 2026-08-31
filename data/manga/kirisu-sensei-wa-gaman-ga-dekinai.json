@@ -1,0 +1,36 @@
+{
+  "slug": "kirisu-sensei-wa-gaman-ga-dekinai",
+  "title": "Kirisu Sensei wa Gaman ga Dekinai",
+  "image": "https://komiktap.info/wp-content/uploads/2021/07/Kirisu-Sensei-wa-Gaman-ga-Dekinai.jpg",
+  "rating": "8",
+  "description": "sumber : https://doujinkita.blogspot.com/2020/08/kirisu-sensei-wa-gaman-ga-dekinai.html",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kirisu-sensei-wa-gaman-ga-dekinai-chapter-1",
+      "title": "Chapter 1",
+      "url": "/kirisu-sensei-wa-gaman-ga-dekinai-chapter-1",
+      "number": 1,
+      "date": "Agustus 31, 2021"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "ishu-renai-sono",
+  "title": "Ishu Renai Sono",
+  "image": "https://komiktap.info/wp-content/uploads/2021/07/Mizone-Monster-Romance-002-x3200-FAKKU.png",
+  "rating": "8.5",
+  "description": "Kisah Percintaan Gadis monster dan manusia",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ishu-renai-sono-chapter-7",
+      "title": "Chapter 7 End",
+      "url": "/ishu-renai-sono-chapter-7",
+      "number": 7,
+      "date": "September 14, 2021"
+    },
+    {
+      "slug": "ishu-renai-sono-chapter-6",
+      "title": "Chapter 6",
+      "url": "/ishu-renai-sono-chapter-6",
+      "number": 6,
+      "date": "September 9, 2021"
+    },
+    {
+      "slug": "ishu-renai-sono-chapter-5",
+      "title": "Chapter 5",
+      "url": "/ishu-renai-sono-chapter-5",
+      "number": 5,
+      "date": "Agustus 30, 2021"
+    },
+    {
+      "slug": "ishu-renai-sono-chapter-4",
+      "title": "Chapter 4",
+      "url": "/ishu-renai-sono-chapter-4",
+      "number": 4,
+      "date": "Agustus 17, 2021"
+    },
+    {
+      "slug": "ishu-renai-sono-chapter-3-5",
+      "title": "Chapter 3.5",
+      "url": "/ishu-renai-sono-chapter-3-5",
+      "number": 3.5,
+      "date": "Agustus 12, 2021"
+    },
+    {
+      "slug": "ishu-renai-sono-chapter-3",
+      "title": "Chapter 3",
+      "url": "/ishu-renai-sono-chapter-3",
+      "number": 3,
+      "date": "Agustus 12, 2021"
+    },
+    {
+      "slug": "ishu-renai-sono-chapter-2",
+      "title": "Chapter 2",
+      "url": "/ishu-renai-sono-chapter-2",
+      "number": 2,
+      "date": "Juli 31, 2021"
+    },
+    {
+      "slug": "ishu-renai-sono-chapter-1",
+      "title": "Chapter 1",
+      "url": "/ishu-renai-sono-chapter-1",
+      "number": 1,
+      "date": "Juli 25, 2021"
+    }
+  ]
+}

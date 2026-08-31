@@ -1,0 +1,36 @@
+{
+  "slug": "neko-love-shinro-kibo",
+  "title": "Neko Love Shinro Kibo!",
+  "image": "https://komiktap.info/wp-content/uploads/2022/01/1-1.jpg",
+  "rating": "8.3",
+  "description": "Aku melihat dia di Cafe kucing…. mungkin aku harus menggodanya sedikit",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "neko-love-shinro-kibo-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/neko-love-shinro-kibo-chapter-1",
+      "number": 1,
+      "date": "Januari 9, 2022"
+    }
+  ]
+}

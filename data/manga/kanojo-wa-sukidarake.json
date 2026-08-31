@@ -1,0 +1,43 @@
+{
+  "slug": "kanojo-wa-sukidarake",
+  "title": "Kanojo wa Sukidarake",
+  "image": "https://komiktap.info/wp-content/uploads/2021/10/cover.jpg",
+  "rating": "8.5",
+  "description": "Sakaguchi hendak makan siang di atap tetapi dia melihat narushiro sedang menangis… dan ternyata dia dicampakkan oleh pacarnya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kanojo-wa-sukidarake-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/kanojo-wa-sukidarake-chapter-2",
+      "number": 2,
+      "date": "Desember 31, 2021"
+    },
+    {
+      "slug": "kanojo-wa-sukidarake-chapter-1",
+      "title": "Chapter 1",
+      "url": "/kanojo-wa-sukidarake-chapter-1",
+      "number": 1,
+      "date": "Oktober 22, 2021"
+    }
+  ]
+}

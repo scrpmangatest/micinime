@@ -1,0 +1,36 @@
+{
+  "slug": "marobi-deru-big-data",
+  "title": "Marobi Deru Big Data",
+  "image": "https://komiktap.info/wp-content/uploads/2026/03/01-18.jpg",
+  "rating": "8.5",
+  "description": "parodi dari Tohou project",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Ahegao",
+      "url": "/genres/ahegao"
+    },
+    {
+      "name": "Gangbang",
+      "url": "/genres/gangbang"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "marobi-deru-big-data-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/marobi-deru-big-data-chapter-1",
+      "number": 1,
+      "date": "Maret 30, 2026"
+    }
+  ]
+}

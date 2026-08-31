@@ -1,0 +1,40 @@
+{
+  "slug": "mokomoko-fuwarin-noise",
+  "title": "Mokomoko Fuwarin NOISE",
+  "image": "https://komiktap.info/wp-content/uploads/2021/10/MF-2.jpg",
+  "rating": "8.1",
+  "description": "gk tau!",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Smut",
+      "url": "/genres/smut"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mokomoko-fuwarin-noise-chapter-1",
+      "title": "Chapter 1",
+      "url": "/mokomoko-fuwarin-noise-chapter-1",
+      "number": 1,
+      "date": "Oktober 17, 2021"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "ichijou-san-wa-kao-ni-deyasui",
+  "title": "Ichijou-San Wa Kao Ni Deyasui",
+  "image": "https://komiktap.info/wp-content/uploads/2023/08/Read-Manga.webp",
+  "rating": "7.50",
+  "description": "bercerita tentrang mc yang meliat ichijou san minum jus tomat dan ternyata seorang vampir",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Supernatural",
+      "url": "/genres/supernatural"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ichijou-san-wa-kao-ni-deyasui-chapter-07",
+      "title": "Chapter 07",
+      "url": "/ichijou-san-wa-kao-ni-deyasui-chapter-07",
+      "number": 7,
+      "date": "Agustus 10, 2023"
+    },
+    {
+      "slug": "ichijou-san-wa-kao-ni-deyasui-chapter-06",
+      "title": "Chapter 06",
+      "url": "/ichijou-san-wa-kao-ni-deyasui-chapter-06",
+      "number": 6,
+      "date": "Agustus 10, 2023"
+    },
+    {
+      "slug": "ichijou-san-wa-kao-ni-deyasui-chapter-05",
+      "title": "Chapter 05",
+      "url": "/ichijou-san-wa-kao-ni-deyasui-chapter-05",
+      "number": 5,
+      "date": "Agustus 10, 2023"
+    },
+    {
+      "slug": "ichijou-san-wa-kao-ni-deyasui-chapter-04",
+      "title": "Chapter 04",
+      "url": "/ichijou-san-wa-kao-ni-deyasui-chapter-04",
+      "number": 4,
+      "date": "Agustus 10, 2023"
+    },
+    {
+      "slug": "ichijou-san-wa-kao-ni-deyasui-chapter-03",
+      "title": "Chapter 03",
+      "url": "/ichijou-san-wa-kao-ni-deyasui-chapter-03",
+      "number": 3,
+      "date": "Agustus 10, 2023"
+    },
+    {
+      "slug": "ichijou-san-wa-kao-ni-deyasui-chapter-02",
+      "title": "Chapter 02",
+      "url": "/ichijou-san-wa-kao-ni-deyasui-chapter-02",
+      "number": 2,
+      "date": "Agustus 10, 2023"
+    },
+    {
+      "slug": "ichijou-san-wa-kao-ni-deyasui-chapter-01",
+      "title": "Chapter 01",
+      "url": "/ichijou-san-wa-kao-ni-deyasui-chapter-01",
+      "number": 1,
+      "date": "Agustus 10, 2023"
+    }
+  ]
+}

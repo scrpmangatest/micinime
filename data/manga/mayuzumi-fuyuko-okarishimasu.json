@@ -1,0 +1,40 @@
+{
+  "slug": "mayuzumi-fuyuko-okarishimasu",
+  "title": "Mayuzumi Fuyuko Okarishimasu",
+  "image": "https://komiktap.info/wp-content/uploads/2021/09/001-3.jpg",
+  "rating": "8.0",
+  "description": "Parodi dari anime Idolmaster",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mayuzumi-fuyuko-okarishimasu-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/mayuzumi-fuyuko-okarishimasu-chapter-1",
+      "number": 1,
+      "date": "September 12, 2021"
+    }
+  ]
+}

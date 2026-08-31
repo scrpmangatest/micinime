@@ -1,0 +1,36 @@
+{
+  "slug": "neet",
+  "title": "NEET",
+  "image": "https://komiktap.info/wp-content/uploads/2024/01/01-13.jpg",
+  "rating": "8.5",
+  "description": "Sepupu yang pemalas",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Pregnant",
+      "url": "/genres/pregnant"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "neet-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/neet-chapter-1",
+      "number": 1,
+      "date": "Januari 11, 2024"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "madoka-no-tokkun",
+  "title": "Madoka no Tokkun",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/01-59.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari idol master",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "madoka-no-tokkun-chapter-2",
+      "title": "Chapter 2",
+      "url": "/madoka-no-tokkun-chapter-2",
+      "number": 2,
+      "date": "Juli 1, 2023"
+    },
+    {
+      "slug": "madoka-no-tokkun-chapter-1",
+      "title": "Chapter 1",
+      "url": "/madoka-no-tokkun-chapter-1",
+      "number": 1,
+      "date": "Juni 30, 2023"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "mirai-no-hikari",
+  "title": "Mirai no Hikari",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-43.jpg",
+  "rating": "8.5",
+  "description": "kisah seorang cewe kantoran dan sepupu nya yang tinggal bareng, berakhir ngentot mulu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mirai-no-hikari-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/mirai-no-hikari-chapter-1",
+      "number": 1,
+      "date": "Desember 12, 2022"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "momoiro-triangle",
+  "title": "Momoiro Triangle",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/03-8.jpg",
+  "rating": "8.3",
+  "description": "",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "momoiro-triangle-chapter-4",
+      "title": "Chapter 4 End",
+      "url": "/momoiro-triangle-chapter-4",
+      "number": 4,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "momoiro-triangle-chapter-3",
+      "title": "Chapter 3",
+      "url": "/momoiro-triangle-chapter-3",
+      "number": 3,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "momoiro-triangle-chapter-2",
+      "title": "Chapter 2",
+      "url": "/momoiro-triangle-chapter-2",
+      "number": 2,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "momoiro-triangle-chapter-1",
+      "title": "Chapter 1",
+      "url": "/momoiro-triangle-chapter-1",
+      "number": 1,
+      "date": "September 8, 2020"
+    }
+  ]
+}

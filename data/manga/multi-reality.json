@@ -1,0 +1,36 @@
+{
+  "slug": "multi-reality",
+  "title": "MULTI REALITY",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-67.jpg",
+  "rating": "8.5",
+  "description": "parodi dari Seishun Buta Yarou wa Bunny Girl Senpai no Yume o Minai",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Threesome",
+      "url": "/genres/threesome"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "multi-reality-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/multi-reality-chapter-1",
+      "number": 1,
+      "date": "Desember 23, 2022"
+    }
+  ]
+}

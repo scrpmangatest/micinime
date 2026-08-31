@@ -1,0 +1,36 @@
+{
+  "slug": "jeanne-no-onegai-kanaechaou",
+  "title": "Jeanne no Onegai Kanaechaou!!",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/01-4.jpg",
+  "rating": "8.5",
+  "description": "Parodi FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "jeanne-no-onegai-kanaechaou-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/jeanne-no-onegai-kanaechaou-chapter-1",
+      "number": 1,
+      "date": "Juli 4, 2023"
+    }
+  ]
+}

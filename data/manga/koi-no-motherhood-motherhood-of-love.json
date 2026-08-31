@@ -1,0 +1,32 @@
+{
+  "slug": "koi-no-motherhood-motherhood-of-love",
+  "title": "Koi no Motherhood Motherhood of Love",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/01-19.jpg",
+  "rating": "8.3",
+  "description": "MC kedatangan mantan juniornya waktu disekolah!!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "koi-no-motherhood-motherhood-of-love-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/koi-no-motherhood-motherhood-of-love-chapter-1",
+      "number": 1,
+      "date": "September 7, 2020"
+    }
+  ]
+}

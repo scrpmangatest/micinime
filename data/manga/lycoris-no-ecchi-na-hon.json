@@ -1,0 +1,32 @@
+{
+  "slug": "lycoris-no-ecchi-na-hon",
+  "title": "Lycoris no Ecchi na Hon",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-34.jpg",
+  "rating": "8.5",
+  "description": "parodi dari Lycoris no Recoil",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "lycoris-no-ecchi-na-hon-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/lycoris-no-ecchi-na-hon-chapter-1",
+      "number": 1,
+      "date": "Desember 10, 2022"
+    }
+  ]
+}

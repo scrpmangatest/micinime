@@ -1,0 +1,36 @@
+{
+  "slug": "kowagari-yankee-onihara-san",
+  "title": "Kowagari Yankee Onihara-san",
+  "image": "https://komiktap.info/wp-content/uploads/2024/01/01-22.jpg",
+  "rating": "8.5",
+  "description": "Seorang gadis preman yang harus ditemani ke toilet oleh seorang kutu buku, namun malah terjadi hal yang tak diduga…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kowagari-yankee-onihara-san-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kowagari-yankee-onihara-san-chapter-1",
+      "number": 1,
+      "date": "Januari 17, 2024"
+    }
+  ]
+}

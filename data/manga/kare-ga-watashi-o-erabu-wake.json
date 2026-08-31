@@ -1,0 +1,36 @@
+{
+  "slug": "kare-ga-watashi-o-erabu-wake",
+  "title": "Kare ga Watashi o Erabu Wake",
+  "image": "https://komiktap.info/wp-content/uploads/2022/08/01-3.png",
+  "rating": "8.5",
+  "description": "Yazawa dan Sanae berpacaran secara diam-diam di sekolahnya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kare-ga-watashi-o-erabu-wake-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kare-ga-watashi-o-erabu-wake-chapter-1",
+      "number": 1,
+      "date": "Agustus 11, 2022"
+    }
+  ]
+}

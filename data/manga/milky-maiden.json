@@ -1,0 +1,40 @@
+{
+  "slug": "milky-maiden",
+  "title": "Milky Maiden",
+  "image": "https://komiktap.info/wp-content/uploads/2022/08/01-24.jpg",
+  "rating": "8.5",
+  "description": "yah aku lebih pendek dari teman seusiaku karena jarang minum susu, maka dari dari kakek membantuku dengan memanggil cewe sapi sebagai nutrisi pertumbuhanku",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Monster Girl",
+      "url": "/genres/monster-girl"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "milky-maiden-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/milky-maiden-chapter-1",
+      "number": 1,
+      "date": "Agustus 22, 2022"
+    }
+  ]
+}

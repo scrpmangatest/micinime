@@ -1,0 +1,36 @@
+{
+  "slug": "namaiki-musume-o-oyobidashi",
+  "title": "Namaiki Musume o OyobiDashi",
+  "image": "https://komiktap.info/wp-content/uploads/2023/05/01-24.jpg",
+  "rating": "8.5",
+  "description": "Seorang murid cewek yang dijebak gurunya dengan menyamar menjadi sugar daddy.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Lolicon",
+      "url": "/genres/lolicon"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "namaiki-musume-o-oyobidashi-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/namaiki-musume-o-oyobidashi-chapter-1",
+      "number": 1,
+      "date": "Mei 13, 2023"
+    }
+  ]
+}

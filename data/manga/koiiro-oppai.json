@@ -1,0 +1,100 @@
+{
+  "slug": "koiiro-oppai",
+  "title": "Koiiro Oppai",
+  "image": "https://komiktap.info/wp-content/uploads/2023/09/001.jpg",
+  "rating": "8.5",
+  "description": "Doujin dari Artist Asuhiro",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "koiiro-oppai-chapter-9",
+      "title": "Chapter 9 End",
+      "url": "/koiiro-oppai-chapter-9",
+      "number": 9,
+      "date": "September 24, 2023"
+    },
+    {
+      "slug": "koiiro-oppai-chapter-8",
+      "title": "Chapter 8",
+      "url": "/koiiro-oppai-chapter-8",
+      "number": 8,
+      "date": "September 20, 2023"
+    },
+    {
+      "slug": "koiiro-oppai-chapter-7",
+      "title": "Chapter 7",
+      "url": "/koiiro-oppai-chapter-7",
+      "number": 7,
+      "date": "September 18, 2023"
+    },
+    {
+      "slug": "koiiro-oppai-chapter-6",
+      "title": "Chapter 6",
+      "url": "/koiiro-oppai-chapter-6",
+      "number": 6,
+      "date": "September 15, 2023"
+    },
+    {
+      "slug": "koiiro-oppai-chapter-5",
+      "title": "Chapter 5",
+      "url": "/koiiro-oppai-chapter-5",
+      "number": 5,
+      "date": "September 13, 2023"
+    },
+    {
+      "slug": "koiiro-oppai-chapter-4",
+      "title": "Chapter 4",
+      "url": "/koiiro-oppai-chapter-4",
+      "number": 4,
+      "date": "September 12, 2023"
+    },
+    {
+      "slug": "koiiro-oppai-chapter-3",
+      "title": "Chapter 3",
+      "url": "/koiiro-oppai-chapter-3",
+      "number": 3,
+      "date": "September 11, 2023"
+    },
+    {
+      "slug": "koiiro-oppai-chapter-2",
+      "title": "Chapter 2",
+      "url": "/koiiro-oppai-chapter-2",
+      "number": 2,
+      "date": "September 4, 2023"
+    },
+    {
+      "slug": "koiiro-oppai-chapter-1",
+      "title": "Chapter 1",
+      "url": "/koiiro-oppai-chapter-1",
+      "number": 1,
+      "date": "September 2, 2023"
+    }
+  ]
+}

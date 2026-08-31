@@ -1,0 +1,32 @@
+{
+  "slug": "imaginary-line-new-game",
+  "title": "Imaginary Line (NEW GAME)",
+  "image": "https://komiktap.info/wp-content/uploads/2022/05/04-1.jpg",
+  "rating": "7.1",
+  "description": "Karena Hifumi akhir-akhir ini sibuk ia memendap rasa rindu yang sangat pada Aoba.",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Lolicon",
+      "url": "/genres/lolicon"
+    },
+    {
+      "name": "Yuri",
+      "url": "/genres/yuri"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "imaginary-line-chapter-1",
+      "title": "Chapter 1",
+      "url": "/imaginary-line-chapter-1",
+      "number": 1,
+      "date": "Mei 16, 2022"
+    }
+  ]
+}

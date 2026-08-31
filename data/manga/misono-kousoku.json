@@ -1,0 +1,32 @@
+{
+  "slug": "misono-kousoku",
+  "title": "Misono Kousoku",
+  "image": "https://komiktap.info/wp-content/uploads/2025/03/01-14.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "misono-kousoku-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/misono-kousoku-chapter-1",
+      "number": 1,
+      "date": "Maret 27, 2025"
+    }
+  ]
+}

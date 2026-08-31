@@ -1,0 +1,32 @@
+{
+  "slug": "love-punish",
+  "title": "Love Punish",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/001-232.jpg",
+  "rating": "8.3",
+  "description": "Saori-san menemukan Tiket Seks disuaminya, hal itu menjadi penasaran karena kelakuannya.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "love-punish-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/love-punish-chapter-1",
+      "number": 1,
+      "date": "September 8, 2020"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "my-wild-girlfriend",
+  "title": "My Wild Girlfriend",
+  "image": "https://komiktap.info/wp-content/uploads/2022/01/2.jpg",
+  "rating": "8.3",
+  "description": "Aku mengalami kecalakaan saat bekerja… yah untungnya pacarku merawatku walaupun penampilannya gyaru",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "my-wild-girlfriend-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/my-wild-girlfriend-chapter-1",
+      "number": 1,
+      "date": "Januari 9, 2022"
+    }
+  ]
+}

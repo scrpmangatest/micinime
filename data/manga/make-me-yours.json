@@ -1,0 +1,28 @@
+{
+  "slug": "make-me-yours",
+  "title": "Make me Yours",
+  "image": "https://komiktap.info/wp-content/uploads/2023/02/01-58.jpg",
+  "rating": "8.5",
+  "description": "Pelatihan para gadis dengan cara menjadi maid di sebuah kafe. Komandan datang berkunjung untuk melihat kondisi pelatihan itu. Namun ada kejadian tak terduga yang dialami komandan tersebut.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "make-me-yours-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/make-me-yours-chapter-1",
+      "number": 1,
+      "date": "Februari 21, 2023"
+    }
+  ]
+}

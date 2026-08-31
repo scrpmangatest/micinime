@@ -1,0 +1,40 @@
+{
+  "slug": "ikenie-navy",
+  "title": "Ikenie Navy",
+  "image": "https://komiktap.info/wp-content/uploads/2021/08/cover-1-1.jpg",
+  "rating": "7",
+  "description": "Dari genre udah tau lah ya",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Daughter",
+      "url": "/genres/daughter"
+    },
+    {
+      "name": "Dilf",
+      "url": "/genres/dilf"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ikenie-navy-chapter-1",
+      "title": "Chapter 1",
+      "url": "/ikenie-navy-chapter-1",
+      "number": 1,
+      "date": "Agustus 5, 2021"
+    }
+  ]
+}

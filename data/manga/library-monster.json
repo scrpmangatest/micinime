@@ -1,0 +1,32 @@
+{
+  "slug": "library-monster",
+  "title": "Library Monster",
+  "image": "https://komiktap.info/wp-content/uploads/2022/07/01-18.jpg",
+  "rating": "7.4",
+  "description": "gk tau soalnya gk baca aokwokawok",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "library-monster-ch-1-ed",
+      "title": "Chapter 1 End",
+      "url": "/library-monster-ch-1-ed",
+      "number": 1,
+      "date": "Juli 24, 2022"
+    }
+  ]
+}

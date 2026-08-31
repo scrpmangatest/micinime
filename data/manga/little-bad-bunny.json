@@ -1,0 +1,36 @@
+{
+  "slug": "little-bad-bunny",
+  "title": "Little Bad Bunny",
+  "image": "https://komiktap.info/wp-content/uploads/2023/05/01-30.jpg",
+  "rating": "8.5",
+  "description": "Memancing pak guru",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "little-bad-bunny-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/little-bad-bunny-chapter-1",
+      "number": 1,
+      "date": "Mei 16, 2023"
+    }
+  ]
+}

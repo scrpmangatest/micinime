@@ -1,0 +1,28 @@
+{
+  "slug": "kouhai-nanpa",
+  "title": "Kouhai Nanpa",
+  "image": "https://komiktap.info/wp-content/uploads/2024/02/01-7.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kouhai-nanpa-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kouhai-nanpa-chapter-1",
+      "number": 1,
+      "date": "Februari 9, 2024"
+    }
+  ]
+}

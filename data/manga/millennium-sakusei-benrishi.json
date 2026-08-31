@@ -1,0 +1,32 @@
+{
+  "slug": "millennium-sakusei-benrishi",
+  "title": "Millennium Sakusei Benrishi",
+  "image": "https://komiktap.info/wp-content/uploads/2023/10/01-1.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "millennium-sakusei-benrishi-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/millennium-sakusei-benrishi-chapter-1",
+      "number": 1,
+      "date": "Oktober 1, 2023"
+    }
+  ]
+}

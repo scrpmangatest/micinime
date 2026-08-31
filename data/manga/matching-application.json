@@ -1,0 +1,70 @@
+{
+  "slug": "matching-application",
+  "title": "Matching Application",
+  "image": "https://komiktap.info/wp-content/uploads/2021/09/1.jpg",
+  "rating": "8.5",
+  "description": "Koutarou di suruh Senpainya untuk bertemu wanita di aplikasi datenya namun senpai tidak terlalu suka dengan wanita dewasa… maka dari itu koutarou disuruh untuk bertemu dengannya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "matching-application-chapter-3",
+      "title": "Chapter 3 End",
+      "url": "/matching-application-chapter-3",
+      "number": 3,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "matching-application-chapter-2",
+      "title": "Chapter 2",
+      "url": "/matching-application-chapter-2",
+      "number": 2,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "matching-application-chapter-1",
+      "title": "Chapter 1",
+      "url": "/matching-application-chapter-1",
+      "number": 1,
+      "date": "September 11, 2021"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "mamagoto",
+  "title": "Mamagoto",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/005.jpg",
+  "rating": "8.4",
+  "description": "Ryota kembali kota asalnya, tak disangka Ryota disuruh memilih tunangannya di antara 4 putrinya tersebut dimulainya hari yang merepotkan",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "mamagoto-chapter-9",
+      "title": "Chapter 9 End",
+      "url": "/mamagoto-chapter-9",
+      "number": 9,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "mamagoto-chapter-8",
+      "title": "Chapter 8",
+      "url": "/mamagoto-chapter-8",
+      "number": 8,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "mamagoto-chapter-7",
+      "title": "Chapter 7",
+      "url": "/mamagoto-chapter-7",
+      "number": 7,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "mamagoto-chapter-6",
+      "title": "Chapter 6",
+      "url": "/mamagoto-chapter-6",
+      "number": 6,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "mamagoto-chapter-5",
+      "title": "Chapter 5",
+      "url": "/mamagoto-chapter-5",
+      "number": 5,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "mamagoto-chapter-4",
+      "title": "Chapter 4",
+      "url": "/mamagoto-chapter-4",
+      "number": 4,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "mamagoto-chapter-3",
+      "title": "Chapter 3",
+      "url": "/mamagoto-chapter-3",
+      "number": 3,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "mamagoto-chapter-2",
+      "title": "Chapter 2",
+      "url": "/mamagoto-chapter-2",
+      "number": 2,
+      "date": "September 8, 2020"
+    },
+    {
+      "slug": "mamagoto-chapter-1",
+      "title": "Chapter 1",
+      "url": "/mamagoto-chapter-1",
+      "number": 1,
+      "date": "September 8, 2020"
+    }
+  ]
+}

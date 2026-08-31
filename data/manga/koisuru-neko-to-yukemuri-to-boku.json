@@ -1,0 +1,32 @@
+{
+  "slug": "koisuru-neko-to-yukemuri-to-boku",
+  "title": "Koisuru Neko to Yukemuri to Boku",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/01-44.jpg",
+  "rating": "8.0",
+  "description": "Parodi dari Hololive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "koisuru-neko-to-yukemuri-to-boku-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/koisuru-neko-to-yukemuri-to-boku-chapter-1",
+      "number": 1,
+      "date": "Juli 22, 2023"
+    }
+  ]
+}

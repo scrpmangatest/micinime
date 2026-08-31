@@ -1,0 +1,44 @@
+{
+  "slug": "kizuna-no-kouryaku",
+  "title": "Kizuna no Kouryaku",
+  "image": "https://komiktap.info/wp-content/uploads/2024/01/01-15.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kizuna-no-kouryaku-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kizuna-no-kouryaku-chapter-1",
+      "number": 1,
+      "date": "Januari 12, 2024"
+    }
+  ]
+}

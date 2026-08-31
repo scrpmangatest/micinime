@@ -1,0 +1,74 @@
+{
+  "slug": "netemo-sametemo-chichi-bakari",
+  "title": "Netemo Sametemo Chichi Bakari",
+  "image": "https://komiktap.info/wp-content/uploads/2025/04/01-5.jpg",
+  "rating": "8.5",
+  "description": "Semuanya tentang Susu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "netemo-sametemo-chichi-bakari-chapter-7",
+      "title": "Chapter 7 End",
+      "url": "/netemo-sametemo-chichi-bakari-chapter-7",
+      "number": 7,
+      "date": "April 28, 2025"
+    },
+    {
+      "slug": "netemo-sametemo-chichi-bakari-chapter-6",
+      "title": "Chapter 6",
+      "url": "/netemo-sametemo-chichi-bakari-chapter-6",
+      "number": 6,
+      "date": "April 26, 2025"
+    },
+    {
+      "slug": "netemo-sametemo-chichi-bakari-chapter-5",
+      "title": "Chapter 5",
+      "url": "/netemo-sametemo-chichi-bakari-chapter-5",
+      "number": 5,
+      "date": "April 22, 2025"
+    },
+    {
+      "slug": "netemo-sametemo-chichi-bakari-chapter-4",
+      "title": "Chapter 4",
+      "url": "/netemo-sametemo-chichi-bakari-chapter-4",
+      "number": 4,
+      "date": "April 21, 2025"
+    },
+    {
+      "slug": "netemo-sametemo-chichi-bakari-chapter-3",
+      "title": "Chapter 3",
+      "url": "/netemo-sametemo-chichi-bakari-chapter-3",
+      "number": 3,
+      "date": "April 17, 2025"
+    },
+    {
+      "slug": "netemo-sametemo-chichi-bakari-chapter-2",
+      "title": "Chapter 2",
+      "url": "/netemo-sametemo-chichi-bakari-chapter-2",
+      "number": 2,
+      "date": "April 10, 2025"
+    },
+    {
+      "slug": "netemo-sametemo-chichi-bakari-chapter-1",
+      "title": "Chapter 1",
+      "url": "/netemo-sametemo-chichi-bakari-chapter-1",
+      "number": 1,
+      "date": "April 8, 2025"
+    }
+  ]
+}

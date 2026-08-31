@@ -1,0 +1,28 @@
+{
+  "slug": "keep-your-voice-down",
+  "title": "Keep Your Voice Down",
+  "image": "https://komiktap.info/wp-content/uploads/2022/09/01-30.jpg",
+  "rating": "8.8",
+  "description": "Vanila yang penting",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "keep-your-voice-down-chapter-1-end",
+      "title": "Chapter 1 End",
+      "url": "/keep-your-voice-down-chapter-1-end",
+      "number": 1,
+      "date": "September 25, 2022"
+    }
+  ]
+}

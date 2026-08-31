@@ -1,0 +1,36 @@
+{
+  "slug": "koi-love",
+  "title": "Koi Love",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/01-6.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Sono Bisque Doll wa Koi wo Suru",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "koi-love-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/koi-love-chapter-1",
+      "number": 1,
+      "date": "Juli 5, 2023"
+    }
+  ]
+}

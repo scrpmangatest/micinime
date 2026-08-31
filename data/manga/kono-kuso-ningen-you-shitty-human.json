@@ -1,0 +1,36 @@
+{
+  "slug": "kono-kuso-ningen-you-shitty-human",
+  "title": "Kono… Kuso Ningen! You Shitty Human!",
+  "image": "https://komiktap.info/wp-content/uploads/2024/03/01-23.jpg",
+  "rating": "8.5",
+  "description": "diktator-chan yang menuruti permintaan dari manusia",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Pregnant",
+      "url": "/genres/pregnant"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kono-kuso-ningen-you-shitty-human-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kono-kuso-ningen-you-shitty-human-chapter-1",
+      "number": 1,
+      "date": "Maret 24, 2024"
+    }
+  ]
+}

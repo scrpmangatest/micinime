@@ -1,0 +1,32 @@
+{
+  "slug": "kanna-ga-daijoubu-tte-iu-nara",
+  "title": "Kanna ga Daijoubu tte Iu nara",
+  "image": "https://komiktap.info/wp-content/uploads/2023/09/01-15.jpg",
+  "rating": "8.5",
+  "description": "Seorang guru pria yang memijat siswinya namun malah berlanjut ke hal tak senonoh",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "kanna-ga-daijoubu-tte-iu-nara-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/kanna-ga-daijoubu-tte-iu-nara-chapter-1",
+      "number": 1,
+      "date": "September 13, 2023"
+    }
+  ]
+}
