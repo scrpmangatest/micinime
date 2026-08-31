@@ -3,7 +3,16 @@ name: Scrape and deploy
 on:
   schedule:
     - cron: "0 17,23 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Manga detail batch size per run"
+        required: false
+        default: "120"
+      max_batches:
+        description: "Max detail batches to run"
+        required: false
+        default: "10"
 
 permissions:
   contents: write
@@ -18,6 +27,8 @@ jobs:
       SCRAPE_BASE_URL: "https://komiktap.info"
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -26,8 +37,23 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run scheduled scraper
+      - name: Run scheduled scraper (incremental catalog)
         run: node scrape-scheduled.js
+
+      - name: Backfill manga details (batched)
+        env:
+          BATCH_SIZE: ${{ inputs.batch_size || '120' }}
+          DELAY_MS: "1500"
+        run: |
+          MAX_BATCHES=${{ inputs.max_batches || '10' }}
+          for i in $(seq 1 $MAX_BATCHES); do
+            echo "=== Detail batch $i/$MAX_BATCHES ==="
+            node scrape-details.js || true
+            REMAIN=$(node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/komiktap.json','utf8'));const ex=new Set(fs.readdirSync('data/manga').map(f=>f.replace('.json','')));console.log(d.items.filter(x=>!ex.has(x.slug)).length)" 2>/dev/null || echo 999)
+            echo "Remaining: $REMAIN"
+            if [ "$REMAIN" = "0" ]; then break; fi
+            if [ "$REMAIN" = "999" ]; then break; fi
+          done
 
       - name: Stage and commit data updates
         run: |
@@ -37,6 +63,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes detected."
           else
-            git commit -m "Update data after scrape"
+            git commit -m "Update data after scrape [skip ci]"
             git push
           fi
