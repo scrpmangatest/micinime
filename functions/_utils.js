@@ -4,8 +4,9 @@ export const json = (body, status = 200) => new Response(JSON.stringify(body), {
 });
 
 export async function assetJson(context, pathname) {
-  const response = await context.env.ASSETS.fetch(new Request(new URL(pathname, context.request.url)));
-  if (!response.ok) return null;
+  const url = new URL(pathname, context.request.url);
+  const response = await context.env.ASSETS.fetch(new Request(url, { headers: { Accept: 'application/json' } }));
+  if (!response.ok || !response.headers.get('content-type')?.includes('application/json')) return null;
   return response.json();
 }
 
