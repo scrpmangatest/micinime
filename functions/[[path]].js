@@ -82,7 +82,14 @@ async function handleApi(context, segments) {
     const slug = decode(segments[1]);
     const page = Math.max(1, Number(url.searchParams.get('page')) || 1);
     const genre = (data.genres || []).find((entry) => entry.slug === slug) || { name: slug, slug, count: 0 };
-    const items = sortedItems(data).filter((item) => (item.genres || []).some((genre) => genreSlugOf(genre) === slug));
+    const index = await assetJson(context, '/data/genre-index.json');
+    let items = [];
+    if (index && Array.isArray(index[slug])) {
+      const set = new Set(index[slug]);
+      items = sortedItems(data).filter((item) => set.has(item.slug));
+    } else {
+      items = sortedItems(data).filter((item) => (item.genres || []).some((entry) => genreSlugOf(entry) === slug));
+    }
     return json({ genre: { ...genre, count: items.length || genre.count }, ...paginate(items, page, 20) });
   }
 
