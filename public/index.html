@@ -1832,6 +1832,7 @@ function navigate(e, url) {
     window.history.pushState({}, '', localUrl);
     router.routes();
     window.scrollTo(0, 0);
+    try { if (window._Hasync) window._Hasync.push(['Histats.track_hits', '']); } catch {}
     return false;
 }
 
