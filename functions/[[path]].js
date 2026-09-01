@@ -67,14 +67,8 @@ async function handleApi(context, segments) {
   }
 
   if (segments.length === 1 && segments[0] === 'genres') {
-    const counts = new Map();
-    for (const item of data.items || []) {
-      for (const genre of item.genres || []) {
-        const slug = genreSlugOf(genre);
-        if (slug) counts.set(slug, (counts.get(slug) || 0) + 1);
-      }
-    }
-    const genres = (data.genres || []).map((genre) => ({ ...genre, count: counts.get(genre.slug) || genre.count || 0 }));
+    const index = await assetJson(context, '/data/genre-index.json');
+    const genres = (data.genres || []).map((genre) => ({ ...genre, count: (index && Array.isArray(index[genre.slug]) ? index[genre.slug].length : genre.count || 0) }));
     return json({ total: genres.length, totalMangaWithGenres: genres.reduce((sum, genre) => sum + genre.count, 0), genres });
   }
 
