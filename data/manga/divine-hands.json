@@ -1,0 +1,24 @@
+{
+  "slug": "divine-hands",
+  "title": "Divine Hands",
+  "image": "https://komiktap.info/wp-content/uploads/2021/03/i316864-1.jpg",
+  "rating": "8",
+  "description": "Jane adalah satu-satunya yang menerangi masa laluku yang kelam. Sekarang giliranku untuk menyelamatkannya.",
+  "status": "Ongoing",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": []
+}

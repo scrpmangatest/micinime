@@ -1,0 +1,36 @@
+{
+  "slug": "finding-assistant-manager-kim",
+  "title": "Finding Assistant Manager Kim",
+  "image": "https://komiktap.info/wp-content/uploads/2023/12/Rangrari.jpeg",
+  "rating": "5.9",
+  "description": "1 Autor sama bad thinking diary, manhwa YURI",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Yuri",
+      "url": "/genres/yuri"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "finding-assistant-manager-kim-chapter-1-end",
+      "title": "Chapter 1 End",
+      "url": "/finding-assistant-manager-kim-chapter-1-end",
+      "number": 1,
+      "date": "Desember 28, 2023"
+    }
+  ]
+}

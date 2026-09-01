@@ -1,0 +1,47 @@
+{
+  "slug": "zoku-manken-no-kuro-gal-senpai",
+  "title": "Zoku Manken no Kuro Gal Senpai!",
+  "image": "https://komiktap.info/wp-content/uploads/2022/09/01-26.jpg",
+  "rating": "8.5",
+  "description": "Baca aja!!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "zoku-manken-no-kuro-gal-senpai-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/zoku-manken-no-kuro-gal-senpai-chapter-2",
+      "number": 2,
+      "date": "September 28, 2022"
+    },
+    {
+      "slug": "zoku-manken-no-kuro-gal-senpai-chapter-1-2",
+      "title": "Chapter 1",
+      "url": "/zoku-manken-no-kuro-gal-senpai-chapter-1-2",
+      "number": 1,
+      "date": "September 28, 2022"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "ant-hell",
+  "title": "Ant Hell",
+  "image": "https://komiktap.info/wp-content/uploads/2022/02/Ant-Hell.jpg",
+  "rating": "5.1",
+  "description": "Ha Jooeun, cinta pertama, dan aktris terkenal hidup dengan seorang wanita mencurigakan yang membawanya sebagai putrinya suatu hari nanti? Tapi wanita ini terus datang kepadaku setiap malam.",
+  "status": "Ongoing",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Full Color",
+      "url": "/genres/full-color"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ant-hell-chapter-2",
+      "title": "Chapter 2",
+      "url": "/ant-hell-chapter-2",
+      "number": 2,
+      "date": "Februari 16, 2022"
+    },
+    {
+      "slug": "ant-hell-chapter-1",
+      "title": "Chapter 1",
+      "url": "/ant-hell-chapter-1",
+      "number": 1,
+      "date": "Februari 16, 2022"
+    }
+  ]
+}

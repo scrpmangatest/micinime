@@ -1,0 +1,32 @@
+{
+  "slug": "you-can-get-me-pregnant",
+  "title": "You can Get me Pregnant",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/01-39.jpg",
+  "rating": "8.3",
+  "description": "Orc kecil ini mencari mangsa untuk dijadikan istrinya…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "you-can-get-me-pregnant-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/you-can-get-me-pregnant-chapter-1",
+      "number": 1,
+      "date": "September 12, 2020"
+    }
+  ]
+}

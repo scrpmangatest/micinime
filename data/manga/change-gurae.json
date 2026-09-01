@@ -1,0 +1,81 @@
+{
+  "slug": "change-gurae",
+  "title": "Change (Gurae)",
+  "image": "https://komiktap.info/wp-content/uploads/2026/01/cover_250x350-1.webp",
+  "rating": "8",
+  "description": "Change bodies, change souls… so I’m no longer a loser.",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Supernatural",
+      "url": "/genres/supernatural"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "change-gurae-chapter-8-end",
+      "title": "Chapter 8 END",
+      "url": "/change-gurae-chapter-8-end",
+      "number": 8,
+      "date": "Januari 16, 2026"
+    },
+    {
+      "slug": "change-gurae-chapter-7",
+      "title": "Chapter 7",
+      "url": "/change-gurae-chapter-7",
+      "number": 7,
+      "date": "Januari 16, 2026"
+    },
+    {
+      "slug": "change-gurae-chapter-6",
+      "title": "Chapter 6",
+      "url": "/change-gurae-chapter-6",
+      "number": 6,
+      "date": "Januari 16, 2026"
+    },
+    {
+      "slug": "change-gurae-chapter-5",
+      "title": "Chapter 5",
+      "url": "/change-gurae-chapter-5",
+      "number": 5,
+      "date": "Januari 16, 2026"
+    },
+    {
+      "slug": "change-gurae-chapter-4",
+      "title": "Chapter 4",
+      "url": "/change-gurae-chapter-4",
+      "number": 4,
+      "date": "Januari 15, 2026"
+    },
+    {
+      "slug": "change-gurae-chapter-3",
+      "title": "Chapter 3",
+      "url": "/change-gurae-chapter-3",
+      "number": 3,
+      "date": "Januari 15, 2026"
+    },
+    {
+      "slug": "change-gurae-chapter-2",
+      "title": "Chapter 2",
+      "url": "/change-gurae-chapter-2",
+      "number": 2,
+      "date": "Januari 15, 2026"
+    },
+    {
+      "slug": "change-gurae-chapter-1",
+      "title": "Chapter 1",
+      "url": "/change-gurae-chapter-1",
+      "number": 1,
+      "date": "Januari 15, 2026"
+    }
+  ]
+}

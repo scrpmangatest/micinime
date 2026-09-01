@@ -1,0 +1,36 @@
+{
+  "slug": "tohsaka-shimai-ryoujoku",
+  "title": "Tohsaka Shimai Ryoujoku",
+  "image": "https://komiktap.info/wp-content/uploads/2023/10/01-13.jpg",
+  "rating": "8.5",
+  "description": "Rin dan sakura yang ditankap oleh tiga orang pria dan kemudian mereka dilecehkan. Namun terjadi sesuatu yang tak diduga dari sakura…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "tohsaka-shimai-ryoujoku-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/tohsaka-shimai-ryoujoku-chapter-1",
+      "number": 1,
+      "date": "Oktober 28, 2023"
+    }
+  ]
+}

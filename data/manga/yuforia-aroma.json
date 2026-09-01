@@ -1,0 +1,44 @@
+{
+  "slug": "yuforia-aroma",
+  "title": "Yuforia Aroma",
+  "image": "https://komiktap.info/wp-content/uploads/2023/09/01-10.jpg",
+  "rating": "8.5",
+  "description": "Cerita tentang siswi sedang mendekati cowok",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "yuforia-aroma-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/yuforia-aroma-chapter-1",
+      "number": 1,
+      "date": "September 11, 2023"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "slug": "open-talk",
+  "title": "Open Talk",
+  "image": "https://komiktap.info/wp-content/uploads/2024/04/OpenTalk-768x1024-1.jpg",
+  "rating": "7.1",
+  "description": "Taeyang adalah pria yang tidak percaya pada cinta karena hubungan menyakitkan yang dia alami di masa lalu. Kehidupan Hahyeon penuh dengan kesalahpahaman dan prasangka yang ditimpakan padanya, hanya karena dia adalah seorang penulis webtoon dewasa, Keduanya bertemu secara kebetulan di pertemuan OpenTalk dan oh nak, apakah itu resmi? Setelah pertemuan pertama mereka selesai, mereka menghabiskan malam bersama. Namun, kecantikan dan kehadiran Ha-Hyeon yang menarik menyebar ke seluruh ruang obrolan OpenTalk, membuat marah semua orang yang memandangnya dengan agenda tersembunyi dan berbahaya… “Saya tidak bisa mengatakan apa-apa… Jika saya mengatakan sesuatu tanpa berpikir, mereka akan tahu saya jadi dihidupkan!”",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "open-talk-chapter-32-end",
+      "title": "Chapter 32 END",
+      "url": "/open-talk-chapter-32-end",
+      "number": 32,
+      "date": "Agustus 21, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-31",
+      "title": "Chapter 31",
+      "url": "/open-talk-chapter-31",
+      "number": 31,
+      "date": "Agustus 21, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-30",
+      "title": "Chapter 30",
+      "url": "/open-talk-chapter-30",
+      "number": 30,
+      "date": "Agustus 21, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-29",
+      "title": "Chapter 29",
+      "url": "/open-talk-chapter-29",
+      "number": 29,
+      "date": "Agustus 21, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-28",
+      "title": "Chapter 28",
+      "url": "/open-talk-chapter-28",
+      "number": 28,
+      "date": "Agustus 21, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-27",
+      "title": "Chapter 27",
+      "url": "/open-talk-chapter-27",
+      "number": 27,
+      "date": "April 27, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-26",
+      "title": "Chapter 26",
+      "url": "/open-talk-chapter-26",
+      "number": 26,
+      "date": "April 27, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-25",
+      "title": "Chapter 25",
+      "url": "/open-talk-chapter-25",
+      "number": 25,
+      "date": "April 27, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-24",
+      "title": "Chapter 24",
+      "url": "/open-talk-chapter-24",
+      "number": 24,
+      "date": "April 27, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-23",
+      "title": "Chapter 23",
+      "url": "/open-talk-chapter-23",
+      "number": 23,
+      "date": "April 27, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-22",
+      "title": "Chapter 22",
+      "url": "/open-talk-chapter-22",
+      "number": 22,
+      "date": "April 27, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-21",
+      "title": "Chapter 21",
+      "url": "/open-talk-chapter-21",
+      "number": 21,
+      "date": "April 27, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-20",
+      "title": "Chapter 20",
+      "url": "/open-talk-chapter-20",
+      "number": 20,
+      "date": "April 5, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-19",
+      "title": "Chapter 19",
+      "url": "/open-talk-chapter-19",
+      "number": 19,
+      "date": "April 5, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-18",
+      "title": "Chapter 18",
+      "url": "/open-talk-chapter-18",
+      "number": 18,
+      "date": "April 5, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-17",
+      "title": "Chapter 17",
+      "url": "/open-talk-chapter-17",
+      "number": 17,
+      "date": "April 5, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-16",
+      "title": "Chapter 16",
+      "url": "/open-talk-chapter-16",
+      "number": 16,
+      "date": "April 5, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-15",
+      "title": "Chapter 15",
+      "url": "/open-talk-chapter-15",
+      "number": 15,
+      "date": "April 5, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-14",
+      "title": "Chapter 14",
+      "url": "/open-talk-chapter-14",
+      "number": 14,
+      "date": "April 5, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-13",
+      "title": "Chapter 13",
+      "url": "/open-talk-chapter-13",
+      "number": 13,
+      "date": "April 5, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-12",
+      "title": "Chapter 12",
+      "url": "/open-talk-chapter-12",
+      "number": 12,
+      "date": "April 5, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-11",
+      "title": "Chapter 11",
+      "url": "/open-talk-chapter-11",
+      "number": 11,
+      "date": "April 5, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-10",
+      "title": "Chapter 10",
+      "url": "/open-talk-chapter-10",
+      "number": 10,
+      "date": "April 4, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-9",
+      "title": "Chapter 9",
+      "url": "/open-talk-chapter-9",
+      "number": 9,
+      "date": "April 4, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-8",
+      "title": "Chapter 8",
+      "url": "/open-talk-chapter-8",
+      "number": 8,
+      "date": "April 4, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-7",
+      "title": "Chapter 7",
+      "url": "/open-talk-chapter-7",
+      "number": 7,
+      "date": "April 4, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-6",
+      "title": "Chapter 6",
+      "url": "/open-talk-chapter-6",
+      "number": 6,
+      "date": "April 4, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-5",
+      "title": "Chapter 5",
+      "url": "/open-talk-chapter-5",
+      "number": 5,
+      "date": "April 4, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-4",
+      "title": "Chapter 4",
+      "url": "/open-talk-chapter-4",
+      "number": 4,
+      "date": "April 4, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-3",
+      "title": "Chapter 3",
+      "url": "/open-talk-chapter-3",
+      "number": 3,
+      "date": "April 4, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-2",
+      "title": "Chapter 2",
+      "url": "/open-talk-chapter-2",
+      "number": 2,
+      "date": "April 4, 2024"
+    },
+    {
+      "slug": "open-talk-chapter-1",
+      "title": "Chapter 1",
+      "url": "/open-talk-chapter-1",
+      "number": 1,
+      "date": "April 4, 2024"
+    }
+  ]
+}

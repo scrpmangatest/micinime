@@ -1,0 +1,35 @@
+{
+  "slug": "torokeru-joshiyu",
+  "title": "Torokeru Joshiyu",
+  "image": "https://komiktap.info/wp-content/uploads/2022/07/Hal-01.jpg",
+  "rating": "7.1",
+  "description": "Stalking atau kebetulan bertemu dan berakhir dengan erangan, kok bisa ? serial dari manga Torokeru Joshiyu akan menggabungka 2 hal tadi.",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Yuri",
+      "url": "/genres/yuri"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "torokeru-joshiyu-chapter-2",
+      "title": "Chapter 2",
+      "url": "/torokeru-joshiyu-chapter-2",
+      "number": 2,
+      "date": "Juli 8, 2022"
+    },
+    {
+      "slug": "torokeru-joshiyu-chapter-1",
+      "title": "Chapter 1",
+      "url": "/torokeru-joshiyu-chapter-1",
+      "number": 1,
+      "date": "Juli 8, 2022"
+    }
+  ]
+}

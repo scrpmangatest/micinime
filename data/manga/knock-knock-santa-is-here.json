@@ -1,0 +1,85 @@
+{
+  "slug": "knock-knock-santa-is-here",
+  "title": "Knock Knock, Santa is here!",
+  "image": "https://komiktap.info/wp-content/uploads/2023/12/11585_V2575r7Ke6o620nXva5boEZ9j903u2oyjika96qeq7u1lnc15sx69948t51J6105.jpg",
+  "rating": "8.1",
+  "description": "Cerita singkat tentang natal",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "knock-knock-santa-is-here-chapter-7",
+      "title": "Chapter 7 End",
+      "url": "/knock-knock-santa-is-here-chapter-7",
+      "number": 7,
+      "date": "Januari 29, 2024"
+    },
+    {
+      "slug": "knock-knock-santa-is-here-chapter-6",
+      "title": "Chapter 6",
+      "url": "/knock-knock-santa-is-here-chapter-6",
+      "number": 6,
+      "date": "Januari 29, 2024"
+    },
+    {
+      "slug": "knock-knock-santa-is-here-chapter-5",
+      "title": "Chapter 5",
+      "url": "/knock-knock-santa-is-here-chapter-5",
+      "number": 5,
+      "date": "Januari 23, 2024"
+    },
+    {
+      "slug": "knock-knock-santa-is-here-chapter-4",
+      "title": "Chapter 4",
+      "url": "/knock-knock-santa-is-here-chapter-4",
+      "number": 4,
+      "date": "Januari 23, 2024"
+    },
+    {
+      "slug": "knock-knock-santa-is-here-chapter-3",
+      "title": "Chapter 3",
+      "url": "/knock-knock-santa-is-here-chapter-3",
+      "number": 3,
+      "date": "Desember 9, 2023"
+    },
+    {
+      "slug": "knock-knock-santa-is-here-chapter-2",
+      "title": "Chapter 2",
+      "url": "/knock-knock-santa-is-here-chapter-2",
+      "number": 2,
+      "date": "Desember 9, 2023"
+    },
+    {
+      "slug": "knock-knock-santa-is-here-chapter-1",
+      "title": "Chapter 1",
+      "url": "/knock-knock-santa-is-here-chapter-1",
+      "number": 1,
+      "date": "Desember 8, 2023"
+    },
+    {
+      "slug": "knock-knock-santa-is-here-chapter-00",
+      "title": "Chapter 00",
+      "url": "/knock-knock-santa-is-here-chapter-00",
+      "number": 0,
+      "date": "Desember 8, 2023"
+    }
+  ]
+}

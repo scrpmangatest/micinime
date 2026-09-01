@@ -1,0 +1,99 @@
+{
+  "slug": "yoridori-tsumamigui",
+  "title": "Yoridori Tsumamigui",
+  "image": "https://komiktap.info/wp-content/uploads/2026/07/01-1.jpg",
+  "rating": "8.5",
+  "description": "Doujin dari artist Zaki Zaraki",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "yoridori-tsumamigui-chapter-10",
+      "title": "Chapter 10 End",
+      "url": "/yoridori-tsumamigui-chapter-10",
+      "number": 10,
+      "date": "Juli 18, 2026"
+    },
+    {
+      "slug": "yoridori-tsumamigui-chapter-9",
+      "title": "Chapter 9",
+      "url": "/yoridori-tsumamigui-chapter-9",
+      "number": 9,
+      "date": "Juli 17, 2026"
+    },
+    {
+      "slug": "yoridori-tsumamigui-chapter-8",
+      "title": "Chapter 8",
+      "url": "/yoridori-tsumamigui-chapter-8",
+      "number": 8,
+      "date": "Juli 16, 2026"
+    },
+    {
+      "slug": "yoridori-tsumamigui-chapter-7",
+      "title": "Chapter 7",
+      "url": "/yoridori-tsumamigui-chapter-7",
+      "number": 7,
+      "date": "Juli 14, 2026"
+    },
+    {
+      "slug": "yoridori-tsumamigui-chapter-6",
+      "title": "Chapter 6",
+      "url": "/yoridori-tsumamigui-chapter-6",
+      "number": 6,
+      "date": "Juli 11, 2026"
+    },
+    {
+      "slug": "yoridori-tsumamigui-chapter-5",
+      "title": "Chapter 5",
+      "url": "/yoridori-tsumamigui-chapter-5",
+      "number": 5,
+      "date": "Juli 10, 2026"
+    },
+    {
+      "slug": "yoridori-tsumamigui-chapter-4",
+      "title": "Chapter 4",
+      "url": "/yoridori-tsumamigui-chapter-4",
+      "number": 4,
+      "date": "Juli 9, 2026"
+    },
+    {
+      "slug": "yoridori-tsumamigui-chapter-3",
+      "title": "Chapter 3",
+      "url": "/yoridori-tsumamigui-chapter-3",
+      "number": 3,
+      "date": "Juli 6, 2026"
+    },
+    {
+      "slug": "yoridori-tsumamigui-chapter-2",
+      "title": "Chapter 2",
+      "url": "/yoridori-tsumamigui-chapter-2",
+      "number": 2,
+      "date": "Juli 4, 2026"
+    },
+    {
+      "slug": "yoridori-tsumamigui-chapter-1",
+      "title": "Chapter 1",
+      "url": "/yoridori-tsumamigui-chapter-1",
+      "number": 1,
+      "date": "Juli 3, 2026"
+    }
+  ]
+}

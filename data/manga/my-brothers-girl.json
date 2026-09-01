@@ -1,0 +1,47 @@
+{
+  "slug": "my-brothers-girl",
+  "title": "My brother’s girl",
+  "image": "https://komiktap.info/wp-content/uploads/2021/10/my-brothers-girlm.jpg",
+  "rating": "8",
+  "description": "RINGKASAN Setelah orang tuanya meninggal, Yun-woo menyerahkan segalanya untuk adiknya Kang-woo. Tapi setelah malam ketika pacar Kang-woo didambakan di ruang tamu, Yun-woo tidak lagi menyerah satu lagi … Itu wanita saudara perempuan saya!",
+  "status": "Ongoing",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "my-brothers-girl-chapter-2",
+      "title": "Chapter 2",
+      "url": "/my-brothers-girl-chapter-2",
+      "number": 2,
+      "date": "Oktober 5, 2021"
+    },
+    {
+      "slug": "my-brothers-girl-chapter-1",
+      "title": "Chapter 1",
+      "url": "/my-brothers-girl-chapter-1",
+      "number": 1,
+      "date": "Oktober 5, 2021"
+    }
+  ]
+}

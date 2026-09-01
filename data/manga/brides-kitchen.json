@@ -1,0 +1,107 @@
+{
+  "slug": "brides-kitchen",
+  "title": "Bride’s Kitchen",
+  "image": "https://komiktap.info/wp-content/uploads/2025/08/Brides-Kitchen.webp",
+  "rating": "7.1",
+  "description": "Khawatir dengan pernikahanmu karena kamu juru masak yang buruk? Jangan khawatir, serahkan saja pada kami! Di Sekolah Memasak, kamu akan pulang dengan rasa kenyang dan puas.",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Smut",
+      "url": "/genres/smut"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "brides-kitchen-chapter-10-end",
+      "title": "Chapter 10 End",
+      "url": "/brides-kitchen-chapter-10-end",
+      "number": 10,
+      "date": "Agustus 28, 2025"
+    },
+    {
+      "slug": "brides-kitchen-chapter-9",
+      "title": "Chapter 9",
+      "url": "/brides-kitchen-chapter-9",
+      "number": 9,
+      "date": "Agustus 28, 2025"
+    },
+    {
+      "slug": "brides-kitchen-chapter-8",
+      "title": "Chapter 8",
+      "url": "/brides-kitchen-chapter-8",
+      "number": 8,
+      "date": "Agustus 28, 2025"
+    },
+    {
+      "slug": "brides-kitchen-chapter-7",
+      "title": "Chapter 7",
+      "url": "/brides-kitchen-chapter-7",
+      "number": 7,
+      "date": "Agustus 28, 2025"
+    },
+    {
+      "slug": "brides-kitchen-chapter-6",
+      "title": "Chapter 6",
+      "url": "/brides-kitchen-chapter-6",
+      "number": 6,
+      "date": "Agustus 28, 2025"
+    },
+    {
+      "slug": "brides-kitchen-chapter-5",
+      "title": "Chapter 5",
+      "url": "/brides-kitchen-chapter-5",
+      "number": 5,
+      "date": "Agustus 28, 2025"
+    },
+    {
+      "slug": "brides-kitchen-chapter-4",
+      "title": "Chapter 4",
+      "url": "/brides-kitchen-chapter-4",
+      "number": 4,
+      "date": "Agustus 28, 2025"
+    },
+    {
+      "slug": "brides-kitchen-chapter-3",
+      "title": "Chapter 3",
+      "url": "/brides-kitchen-chapter-3",
+      "number": 3,
+      "date": "Agustus 28, 2025"
+    },
+    {
+      "slug": "brides-kitchen-chapter-2",
+      "title": "Chapter 2",
+      "url": "/brides-kitchen-chapter-2",
+      "number": 2,
+      "date": "Agustus 28, 2025"
+    },
+    {
+      "slug": "brides-kitchen-chapter-1",
+      "title": "Chapter 1",
+      "url": "/brides-kitchen-chapter-1",
+      "number": 1,
+      "date": "Agustus 28, 2025"
+    }
+  ]
+}

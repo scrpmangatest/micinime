@@ -1,0 +1,32 @@
+{
+  "slug": "close-but-far",
+  "title": "Close, but Far",
+  "image": "https://komiktap.info/wp-content/uploads/2021/01/close-but-far-47510.jpg",
+  "rating": "7.4",
+  "description": "Seorang wanita berpenampilan manis pindah ke sebelah, tapi ada yang aneh. Bukankah dia sudah menikah? Apa yang dia lakukan?",
+  "status": "Ongoing",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": []
+}

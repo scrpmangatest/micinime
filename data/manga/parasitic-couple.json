@@ -1,0 +1,57 @@
+{
+  "slug": "parasitic-couple",
+  "title": "Parasitic Couple",
+  "image": "https://komiktap.info/wp-content/uploads/2021/10/611c384c4e1f8-1.jpg",
+  "rating": "8.2",
+  "description": "Jawy, yang hidupnya telah hancur karena kehilangan dana pernikahannya dan toko boneka Bart dipecat, terus bekerja sebagai sopir untuk Jey, seorang teman chaebol (Millionaire), dan bertemu dengan Brenda, istri temannya, dan keinginan jahatnya untuk dia bangkit.",
+  "status": "Ongoing",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "parasitic-couple-chapter-4",
+      "title": "Chapter 4",
+      "url": "/parasitic-couple-chapter-4",
+      "number": 4,
+      "date": "Oktober 22, 2021"
+    },
+    {
+      "slug": "parasitic-couple-chapter-3",
+      "title": "Chapter 3",
+      "url": "/parasitic-couple-chapter-3",
+      "number": 3,
+      "date": "Oktober 22, 2021"
+    },
+    {
+      "slug": "parasitic-couple-2",
+      "title": "Chapter 2",
+      "url": "/parasitic-couple-2",
+      "number": 2,
+      "date": "Oktober 18, 2021"
+    },
+    {
+      "slug": "parasitic-chapter-1",
+      "title": "Chapter 1",
+      "url": "/parasitic-chapter-1",
+      "number": 1,
+      "date": "Oktober 18, 2021"
+    }
+  ]
+}

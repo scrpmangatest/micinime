@@ -1,0 +1,48 @@
+{
+  "slug": "virgin-whiteday",
+  "title": "Virgin Whiteday",
+  "image": "https://komiktap.info/wp-content/uploads/2023/04/01-15.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "virgin-whiteday-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/virgin-whiteday-chapter-1",
+      "number": 1,
+      "date": "April 6, 2023"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "tonari-ni-itai-kara",
+  "title": "Tonari ni Itai kara",
+  "image": "https://komiktap.info/wp-content/uploads/2022/10/1.jpg",
+  "rating": "8.5",
+  "description": "Bertemu dengan seorang Wanita",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "tonari-ni-itai-kara-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/tonari-ni-itai-kara-chapter-1",
+      "number": 1,
+      "date": "Oktober 25, 2022"
+    }
+  ]
+}

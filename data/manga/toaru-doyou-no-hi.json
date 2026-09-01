@@ -1,0 +1,28 @@
+{
+  "slug": "toaru-doyou-no-hi",
+  "title": "Toaru Doyou no Hi",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-28.jpg",
+  "rating": "8.5",
+  "description": "Parodi Isekai Shokudou",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "toaru-doyou-no-hi-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/toaru-doyou-no-hi-chapter-1",
+      "number": 1,
+      "date": "Desember 9, 2022"
+    }
+  ]
+}

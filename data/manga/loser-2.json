@@ -1,0 +1,120 @@
+{
+  "slug": "loser-2",
+  "title": "Loser 2",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/l2kt.jpg",
+  "rating": "6.7",
+  "description": "Istri dan ibu mertua yang lucu dan jahat yang merupakan presiden perusahaan konstruksi. Sebelum kejadian itu, kami adalah keluarga yang sempurna. Setelah itu, dia menjadi menantu yang sengsara dan menjalani kehidupan sehari-hari di mana dia tidak bisa berbuat apa-apa.",
+  "status": "Ongoing",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "loser-2-chapter-13",
+      "title": "Chapter 13",
+      "url": "/loser-2-chapter-13",
+      "number": 13,
+      "date": "November 25, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-12",
+      "title": "Chapter 12",
+      "url": "/loser-2-chapter-12",
+      "number": 12,
+      "date": "November 25, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-11",
+      "title": "Chapter 11",
+      "url": "/loser-2-chapter-11",
+      "number": 11,
+      "date": "November 25, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-10",
+      "title": "Chapter 10",
+      "url": "/loser-2-chapter-10",
+      "number": 10,
+      "date": "Juli 20, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-09",
+      "title": "Chapter 9",
+      "url": "/loser-2-chapter-09",
+      "number": 9,
+      "date": "Juli 20, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-08",
+      "title": "Chapter 8",
+      "url": "/loser-2-chapter-08",
+      "number": 8,
+      "date": "Juli 20, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-07",
+      "title": "Chapter 7",
+      "url": "/loser-2-chapter-07",
+      "number": 7,
+      "date": "Juli 20, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-06",
+      "title": "Chapter 6",
+      "url": "/loser-2-chapter-06",
+      "number": 6,
+      "date": "Juli 20, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-05",
+      "title": "Chapter 05",
+      "url": "/loser-2-chapter-05",
+      "number": 5,
+      "date": "Juli 11, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-04",
+      "title": "Chapter 04",
+      "url": "/loser-2-chapter-04",
+      "number": 4,
+      "date": "Juli 11, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-03",
+      "title": "Chapter 03",
+      "url": "/loser-2-chapter-03",
+      "number": 3,
+      "date": "Juli 11, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-02",
+      "title": "Chapter 02",
+      "url": "/loser-2-chapter-02",
+      "number": 2,
+      "date": "Juli 11, 2023"
+    },
+    {
+      "slug": "loser-2-chapter-01",
+      "title": "Chapter 01",
+      "url": "/loser-2-chapter-01",
+      "number": 1,
+      "date": "Juli 11, 2023"
+    }
+  ]
+}

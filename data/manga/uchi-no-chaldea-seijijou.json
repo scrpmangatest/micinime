@@ -1,0 +1,40 @@
+{
+  "slug": "uchi-no-chaldea-seijijou",
+  "title": "Uchi no Chaldea Seijijou",
+  "image": "https://komiktap.info/wp-content/uploads/2023/09/01-8.jpg",
+  "rating": "8.5",
+  "description": "Seorang gadis pelayan yang ingin bertambah dekat dengan tuannya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "uchi-no-chaldea-seijijou-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/uchi-no-chaldea-seijijou-chapter-1",
+      "number": 1,
+      "date": "September 4, 2023"
+    }
+  ]
+}

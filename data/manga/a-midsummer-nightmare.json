@@ -1,0 +1,64 @@
+{
+  "slug": "a-midsummer-nightmare",
+  "title": "A Midsummer Nightmare",
+  "image": "https://komiktap.info/wp-content/uploads/2023/09/mid.jpg",
+  "rating": "5.3",
+  "description": "cuman 5 chapter njir :V",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Smut",
+      "url": "/genres/smut"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "a-midsummer-nightmare-chapter-5-end",
+      "title": "Chapter 5 End",
+      "url": "/a-midsummer-nightmare-chapter-5-end",
+      "number": 5,
+      "date": "September 17, 2023"
+    },
+    {
+      "slug": "a-midsummer-nightmare-chapter-4",
+      "title": "Chapter 4",
+      "url": "/a-midsummer-nightmare-chapter-4",
+      "number": 4,
+      "date": "September 17, 2023"
+    },
+    {
+      "slug": "a-midsummer-nightmare-chapter-3",
+      "title": "Chapter 3",
+      "url": "/a-midsummer-nightmare-chapter-3",
+      "number": 3,
+      "date": "September 17, 2023"
+    },
+    {
+      "slug": "a-midsummer-nightmare-chapter-2",
+      "title": "Chapter 2",
+      "url": "/a-midsummer-nightmare-chapter-2",
+      "number": 2,
+      "date": "September 17, 2023"
+    },
+    {
+      "slug": "a-midsummer-nightmare-chapter-1",
+      "title": "Chapter 1",
+      "url": "/a-midsummer-nightmare-chapter-1",
+      "number": 1,
+      "date": "September 17, 2023"
+    }
+  ]
+}

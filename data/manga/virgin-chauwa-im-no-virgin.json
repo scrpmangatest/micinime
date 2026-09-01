@@ -1,0 +1,44 @@
+{
+  "slug": "virgin-chauwa-im-no-virgin",
+  "title": "Virgin Chauwa!  I’m No Virgin!",
+  "image": "https://komiktap.info/wp-content/uploads/2020/10/01-11.jpg",
+  "rating": "8.4",
+  "description": "Sepasang pemuda suka ribut, padahal masing2 masih perjaka dan perawan",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "virgin-chauwa-im-no-virgin",
+      "title": "Chapter 1",
+      "url": "/virgin-chauwa-im-no-virgin",
+      "number": 1,
+      "date": "Oktober 24, 2020"
+    }
+  ]
+}

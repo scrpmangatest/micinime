@@ -1,0 +1,36 @@
+{
+  "slug": "yoppa-love",
+  "title": "Yoppa Love",
+  "image": "https://komiktap.info/wp-content/uploads/2023/04/01-26.jpg",
+  "rating": "8.5",
+  "description": "Sepupuku datang dalam keadaan mabuk",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "yoppa-love-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/yoppa-love-chapter-1",
+      "number": 1,
+      "date": "April 10, 2023"
+    }
+  ]
+}

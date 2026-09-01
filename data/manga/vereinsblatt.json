@@ -1,0 +1,40 @@
+{
+  "slug": "vereinsblatt",
+  "title": "Vereinsblatt",
+  "image": "https://komiktap.info/wp-content/uploads/2022/10/01-52.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "vereinsblatt-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/vereinsblatt-chapter-1",
+      "number": 1,
+      "date": "Oktober 25, 2022"
+    }
+  ]
+}

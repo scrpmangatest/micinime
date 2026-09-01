@@ -1,0 +1,57 @@
+{
+  "slug": "yumekawa-mahou-shoujo-yumerun",
+  "title": "Yumekawa Mahou Shoujo Yumerun",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/01-65.jpg",
+  "rating": "8.5",
+  "description": "ada energi jahat,…. seorang anak sekolah menjadi mahou shoujo untuk memberantas para monster itu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "yumekawa-mahou-shoujo-yumerun-chapter-4",
+      "title": "Chapter 4",
+      "url": "/yumekawa-mahou-shoujo-yumerun-chapter-4",
+      "number": 4,
+      "date": "Agustus 4, 2023"
+    },
+    {
+      "slug": "yumekawa-mahou-shoujo-yumerun-chapter-3",
+      "title": "Chapter 3",
+      "url": "/yumekawa-mahou-shoujo-yumerun-chapter-3",
+      "number": 3,
+      "date": "Agustus 3, 2023"
+    },
+    {
+      "slug": "yumekawa-mahou-shoujo-yumerun-chapter-2",
+      "title": "Chapter 2",
+      "url": "/yumekawa-mahou-shoujo-yumerun-chapter-2",
+      "number": 2,
+      "date": "Agustus 1, 2023"
+    },
+    {
+      "slug": "yumekawa-mahou-shoujo-yumerun-chapter-1",
+      "title": "Chapter 1",
+      "url": "/yumekawa-mahou-shoujo-yumerun-chapter-1",
+      "number": 1,
+      "date": "Juli 31, 2023"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "hiking-club-that-rotates-meals",
+  "title": "Hiking Club That Rotates Meals",
+  "image": "https://komiktap.info/wp-content/uploads/2026/04/hiking-club-that-rotates-meals-raw-4100.png",
+  "rating": "7.9",
+  "description": "Kisahnya yang cabul dan penuh gejolak, saat ia seorang diri menghadapi semua pria di klub pegunungan tersebut.",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "hiking-club-that-rotates-meals-chapter-06-end",
+      "title": "Chapter 06 End",
+      "url": "/hiking-club-that-rotates-meals-chapter-06-end",
+      "number": 6,
+      "date": "April 18, 2026"
+    },
+    {
+      "slug": "hiking-club-that-rotates-meals-chapter-05",
+      "title": "Chapter 05",
+      "url": "/hiking-club-that-rotates-meals-chapter-05",
+      "number": 5,
+      "date": "April 18, 2026"
+    },
+    {
+      "slug": "hiking-club-that-rotates-meals-chapter-04",
+      "title": "Chapter 04",
+      "url": "/hiking-club-that-rotates-meals-chapter-04",
+      "number": 4,
+      "date": "April 18, 2026"
+    },
+    {
+      "slug": "hiking-club-that-rotates-meals-chapter-03",
+      "title": "Chapter 03",
+      "url": "/hiking-club-that-rotates-meals-chapter-03",
+      "number": 3,
+      "date": "April 18, 2026"
+    },
+    {
+      "slug": "hiking-club-that-rotates-meals-chapter-02",
+      "title": "Chapter 02",
+      "url": "/hiking-club-that-rotates-meals-chapter-02",
+      "number": 2,
+      "date": "April 18, 2026"
+    },
+    {
+      "slug": "hiking-club-that-rotates-meals-chapter-01",
+      "title": "Chapter 01",
+      "url": "/hiking-club-that-rotates-meals-chapter-01",
+      "number": 1,
+      "date": "April 18, 2026"
+    }
+  ]
+}

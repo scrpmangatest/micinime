@@ -1,0 +1,50 @@
+{
+  "slug": "cant-escape-unless-we-do-it",
+  "title": "Can’t Escape Unless We Do It?",
+  "image": "https://komiktap.info/wp-content/uploads/2023/09/end.jpg",
+  "rating": "7.2",
+  "description": "Tentu saja, Asha, la fille du chef, adalah orang yang penasaran yang memilih. Nak ami d’enfance, Roo, qu’elle a touché par hasard. Ketangguhan dan kemegahannya membuat Anda penasaran. Tapi sikap Roo sulit untuk didekati. Sementara itu, Asha est mise à l’épreuve avec Roo, le seul candidat de Duuttuum, pour succéder à son père, qui s’est berkahé à la jambe. Baru saja setelah makanan pembuka masuk ke dalam gua, hidangan pembukanya direferensikan?!",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "cant-escape-unless-we-do-it-chapter-3-end",
+      "title": "Chapter 3 End",
+      "url": "/cant-escape-unless-we-do-it-chapter-3-end",
+      "number": 3,
+      "date": "September 25, 2023"
+    },
+    {
+      "slug": "cant-escape-unless-we-do-it-chapter-2",
+      "title": "Chapter 2",
+      "url": "/cant-escape-unless-we-do-it-chapter-2",
+      "number": 2,
+      "date": "September 25, 2023"
+    },
+    {
+      "slug": "cant-escape-unless-we-do-it-chapter-1",
+      "title": "Chapter 1",
+      "url": "/cant-escape-unless-we-do-it-chapter-1",
+      "number": 1,
+      "date": "September 25, 2023"
+    }
+  ]
+}

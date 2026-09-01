@@ -1,0 +1,50 @@
+{
+  "slug": "yomega-kiss",
+  "title": "Yomega Kiss",
+  "image": "https://komiktap.info/wp-content/uploads/2023/09/Yomega-Kiss.webp",
+  "rating": "7.00",
+  "description": "dipaksa tunduk pada kouhai gyaru yang menyebalkan, kisah romcom yang patut ditiru tentang saling pengertian",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "yomega-kiss-chapter-03",
+      "title": "Chapter 03",
+      "url": "/yomega-kiss-chapter-03",
+      "number": 3,
+      "date": "September 11, 2023"
+    },
+    {
+      "slug": "yomega-kiss-chapter-02",
+      "title": "Chapter 02",
+      "url": "/yomega-kiss-chapter-02",
+      "number": 2,
+      "date": "September 2, 2023"
+    },
+    {
+      "slug": "yomega-kiss-chapter-01",
+      "title": "Chapter 01",
+      "url": "/yomega-kiss-chapter-01",
+      "number": 1,
+      "date": "September 2, 2023"
+    }
+  ]
+}

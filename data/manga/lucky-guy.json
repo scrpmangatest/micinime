@@ -1,0 +1,556 @@
+{
+  "slug": "lucky-guy",
+  "title": "Lucky Guy",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/10488912d695e2a88669f69a7544257b65026cea_449_600_70934.jpeg",
+  "rating": "7.6",
+  "description": "kisah lelaki jomblo yang HOKI bener :v dapat cewek cantek, baca aja sendiri",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Full Color",
+      "url": "/genres/full-color"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "lucky-guy-chapter-73-end",
+      "title": "Chapter 73 End",
+      "url": "/lucky-guy-chapter-73-end",
+      "number": 73,
+      "date": "Juni 5, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-72",
+      "title": "Chapter 72",
+      "url": "/lucky-guy-chapter-72",
+      "number": 72,
+      "date": "Juni 5, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-71",
+      "title": "Chapter 71",
+      "url": "/lucky-guy-chapter-71",
+      "number": 71,
+      "date": "Juni 5, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-70",
+      "title": "Chapter 70",
+      "url": "/lucky-guy-chapter-70",
+      "number": 70,
+      "date": "Mei 18, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-69",
+      "title": "Chapter 69",
+      "url": "/lucky-guy-chapter-69",
+      "number": 69,
+      "date": "Mei 18, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-68",
+      "title": "Chapter 68",
+      "url": "/lucky-guy-chapter-68",
+      "number": 68,
+      "date": "Mei 18, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-67",
+      "title": "Chapter 67",
+      "url": "/lucky-guy-chapter-67",
+      "number": 67,
+      "date": "Mei 18, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-66",
+      "title": "Chapter 66",
+      "url": "/lucky-guy-chapter-66",
+      "number": 66,
+      "date": "April 16, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-65",
+      "title": "Chapter 65",
+      "url": "/lucky-guy-chapter-65",
+      "number": 65,
+      "date": "April 10, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-64",
+      "title": "Chapter 64",
+      "url": "/lucky-guy-chapter-64",
+      "number": 64,
+      "date": "April 10, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-63",
+      "title": "Chapter 63",
+      "url": "/lucky-guy-chapter-63",
+      "number": 63,
+      "date": "Maret 29, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-62",
+      "title": "Chapter 62",
+      "url": "/lucky-guy-chapter-62",
+      "number": 62,
+      "date": "Maret 24, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-61",
+      "title": "Chapter 61",
+      "url": "/lucky-guy-chapter-61",
+      "number": 61,
+      "date": "Maret 24, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-60",
+      "title": "Chapter 60",
+      "url": "/lucky-guy-chapter-60",
+      "number": 60,
+      "date": "Maret 13, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-59",
+      "title": "Chapter 59",
+      "url": "/lucky-guy-chapter-59",
+      "number": 59,
+      "date": "Maret 13, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-58",
+      "title": "Chapter 58",
+      "url": "/lucky-guy-chapter-58",
+      "number": 58,
+      "date": "Februari 24, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-57",
+      "title": "Chapter 57",
+      "url": "/lucky-guy-chapter-57",
+      "number": 57,
+      "date": "Februari 24, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-56",
+      "title": "Chapter 56",
+      "url": "/lucky-guy-chapter-56",
+      "number": 56,
+      "date": "Februari 24, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-55",
+      "title": "Chapter 55",
+      "url": "/lucky-guy-chapter-55",
+      "number": 55,
+      "date": "Februari 6, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-54",
+      "title": "Chapter 54",
+      "url": "/lucky-guy-chapter-54",
+      "number": 54,
+      "date": "Februari 6, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-53",
+      "title": "Chapter 53",
+      "url": "/lucky-guy-chapter-53",
+      "number": 53,
+      "date": "Februari 2, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-52",
+      "title": "Chapter 52",
+      "url": "/lucky-guy-chapter-52",
+      "number": 52,
+      "date": "Januari 19, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-51",
+      "title": "Chapter 51",
+      "url": "/lucky-guy-chapter-51",
+      "number": 51,
+      "date": "Januari 16, 2021"
+    },
+    {
+      "slug": "lucky-guy-chapter-50",
+      "title": "Chapter 50",
+      "url": "/lucky-guy-chapter-50",
+      "number": 50,
+      "date": "Desember 31, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-49",
+      "title": "Chapter 49",
+      "url": "/lucky-guy-chapter-49",
+      "number": 49,
+      "date": "Desember 29, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-48",
+      "title": "Chapter 48",
+      "url": "/lucky-guy-chapter-48",
+      "number": 48,
+      "date": "Desember 26, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-47",
+      "title": "Chapter 47",
+      "url": "/lucky-guy-chapter-47",
+      "number": 47,
+      "date": "Desember 8, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-46",
+      "title": "Chapter 46",
+      "url": "/lucky-guy-chapter-46",
+      "number": 46,
+      "date": "Desember 5, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-45",
+      "title": "Chapter 45",
+      "url": "/lucky-guy-chapter-45",
+      "number": 45,
+      "date": "November 27, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-44",
+      "title": "Chapter 44",
+      "url": "/lucky-guy-chapter-44",
+      "number": 44,
+      "date": "November 25, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-43",
+      "title": "Chapter 43",
+      "url": "/lucky-guy-chapter-43",
+      "number": 43,
+      "date": "November 15, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-42",
+      "title": "Chapter 42",
+      "url": "/lucky-guy-chapter-42",
+      "number": 42,
+      "date": "November 14, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-41",
+      "title": "Chapter 41",
+      "url": "/lucky-guy-chapter-41",
+      "number": 41,
+      "date": "Oktober 26, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-40",
+      "title": "Chapter 40",
+      "url": "/lucky-guy-chapter-40",
+      "number": 40,
+      "date": "Oktober 24, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-39",
+      "title": "Chapter 39",
+      "url": "/lucky-guy-chapter-39",
+      "number": 39,
+      "date": "Oktober 22, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-38",
+      "title": "Chapter 38",
+      "url": "/lucky-guy-chapter-38",
+      "number": 38,
+      "date": "Oktober 1, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-37",
+      "title": "Chapter 37",
+      "url": "/lucky-guy-chapter-37",
+      "number": 37,
+      "date": "September 26, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-36-sub-indo",
+      "title": "Chapter 36 Sub Indo",
+      "url": "/lucky-guy-chapter-36-sub-indo",
+      "number": 36,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-35-sub-indo",
+      "title": "Chapter 35 Sub Indo",
+      "url": "/lucky-guy-chapter-35-sub-indo",
+      "number": 35,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-34-sub-indo",
+      "title": "Chapter 34 Sub Indo",
+      "url": "/lucky-guy-chapter-34-sub-indo",
+      "number": 34,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-33-sub-indo",
+      "title": "Chapter 33 Sub Indo",
+      "url": "/lucky-guy-chapter-33-sub-indo",
+      "number": 33,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-32-sub-indo",
+      "title": "Chapter 32 Sub Indo",
+      "url": "/lucky-guy-chapter-32-sub-indo",
+      "number": 32,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-31-sub-indo",
+      "title": "Chapter 31 Sub Indo",
+      "url": "/lucky-guy-chapter-31-sub-indo",
+      "number": 31,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-30-sub-indo",
+      "title": "Chapter 30 Sub Indo",
+      "url": "/lucky-guy-chapter-30-sub-indo",
+      "number": 30,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-29-sub-indo",
+      "title": "Chapter 29 Sub Indo",
+      "url": "/lucky-guy-chapter-29-sub-indo",
+      "number": 29,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-28-sub-indo",
+      "title": "Chapter 28 Sub Indo",
+      "url": "/lucky-guy-chapter-28-sub-indo",
+      "number": 28,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-27-sub-indo",
+      "title": "Chapter 27 Sub Indo",
+      "url": "/lucky-guy-chapter-27-sub-indo",
+      "number": 27,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-26-sub-indo",
+      "title": "Chapter 26 Sub Indo",
+      "url": "/lucky-guy-chapter-26-sub-indo",
+      "number": 26,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-25-sub-indo",
+      "title": "Chapter 25 Sub Indo",
+      "url": "/lucky-guy-chapter-25-sub-indo",
+      "number": 25,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-24-sub-indo",
+      "title": "Chapter 24 Sub Indo",
+      "url": "/lucky-guy-chapter-24-sub-indo",
+      "number": 24,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-23-sub-indo",
+      "title": "Chapter 23 Sub Indo",
+      "url": "/lucky-guy-chapter-23-sub-indo",
+      "number": 23,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-22-sub-indo",
+      "title": "Chapter 22 Sub Indo",
+      "url": "/lucky-guy-chapter-22-sub-indo",
+      "number": 22,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-21-sub-indo",
+      "title": "Chapter 21 Sub Indo",
+      "url": "/lucky-guy-chapter-21-sub-indo",
+      "number": 21,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-20-sub-indo",
+      "title": "Chapter 20 Sub Indo",
+      "url": "/lucky-guy-chapter-20-sub-indo",
+      "number": 20,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-19-sub-indo",
+      "title": "Chapter 19 Sub Indo",
+      "url": "/lucky-guy-chapter-19-sub-indo",
+      "number": 19,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-18-sub-indo",
+      "title": "Chapter 18 Sub Indo",
+      "url": "/lucky-guy-chapter-18-sub-indo",
+      "number": 18,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-17-sub-indo",
+      "title": "Chapter 17 Sub Indo",
+      "url": "/lucky-guy-chapter-17-sub-indo",
+      "number": 17,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-16-sub-indo",
+      "title": "Chapter 16 Sub Indo",
+      "url": "/lucky-guy-chapter-16-sub-indo",
+      "number": 16,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-15-sub-indo",
+      "title": "Chapter 15 Sub Indo",
+      "url": "/lucky-guy-chapter-15-sub-indo",
+      "number": 15,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-14-sub-indo",
+      "title": "Chapter 14 Sub Indo",
+      "url": "/lucky-guy-chapter-14-sub-indo",
+      "number": 14,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-13-sub-indo",
+      "title": "Chapter 13 Sub Indo",
+      "url": "/lucky-guy-chapter-13-sub-indo",
+      "number": 13,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-12-sub-indo",
+      "title": "Chapter 12 Sub Indo",
+      "url": "/lucky-guy-chapter-12-sub-indo",
+      "number": 12,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-11-sub-indo",
+      "title": "Chapter 11 Sub Indo",
+      "url": "/lucky-guy-chapter-11-sub-indo",
+      "number": 11,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-10-sub-indo",
+      "title": "Chapter 10 Sub Indo",
+      "url": "/lucky-guy-chapter-10-sub-indo",
+      "number": 10,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-9-sub-indo",
+      "title": "Chapter 9 Sub Indo",
+      "url": "/lucky-guy-chapter-9-sub-indo",
+      "number": 9,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-8-sub-indo",
+      "title": "Chapter 8 Sub Indo",
+      "url": "/lucky-guy-chapter-8-sub-indo",
+      "number": 8,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-7-sub-indo",
+      "title": "Chapter 7 Sub Indo",
+      "url": "/lucky-guy-chapter-7-sub-indo",
+      "number": 7,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-6-sub-indo",
+      "title": "Chapter 6 Sub Indo",
+      "url": "/lucky-guy-chapter-6-sub-indo",
+      "number": 6,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-5-sub-indo",
+      "title": "Chapter 5 Sub Indo",
+      "url": "/lucky-guy-chapter-5-sub-indo",
+      "number": 5,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-4-sub-indo",
+      "title": "Chapter 4 Sub Indo",
+      "url": "/lucky-guy-chapter-4-sub-indo",
+      "number": 4,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-3-sub-indo",
+      "title": "Chapter 3 Sub Indo",
+      "url": "/lucky-guy-chapter-3-sub-indo",
+      "number": 3,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-2-sub-indo",
+      "title": "Chapter 2 Sub Indo",
+      "url": "/lucky-guy-chapter-2-sub-indo",
+      "number": 2,
+      "date": "September 4, 2020"
+    },
+    {
+      "slug": "lucky-guy-chapter-1-sub-indo",
+      "title": "Chapter 1 Sub Indo",
+      "url": "/lucky-guy-chapter-1-sub-indo",
+      "number": 1,
+      "date": "September 4, 2020"
+    }
+  ]
+}

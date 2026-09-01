@@ -1,0 +1,43 @@
+{
+  "slug": "uchi-ni-neko-ga-yattekita",
+  "title": "Uchi ni Neko ga Yattekita!",
+  "image": "https://komiktap.info/wp-content/uploads/2020/12/Uchi-ni-Neko-ga-Yattekita.jpg",
+  "rating": "7",
+  "description": "Kisah Bocah di kasih kucing ama neneknya dan tiba” kucingnya jadi Loli :V",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Full Color",
+      "url": "/genres/full-color"
+    },
+    {
+      "name": "Lolicon",
+      "url": "/genres/lolicon"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "uchi-ni-neko-ga-yattekita-chapter-02-bahasa-indonesia",
+      "title": "Chapter 2",
+      "url": "/uchi-ni-neko-ga-yattekita-chapter-02-bahasa-indonesia",
+      "number": 2,
+      "date": "Januari 7, 2021"
+    },
+    {
+      "slug": "uchi-ni-neko-ga-yattekita-chapter-1",
+      "title": "Chapter 1",
+      "url": "/uchi-ni-neko-ga-yattekita-chapter-1",
+      "number": 1,
+      "date": "Desember 3, 2020"
+    }
+  ]
+}

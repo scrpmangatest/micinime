@@ -1,0 +1,107 @@
+{
+  "slug": "anonymous-7",
+  "title": "Anonymous 7",
+  "image": "https://komiktap.info/wp-content/uploads/2025/04/Anonymous-7.webp",
+  "rating": "8.7",
+  "description": "Seorang gadis bernama hayoung yang mencoba mencari saran diinternet agar bisa dekat dengan pria tampan yang dia sukai namun secara tak disangka dia malah mengetahui bahwa seseorang yang memberikannya saran diinternet ternyata pria yang dia sukai…",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "anonymous-7-chapter-10",
+      "title": "Chapter 10",
+      "url": "/anonymous-7-chapter-10",
+      "number": 10,
+      "date": "Mei 1, 2025"
+    },
+    {
+      "slug": "anonymous-7-chapter-9",
+      "title": "Chapter 9",
+      "url": "/anonymous-7-chapter-9",
+      "number": 9,
+      "date": "April 25, 2025"
+    },
+    {
+      "slug": "anonymous-7-chapter-8",
+      "title": "Chapter 8",
+      "url": "/anonymous-7-chapter-8",
+      "number": 8,
+      "date": "April 17, 2025"
+    },
+    {
+      "slug": "anonymous-7-chapter-7",
+      "title": "Chapter 7",
+      "url": "/anonymous-7-chapter-7",
+      "number": 7,
+      "date": "April 12, 2025"
+    },
+    {
+      "slug": "anonymous-7-chapter-6",
+      "title": "Chapter 6",
+      "url": "/anonymous-7-chapter-6",
+      "number": 6,
+      "date": "April 11, 2025"
+    },
+    {
+      "slug": "anonymous-7-chapter-5",
+      "title": "Chapter 5",
+      "url": "/anonymous-7-chapter-5",
+      "number": 5,
+      "date": "April 11, 2025"
+    },
+    {
+      "slug": "anonymous-7-chapter-4",
+      "title": "Chapter 4",
+      "url": "/anonymous-7-chapter-4",
+      "number": 4,
+      "date": "April 11, 2025"
+    },
+    {
+      "slug": "anonymous-7-chapter-3",
+      "title": "Chapter 3",
+      "url": "/anonymous-7-chapter-3",
+      "number": 3,
+      "date": "April 11, 2025"
+    },
+    {
+      "slug": "anonymous-7-chapter-2",
+      "title": "Chapter 2",
+      "url": "/anonymous-7-chapter-2",
+      "number": 2,
+      "date": "April 11, 2025"
+    },
+    {
+      "slug": "anonymous-7-chapter-1",
+      "title": "Chapter 1",
+      "url": "/anonymous-7-chapter-1",
+      "number": 1,
+      "date": "April 11, 2025"
+    }
+  ]
+}

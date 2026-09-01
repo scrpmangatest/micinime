@@ -1,0 +1,36 @@
+{
+  "slug": "friends",
+  "title": "Friends",
+  "image": "https://komiktap.info/wp-content/uploads/2021/05/Friends-toptoon-193x278-1.jpg",
+  "rating": "8",
+  "description": "Setiap kali aku memikirkan tentang gambar erotis, Seunghyun adalah kamu selalu…",
+  "status": "Ongoing",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "friends-chapter-1",
+      "title": "Chapter 1",
+      "url": "/friends-chapter-1",
+      "number": 1,
+      "date": "Mei 3, 2021"
+    }
+  ]
+}

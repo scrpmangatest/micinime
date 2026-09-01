@@ -1,0 +1,78 @@
+{
+  "slug": "zutto-suki-datta",
+  "title": "Zutto Suki Datta",
+  "image": "https://komiktap.info/wp-content/uploads/2021/09/zutto.jpg",
+  "rating": "10",
+  "description": "Lakik, Wajib Baca, Kalo Bukan Lakik Mending Tidur Aja :v",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Doujin",
+      "url": "/genres/doujin"
+    },
+    {
+      "name": "Manga",
+      "url": "/genres/manga"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "zutto-suki-datta-chapter-7",
+      "title": "Chapter 7",
+      "url": "/zutto-suki-datta-chapter-7",
+      "number": 7,
+      "date": "September 8, 2021"
+    },
+    {
+      "slug": "zutto-suki-datta-chapter-6",
+      "title": "Chapter 6",
+      "url": "/zutto-suki-datta-chapter-6",
+      "number": 6,
+      "date": "September 8, 2021"
+    },
+    {
+      "slug": "zutto-suki-datta-chapter-5",
+      "title": "Chapter 5",
+      "url": "/zutto-suki-datta-chapter-5",
+      "number": 5,
+      "date": "September 8, 2021"
+    },
+    {
+      "slug": "zutto-suki-datta-chapter-4",
+      "title": "Chapter 4",
+      "url": "/zutto-suki-datta-chapter-4",
+      "number": 4,
+      "date": "September 8, 2021"
+    },
+    {
+      "slug": "zutto-suki-datta-chapter-3",
+      "title": "Chapter 3",
+      "url": "/zutto-suki-datta-chapter-3",
+      "number": 3,
+      "date": "September 8, 2021"
+    },
+    {
+      "slug": "zutto-suki-datta-chapter-2",
+      "title": "Chapter 2",
+      "url": "/zutto-suki-datta-chapter-2",
+      "number": 2,
+      "date": "September 8, 2021"
+    },
+    {
+      "slug": "zutto-suki-datta-chapter-1",
+      "title": "Chapter 1",
+      "url": "/zutto-suki-datta-chapter-1",
+      "number": 1,
+      "date": "September 8, 2021"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "yowa-yowa-sensei",
+  "title": "Yowa Yowa Sensei",
+  "image": "https://komiktap.info/wp-content/uploads/2024/02/Yowa-Yowa-Sensei.jpg",
+  "rating": "7.00",
+  "description": "Sekarang ini awal tahun ajaran baru. Guru wali kelas baru untuk Abikura-kun, siswa SMA kelas dua, adalah Hiyori Uwamura, yang dikenal sebagai “Guru Menakutkan”, dikabarkan akan mengutukmu jika dia tersinggung! Suatu hari sepulang sekolah, Abikura-kun menyaksikan sisi lain dari “YowaYowa-sensei”… dan dia dikejutkan oleh kesenjangan antara reputasi dan kenyataan! Pembukaan komedi romantis yang akan membangkitkan insting perlindunganmu!!",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    },
+    {
+      "name": "Shounen",
+      "url": "/genres/shounen"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "yowa-yowa-sensei-chapter-06",
+      "title": "Chapter 06",
+      "url": "/yowa-yowa-sensei-chapter-06",
+      "number": 6,
+      "date": "Februari 2, 2024"
+    },
+    {
+      "slug": "yowa-yowa-sensei-chapter-05",
+      "title": "Chapter 05",
+      "url": "/yowa-yowa-sensei-chapter-05",
+      "number": 5,
+      "date": "Februari 2, 2024"
+    },
+    {
+      "slug": "yowa-yowa-sensei-chapter-04",
+      "title": "Chapter 04",
+      "url": "/yowa-yowa-sensei-chapter-04",
+      "number": 4,
+      "date": "Februari 2, 2024"
+    },
+    {
+      "slug": "yowa-yowa-sensei-chapter-03",
+      "title": "Chapter 03",
+      "url": "/yowa-yowa-sensei-chapter-03",
+      "number": 3,
+      "date": "Februari 2, 2024"
+    },
+    {
+      "slug": "yowa-yowa-sensei-chapter-02",
+      "title": "Chapter 02",
+      "url": "/yowa-yowa-sensei-chapter-02",
+      "number": 2,
+      "date": "Februari 2, 2024"
+    },
+    {
+      "slug": "yowa-yowa-sensei-chapter-01",
+      "title": "Chapter 01",
+      "url": "/yowa-yowa-sensei-chapter-01",
+      "number": 1,
+      "date": "Februari 2, 2024"
+    }
+  ]
+}

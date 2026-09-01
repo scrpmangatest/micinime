@@ -1,0 +1,36 @@
+{
+  "slug": "tourou-no-ono",
+  "title": "Tourou no Ono",
+  "image": "https://komiktap.info/wp-content/uploads/2022/04/01-8.jpg",
+  "rating": "8.5",
+  "description": "terdapat demi-human… di pedesaan tsb membuat sekelompok orang muak dengan keberadaannya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Monster Girl",
+      "url": "/genres/monster-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "tourou-no-ono-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/tourou-no-ono-chapter-1",
+      "number": 1,
+      "date": "April 29, 2022"
+    }
+  ]
+}

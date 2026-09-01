@@ -1,0 +1,96 @@
+{
+  "slug": "zombie-sagashitemasu",
+  "title": "Zombie Sagashitemasu",
+  "image": "https://komiktap.info/wp-content/uploads/2023/08/Im-Looking-For-Zombie-LookingForZombies-ゾンビさがしてます.webp",
+  "rating": "7.00",
+  "description": "Manga ini berlatarkan dunia di mana 90 persen manusia di Bumi telah tertular dan mati karena penyakit yang mematikan dan mematikan; hanya untuk kemudian bangkit kembali sebagai zombie yang hanya menyerang manusia. 13 tahun setelah “Hari Merah” keruntuhan masyarakat dan peradaban itu, manusia yang selamat bertahan hidup jauh dari kota-kota besar, sambil tetap berharap untuk merebutnya kembali suatu hari nanti. Generasi orang yang benar-benar baru yang tidak tahu apa-apa tentang dunia sebelum Hari Merah kini menjadi milik mereka sendiri. Cerita dimulai ketika Aki dan teman dekatnya Haru dan Natsuki memulai perjalanan untuk menemukan ayah Aki yang hilang.",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Action",
+      "url": "/genres/action"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mystery",
+      "url": "/genres/mystery"
+    },
+    {
+      "name": "Thriller",
+      "url": "/genres/thriller"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "zombie-sagashitemasu-chapter-09",
+      "title": "Chapter 09",
+      "url": "/zombie-sagashitemasu-chapter-09",
+      "number": 9,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "zombie-sagashitemasu-chapter-08",
+      "title": "Chapter 08",
+      "url": "/zombie-sagashitemasu-chapter-08",
+      "number": 8,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "zombie-sagashitemasu-chapter-07",
+      "title": "Chapter 07",
+      "url": "/zombie-sagashitemasu-chapter-07",
+      "number": 7,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "zombie-sagashitemasu-chapter-06",
+      "title": "Chapter 06",
+      "url": "/zombie-sagashitemasu-chapter-06",
+      "number": 6,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "zombie-sagashitemasu-chapter-05",
+      "title": "Chapter 05",
+      "url": "/zombie-sagashitemasu-chapter-05",
+      "number": 5,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "zombie-sagashitemasu-chapter-04",
+      "title": "Chapter 04",
+      "url": "/zombie-sagashitemasu-chapter-04",
+      "number": 4,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "zombie-sagashitemasu-chapter-03",
+      "title": "Chapter 03",
+      "url": "/zombie-sagashitemasu-chapter-03",
+      "number": 3,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "zombie-sagashitemasu-chapter-02",
+      "title": "Chapter 02",
+      "url": "/zombie-sagashitemasu-chapter-02",
+      "number": 2,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "zombie-sagashitemasu-chapter-01",
+      "title": "Chapter 01",
+      "url": "/zombie-sagashitemasu-chapter-01",
+      "number": 1,
+      "date": "Agustus 24, 2023"
+    }
+  ]
+}

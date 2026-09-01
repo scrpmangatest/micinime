@@ -1,0 +1,32 @@
+{
+  "slug": "watashi-wa-onna-no-ko",
+  "title": "Watashi wa Onna no Ko",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-40.jpg",
+  "rating": "8.5",
+  "description": "dojin yang sangat wholesome, sangat baik untuk ketenangan jiwa",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "watashi-wa-onna-no-ko-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/watashi-wa-onna-no-ko-chapter-1",
+      "number": 1,
+      "date": "Desember 12, 2022"
+    }
+  ]
+}

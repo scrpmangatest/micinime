@@ -1,0 +1,44 @@
+{
+  "slug": "warped-mind",
+  "title": "Warped Mind",
+  "image": "https://komiktap.info/wp-content/uploads/2024/06/01-4.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "warped-mind-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/warped-mind-chapter-1",
+      "number": 1,
+      "date": "Juni 15, 2024"
+    }
+  ]
+}

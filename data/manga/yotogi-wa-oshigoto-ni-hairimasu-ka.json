@@ -1,0 +1,36 @@
+{
+  "slug": "yotogi-wa-oshigoto-ni-hairimasu-ka",
+  "title": "Yotogi wa Oshigoto ni Hairimasu ka",
+  "image": "https://komiktap.info/wp-content/uploads/2023/04/01-41.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Azur Lane",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "yotogi-wa-oshigoto-ni-hairimasu-ka-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/yotogi-wa-oshigoto-ni-hairimasu-ka-chapter-1",
+      "number": 1,
+      "date": "April 16, 2023"
+    }
+  ]
+}

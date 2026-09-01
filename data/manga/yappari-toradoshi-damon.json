@@ -1,0 +1,36 @@
+{
+  "slug": "yappari-toradoshi-damon",
+  "title": "Yappari Toradoshi Damon",
+  "image": "https://komiktap.info/wp-content/uploads/2024/03/01-16.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Fate Stay Night",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "yappari-toradoshi-damono-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/yappari-toradoshi-damono-chapter-1",
+      "number": 1,
+      "date": "Maret 11, 2024"
+    }
+  ]
+}

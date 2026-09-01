@@ -1,0 +1,144 @@
+{
+  "slug": "bad-mom",
+  "title": "Bad Mom",
+  "image": "https://komiktap.info/wp-content/uploads/2022/10/Bad-Mom.png",
+  "rating": "6.8",
+  "description": "Ryan memiliki ibu tiri baru. Dia cantik, pintar dan seusianya. Apa yang akan terjadi ketika dia memutuskan untuk bermain dengannya?",
+  "status": "Completed",
+  "type": "Manhwa",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "bad-mom-chapter-17-end",
+      "title": "Chapter 17 End",
+      "url": "/bad-mom-chapter-17-end",
+      "number": 17,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-16",
+      "title": "Chapter 16",
+      "url": "/bad-mom-chapter-16",
+      "number": 16,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-15",
+      "title": "Chapter 15",
+      "url": "/bad-mom-chapter-15",
+      "number": 15,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-14",
+      "title": "Chapter 14",
+      "url": "/bad-mom-chapter-14",
+      "number": 14,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-13",
+      "title": "Chapter 13",
+      "url": "/bad-mom-chapter-13",
+      "number": 13,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-12",
+      "title": "Chapter 12",
+      "url": "/bad-mom-chapter-12",
+      "number": 12,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-11",
+      "title": "Chapter 11",
+      "url": "/bad-mom-chapter-11",
+      "number": 11,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-10",
+      "title": "Chapter 10",
+      "url": "/bad-mom-chapter-10",
+      "number": 10,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-09",
+      "title": "Chapter 9",
+      "url": "/bad-mom-chapter-09",
+      "number": 9,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-08",
+      "title": "Chapter 8",
+      "url": "/bad-mom-chapter-08",
+      "number": 8,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-07",
+      "title": "Chapter 7",
+      "url": "/bad-mom-chapter-07",
+      "number": 7,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-06",
+      "title": "Chapter 6",
+      "url": "/bad-mom-chapter-06",
+      "number": 6,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-05",
+      "title": "Chapter 5",
+      "url": "/bad-mom-chapter-05",
+      "number": 5,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-04",
+      "title": "Chapter 4",
+      "url": "/bad-mom-chapter-04",
+      "number": 4,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-03",
+      "title": "Chapter 3",
+      "url": "/bad-mom-chapter-03",
+      "number": 3,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-02",
+      "title": "Chapter 2",
+      "url": "/bad-mom-chapter-02",
+      "number": 2,
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "slug": "bad-mom-chapter-01",
+      "title": "Chapter 1",
+      "url": "/bad-mom-chapter-01",
+      "number": 1,
+      "date": "Oktober 9, 2022"
+    }
+  ]
+}

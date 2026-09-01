@@ -1,0 +1,48 @@
+{
+  "slug": "tsumaduki",
+  "title": "Tsumaduki",
+  "image": "https://komiktap.info/wp-content/uploads/2023/04/01-63.jpg",
+  "rating": "8.5",
+  "description": "Menginap bersama rekan kerja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Threesome",
+      "url": "/genres/threesome"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "tsumaduki-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/tsumaduki-chapter-1",
+      "number": 1,
+      "date": "April 27, 2023"
+    }
+  ]
+}
