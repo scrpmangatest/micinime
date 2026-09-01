@@ -139,6 +139,23 @@ async function handleApi(context, segments) {
     return new Response(response.body, { status: response.status, headers });
   }
 
+  if (segments.length >= 1 && segments[0] === 'histats') {
+    const sub = segments.slice(1).join('/');
+    const base = sub.startsWith('0.gif') ? 'https://sstatic1.histats.com' : 'https://s10.histats.com';
+    const remote = `${base}/${sub}${url.search}`;
+    const response = await fetch(remote, { headers: { 'User-Agent': 'Mozilla/5.0', Referer: 'https://micinime.my.id/' }, cf: { cacheTtl: 86400, cacheEverything: true } });
+    if (!response.ok) return new Response('Histats unavailable', { status: response.status });
+    const headers = new Headers(response.headers);
+    const contentType = response.headers.get('content-type') || '';
+    if (contentType.includes('javascript') || sub.endsWith('.js')) headers.set('Content-Type', 'application/javascript; charset=utf-8');
+    headers.set('Cache-Control', 'public, max-age=3600');
+    let body = await response.text();
+    if (sub.endsWith('js15_as.js')) {
+      body = body.replace(/s10\.histats\.com/g, 'micinime.my.id/api/histats').replace(/sstatic1\.histats\.com/g, 'micinime.my.id/api/histats');
+    }
+    return new Response(body, { status: 200, headers });
+  }
+
   if (segments.length === 1 && segments[0] === 'track-read') return json({ ok: true });
 
   return json({ error: 'Not found' }, 404);
