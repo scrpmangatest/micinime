@@ -1,0 +1,39 @@
+{
+  "slug": "ochiro-nettori-shinan",
+  "title": "Ochiro! Nettori Shinan!",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/001-234.jpg",
+  "rating": "8.3",
+  "description": "Kei-chan melakukan apapun untuk Yumeko akan tetapi perlakuan dia terhadapnya sangat dingin, ibunya Yumeko melatihnya agar Yumeko jadi terpikat",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ochiro-nettori-shinan-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/ochiro-nettori-shinan-chapter-2",
+      "number": 2,
+      "date": "September 9, 2020"
+    },
+    {
+      "slug": "ochiro-nettori-shinan-chapter-1",
+      "title": "Chapter 1",
+      "url": "/ochiro-nettori-shinan-chapter-1",
+      "number": 1,
+      "date": "September 9, 2020"
+    }
+  ]
+}

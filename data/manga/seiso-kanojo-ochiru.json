@@ -1,0 +1,35 @@
+{
+  "slug": "seiso-kanojo-ochiru",
+  "title": "Seiso Kanojo, Ochiru",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/03-14.jpg",
+  "rating": "8.1",
+  "description": "Peraturan sekolah dimana siswa dan siswi dilarang untuk berpacaran,namun sialnya mereka ketahuan.. si wanita tersebut diancam oleh salah satu siswa kelas 3.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "seiso-kanojo-ochiru-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/seiso-kanojo-ochiru-chapter-2",
+      "number": 2,
+      "date": "April 23, 2022"
+    },
+    {
+      "slug": "seiso-kanojo-ochiru-chapter-1",
+      "title": "Chapter 1",
+      "url": "/seiso-kanojo-ochiru-chapter-1",
+      "number": 1,
+      "date": "September 10, 2020"
+    }
+  ]
+}

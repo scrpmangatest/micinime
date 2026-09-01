@@ -1,0 +1,28 @@
+{
+  "slug": "saimin-gokko",
+  "title": "Saimin Gokko",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/001-18.jpg",
+  "rating": "8.3",
+  "description": "Sakamoto Sensei mencoba aplikasi hipnotis yg dia dapat dari muridnya, dan dia mencoba memprakterkan ke Kohinata Sensei",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "saimin-gokko-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/saimin-gokko-chapter-1",
+      "number": 1,
+      "date": "September 9, 2020"
+    }
+  ]
+}

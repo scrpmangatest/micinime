@@ -1,0 +1,28 @@
+{
+  "slug": "sneaking-in",
+  "title": "Sneaking in",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/03-12.jpg",
+  "rating": "8.3",
+  "description": "Parodi Game FGO.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sneaking-in-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sneaking-in-chapter-1",
+      "number": 1,
+      "date": "September 12, 2020"
+    }
+  ]
+}

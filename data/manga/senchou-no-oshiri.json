@@ -1,0 +1,36 @@
+{
+  "slug": "senchou-no-oshiri",
+  "title": "Senchou no Oshiri",
+  "image": "https://komiktap.info/wp-content/uploads/2023/02/01-60.jpg",
+  "rating": "8.5",
+  "description": "Marine yang selalu diejek viewersnya karena pantatnya yang terlalu besar. Akhirnya dia mengadu pada cowok dan terjadilah sesuatu.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "senchou-no-oshiri-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/senchou-no-oshiri-chapter-1",
+      "number": 1,
+      "date": "Februari 21, 2023"
+    }
+  ]
+}

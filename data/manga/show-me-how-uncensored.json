@@ -1,0 +1,54 @@
+{
+  "slug": "show-me-how-uncensored",
+  "title": "Show Me How (Uncensored)",
+  "image": "https://komiktap.info/wp-content/uploads/2025/11/show-me-how-uncensored.webp",
+  "rating": "7.9",
+  "description": "Judul favorit sepanjang masa, Teach Me First!, kembali hadir dalam spin-off yang sangat seru! Simak apa yang siap dilakukan Ember untuk menjadi bagian dari keluarga ini dan bagaimana Mia akan membuatnya sesulit mungkin. Percayalah, bukan hanya tantangannya saja yang akan sulit!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "show-me-how-uncensored-chapter-3-end",
+      "title": "Chapter 3 End",
+      "url": "/show-me-how-uncensored-chapter-3-end",
+      "number": 3,
+      "date": "November 2, 2025"
+    },
+    {
+      "slug": "show-me-how-uncensored-chapter-2",
+      "title": "Chapter 2",
+      "url": "/show-me-how-uncensored-chapter-2",
+      "number": 2,
+      "date": "November 2, 2025"
+    },
+    {
+      "slug": "show-me-how-uncensored-chapter-1",
+      "title": "Chapter 1",
+      "url": "/show-me-how-uncensored-chapter-1",
+      "number": 1,
+      "date": "November 2, 2025"
+    }
+  ]
+}

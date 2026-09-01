@@ -1,0 +1,28 @@
+{
+  "slug": "temptation",
+  "title": "Temptation",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-53.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Princess Connect",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "temptation-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/temptation-chapter-1",
+      "number": 1,
+      "date": "Desember 16, 2022"
+    }
+  ]
+}

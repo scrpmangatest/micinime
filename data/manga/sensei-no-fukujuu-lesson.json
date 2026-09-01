@@ -1,0 +1,64 @@
+{
+  "slug": "sensei-no-fukujuu-lesson",
+  "title": "Sensei no Fukujuu Lesson",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/02-19.jpg",
+  "rating": "8.5",
+  "description": "Shimizu Sering menatap gurunya saat pelajaran kaligrafi jepang, nampaknya Gurunya mengetahui hal tersebut…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sensei-no-fukujuu-lesson-chapter-5",
+      "title": "Chapter 5 End",
+      "url": "/sensei-no-fukujuu-lesson-chapter-5",
+      "number": 5,
+      "date": "September 10, 2020"
+    },
+    {
+      "slug": "sensei-no-fukujuu-lesson-chapter-4",
+      "title": "Chapter 4",
+      "url": "/sensei-no-fukujuu-lesson-chapter-4",
+      "number": 4,
+      "date": "September 10, 2020"
+    },
+    {
+      "slug": "sensei-no-fukujuu-lesson-chapter-3",
+      "title": "Chapter 3",
+      "url": "/sensei-no-fukujuu-lesson-chapter-3",
+      "number": 3,
+      "date": "September 10, 2020"
+    },
+    {
+      "slug": "sensei-no-fukujuu-lesson-chapter-2",
+      "title": "Chapter 2",
+      "url": "/sensei-no-fukujuu-lesson-chapter-2",
+      "number": 2,
+      "date": "September 10, 2020"
+    },
+    {
+      "slug": "sensei-no-fukujuu-lesson-chapter-1",
+      "title": "Chapter 1",
+      "url": "/sensei-no-fukujuu-lesson-chapter-1",
+      "number": 1,
+      "date": "September 10, 2020"
+    }
+  ]
+}

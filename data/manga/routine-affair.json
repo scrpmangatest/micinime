@@ -1,0 +1,40 @@
+{
+  "slug": "routine-affair",
+  "title": "Routine Affair",
+  "image": "https://komiktap.info/wp-content/uploads/2021/05/001-5.jpg",
+  "rating": "8.5",
+  "description": "Reuni dan ngewe",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Sole Female",
+      "url": "/genres/sole-female"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "routine-affair-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/routine-affair-chapter-1",
+      "number": 1,
+      "date": "Mei 5, 2021"
+    }
+  ]
+}

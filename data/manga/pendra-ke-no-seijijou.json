@@ -1,0 +1,40 @@
+{
+  "slug": "pendra-ke-no-seijijou",
+  "title": "Pendra-ke no Seijijou",
+  "image": "https://komiktap.info/wp-content/uploads/2021/11/001-8.jpg",
+  "rating": "8.5",
+  "description": "Parodi FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "pendra-ke-no-seijijou-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/pendra-ke-no-seijijou-chapter-1",
+      "number": 1,
+      "date": "November 27, 2021"
+    }
+  ]
+}

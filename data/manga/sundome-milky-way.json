@@ -1,0 +1,79 @@
+{
+  "slug": "sundome-milky-way",
+  "title": "Sundome!! Milky Way",
+  "image": "https://komiktap.info/wp-content/uploads/2023/05/1610729998-4323-a2-4.webp",
+  "rating": "6",
+  "description": "Sakura Yoshitake adalah seorang pekerja kantoran berusia 25 tahun yang bekerja di sebuah perusahaan produksi makanan. Suatu hari dia mengambil cuti untuk pergi ke ulang tahun neneknya yang ke 88. Saat perjalanan pulang setelah pesta ia melihat UFO dan mengalami kecelakaan. Dia bertahan dari kecelakaan itu dan menemukan makhluk asing yang mengerikan berdiri di dekatnya. Dia pingsan dan saat dia sadar, dia berada di tempat tidurnya sendiri di apartemennya sendiri, ditutupi perban. Terlebih lagi, ia menemukan gadis pirang cantik setengah telanjang tidur di sampingnya. Saat dia terbangun dia mengatakan kepadanya bahwa dia telah datang ke bumi untuk dihamili olehnya. Namun saat dia menyentuhnya, rasa malunya membuat dia kehilangan kendali dan dia kembali ke alien yang mengerikan yang dia lihat sebelumnya. Bagaimana dia akan menghamilinya jika dia tidak bisa mengendalikan rasa malunya yang cukup untuk membiarkan dia menyentuhnya?",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Sci-fi",
+      "url": "/genres/sci-fi"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sundome-milky-way-chapter-05-5",
+      "title": "Chapter 05.5",
+      "url": "/sundome-milky-way-chapter-05-5",
+      "number": 5.5,
+      "date": "Mei 28, 2023"
+    },
+    {
+      "slug": "sundome-milky-way-chapter-05",
+      "title": "Chapter 05",
+      "url": "/sundome-milky-way-chapter-05",
+      "number": 5,
+      "date": "Mei 28, 2023"
+    },
+    {
+      "slug": "sundome-milky-way-chapter-04",
+      "title": "Chapter 04",
+      "url": "/sundome-milky-way-chapter-04",
+      "number": 4,
+      "date": "Mei 28, 2023"
+    },
+    {
+      "slug": "sundome-milky-way-chapter-03",
+      "title": "Chapter 03",
+      "url": "/sundome-milky-way-chapter-03",
+      "number": 3,
+      "date": "Mei 28, 2023"
+    },
+    {
+      "slug": "sundome-milky-way-chapter-02",
+      "title": "Chapter 02",
+      "url": "/sundome-milky-way-chapter-02",
+      "number": 2,
+      "date": "Mei 28, 2023"
+    },
+    {
+      "slug": "sundome-milky-way-chapter-01",
+      "title": "Chapter 01",
+      "url": "/sundome-milky-way-chapter-01",
+      "number": 1,
+      "date": "Mei 28, 2023"
+    }
+  ]
+}

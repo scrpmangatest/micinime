@@ -1,0 +1,35 @@
+{
+  "slug": "one-room-bloom",
+  "title": "One Room Bloom",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/1-2-1-722x1024-1.jpg",
+  "rating": "8.3",
+  "description": "bercerita sepasang rekan kerja indehoy di hotel dah gitu aja!",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "one-room-bloom-chapter-2",
+      "title": "Chapter 2",
+      "url": "/one-room-bloom-chapter-2",
+      "number": 2,
+      "date": "Maret 16, 2021"
+    },
+    {
+      "slug": "one-room-bloom-chapter-1",
+      "title": "Chapter 1",
+      "url": "/one-room-bloom-chapter-1",
+      "number": 1,
+      "date": "September 9, 2020"
+    }
+  ]
+}

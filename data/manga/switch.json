@@ -1,0 +1,28 @@
+{
+  "slug": "switch",
+  "title": "Switch",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/001-13.jpg",
+  "rating": "8.3",
+  "description": "Pacaran dengan Murid sendiri",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "switch-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/switch-chapter-1",
+      "number": 1,
+      "date": "September 22, 2020"
+    }
+  ]
+}

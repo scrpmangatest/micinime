@@ -1,0 +1,32 @@
+{
+  "slug": "onna-no-kokoro-o-ossanka-suru-camera",
+  "title": "Onna no Kokoro o Ossanka Suru Camera",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-26.jpg",
+  "rating": "8.5",
+  "description": "sebuah kamera yang dapat membuatmu dapat masuk kepikiran orang yang kamu foto dan mengendalikannya. mantap!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "onna-no-kokoro-o-ossanka-suru-camera-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/onna-no-kokoro-o-ossanka-suru-camera-chapter-1",
+      "number": 1,
+      "date": "Maret 9, 2023"
+    }
+  ]
+}

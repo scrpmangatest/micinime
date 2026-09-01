@@ -1,0 +1,69 @@
+{
+  "slug": "tamarowa",
+  "title": "Tamarowa",
+  "image": "https://komiktap.info/wp-content/uploads/2023/05/1.webp",
+  "rating": "6",
+  "description": "Apa yang terjadi ketika beberapa wanita dengan keadaan khusus bersaing untuk mendapatkan seorang pengusaha tampan dan kaya dalam pernikahan? Biarkan tirai naik pada acara “Battle Royale”, di mana semuanya berjalan! Inilah awal perjuangan Gotou Yuuna untuk membatalkan hutang hidupnya!",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Mystery",
+      "url": "/genres/mystery"
+    },
+    {
+      "name": "Psychological",
+      "url": "/genres/psychological"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "tamarowa-chapter-04",
+      "title": "Chapter 04",
+      "url": "/tamarowa-chapter-04",
+      "number": 4,
+      "date": "Mei 28, 2023"
+    },
+    {
+      "slug": "tamarowa-chapter-03",
+      "title": "Chapter 03",
+      "url": "/tamarowa-chapter-03",
+      "number": 3,
+      "date": "Mei 28, 2023"
+    },
+    {
+      "slug": "tamarowa-chapter-02",
+      "title": "Chapter 02",
+      "url": "/tamarowa-chapter-02",
+      "number": 2,
+      "date": "Mei 28, 2023"
+    },
+    {
+      "slug": "tamarowa-chapter-01",
+      "title": "Chapter 01",
+      "url": "/tamarowa-chapter-01",
+      "number": 1,
+      "date": "Mei 28, 2023"
+    }
+  ]
+}

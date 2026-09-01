@@ -1,0 +1,40 @@
+{
+  "slug": "subscription-mama",
+  "title": "Subscription mama!",
+  "image": "https://komiktap.info/wp-content/uploads/2024/06/01-11.jpg",
+  "rating": "8.5",
+  "description": "Sejak Ayahnya minggat… finansial terancam bagi mereka berdua….",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "subscription-mama-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/subscription-mama-chapter-1",
+      "number": 1,
+      "date": "Juni 26, 2024"
+    }
+  ]
+}

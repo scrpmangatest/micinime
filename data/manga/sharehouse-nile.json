@@ -1,0 +1,72 @@
+{
+  "slug": "sharehouse-nile",
+  "title": "Sharehouse Nile",
+  "image": "https://komiktap.info/wp-content/uploads/2023/08/f4af1e85-41ec-45bf-a650-71555bf8428e.jpg.256.webp",
+  "rating": "7",
+  "description": "Ini adalah “Sharehouse Nile” – nama tempat tinggal di mana tokoh-tokoh sejarah terkemuka yang, karena alasan tertentu, telah bereinkarnasi ke era modern berkumpul. Saat tinggal di sini, Marie Antoinette (ratu terkenal Prancis) telah menunggu dengan tidak sabar Pangeran Tampan untuk datang menunggang kuda putih dan membawanya pergi. Jadi ketika seorang pria tampan baru datang, dia merasa itu adalah takdir yang menyatukan mereka… Tapi dia terkejut ketika dia tahu siapa dia sebenarnya! Share House Nile",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Historical",
+      "url": "/genres/historical"
+    },
+    {
+      "name": "Reincarnation",
+      "url": "/genres/reincarnation"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sharehouse-nile-chapter-05",
+      "title": "Chapter 05",
+      "url": "/sharehouse-nile-chapter-05",
+      "number": 5,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "sharehouse-nile-chapter-04",
+      "title": "Chapter 04",
+      "url": "/sharehouse-nile-chapter-04",
+      "number": 4,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "sharehouse-nile-chapter-03",
+      "title": "Chapter 03",
+      "url": "/sharehouse-nile-chapter-03",
+      "number": 3,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "sharehouse-nile-chapter-02",
+      "title": "Chapter 02",
+      "url": "/sharehouse-nile-chapter-02",
+      "number": 2,
+      "date": "Agustus 24, 2023"
+    },
+    {
+      "slug": "sharehouse-nile-chapter-01",
+      "title": "Chapter 01",
+      "url": "/sharehouse-nile-chapter-01",
+      "number": 1,
+      "date": "Agustus 24, 2023"
+    }
+  ]
+}

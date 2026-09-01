@@ -1,0 +1,36 @@
+{
+  "slug": "rental-netori-oji-san",
+  "title": "Rental Netori Oji-san",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-34.jpg",
+  "rating": "8.5",
+  "description": "Seorang pasangan anak muda yang menyewa pak tua untuk selingkuh dengan si cewek.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "rental-netori-oji-san-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/rental-netori-oji-san-chapter-1",
+      "number": 1,
+      "date": "Maret 12, 2023"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "saionjike-no-kareinaru-seikatsu",
+  "title": "Saionjike no Kareinaru Seikatsu",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/1-5.jpg",
+  "rating": "8.3",
+  "description": "Tanaka Kepergok oleh Saionji namun bukannya marah tapi dia iri karena tidak mengajaknya dalam berhubungan seks",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "saionjike-no-kareinaru-seikatsu-chapter-3",
+      "title": "Chapter 3 End",
+      "url": "/saionjike-no-kareinaru-seikatsu-chapter-3",
+      "number": 3,
+      "date": "September 10, 2020"
+    },
+    {
+      "slug": "saionjike-no-kareinaru-seikatsu-chapter-2",
+      "title": "Chapter 2",
+      "url": "/saionjike-no-kareinaru-seikatsu-chapter-2",
+      "number": 2,
+      "date": "September 10, 2020"
+    },
+    {
+      "slug": "saionjike-no-kareinaru-seikatsu-chapter-1",
+      "title": "Chapter 1",
+      "url": "/saionjike-no-kareinaru-seikatsu-chapter-1",
+      "number": 1,
+      "date": "September 10, 2020"
+    }
+  ]
+}

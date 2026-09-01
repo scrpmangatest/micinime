@@ -1,0 +1,85 @@
+{
+  "slug": "onimara",
+  "title": "Onimara",
+  "image": "https://komiktap.info/wp-content/uploads/2024/09/01-12.jpg",
+  "rating": "8.5",
+  "description": "Seorang Exorcise untuk mengusir para siluman",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Supernatural",
+      "url": "/genres/supernatural"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "onimara-chapter-8",
+      "title": "Chapter 8",
+      "url": "/onimara-chapter-8",
+      "number": 8,
+      "date": "Oktober 31, 2024"
+    },
+    {
+      "slug": "onimara-chapter-7",
+      "title": "Chapter 7",
+      "url": "/onimara-chapter-7",
+      "number": 7,
+      "date": "Oktober 18, 2024"
+    },
+    {
+      "slug": "onimara-chapter-6",
+      "title": "Chapter 6",
+      "url": "/onimara-chapter-6",
+      "number": 6,
+      "date": "Oktober 12, 2024"
+    },
+    {
+      "slug": "onimara-chapter-5",
+      "title": "Chapter 5",
+      "url": "/onimara-chapter-5",
+      "number": 5,
+      "date": "Oktober 10, 2024"
+    },
+    {
+      "slug": "onimara-chapter-4",
+      "title": "Chapter 4",
+      "url": "/onimara-chapter-4",
+      "number": 4,
+      "date": "Oktober 5, 2024"
+    },
+    {
+      "slug": "onimara-chapter-3",
+      "title": "Chapter 3",
+      "url": "/onimara-chapter-3",
+      "number": 3,
+      "date": "Oktober 3, 2024"
+    },
+    {
+      "slug": "onimara-chapter-2",
+      "title": "Chapter 2",
+      "url": "/onimara-chapter-2",
+      "number": 2,
+      "date": "Oktober 2, 2024"
+    },
+    {
+      "slug": "onimara-chapter-1",
+      "title": "Chapter 1",
+      "url": "/onimara-chapter-1",
+      "number": 1,
+      "date": "September 28, 2024"
+    }
+  ]
+}

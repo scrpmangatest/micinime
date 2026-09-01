@@ -1,0 +1,32 @@
+{
+  "slug": "sukeban-houshi-bu",
+  "title": "Sukeban Houshi-bu",
+  "image": "https://komiktap.info/wp-content/uploads/2023/10/01-14.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Lolicon",
+      "url": "/genres/lolicon"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sukeban-houshi-bu-chapter1",
+      "title": "Chapter 1 End",
+      "url": "/sukeban-houshi-bu-chapter1",
+      "number": 1,
+      "date": "Oktober 14, 2023"
+    }
+  ]
+}

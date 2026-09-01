@@ -1,0 +1,40 @@
+{
+  "slug": "sono-onna",
+  "title": "Sono onna",
+  "image": "https://komiktap.info/wp-content/uploads/2023/01/01-4.jpg",
+  "rating": "8.5",
+  "description": "Aku bertemu wanita di dalam aplikasi dating app",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sono-onna-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sono-onna-chapter-1",
+      "number": 1,
+      "date": "Januari 2, 2023"
+    }
+  ]
+}

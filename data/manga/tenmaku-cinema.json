@@ -1,0 +1,172 @@
+{
+  "slug": "tenmaku-cinema",
+  "title": "Tenmaku Cinema",
+  "image": "https://komiktap.info/wp-content/uploads/2023/08/tenmaku-scaled-1.jpg",
+  "rating": "7.00",
+  "description": "Seri baru yang menarik dari kreator Food Wars! Pecinta film ekstrim Hajime Shinichi dan hantu penulis skenario jenius misterius Takihiko Tenmaku–pertemuan mereka akan memberikan beberapa alur cerita yang serius! Sudah siap, siap, beraksi untuk serial dewasa ini!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    },
+    {
+      "name": "Supernatural",
+      "url": "/genres/supernatural"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "tenmaku-cinema-chapter-21-end",
+      "title": "Chapter 21-end",
+      "url": "/tenmaku-cinema-chapter-21-end",
+      "number": 21,
+      "date": "September 12, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-20",
+      "title": "Chapter 20",
+      "url": "/tenmaku-cinema-chapter-20",
+      "number": 20,
+      "date": "September 12, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-19",
+      "title": "Chapter 19",
+      "url": "/tenmaku-cinema-chapter-19",
+      "number": 19,
+      "date": "September 12, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-18",
+      "title": "Chapter 18",
+      "url": "/tenmaku-cinema-chapter-18",
+      "number": 18,
+      "date": "Agustus 22, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-17",
+      "title": "Chapter 17",
+      "url": "/tenmaku-cinema-chapter-17",
+      "number": 17,
+      "date": "Agustus 19, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-16",
+      "title": "Chapter 16",
+      "url": "/tenmaku-cinema-chapter-16",
+      "number": 16,
+      "date": "Agustus 19, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-15",
+      "title": "Chapter 15",
+      "url": "/tenmaku-cinema-chapter-15",
+      "number": 15,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-14",
+      "title": "Chapter 14",
+      "url": "/tenmaku-cinema-chapter-14",
+      "number": 14,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-13",
+      "title": "Chapter 13",
+      "url": "/tenmaku-cinema-chapter-13",
+      "number": 13,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-12",
+      "title": "Chapter 12",
+      "url": "/tenmaku-cinema-chapter-12",
+      "number": 12,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-11",
+      "title": "Chapter 11",
+      "url": "/tenmaku-cinema-chapter-11",
+      "number": 11,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-10",
+      "title": "Chapter 10",
+      "url": "/tenmaku-cinema-chapter-10",
+      "number": 10,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-09",
+      "title": "Chapter 09",
+      "url": "/tenmaku-cinema-chapter-09",
+      "number": 9,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-08",
+      "title": "Chapter 08",
+      "url": "/tenmaku-cinema-chapter-08",
+      "number": 8,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-07",
+      "title": "Chapter 07",
+      "url": "/tenmaku-cinema-chapter-07",
+      "number": 7,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-06",
+      "title": "Chapter 06",
+      "url": "/tenmaku-cinema-chapter-06",
+      "number": 6,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-05",
+      "title": "Chapter 05",
+      "url": "/tenmaku-cinema-chapter-05",
+      "number": 5,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-04",
+      "title": "Chapter 04",
+      "url": "/tenmaku-cinema-chapter-04",
+      "number": 4,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-03",
+      "title": "Chapter 03",
+      "url": "/tenmaku-cinema-chapter-03",
+      "number": 3,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-02",
+      "title": "Chapter 02",
+      "url": "/tenmaku-cinema-chapter-02",
+      "number": 2,
+      "date": "Agustus 14, 2023"
+    },
+    {
+      "slug": "tenmaku-cinema-chapter-01",
+      "title": "Chapter 01",
+      "url": "/tenmaku-cinema-chapter-01",
+      "number": 1,
+      "date": "Agustus 14, 2023"
+    }
+  ]
+}

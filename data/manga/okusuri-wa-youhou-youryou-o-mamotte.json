@@ -1,0 +1,28 @@
+{
+  "slug": "okusuri-wa-youhou-youryou-o-mamotte",
+  "title": "Okusuri wa Youhou Youryou o Mamotte",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/01-12.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Tohou project",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "okusuri-wa-youhou-youryou-o-mamotte-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/okusuri-wa-youhou-youryou-o-mamotte-chapter-1",
+      "number": 1,
+      "date": "Juni 6, 2023"
+    }
+  ]
+}

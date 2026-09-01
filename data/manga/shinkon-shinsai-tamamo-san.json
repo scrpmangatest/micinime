@@ -1,0 +1,32 @@
+{
+  "slug": "shinkon-shinsai-tamamo-san",
+  "title": "Shinkon Shinsai Tamamo-san",
+  "image": "https://komiktap.info/wp-content/uploads/2023/10/01-6.jpg",
+  "rating": "8.5",
+  "description": "Parodi dar Fate Extra",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "shinkon-shinsai-tamamo-san-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/shinkon-shinsai-tamamo-san-chapter-1",
+      "number": 1,
+      "date": "Oktober 11, 2023"
+    }
+  ]
+}

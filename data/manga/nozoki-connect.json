@@ -1,0 +1,43 @@
+{
+  "slug": "nozoki-connect",
+  "title": "Nozoki Connect",
+  "image": "https://komiktap.info/wp-content/uploads/2020/11/nozoki-connect-52664.jpg",
+  "rating": "7.4",
+  "description": "Apa yang akan Anda lakukan, jika Anda bisa melihat melalui “pandangan” orang lain …? Menggunakan aplikasi iblis, seorang anak laki-laki yang menyukai fotografi diam-diam, “menyelam” ke dalam tubuh seorang gadis untuk mengungkap rahasia dan ketelanjangannya!",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    },
+    {
+      "name": "Shounen",
+      "url": "/genres/shounen"
+    },
+    {
+      "name": "Supernatural",
+      "url": "/genres/supernatural"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "nozoki-connect-chapter-2",
+      "title": "Chapter 2",
+      "url": "/nozoki-connect-chapter-2",
+      "number": 2,
+      "date": "November 11, 2020"
+    },
+    {
+      "slug": "nozoki-connect-chapter-1",
+      "title": "Chapter 1",
+      "url": "/nozoki-connect-chapter-1",
+      "number": 1,
+      "date": "November 11, 2020"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "onaji-furui-tsukin",
+  "title": "Onaji Furui Tsukin",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/04-1.jpg",
+  "rating": "8.3",
+  "description": "Ketua Mizoguchi hidupnya monotont tak ada pengalaman asmara namun bawahannya mengajak dia untuk menjalin hubungan lebih romantis",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "onaji-furui-tsukin-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/onaji-furui-tsukin-chapter-2",
+      "number": 2,
+      "date": "September 9, 2020"
+    },
+    {
+      "slug": "onaji-furui-tsukin-chapter-1",
+      "title": "Chapter 1",
+      "url": "/onaji-furui-tsukin-chapter-1",
+      "number": 1,
+      "date": "September 9, 2020"
+    }
+  ]
+}

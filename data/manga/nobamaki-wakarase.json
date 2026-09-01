@@ -1,0 +1,32 @@
+{
+  "slug": "nobamaki-wakarase",
+  "title": "NobaMaki Wakarase",
+  "image": "https://komiktap.info/wp-content/uploads/2023/12/maki.webp",
+  "rating": "7.1",
+  "description": "doujin tahun lalu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "nobamaki-wakarase-chapter-1-end",
+      "title": "Chapter 1 End Fix",
+      "url": "/nobamaki-wakarase-chapter-1-end",
+      "number": 1,
+      "date": "Desember 14, 2023"
+    }
+  ]
+}

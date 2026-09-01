@@ -1,0 +1,32 @@
+{
+  "slug": "sotsugyou-shiki",
+  "title": "Sotsugyou Shiki",
+  "image": "https://komiktap.info/wp-content/uploads/2024/04/01-9.jpg",
+  "rating": "8.0",
+  "description": "hubungan diam-diam antara guru dan murid.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sotsugyou-shiki-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sotsugyou-shiki-chapter-1",
+      "number": 1,
+      "date": "April 12, 2024"
+    }
+  ]
+}

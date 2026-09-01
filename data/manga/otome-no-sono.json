@@ -1,0 +1,83 @@
+{
+  "slug": "otome-no-sono",
+  "title": "Otome no Sono",
+  "image": "https://komiktap.info/wp-content/uploads/2022/04/001-2.jpg",
+  "rating": "8.5",
+  "description": "Akademi Suzumebachi adalah sekolah elit yang 2% teratas yg di izinkan untuk mendaftar. Aono mendaftar disitu cuma menjadi bahan para wanita saja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "otome-no-sono-chapter-6",
+      "title": "Chapter 6 End",
+      "url": "/otome-no-sono-chapter-6",
+      "number": 6,
+      "date": "Mei 9, 2022"
+    },
+    {
+      "slug": "otome-no-sono-chapter-5",
+      "title": "Chapter 5",
+      "url": "/otome-no-sono-chapter-5",
+      "number": 5,
+      "date": "Mei 8, 2022"
+    },
+    {
+      "slug": "otome-no-sono-chapter-4",
+      "title": "Chapter 4",
+      "url": "/otome-no-sono-chapter-4",
+      "number": 4,
+      "date": "Mei 7, 2022"
+    },
+    {
+      "slug": "otome-no-sono-chapter-3",
+      "title": "Chapter 3",
+      "url": "/otome-no-sono-chapter-3",
+      "number": 3,
+      "date": "Mei 6, 2022"
+    },
+    {
+      "slug": "otome-no-sono-chapter-2",
+      "title": "Chapter 2",
+      "url": "/otome-no-sono-chapter-2",
+      "number": 2,
+      "date": "Mei 3, 2022"
+    },
+    {
+      "slug": "otome-no-sono-chapter-1",
+      "title": "Chapter 1",
+      "url": "/otome-no-sono-chapter-1",
+      "number": 1,
+      "date": "April 30, 2022"
+    }
+  ]
+}

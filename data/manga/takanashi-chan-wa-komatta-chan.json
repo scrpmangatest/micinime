@@ -1,0 +1,36 @@
+{
+  "slug": "takanashi-chan-wa-komatta-chan",
+  "title": "Takanashi-chan wa Komatta-chan",
+  "image": "https://komiktap.info/wp-content/uploads/2026/02/01-2.jpg",
+  "rating": "8.5",
+  "description": "Murid menggoda gurunya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "takanashi-chan-wa-komatta-chan-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/takanashi-chan-wa-komatta-chan-chapter-1",
+      "number": 1,
+      "date": "Februari 3, 2026"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "saren-to-asobou",
+  "title": "Saren to Asobou",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/01-20.jpg",
+  "rating": "8.5",
+  "description": "saren dan yuuki yang sedang berkencan,tiba tiba merasa nostalgia melihat anak anak kecil yang sedang bermain air,mengingatkan mereka tentang masa kecil dulu,setelah berbincang yuuki pun mendapatkan ide untuk membuat kejutan pada saren.apa kejutan itu? baca kelanjutannya ya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "saren-to-asobou-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/saren-to-asobou-chapter-1",
+      "number": 1,
+      "date": "Juni 8, 2023"
+    }
+  ]
+}

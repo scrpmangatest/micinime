@@ -1,0 +1,24 @@
+{
+  "slug": "tanin-ni-naru-kusuri",
+  "title": "Tanin ni Naru Kusuri",
+  "image": "https://komiktap.info/wp-content/uploads/2023/04/01-37.jpg",
+  "rating": "8.5",
+  "description": "gak tau kwokwokwokwokow",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "tanin-ni-naru-kusuri-5-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/tanin-ni-naru-kusuri-5-chapter-1",
+      "number": 1,
+      "date": "April 15, 2023"
+    }
+  ]
+}

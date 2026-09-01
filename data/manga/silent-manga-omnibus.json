@@ -1,0 +1,43 @@
+{
+  "slug": "silent-manga-omnibus",
+  "title": "Silent Manga Omnibus",
+  "image": "https://komiktap.info/wp-content/uploads/2023/08/01-21.jpg",
+  "rating": "8.1",
+  "description": "meskipun gk ada chatnya tapi kalian gerti :v",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Smut",
+      "url": "/genres/smut"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "silent-manga-omnibus-chapter-2",
+      "title": "Chapter 2",
+      "url": "/silent-manga-omnibus-chapter-2",
+      "number": 2,
+      "date": "Agustus 9, 2023"
+    },
+    {
+      "slug": "silent-manga-omnibus-chapter-1",
+      "title": "Chapter 1",
+      "url": "/silent-manga-omnibus-chapter-1",
+      "number": 1,
+      "date": "Agustus 9, 2023"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "shiragasane-layers-of-white",
+  "title": "Shiragasane  Layers of White",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/01-34.jpg",
+  "rating": "8.4",
+  "description": "Sang protagonis merasa penasaran di gudang rumah orang tuanya dulu, tiba2 ia bertemu sesosok lain dari biasanya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "shiragasane-layers-of-white-chapter-4",
+      "title": "Chapter 4 End",
+      "url": "/shiragasane-layers-of-white-chapter-4",
+      "number": 4,
+      "date": "September 10, 2020"
+    },
+    {
+      "slug": "shiragasane-layers-of-white-chapter-3",
+      "title": "Chapter 3",
+      "url": "/shiragasane-layers-of-white-chapter-3",
+      "number": 3,
+      "date": "September 10, 2020"
+    },
+    {
+      "slug": "shiragasane-layers-of-white-chapter-2",
+      "title": "Chapter 2",
+      "url": "/shiragasane-layers-of-white-chapter-2",
+      "number": 2,
+      "date": "September 10, 2020"
+    },
+    {
+      "slug": "shiragasane-layers-of-white-chapter-1",
+      "title": "Chapter 1",
+      "url": "/shiragasane-layers-of-white-chapter-1",
+      "number": 1,
+      "date": "September 10, 2020"
+    }
+  ]
+}

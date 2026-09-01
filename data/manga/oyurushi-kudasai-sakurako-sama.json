@@ -1,0 +1,32 @@
+{
+  "slug": "oyurushi-kudasai-sakurako-sama",
+  "title": "Oyurushi kudasai Sakurako-sama",
+  "image": "https://komiktap.info/wp-content/uploads/2024/03/01-21.jpg",
+  "rating": "8.5",
+  "description": "seorang murid cewek yang ingin membantu memuaskan gurunya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "oyurushi-kudasai-sakurako-sama-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/oyurushi-kudasai-sakurako-sama-chapter-1",
+      "number": 1,
+      "date": "Maret 18, 2024"
+    }
+  ]
+}

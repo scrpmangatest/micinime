@@ -1,0 +1,35 @@
+{
+  "slug": "shoutengai-no-ana-zuma-tachi",
+  "title": "Shoutengai no Ana Zuma-tachi",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/01-33.jpg",
+  "rating": "8.1",
+  "description": "Si MC bekerja di toko Sake, disitu pemilik tokonya ingin mempunyai anak tapi dikarenakan mandul, akan tetapi sang istri pemilik toko ingin meminta MC donor sperma untuk dirinya",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "shoutengai-no-ana-zuma-tachi-chapter-2",
+      "title": "Chapter 2",
+      "url": "/shoutengai-no-ana-zuma-tachi-chapter-2",
+      "number": 2,
+      "date": "September 17, 2020"
+    },
+    {
+      "slug": "shoutengai-no-ana-zuma-tachi-chapter-1",
+      "title": "Chapter 1",
+      "url": "/shoutengai-no-ana-zuma-tachi-chapter-1",
+      "number": 1,
+      "date": "September 10, 2020"
+    }
+  ]
+}

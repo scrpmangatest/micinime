@@ -1,0 +1,36 @@
+{
+  "slug": "sensei-honki-desu-ka",
+  "title": "Sensei Honki desu ka!",
+  "image": "https://komiktap.info/wp-content/uploads/2023/08/01-12.jpg",
+  "rating": "8.5",
+  "description": "Ako dan sensei yang saling taruhan untuk menyuruh yang kalah melakukan sesuatu yang memalukan sesuai keinginan si pemenang",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sensei-honki-desu-ka-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sensei-honki-desu-ka-chapter-1",
+      "number": 1,
+      "date": "Agustus 5, 2023"
+    }
+  ]
+}

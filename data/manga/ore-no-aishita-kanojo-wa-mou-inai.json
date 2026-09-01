@@ -1,0 +1,32 @@
+{
+  "slug": "ore-no-aishita-kanojo-wa-mou-inai",
+  "title": "Ore no Aishita Kanojo wa Mou Inai",
+  "image": "https://komiktap.info/wp-content/uploads/2023/10/01-4.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari SAO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ore-no-aishita-kanojo-wa-mou-inai-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ore-no-aishita-kanojo-wa-mou-inai-chapter-1",
+      "number": 1,
+      "date": "Oktober 3, 2023"
+    }
+  ]
+}

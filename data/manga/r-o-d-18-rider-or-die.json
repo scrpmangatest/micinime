@@ -1,0 +1,32 @@
+{
+  "slug": "r-o-d-18-rider-or-die",
+  "title": "R O D 18 -Rider or Die",
+  "image": "https://komiktap.info/wp-content/uploads/2023/12/01-12.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "r-o-d-18-rider-or-die-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/r-o-d-18-rider-or-die-chapter-1",
+      "number": 1,
+      "date": "Desember 22, 2023"
+    }
+  ]
+}

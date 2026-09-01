@@ -1,0 +1,40 @@
+{
+  "slug": "sayonara-kaa-san",
+  "title": "Sayonara Kaa-san",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-14.jpg",
+  "rating": "8.5",
+  "description": "Doujin ini mengisahkan tentang seorang anak yang membuat masalah dengan anak yakuza",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sayonara-kaa-san-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sayonara-kaa-san-chapter-1",
+      "number": 1,
+      "date": "Maret 5, 2023"
+    }
+  ]
+}

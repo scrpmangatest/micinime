@@ -1,0 +1,169 @@
+{
+  "slug": "three-sisters",
+  "title": "Three Sisters",
+  "image": "https://komiktap.info/wp-content/uploads/2024/11/tall.webp",
+  "rating": "8",
+  "description": "",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "three-sisters-chapter-20",
+      "title": "Chapter 20 End",
+      "url": "/three-sisters-chapter-20",
+      "number": 20,
+      "date": "Januari 30, 2025"
+    },
+    {
+      "slug": "three-sisters-chapter-19",
+      "title": "Chapter 19",
+      "url": "/three-sisters-chapter-19",
+      "number": 19,
+      "date": "Januari 30, 2025"
+    },
+    {
+      "slug": "three-sisters-chapter-18",
+      "title": "Chapter 18",
+      "url": "/three-sisters-chapter-18",
+      "number": 18,
+      "date": "Januari 30, 2025"
+    },
+    {
+      "slug": "three-sisters-chapter-17",
+      "title": "Chapter 17",
+      "url": "/three-sisters-chapter-17",
+      "number": 17,
+      "date": "Januari 30, 2025"
+    },
+    {
+      "slug": "three-sisters-chapter-16",
+      "title": "Chapter 16",
+      "url": "/three-sisters-chapter-16",
+      "number": 16,
+      "date": "Januari 30, 2025"
+    },
+    {
+      "slug": "three-sisters-chapter-15",
+      "title": "Chapter 15",
+      "url": "/three-sisters-chapter-15",
+      "number": 15,
+      "date": "Januari 23, 2025"
+    },
+    {
+      "slug": "three-sisters-chapter-14",
+      "title": "Chapter 14",
+      "url": "/three-sisters-chapter-14",
+      "number": 14,
+      "date": "Januari 23, 2025"
+    },
+    {
+      "slug": "three-sisters-chapter-13",
+      "title": "Chapter 13",
+      "url": "/three-sisters-chapter-13",
+      "number": 13,
+      "date": "Januari 5, 2025"
+    },
+    {
+      "slug": "three-sisters-chapter-12",
+      "title": "Chapter 12",
+      "url": "/three-sisters-chapter-12",
+      "number": 12,
+      "date": "Desember 20, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-11",
+      "title": "Chapter 11",
+      "url": "/three-sisters-chapter-11",
+      "number": 11,
+      "date": "Desember 11, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-10",
+      "title": "Chapter 10",
+      "url": "/three-sisters-chapter-10",
+      "number": 10,
+      "date": "Desember 3, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-9",
+      "title": "Chapter 9",
+      "url": "/three-sisters-chapter-9",
+      "number": 9,
+      "date": "Desember 3, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-8",
+      "title": "Chapter 8",
+      "url": "/three-sisters-chapter-8",
+      "number": 8,
+      "date": "November 23, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-7",
+      "title": "Chapter 7",
+      "url": "/three-sisters-chapter-7",
+      "number": 7,
+      "date": "November 21, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-6",
+      "title": "Chapter 6",
+      "url": "/three-sisters-chapter-6",
+      "number": 6,
+      "date": "November 21, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-5",
+      "title": "Chapter 5",
+      "url": "/three-sisters-chapter-5",
+      "number": 5,
+      "date": "November 21, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-4",
+      "title": "Chapter 4",
+      "url": "/three-sisters-chapter-4",
+      "number": 4,
+      "date": "November 21, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-3",
+      "title": "Chapter 3",
+      "url": "/three-sisters-chapter-3",
+      "number": 3,
+      "date": "November 21, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-2",
+      "title": "Chapter 2",
+      "url": "/three-sisters-chapter-2",
+      "number": 2,
+      "date": "November 21, 2024"
+    },
+    {
+      "slug": "three-sisters-chapter-1",
+      "title": "Chapter 1",
+      "url": "/three-sisters-chapter-1",
+      "number": 1,
+      "date": "November 21, 2024"
+    }
+  ]
+}

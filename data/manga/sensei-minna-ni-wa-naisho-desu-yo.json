@@ -1,0 +1,28 @@
+{
+  "slug": "sensei-minna-ni-wa-naisho-desu-yo",
+  "title": "Sensei, Minna ni wa Naisho Desu yo",
+  "image": "https://komiktap.info/wp-content/uploads/2024/04/01-15.jpg",
+  "rating": "8.5",
+  "description": "parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Lolicon",
+      "url": "/genres/lolicon"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sensei-minna-ni-wa-naisho-desu-yo-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sensei-minna-ni-wa-naisho-desu-yo-chapter-1",
+      "number": 1,
+      "date": "April 16, 2024"
+    }
+  ]
+}

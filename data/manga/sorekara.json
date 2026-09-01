@@ -1,0 +1,36 @@
+{
+  "slug": "sorekara",
+  "title": "Sorekara",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/01-50.jpg",
+  "rating": "8.5",
+  "description": "Untuk menebus kesalahanya setelah menabrak seseorang",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sorekara-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sorekara-chapter-1",
+      "number": 1,
+      "date": "Juni 24, 2023"
+    }
+  ]
+}

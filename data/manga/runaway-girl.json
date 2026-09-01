@@ -1,0 +1,72 @@
+{
+  "slug": "runaway-girl",
+  "title": "Runaway Girl",
+  "image": "https://komiktap.info/wp-content/uploads/2022/07/Runaway-Girl.jpg",
+  "rating": "7.7",
+  "description": "Seorang gadis yang kabur dri rumah!",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Full Color",
+      "url": "/genres/full-color"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Sole Female",
+      "url": "/genres/sole-female"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "runaway-girl-chapter-bonus",
+      "title": "Chapter Bonus",
+      "url": "/runaway-girl-chapter-bonus",
+      "number": null,
+      "date": "September 3, 2022"
+    },
+    {
+      "slug": "runaway-girl-chapter-4",
+      "title": "Chapter 4",
+      "url": "/runaway-girl-chapter-4",
+      "number": 4,
+      "date": "Agustus 14, 2022"
+    },
+    {
+      "slug": "runaway-girl-chapter-3",
+      "title": "Chapter 3",
+      "url": "/runaway-girl-chapter-3",
+      "number": 3,
+      "date": "Agustus 7, 2022"
+    },
+    {
+      "slug": "runaway-girl-chapter-2",
+      "title": "Chapter 2",
+      "url": "/runaway-girl-chapter-2",
+      "number": 2,
+      "date": "Juli 28, 2022"
+    },
+    {
+      "slug": "runaway-girl-chapter-1",
+      "title": "Chapter 1",
+      "url": "/runaway-girl-chapter-1",
+      "number": 1,
+      "date": "Juli 26, 2022"
+    }
+  ]
+}

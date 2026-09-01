@@ -1,0 +1,36 @@
+{
+  "slug": "sefure-no-senpai",
+  "title": "Sefure no Senpai",
+  "image": "https://komiktap.info/wp-content/uploads/2023/04/01-57.jpg",
+  "rating": "8.5",
+  "description": "mencari teman FWB",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sefure-no-senpai-chapter-1",
+      "title": "Chapter 1",
+      "url": "/sefure-no-senpai-chapter-1",
+      "number": 1,
+      "date": "April 24, 2023"
+    }
+  ]
+}

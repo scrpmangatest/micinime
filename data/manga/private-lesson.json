@@ -1,0 +1,40 @@
+{
+  "slug": "private-lesson",
+  "title": "Private Lesson",
+  "image": "https://komiktap.info/wp-content/uploads/2022/03/01-4.jpg",
+  "rating": "8.5",
+  "description": "Omori-kun kalah dari permainan dan dia disuruh untuk menembak gurunya namun ternyata gurunya menerimanya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "private-lesson-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/private-lesson-chapter-1",
+      "number": 1,
+      "date": "Maret 4, 2022"
+    }
+  ]
+}

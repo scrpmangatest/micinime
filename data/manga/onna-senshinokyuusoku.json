@@ -1,0 +1,36 @@
+{
+  "slug": "onna-senshinokyuusoku",
+  "title": "Onna Senshinokyuusoku",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/001-3.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Nier",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "onna-senshinokyuusoku-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/onna-senshinokyuusoku-chapter-1",
+      "number": 1,
+      "date": "Maret 31, 2023"
+    }
+  ]
+}

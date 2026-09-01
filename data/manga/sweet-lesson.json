@@ -1,0 +1,40 @@
+{
+  "slug": "sweet-lesson",
+  "title": "Sweet Lesson",
+  "image": "https://komiktap.info/wp-content/uploads/2022/01/01-7.jpg",
+  "rating": "8.3",
+  "description": "Selepas percerainnya dia disuruh oleh teman kampusnya untuk mengajari anaknya bahasa inggris…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sweet-lesson-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sweet-lesson-chapter-1",
+      "number": 1,
+      "date": "Januari 27, 2022"
+    }
+  ]
+}

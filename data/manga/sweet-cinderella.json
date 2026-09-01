@@ -1,0 +1,107 @@
+{
+  "slug": "sweet-cinderella",
+  "title": "Sweet Cinderella",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/Sweet-Cinderella.webp",
+  "rating": "7.00",
+  "description": "“Aku ingin adik perempuanku makan kue!” Minori, seorang mahasiswa laki-laki, memutuskan untuk bekerja paruh waktu di toko kue yang sangat populer dengan pemikiran tersebut. Toko itu terletak di dalam sekolah untuk wanita muda!? Bisakah seorang anak laki-laki yang buruk dalam berkomunikasi, yang bahkan tidak bisa menatap lurus ke mata dan berbicara dengan benar menjalankan toko kue dengan empat pembuat kue JK? Nikmati komedi romantis remaja yang lebih manis dari kue♪",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Cooking",
+      "url": "/genres/cooking"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Shounen",
+      "url": "/genres/shounen"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sweet-cinderella-chapter-10",
+      "title": "Chapter 10",
+      "url": "/sweet-cinderella-chapter-10",
+      "number": 10,
+      "date": "Juni 30, 2023"
+    },
+    {
+      "slug": "sweet-cinderella-chapter-09",
+      "title": "Chapter 09",
+      "url": "/sweet-cinderella-chapter-09",
+      "number": 9,
+      "date": "Juni 30, 2023"
+    },
+    {
+      "slug": "sweet-cinderella-chapter-08",
+      "title": "Chapter 08",
+      "url": "/sweet-cinderella-chapter-08",
+      "number": 8,
+      "date": "Juni 30, 2023"
+    },
+    {
+      "slug": "sweet-cinderella-chapter-07",
+      "title": "Chapter 07",
+      "url": "/sweet-cinderella-chapter-07",
+      "number": 7,
+      "date": "Juni 30, 2023"
+    },
+    {
+      "slug": "sweet-cinderella-chapter-06",
+      "title": "Chapter 06",
+      "url": "/sweet-cinderella-chapter-06",
+      "number": 6,
+      "date": "Juni 30, 2023"
+    },
+    {
+      "slug": "sweet-cinderella-chapter-05",
+      "title": "Chapter 05",
+      "url": "/sweet-cinderella-chapter-05",
+      "number": 5,
+      "date": "Juni 30, 2023"
+    },
+    {
+      "slug": "sweet-cinderella-chapter-04",
+      "title": "Chapter 04",
+      "url": "/sweet-cinderella-chapter-04",
+      "number": 4,
+      "date": "Juni 30, 2023"
+    },
+    {
+      "slug": "sweet-cinderella-chapter-03",
+      "title": "Chapter 03",
+      "url": "/sweet-cinderella-chapter-03",
+      "number": 3,
+      "date": "Juni 30, 2023"
+    },
+    {
+      "slug": "sweet-cinderella-chapter-02",
+      "title": "Chapter 02",
+      "url": "/sweet-cinderella-chapter-02",
+      "number": 2,
+      "date": "Juni 30, 2023"
+    },
+    {
+      "slug": "sweet-cinderella-chapter-01",
+      "title": "Chapter 01",
+      "url": "/sweet-cinderella-chapter-01",
+      "number": 1,
+      "date": "Juni 30, 2023"
+    }
+  ]
+}

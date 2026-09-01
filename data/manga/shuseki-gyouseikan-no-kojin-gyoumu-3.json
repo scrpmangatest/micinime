@@ -1,0 +1,32 @@
+{
+  "slug": "shuseki-gyouseikan-no-kojin-gyoumu-3",
+  "title": "Shuseki Gyouseikan no Kojin Gyoumu 3",
+  "image": "https://komiktap.info/wp-content/uploads/2024/04/01-12.jpg",
+  "rating": "8.5",
+  "description": "Check in bersamanya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "shuseki-gyouseikan-no-kojin-gyoumu-3-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/shuseki-gyouseikan-no-kojin-gyoumu-3-chapter-1",
+      "number": 1,
+      "date": "April 14, 2024"
+    }
+  ]
+}

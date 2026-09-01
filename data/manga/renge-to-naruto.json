@@ -1,0 +1,51 @@
+{
+  "slug": "renge-to-naruto",
+  "title": "Renge to Naruto!",
+  "image": "https://komiktap.info/wp-content/uploads/2023/12/Renge-to-Naruto.jpeg",
+  "rating": "7.00",
+  "description": "cerita tentang seorang jomblo (reader) dan cewek gal yang buka warung masakan cina dan masak masak",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Cooking",
+      "url": "/genres/cooking"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Gyaru",
+      "url": "/genres/gyaru"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "renge-to-naruto-chapter-02",
+      "title": "Chapter 02",
+      "url": "/renge-to-naruto-chapter-02",
+      "number": 2,
+      "date": "Desember 8, 2023"
+    },
+    {
+      "slug": "renge-to-naruto-chapter-01",
+      "title": "Chapter 01",
+      "url": "/renge-to-naruto-chapter-01",
+      "number": 1,
+      "date": "Desember 8, 2023"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "sensei-wa-shouganai-hitossu-ne",
+  "title": "Sensei wa Shouganai Hitossu ne",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-72.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sensei-wa-shouganai-hitossu-ne-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sensei-wa-shouganai-hitossu-ne-chapter-1",
+      "number": 1,
+      "date": "Maret 27, 2023"
+    }
+  ]
+}

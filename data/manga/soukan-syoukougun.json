@@ -1,0 +1,97 @@
+{
+  "slug": "soukan-syoukougun",
+  "title": "Soukan Syoukougun",
+  "image": "https://komiktap.info/wp-content/uploads/2025/05/012-2.webp",
+  "rating": "8.5",
+  "description": "Cerita tentang hubungan anak dan ibu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "soukan-syoukougun-chapter-8",
+      "title": "Chapter 8 End",
+      "url": "/soukan-syoukougun-chapter-8",
+      "number": 8,
+      "date": "Juni 21, 2025"
+    },
+    {
+      "slug": "soukan-syoukougun-chapter-7",
+      "title": "Chapter 7",
+      "url": "/soukan-syoukougun-chapter-7",
+      "number": 7,
+      "date": "Juni 19, 2025"
+    },
+    {
+      "slug": "soukan-syoukougun-chapter-6",
+      "title": "Chapter 6",
+      "url": "/soukan-syoukougun-chapter-6",
+      "number": 6,
+      "date": "Juni 17, 2025"
+    },
+    {
+      "slug": "soukan-syoukougun-chapter-5",
+      "title": "Chapter 5",
+      "url": "/soukan-syoukougun-chapter-5",
+      "number": 5,
+      "date": "Juni 15, 2025"
+    },
+    {
+      "slug": "soukan-syoukougun-chapter-4",
+      "title": "Chapter 4",
+      "url": "/soukan-syoukougun-chapter-4",
+      "number": 4,
+      "date": "Juni 11, 2025"
+    },
+    {
+      "slug": "soukan-syoukougun-chapter-3",
+      "title": "Chapter 3",
+      "url": "/soukan-syoukougun-chapter-3",
+      "number": 3,
+      "date": "Juni 8, 2025"
+    },
+    {
+      "slug": "soukan-syoukougun-chapter-2",
+      "title": "Chapter 2",
+      "url": "/soukan-syoukougun-chapter-2",
+      "number": 2,
+      "date": "Juni 3, 2025"
+    },
+    {
+      "slug": "soukan-syoukougun-chapter-1",
+      "title": "Chapter 1",
+      "url": "/soukan-syoukougun-chapter-1",
+      "number": 1,
+      "date": "Mei 23, 2025"
+    }
+  ]
+}

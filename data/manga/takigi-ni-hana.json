@@ -1,0 +1,40 @@
+{
+  "slug": "takigi-ni-hana",
+  "title": "Takigi ni Hana",
+  "image": "https://komiktap.info/wp-content/uploads/2022/11/01-1.jpg",
+  "rating": "8.5",
+  "description": "Doujin ini mengisahkan tentang hubungan pertemanan antara kutu buku dengan seorang wanita gal!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "takigi-ni-hana-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/takigi-ni-hana-chapter-1",
+      "number": 1,
+      "date": "November 1, 2022"
+    }
+  ]
+}

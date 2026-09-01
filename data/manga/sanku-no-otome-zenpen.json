@@ -1,0 +1,36 @@
+{
+  "slug": "sanku-no-otome-zenpen",
+  "title": "Sanku no Otome Zenpen",
+  "image": "https://komiktap.info/wp-content/uploads/2023/02/01-41.jpg",
+  "rating": "8.5",
+  "description": "ini adalah sebuah cerita parodi dari anime goblin slayer!!! suatu hari sword maiden tiba tiba di sebuah mansion entah berantah setelah ia menyadari bahwa ia telah diculik oleh sekelompok orang dan ternyata mansion itu masih teteap di dinggali oleh para goblin!!! tidak lama kemudian datanglah seorang UB yang hendak menyantap sword maiden lalu… ceritapun dimulai!!!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sanku-no-otome-zenpen-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sanku-no-otome-zenpen-chapter-1",
+      "number": 1,
+      "date": "Februari 13, 2023"
+    }
+  ]
+}

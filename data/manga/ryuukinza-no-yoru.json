@@ -1,0 +1,28 @@
+{
+  "slug": "ryuukinza-no-yoru",
+  "title": "Ryuukinza no Yoru",
+  "image": "https://komiktap.info/wp-content/uploads/2024/07/002.jpg",
+  "rating": "7.2",
+  "description": "Yoimiya X Aether",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Nakadashi",
+      "url": "/genres/nakadashi"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ryuukinza-no-yoru-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ryuukinza-no-yoru-chapter-1",
+      "number": 1,
+      "date": "Juli 17, 2024"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "now-that-we-draw",
+  "title": "Now That We Draw",
+  "image": "https://komiktap.info/wp-content/uploads/2023/09/Now-That-We-Draw.webp",
+  "rating": "7.00",
+  "description": "Uehara-kun menyukai karakter 2 dimensi dan keinginannya adalah menjadi seniman manga! Namun, mimpinya pupus ketika seorang editor menolak karyanya karena terlalu membosankan. Keesokan harinya ketika merenungkan untuk menyerah pada mimpinya, seorang gadis di kelasnya, Miyamoto Niina, melihat manuskripnya dan memulai romansa semu dengannya yang sedikit terlalu nyaman, untuk membantunya dengan manga-nya! Ini adalah mangaka ✖ komedi cinta remaja!",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "now-that-we-draw-chapter-12-bahasa-indonesia",
+      "title": "Chapter 12 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-12-bahasa-indonesia",
+      "number": 12,
+      "date": "Januari 17, 2024"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-11-bahasa-indonesia",
+      "title": "Chapter 11 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-11-bahasa-indonesia",
+      "number": 11,
+      "date": "November 8, 2023"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-10-bahasa-indonesia",
+      "title": "Chapter 10 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-10-bahasa-indonesia",
+      "number": 10,
+      "date": "November 8, 2023"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-09-bahasa-indonesia",
+      "title": "Chapter 09 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-09-bahasa-indonesia",
+      "number": 9,
+      "date": "November 8, 2023"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-08",
+      "title": "Chapter 08",
+      "url": "/now-that-we-draw-chapter-08",
+      "number": 8,
+      "date": "November 1, 2023"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-07-bahasa-indonesia",
+      "title": "Chapter 07 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-07-bahasa-indonesia",
+      "number": 7,
+      "date": "Oktober 27, 2023"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-06-bahasa-indonesia",
+      "title": "Chapter 06 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-06-bahasa-indonesia",
+      "number": 6,
+      "date": "Oktober 27, 2023"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-05-bahasa-indonesia",
+      "title": "Chapter 05 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-05-bahasa-indonesia",
+      "number": 5,
+      "date": "Oktober 27, 2023"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-04-bahasa-indonesia",
+      "title": "Chapter 04 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-04-bahasa-indonesia",
+      "number": 4,
+      "date": "September 26, 2023"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-03-bahasa-indonesia",
+      "title": "Chapter 03 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-03-bahasa-indonesia",
+      "number": 3,
+      "date": "September 26, 2023"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-02-bahasa-indonesia",
+      "title": "Chapter 02 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-02-bahasa-indonesia",
+      "number": 2,
+      "date": "September 26, 2023"
+    },
+    {
+      "slug": "now-that-we-draw-chapter-01-bahasa-indonesia",
+      "title": "Chapter 01 bahasa indonesia",
+      "url": "/now-that-we-draw-chapter-01-bahasa-indonesia",
+      "number": 1,
+      "date": "September 26, 2023"
+    }
+  ]
+}

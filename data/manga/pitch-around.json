@@ -1,0 +1,32 @@
+{
+  "slug": "pitch-around",
+  "title": "Pitch around!",
+  "image": "https://komiktap.info/wp-content/uploads/2023/06/01-55.jpg",
+  "rating": "8.5",
+  "description": "parodi dari Idol Master",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "pitch-around-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/pitch-around-chapter-1",
+      "number": 1,
+      "date": "Juni 26, 2023"
+    }
+  ]
+}

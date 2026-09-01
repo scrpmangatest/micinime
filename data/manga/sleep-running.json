@@ -1,0 +1,39 @@
+{
+  "slug": "sleep-running",
+  "title": "Sleep-Running",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/02-17.jpg",
+  "rating": "8.3",
+  "description": "Melihat adiknya tertidur pulas disitu kakaknya mencari kesempatan tersebut",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sleep-running-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/sleep-running-chapter-2",
+      "number": 2,
+      "date": "September 11, 2020"
+    },
+    {
+      "slug": "sleep-running-chapter-1",
+      "title": "Chapter 1",
+      "url": "/sleep-running-chapter-1",
+      "number": 1,
+      "date": "September 10, 2020"
+    }
+  ]
+}

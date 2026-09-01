@@ -1,0 +1,44 @@
+{
+  "slug": "second-brida-l",
+  "title": "Second Brida L",
+  "image": "https://komiktap.info/wp-content/uploads/2022/08/01-28.jpg",
+  "rating": "8.5",
+  "description": "Cinta pertamaku berakhir dia menikah dengan seseorang, satu tahun kemudian dia memintaku jalan-jalan di pinggir pantai…. dia mengatakan pernikahannya tidak bahagia ini lah kesempatanku",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "second-brida-l-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/second-brida-l-chapter-1",
+      "number": 1,
+      "date": "Agustus 27, 2022"
+    }
+  ]
+}

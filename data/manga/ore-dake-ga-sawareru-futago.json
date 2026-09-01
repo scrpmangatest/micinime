@@ -1,0 +1,39 @@
+{
+  "slug": "ore-dake-ga-sawareru-futago",
+  "title": "Ore dake ga Sawareru Futago",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/008-1.jpg",
+  "rating": "8.3",
+  "description": "Seorang pria yg baru mendapat hidup bebas sendirian karena menemukan diskon kontrakan… Namun si pria tidak tau bahwa kamar yg dia tempati itu angker…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ore-dake-ga-sawareru-futago-chapter-1-2",
+      "title": "Chapter 1.2 End",
+      "url": "/ore-dake-ga-sawareru-futago-chapter-1-2",
+      "number": 1.2,
+      "date": "September 9, 2020"
+    },
+    {
+      "slug": "ore-dake-ga-sawareru-futago-chapter-1-1",
+      "title": "Chapter 1.1",
+      "url": "/ore-dake-ga-sawareru-futago-chapter-1-1",
+      "number": 1.1,
+      "date": "September 9, 2020"
+    }
+  ]
+}

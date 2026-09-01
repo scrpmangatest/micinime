@@ -1,0 +1,28 @@
+{
+  "slug": "seigi-jitsugen-iinkai",
+  "title": "Seigi Jitsugen Iinkai",
+  "image": "https://komiktap.info/wp-content/uploads/2023/04/01-2.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "seigi-jitsugen-iinkai-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/seigi-jitsugen-iinkai-chapter-1",
+      "number": 1,
+      "date": "April 2, 2023"
+    }
+  ]
+}

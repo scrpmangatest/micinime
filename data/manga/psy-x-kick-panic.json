@@ -1,0 +1,44 @@
+{
+  "slug": "psy-x-kick-panic",
+  "title": "PSY x KICK PANIC!",
+  "image": "https://komiktap.info/wp-content/uploads/2022/11/01-36.jpg",
+  "rating": "8.5",
+  "description": "Baca saja",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "psy-x-kick-panic-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/psy-x-kick-panic-chapter-1",
+      "number": 1,
+      "date": "November 22, 2022"
+    }
+  ]
+}

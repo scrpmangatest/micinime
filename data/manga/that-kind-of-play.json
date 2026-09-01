@@ -1,0 +1,36 @@
+{
+  "slug": "that-kind-of-play",
+  "title": "That Kind Of Play",
+  "image": "https://komiktap.info/wp-content/uploads/2022/03/01-9.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Persona 5",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "BDSM",
+      "url": "/genres/bdsm"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "that-kind-of-play-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/that-kind-of-play-chapter-1",
+      "number": 1,
+      "date": "Maret 10, 2022"
+    }
+  ]
+}

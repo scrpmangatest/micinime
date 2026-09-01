@@ -1,0 +1,99 @@
+{
+  "slug": "sakusaku-meat-pie",
+  "title": "Sakusaku Meat Pie",
+  "image": "https://komiktap.info/wp-content/uploads/2023/05/001-1.jpg",
+  "rating": "8.5",
+  "description": "Doujin dari Oohira Sunset",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Monster Girl",
+      "url": "/genres/monster-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sakusaku-meat-pie-chapter-10",
+      "title": "Chapter 10 End",
+      "url": "/sakusaku-meat-pie-chapter-10",
+      "number": 10,
+      "date": "Juni 3, 2023"
+    },
+    {
+      "slug": "sakusaku-meat-pie-chapter-9",
+      "title": "Chapter 9",
+      "url": "/sakusaku-meat-pie-chapter-9",
+      "number": 9,
+      "date": "Juni 2, 2023"
+    },
+    {
+      "slug": "sakusaku-meat-pie-chapter-8",
+      "title": "Chapter 8",
+      "url": "/sakusaku-meat-pie-chapter-8",
+      "number": 8,
+      "date": "Juni 1, 2023"
+    },
+    {
+      "slug": "sakusaku-meat-pie-chapter-7",
+      "title": "Chapter 7",
+      "url": "/sakusaku-meat-pie-chapter-7",
+      "number": 7,
+      "date": "Mei 31, 2023"
+    },
+    {
+      "slug": "sakusaku-meat-pie-chapter-6",
+      "title": "Chapter 6",
+      "url": "/sakusaku-meat-pie-chapter-6",
+      "number": 6,
+      "date": "Mei 30, 2023"
+    },
+    {
+      "slug": "sakusaku-meat-pie-chapter-5",
+      "title": "Chapter 5",
+      "url": "/sakusaku-meat-pie-chapter-5",
+      "number": 5,
+      "date": "Mei 29, 2023"
+    },
+    {
+      "slug": "sakusaku-meat-pie-chapter-4",
+      "title": "Chapter 4",
+      "url": "/sakusaku-meat-pie-chapter-4",
+      "number": 4,
+      "date": "Mei 28, 2023"
+    },
+    {
+      "slug": "sakusaku-meat-pie-chapter-3",
+      "title": "Chapter 3",
+      "url": "/sakusaku-meat-pie-chapter-3",
+      "number": 3,
+      "date": "Mei 27, 2023"
+    },
+    {
+      "slug": "sakusaku-meat-pie-chapter-2",
+      "title": "Chapter 2",
+      "url": "/sakusaku-meat-pie-chapter-2",
+      "number": 2,
+      "date": "Mei 25, 2023"
+    },
+    {
+      "slug": "sakusaku-meat-pie-chapter-1",
+      "title": "Chapter 1",
+      "url": "/sakusaku-meat-pie-chapter-1",
+      "number": 1,
+      "date": "Mei 24, 2023"
+    }
+  ]
+}

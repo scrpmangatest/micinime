@@ -1,0 +1,36 @@
+{
+  "slug": "oshikake-gamers",
+  "title": "Oshikake Gamers",
+  "image": "https://komiktap.info/wp-content/uploads/2022/11/01-57.jpg",
+  "rating": "8.5",
+  "description": "Komunitas gamer…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "oshikake-gamers-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/oshikake-gamers-chapter-1",
+      "number": 1,
+      "date": "November 30, 2022"
+    }
+  ]
+}

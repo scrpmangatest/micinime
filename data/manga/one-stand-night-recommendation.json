@@ -1,0 +1,44 @@
+{
+  "slug": "one-stand-night-recommendation",
+  "title": "One Stand Night Recommendation",
+  "image": "https://komiktap.info/wp-content/uploads/2021/05/001-3.jpg",
+  "rating": "8.5",
+  "description": "Nemu cewek di stasiun",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "one-stand-night-recommendation-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/one-stand-night-recommendation-chapter-1",
+      "number": 1,
+      "date": "Mei 11, 2021"
+    }
+  ]
+}

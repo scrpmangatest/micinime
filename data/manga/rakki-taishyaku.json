@@ -1,0 +1,32 @@
+{
+  "slug": "rakki-taishyaku",
+  "title": "Rakki Taishyaku",
+  "image": "https://komiktap.info/wp-content/uploads/2022/07/01-7.jpg",
+  "rating": "8.5",
+  "description": "Seorang teman dan menginap rumahku",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "rakki-taishyaku-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/rakki-taishyaku-chapter-1",
+      "number": 1,
+      "date": "Juli 11, 2022"
+    }
+  ]
+}

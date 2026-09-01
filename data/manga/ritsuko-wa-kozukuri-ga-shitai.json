@@ -1,0 +1,32 @@
+{
+  "slug": "ritsuko-wa-kozukuri-ga-shitai",
+  "title": "Ritsuko wa Kozukuri ga Shitai",
+  "image": "https://komiktap.info/wp-content/uploads/2023/01/01-13.jpg",
+  "rating": "8.5",
+  "description": "Seorang idol yang membantu pekerjaan dari produsernya. Namun ternyata si idol ini menyukai pak produsernya tersebut. Ia telah melakukan berbagai macam cara untuk menarik hati si produser, tetap tak berhasil. Apa lagi yang akan dilakukan si idol?",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ritsuko-wa-kozukuri-ga-shitai-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ritsuko-wa-kozukuri-ga-shitai-chapter-1",
+      "number": 1,
+      "date": "Januari 5, 2023"
+    }
+  ]
+}

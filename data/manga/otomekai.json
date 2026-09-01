@@ -1,0 +1,82 @@
+{
+  "slug": "otomekai",
+  "title": "Otomekai",
+  "image": "https://komiktap.info/wp-content/uploads/2026/07/01-3.jpg",
+  "rating": "8.5",
+  "description": "Doujin dari Sabashi renya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "otomekai-chapter-7",
+      "title": "Chapter 7 End",
+      "url": "/otomekai-chapter-7",
+      "number": 7,
+      "date": "Juli 16, 2026"
+    },
+    {
+      "slug": "otomekai-chapter-6",
+      "title": "Chapter 6",
+      "url": "/otomekai-chapter-6",
+      "number": 6,
+      "date": "Juli 14, 2026"
+    },
+    {
+      "slug": "otomekai-chapter-5",
+      "title": "Chapter 5",
+      "url": "/otomekai-chapter-5",
+      "number": 5,
+      "date": "Juli 11, 2026"
+    },
+    {
+      "slug": "otomekai-chapter-4",
+      "title": "Chapter 4",
+      "url": "/otomekai-chapter-4",
+      "number": 4,
+      "date": "Juli 10, 2026"
+    },
+    {
+      "slug": "otomekai-chapter-3",
+      "title": "Chapter 3",
+      "url": "/otomekai-chapter-3",
+      "number": 3,
+      "date": "Juli 9, 2026"
+    },
+    {
+      "slug": "otomekai-chapter-2",
+      "title": "Chapter 2",
+      "url": "/otomekai-chapter-2",
+      "number": 2,
+      "date": "Juli 6, 2026"
+    },
+    {
+      "slug": "otomekai-chapter-1",
+      "title": "Chapter 1",
+      "url": "/otomekai-chapter-1",
+      "number": 1,
+      "date": "Juli 4, 2026"
+    }
+  ]
+}

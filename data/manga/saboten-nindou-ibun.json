@@ -1,0 +1,32 @@
+{
+  "slug": "saboten-nindou-ibun",
+  "title": "Saboten Nindou -Ibun-",
+  "image": "https://komiktap.info/wp-content/uploads/2023/10/01-8.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Naruto",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "saboten-nindou-ibun-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/saboten-nindou-ibun-chapter-1",
+      "number": 1,
+      "date": "Oktober 12, 2023"
+    }
+  ]
+}

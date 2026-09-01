@@ -1,0 +1,32 @@
+{
+  "slug": "saikou-no-ippai-o-kimi-ni",
+  "title": "Saikou no Ippai o Kimi ni",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-35.jpg",
+  "rating": "8.5",
+  "description": "parodi dari Princess Reconnect",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "saikou-no-ippai-o-kimi-ni-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/saikou-no-ippai-o-kimi-ni-chapter-1",
+      "number": 1,
+      "date": "Desember 10, 2022"
+    }
+  ]
+}

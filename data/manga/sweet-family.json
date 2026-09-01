@@ -1,0 +1,127 @@
+{
+  "slug": "sweet-family",
+  "title": "Sweet Family",
+  "image": "https://komiktap.info/wp-content/uploads/2023/02/Sweet-Family-193x278-1.jpg",
+  "rating": "8.1",
+  "description": "Moontak, seorang pria pengangguran yang telah tinggal di rumah pacarnya selama dua tahun setelah keluar dari militer. Di klub tempat dia diam-diam berkunjung, dia mengetahui rahasia calon ipar perempuannya, “Youngah,” dan menerima lamaran rahasia. kupikir semuanya adalah rahasia antara kami berdua. apa pacarku mengetahuinya? Apa nasib antara dua keluarga yang semakin terjerat semakin aku mencoba menyelesaikannya? “Tuan muda… Kita adalah keluarga sekarang, jadi kamu akan merahasiakannya, kan?”",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sweet-family-chapter-14",
+      "title": "Chapter 14",
+      "url": "/sweet-family-chapter-14",
+      "number": 14,
+      "date": "April 27, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-13",
+      "title": "Chapter 13",
+      "url": "/sweet-family-chapter-13",
+      "number": 13,
+      "date": "April 20, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-12",
+      "title": "Chapter 12",
+      "url": "/sweet-family-chapter-12",
+      "number": 12,
+      "date": "April 13, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-11",
+      "title": "Chapter 11",
+      "url": "/sweet-family-chapter-11",
+      "number": 11,
+      "date": "April 8, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-10",
+      "title": "Chapter 10",
+      "url": "/sweet-family-chapter-10",
+      "number": 10,
+      "date": "Maret 30, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-9",
+      "title": "Chapter 9",
+      "url": "/sweet-family-chapter-9",
+      "number": 9,
+      "date": "Maret 23, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-8",
+      "title": "Chapter 8",
+      "url": "/sweet-family-chapter-8",
+      "number": 8,
+      "date": "Maret 19, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-7",
+      "title": "Chapter 7",
+      "url": "/sweet-family-chapter-7",
+      "number": 7,
+      "date": "Maret 14, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-6",
+      "title": "Chapter 6",
+      "url": "/sweet-family-chapter-6",
+      "number": 6,
+      "date": "Maret 5, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-5",
+      "title": "Chapter 5",
+      "url": "/sweet-family-chapter-5",
+      "number": 5,
+      "date": "Maret 5, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-4",
+      "title": "Chapter 4",
+      "url": "/sweet-family-chapter-4",
+      "number": 4,
+      "date": "Maret 4, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-3",
+      "title": "Chapter 3",
+      "url": "/sweet-family-chapter-3",
+      "number": 3,
+      "date": "Maret 4, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-2",
+      "title": "Chapter 2",
+      "url": "/sweet-family-chapter-2",
+      "number": 2,
+      "date": "Maret 4, 2023"
+    },
+    {
+      "slug": "sweet-family-chapter-1",
+      "title": "Chapter 1",
+      "url": "/sweet-family-chapter-1",
+      "number": 1,
+      "date": "Februari 23, 2023"
+    }
+  ]
+}

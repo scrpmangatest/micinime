@@ -1,0 +1,36 @@
+{
+  "slug": "nyotaika-panic",
+  "title": "Nyotaika Panic!",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/01-57.jpg",
+  "rating": "8.5",
+  "description": "Doujin ini mengisahkan tentang seorang pria yang berubah menjadi wanita karena aplikasi aneh di hpnya…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "nyotaika-panic-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/nyotaika-panic-chapter-1",
+      "number": 1,
+      "date": "Desember 17, 2022"
+    }
+  ]
+}

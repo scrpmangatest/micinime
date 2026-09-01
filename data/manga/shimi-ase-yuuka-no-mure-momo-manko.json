@@ -1,0 +1,32 @@
+{
+  "slug": "shimi-ase-yuuka-no-mure-momo-manko",
+  "title": "Shimi Ase Yuuka no Mure Momo Manko",
+  "image": "https://komiktap.info/wp-content/uploads/2023/04/01-36.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "shimi-ase-yuuka-no-mure-momo-manko-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/shimi-ase-yuuka-no-mure-momo-manko-chapter-1",
+      "number": 1,
+      "date": "April 15, 2023"
+    }
+  ]
+}

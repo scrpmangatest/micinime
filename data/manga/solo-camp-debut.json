@@ -1,0 +1,28 @@
+{
+  "slug": "solo-camp-debut",
+  "title": "Solo Camp Debut",
+  "image": "https://komiktap.info/wp-content/uploads/2022/08/01-22.jpg",
+  "rating": "8.5",
+  "description": "Perkemahan pertama kali ku aku melakukannya sendiri tapi ada orang yang menawarkan bantuan",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "solo-camp-debut-chapter-1",
+      "title": "Chapter 1",
+      "url": "/solo-camp-debut-chapter-1",
+      "number": 1,
+      "date": "Agustus 20, 2022"
+    }
+  ]
+}

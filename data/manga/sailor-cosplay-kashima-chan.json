@@ -1,0 +1,28 @@
+{
+  "slug": "sailor-cosplay-kashima-chan",
+  "title": "Sailor Cosplay Kashima-chan",
+  "image": "https://komiktap.info/wp-content/uploads/2022/12/02-1.jpg",
+  "rating": "8.5",
+  "description": "parodi dari Kancolle",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sailor-cosplay-kashima-chan-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sailor-cosplay-kashima-chan-chapter-1",
+      "number": 1,
+      "date": "Desember 8, 2022"
+    }
+  ]
+}

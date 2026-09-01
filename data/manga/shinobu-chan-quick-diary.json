@@ -1,0 +1,51 @@
+{
+  "slug": "shinobu-chan-quick-diary",
+  "title": "Shinobu-chan Quick Diary",
+  "image": "https://komiktap.info/wp-content/uploads/2021/04/001-1.jpg",
+  "rating": "8.5",
+  "description": "",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "shinobu-chan-quick-diary-chapter-2",
+      "title": "Chapter 2 End",
+      "url": "/shinobu-chan-quick-diary-chapter-2",
+      "number": 2,
+      "date": "April 28, 2021"
+    },
+    {
+      "slug": "shinobu-chan-quick-diary-chapter-1",
+      "title": "Chapter 1",
+      "url": "/shinobu-chan-quick-diary-chapter-1",
+      "number": 1,
+      "date": "April 26, 2021"
+    }
+  ]
+}

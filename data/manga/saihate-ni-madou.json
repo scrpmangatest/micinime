@@ -1,0 +1,71 @@
+{
+  "slug": "saihate-ni-madou",
+  "title": "Saihate ni Madou",
+  "image": "https://komiktap.info/wp-content/uploads/2023/07/002-1.jpg",
+  "rating": "7.00",
+  "description": "namaku kazuma, aku adalah seorang pembunuh… aku membalas denndam dan membunuh seorang pria yang sudah memperkosa adikku. tanpa kusadari pria itu memiliki seorang gadis kecil… setelah 7 tahun, aku keluar dari penjara, rasanya sangat ingin aku membunuh diriku untuk menebus semuanya dan bertemu dengan adikku, namun… inilah kisahku yang berisi penyesalan dan penebusan note : sinopsisnya mimin buat seolah olah mimin adalah karakternya, gimana keren gak? wkwk",
+  "status": "Ongoing",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Psychological",
+      "url": "/genres/psychological"
+    },
+    {
+      "name": "Thriller",
+      "url": "/genres/thriller"
+    },
+    {
+      "name": "Tragedy",
+      "url": "/genres/tragedy"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "saihate-ni-madou-chapter-06",
+      "title": "Chapter 06",
+      "url": "/saihate-ni-madou-chapter-06",
+      "number": 6,
+      "date": "Oktober 24, 2023"
+    },
+    {
+      "slug": "saihate-ni-madou-chapter-05",
+      "title": "Chapter 05",
+      "url": "/saihate-ni-madou-chapter-05",
+      "number": 5,
+      "date": "Oktober 24, 2023"
+    },
+    {
+      "slug": "saihate-ni-madou-chapter-04",
+      "title": "Chapter 04",
+      "url": "/saihate-ni-madou-chapter-04",
+      "number": 4,
+      "date": "Agustus 9, 2023"
+    },
+    {
+      "slug": "saihate-ni-madou-chapter-03",
+      "title": "Chapter 03",
+      "url": "/saihate-ni-madou-chapter-03",
+      "number": 3,
+      "date": "Juli 17, 2023"
+    },
+    {
+      "slug": "saihate-ni-madou-chapter-02",
+      "title": "Chapter 02",
+      "url": "/saihate-ni-madou-chapter-02",
+      "number": 2,
+      "date": "Juli 4, 2023"
+    },
+    {
+      "slug": "saihate-ni-madou-chapter-01",
+      "title": "Chapter 01",
+      "url": "/saihate-ni-madou-chapter-01",
+      "number": 1,
+      "date": "Juli 4, 2023"
+    }
+  ]
+}

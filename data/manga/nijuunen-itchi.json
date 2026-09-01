@@ -1,0 +1,77 @@
+{
+  "slug": "nijuunen-itchi",
+  "title": "Nijuunen Itchi",
+  "image": "https://komiktap.info/wp-content/uploads/2025/08/01-5.jpg",
+  "rating": "8.5",
+  "description": "Sebuah penyakit langkah terhadap MC",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "nijuunen-itchi-chapter-8",
+      "title": "Chapter 8 End",
+      "url": "/nijuunen-itchi-chapter-8",
+      "number": 8,
+      "date": "Agustus 25, 2025"
+    },
+    {
+      "slug": "nijuunen-itchi-chapter-7",
+      "title": "Chapter 7",
+      "url": "/nijuunen-itchi-chapter-7",
+      "number": 7,
+      "date": "Agustus 23, 2025"
+    },
+    {
+      "slug": "nijuunen-itchi-chapter-6",
+      "title": "Chapter 6",
+      "url": "/nijuunen-itchi-chapter-6",
+      "number": 6,
+      "date": "Agustus 21, 2025"
+    },
+    {
+      "slug": "nijuunen-itchi-chapter-5",
+      "title": "Chapter 5",
+      "url": "/nijuunen-itchi-chapter-5",
+      "number": 5,
+      "date": "Agustus 20, 2025"
+    },
+    {
+      "slug": "nijuunen-itchi-chapter-4",
+      "title": "Chapter 4",
+      "url": "/nijuunen-itchi-chapter-4",
+      "number": 4,
+      "date": "Agustus 16, 2025"
+    },
+    {
+      "slug": "nijuunen-itchi-chapter-3",
+      "title": "Chapter 3",
+      "url": "/nijuunen-itchi-chapter-3",
+      "number": 3,
+      "date": "Agustus 15, 2025"
+    },
+    {
+      "slug": "nijuunen-itchi-chapter-2",
+      "title": "Chapter 2",
+      "url": "/nijuunen-itchi-chapter-2",
+      "number": 2,
+      "date": "Agustus 12, 2025"
+    },
+    {
+      "slug": "nijuunen-itchi-chapter-1",
+      "title": "Chapter 1",
+      "url": "/nijuunen-itchi-chapter-1",
+      "number": 1,
+      "date": "Agustus 10, 2025"
+    }
+  ]
+}

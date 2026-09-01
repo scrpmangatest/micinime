@@ -1,0 +1,40 @@
+{
+  "slug": "ningen-yamechao",
+  "title": "Ningen Yamechao",
+  "image": "https://komiktap.info/wp-content/uploads/2022/10/01-48.jpg",
+  "rating": "8.5",
+  "description": "Bosan dengan kehidupannya sesosok iblis mendekati untuk mengambil jiwanya",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Monster Girl",
+      "url": "/genres/monster-girl"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ningen-yamechao-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ningen-yamechao-chapter-1",
+      "number": 1,
+      "date": "Oktober 24, 2022"
+    }
+  ]
+}

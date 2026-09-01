@@ -1,0 +1,32 @@
+{
+  "slug": "rikuhachima-shiki-kinsakujutsu",
+  "title": "Rikuhachima-shiki Kinsakujutsu",
+  "image": "https://komiktap.info/wp-content/uploads/2023/12/01-23.jpg",
+  "rating": "8.5",
+  "description": "Aru meminta sensei untuk membantu dia dalam masalah keuangan, namun malah terjerumus ke dalam hal aneh…",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "rikuhachima-shiki-kinsakujutsu-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/rikuhachima-shiki-kinsakujutsu-chapter-1",
+      "number": 1,
+      "date": "Desember 29, 2023"
+    }
+  ]
+}

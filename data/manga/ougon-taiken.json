@@ -1,0 +1,40 @@
+{
+  "slug": "ougon-taiken",
+  "title": "Ougon Taiken!",
+  "image": "https://komiktap.info/wp-content/uploads/2023/01/01-27.jpg",
+  "rating": "8.5",
+  "description": "cerita tentang anak sekolah bernama ozaki atsuya, suatu hari dia diundang oleh seorang temannya bernama michael kayano (miki) dia adalah teman sekelasnya, singkat cerita ketika ozaki masuk dia langsung disambut oleh wanita super cantik bernama sofie kayano, lalu mereka makan bersama di ruang tamu dan mengobrol seperti biasa, lalu ozaki mandi dan tiba tiba sofie-san masuk ke kamar mandi untuk membasuh badannya… dan cerita pun dimulai!!!",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Threesome",
+      "url": "/genres/threesome"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ougon-taiken-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ougon-taiken-chapter-1",
+      "number": 1,
+      "date": "Januari 9, 2023"
+    }
+  ]
+}

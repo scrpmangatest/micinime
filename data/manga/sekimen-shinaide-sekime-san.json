@@ -1,0 +1,50 @@
+{
+  "slug": "sekimen-shinaide-sekime-san",
+  "title": "Sekimen Shinaide Sekime-san",
+  "image": "https://komiktap.info/wp-content/uploads/2020/10/1601632485-i322786.jpg",
+  "rating": "8",
+  "description": "Sekime-san hanya dingin bagiku. Tapi aku satu-satunya yang tahu wajah aslinya.",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Life",
+      "url": "/genres/school-life"
+    },
+    {
+      "name": "Shounen",
+      "url": "/genres/shounen"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sekimen-shinaide-sekime-san-chapter-3",
+      "title": "Chapter 3",
+      "url": "/sekimen-shinaide-sekime-san-chapter-3",
+      "number": 3,
+      "date": "Oktober 2, 2020"
+    },
+    {
+      "slug": "sekimen-shinaide-sekime-san-chapter-2",
+      "title": "Chapter 2",
+      "url": "/sekimen-shinaide-sekime-san-chapter-2",
+      "number": 2,
+      "date": "Oktober 2, 2020"
+    },
+    {
+      "slug": "sekimen-shinaide-sekime-san-chapter-1",
+      "title": "Chapter 1",
+      "url": "/sekimen-shinaide-sekime-san-chapter-1",
+      "number": 1,
+      "date": "Oktober 2, 2020"
+    }
+  ]
+}

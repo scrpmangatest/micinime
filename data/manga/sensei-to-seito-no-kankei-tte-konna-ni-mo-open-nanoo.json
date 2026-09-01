@@ -1,0 +1,32 @@
+{
+  "slug": "sensei-to-seito-no-kankei-tte-konna-ni-mo-open-nanoo",
+  "title": "Sensei to Seito no Kankei tte Konna ni mo Open nanoo!",
+  "image": "https://komiktap.info/wp-content/uploads/2026/05/01-1.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Blue Archive",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "sensei-to-seito-no-kankei-tte-konna-ni-mo-open-nanoo-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/sensei-to-seito-no-kankei-tte-konna-ni-mo-open-nanoo-chapter-1",
+      "number": 1,
+      "date": "Mei 9, 2026"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "ore-no-musume",
+  "title": "Ore no Musume",
+  "image": "https://komiktap.info/wp-content/uploads/2022/05/01-7.jpg",
+  "rating": "8.5",
+  "description": "Pasca satu bercerai dengan mantan istrinya…. dia bertemu kembali dengan putri hasil hubungan dengan mantan istrinya dulu",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "Lolicon",
+      "url": "/genres/lolicon"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "School Girl",
+      "url": "/genres/school-girl"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ore-no-musume-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ore-no-musume-chapter-1",
+      "number": 1,
+      "date": "Mei 13, 2022"
+    }
+  ]
+}

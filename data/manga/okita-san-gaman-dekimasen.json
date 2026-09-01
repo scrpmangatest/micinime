@@ -1,0 +1,36 @@
+{
+  "slug": "okita-san-gaman-dekimasen",
+  "title": "Okita-san Gaman Dekimasen!",
+  "image": "https://komiktap.info/wp-content/uploads/2021/09/001-6.jpg",
+  "rating": "8.0",
+  "description": "Parodi dari FGO",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "okita-san-gaman-dekimasen-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/okita-san-gaman-dekimasen-chapter-1",
+      "number": 1,
+      "date": "September 17, 2021"
+    }
+  ]
+}

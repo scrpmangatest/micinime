@@ -1,0 +1,32 @@
+{
+  "slug": "ouji-sama-to-iinari-maid",
+  "title": "Ouji-sama to Iinari Maid",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/167.jpg",
+  "rating": "8.3",
+  "description": "Seorang maid yang dipungut oleh seorang pangeran",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ouji-sama-to-iinari-maid-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/ouji-sama-to-iinari-maid-chapter-1",
+      "number": 1,
+      "date": "September 9, 2020"
+    }
+  ]
+}

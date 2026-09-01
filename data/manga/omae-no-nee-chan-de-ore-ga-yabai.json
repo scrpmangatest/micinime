@@ -1,0 +1,28 @@
+{
+  "slug": "omae-no-nee-chan-de-ore-ga-yabai",
+  "title": "Omae no Nee-chan de Ore ga Yabai",
+  "image": "https://komiktap.info/wp-content/uploads/2020/09/01-42.jpg",
+  "rating": "8.3",
+  "description": "Kouta-san bermain game dirumah temannya, akan tetapi dia naksir dengan teman kakaknya si Risa-san",
+  "status": "Completed",
+  "type": "Manga",
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mantap",
+      "url": "/genres/mantap"
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "omae-no-nee-chan-de-ore-ga-yabai-chapter-1",
+      "title": "Chapter 1 End",
+      "url": "/omae-no-nee-chan-de-ore-ga-yabai-chapter-1",
+      "number": 1,
+      "date": "September 9, 2020"
+    }
+  ]
+}
