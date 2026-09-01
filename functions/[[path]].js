@@ -95,8 +95,19 @@ async function handleApi(context, segments) {
 
   if (segments.length === 2 && segments[0] === 'chapter') {
     const slug = decode(segments[1]);
-    const chapter = await assetJson(context, `/data/chapters/${slugFile(slug)}.json`);
-    return chapter ? json(chapter) : json({ error: 'Chapter not cached yet' }, 404);
+    const cached = await assetJson(context, `/data/chapters/${slugFile(slug)}.json`);
+    if (cached && cached.images?.length) return json(cached);
+    try {
+      const html = await fetch(`https://komiktap.info/${encodeURI(slug)}/`, { headers: { 'User-Agent': 'Mozilla/5.0', Referer: 'https://komiktap.info/' }, cf: { cacheTtl: 3600, cacheEverything: true } }).then((response) => response.text());
+      const match = html.match(/ts_reader\.run\((\{[\s\S]*?\})\);/);
+      if (match) {
+        const reader = JSON.parse(match[1]);
+        const source = reader.sources?.find((item) => item.source === reader.defaultSource) || reader.sources?.[0];
+        const images = (source?.images || []).map((image) => String(image).replace(/\\\//g, '/'));
+        if (images.length) return json({ slug, mangaSlug: slug.replace(/-chapter-[\d.]+(?:-end)?$/i, ''), images, imageCount: images.length, prevChapter: reader.prevUrl || null, nextChapter: reader.nextUrl || null });
+      }
+    } catch {}
+    return cached ? json(cached) : json({ error: 'Chapter not found' }, 404);
   }
 
   if (segments.length === 1 && segments[0] === 'search') {
