@@ -47,7 +47,7 @@ async function handleApi(context, segments) {
   if (segments.length === 1 && segments[0] === 'home') {
     const page = Math.max(1, Number(url.searchParams.get('page')) || 1);
     const items = sortedItems(data);
-    const paged = paginate(items, page, 16);
+    const paged = paginate(items, page, 20);
     const latest = await Promise.all(paged.items.map(async (item) => mergeDetail(item, await detailFor(context, item.slug))));
     const popularBases = (data.home?.popular?.length ? data.home.popular : items.slice(0, 15));
     const popular = await Promise.all(popularBases.map(async (item) => mergeDetail(item, await detailFor(context, item.slug))));
