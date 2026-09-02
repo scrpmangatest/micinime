@@ -1,24 +1,32 @@
 {
   "slug": "1000-kai-iku-made-deraremasen",
   "title": "1000-kai Iku made Deraremasen",
-  "image": "https://i1.wp.com/komikhentaiku.com/wp-content/uploads/2026/05/1000-kai-Iku-made-Deraremasen.jpg",
-  "rating": "7.00",
-  "description": null,
-  "status": "Ongoing",
+  "image": "https://komiktap.info/wp-content/uploads/2023/03/01-56.jpg",
+  "rating": "8.5",
+  "description": "Parodi dari Tohou project",
+  "status": "Completed",
   "type": "Manga",
   "genres": [
     {
-      "name": "Sub Indo",
-      "url": "/genres/sub-indo"
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
     }
   ],
   "chapters": [
     {
-      "title": "Chapter 1",
-      "url": "/1000-kai-iku-made-deraremasen-chapter-1",
       "slug": "1000-kai-iku-made-deraremasen-chapter-1",
-      "date": "20/05/2026"
+      "title": "Chapter 1 End",
+      "url": "/1000-kai-iku-made-deraremasen-chapter-1",
+      "number": 1,
+      "date": "Maret 21, 2023"
     }
-  ],
-  "scrapedAt": "2026-08-06T13:11:28.693Z"
+  ]
 }
