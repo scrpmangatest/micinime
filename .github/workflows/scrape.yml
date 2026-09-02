@@ -64,5 +64,6 @@ jobs:
             echo "No data changes detected."
           else
             git commit -m "Update data after scrape [skip ci]"
+            git pull --rebase origin main || (git fetch origin && git rebase origin/main)
             git push
           fi
