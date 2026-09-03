@@ -9228,7 +9228,7 @@
     "title": "Zettai Reibo",
     "url": "/manga/zettai-reibo",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/cover-1.webp-1.webp",
-    "chapter": "Chapter 8",
+    "chapter": "Chapter 9 END",
     "rating": "8",
     "type": "Manga",
     "time": null
@@ -9348,7 +9348,7 @@
     "title": "Shitataru Kano Haha",
     "url": "/manga/shitataru-kano-haha",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/01-7.jpg",
-    "chapter": "Chapter 7",
+    "chapter": "Chapter 8",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -9358,7 +9358,7 @@
     "title": "Irodori Kazoku",
     "url": "/manga/irodori-kazoku",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/01-11.jpg",
-    "chapter": "Chapter 2",
+    "chapter": "Chapter 3",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -9368,7 +9368,7 @@
     "title": "Torokeru Tsuma Chichi",
     "url": "/manga/torokeru-tsuma-chichi",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/01-10.jpg",
-    "chapter": "Chapter 3",
+    "chapter": "Chapter 4",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -9478,7 +9478,7 @@
     "title": "Regressed Warrior’s Female Dominance",
     "url": "/manga/regressed-warriors-female-dominance",
     "image": "https://komiktap.info/wp-content/uploads/2024/03/reg.webp",
-    "chapter": "Chapter 94",
+    "chapter": "Chapter 95",
     "rating": "7.7",
     "type": "Manga",
     "time": null
@@ -9638,7 +9638,7 @@
     "title": "Stop Smoking",
     "url": "/manga/stop-smoking",
     "image": "https://komiktap.info/wp-content/uploads/2024/09/Stop-Smoking-193x278-1.jpg",
-    "chapter": "Chapter 108",
+    "chapter": "Chapter 109",
     "rating": "7.1",
     "type": "Manga",
     "time": null
@@ -9648,7 +9648,7 @@
     "title": "Mother and Daughters Home",
     "url": "/manga/mother-and-daughters-home",
     "image": "https://komiktap.info/wp-content/uploads/2025/11/The-Mother-and-Daughter-Live-In.webp",
-    "chapter": "Chapter 43",
+    "chapter": "Chapter 44",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -10221,6 +10221,46 @@
     "chapter": "Chapter 1",
     "rating": "8.8",
     "type": "Manga",
+    "time": null
+  },
+  "tsumibukai-yokubo": {
+    "slug": "tsumibukai-yokubo",
+    "title": "Tsumibukai yokubō",
+    "url": "/manga/tsumibukai-yokubo",
+    "image": "https://komiktap.info/wp-content/uploads/2024/09/001-6.webp",
+    "chapter": "Chapter 6",
+    "rating": "7.5",
+    "type": "Manga",
+    "time": null
+  },
+  "wonderful-new-world": {
+    "slug": "wonderful-new-world",
+    "title": "wonderful-new-world",
+    "url": "/manga/wonderful-new-world",
+    "image": null,
+    "chapter": "Chapter 262 End",
+    "rating": "6.5",
+    "type": null,
+    "time": null
+  },
+  "anata-no-semen-kaishuu-shimasu": {
+    "slug": "anata-no-semen-kaishuu-shimasu",
+    "title": "anata-no-semen-kaishuu-shimasu",
+    "url": "/manga/anata-no-semen-kaishuu-shimasu",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "the-seed-of-destiny": {
+    "slug": "the-seed-of-destiny",
+    "title": "the-seed-of-destiny",
+    "url": "/manga/the-seed-of-destiny",
+    "image": null,
+    "chapter": "Chapter 42",
+    "rating": "7.5",
+    "type": null,
     "time": null
   }
 }
