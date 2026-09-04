@@ -186,10 +186,44 @@ async function handleSitemap(context) {
 
 async function spaFallback(context) {
   const response = await context.env.ASSETS.fetch(new Request(new URL('/index.html', context.request.url)));
+  let html = await response.text();
+  const path = context.params.path || [];
+  let title = 'micinime - Baca Manga & Manhwa Hentai Sub Indo Gratis';
+  let description = 'Baca manga dan manhwa hentai sub Indonesia gratis di micinime. Update chapter terbaru setiap hari.';
+  let canonical = new URL(context.request.url).origin + new URL(context.request.url).pathname;
+  let content = '';
+
+  if (path[0] === 'manga' && path[1]) {
+    const slug = decode(path[1]);
+    const item = await catalog(context).then((data) => (data?.items || []).find((entry) => entry.slug === slug)).catch(() => null);
+    const data = await detailFor(context, slug);
+    const manga = mergeDetail(item, data);
+    if (manga) {
+      title = `${manga.title || slug} - Baca Manga Sub Indo | micinime`;
+      description = `Baca ${manga.title || slug} bahasa Indonesia gratis di micinime. Update chapter terbaru.`;
+      content = `<main><h1>${escapeXml(manga.title || slug)}</h1><p>${escapeXml(description)}</p>${manga.image ? `<img src="${escapeXml(manga.image)}" alt="${escapeXml(manga.title || slug)}">` : ''}<h2>Chapter ${Array.isArray(manga.chapters) ? manga.chapters.length : 0}</h2><ul>${(manga.chapters || []).slice(0, 50).map((chapter) => `<li><a href="${escapeXml(chapter.url || '#')}">${escapeXml(chapter.title || '')}</a></li>`).join('')}</ul></main>`;
+    }
+  } else if (path[0] === 'genres' && path[1]) {
+    const genre = decode(path[1]).replace(/-/g, ' ');
+    title = `Genre ${genre} - Baca Manga Sub Indo | micinime`;
+    description = `Kumpulan manga dan manhwa genre ${genre} sub Indonesia di micinime.`;
+    content = `<main><h1>Genre ${escapeXml(genre)}</h1><p>${escapeXml(description)}</p></main>`;
+  } else if (path[0] === 'az-lists') {
+    title = 'Daftar Manga AZ Sub Indo | micinime';
+    description = 'Daftar manga dan manhwa sub Indonesia berdasarkan abjad di micinime.';
+  }
+
+  html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeXml(title)}</title>`);
+  html = html.replace(/<meta\s+name=["']description["'][^>]*>/i, `<meta name="description" content="${escapeXml(description)}">`);
+  html = html.replace(/<link\s+rel=["']canonical["'][^>]*>/i, `<link rel="canonical" href="${escapeXml(canonical)}">`);
+  html = html.replace(/<meta\s+property=["']og:title["'][^>]*>/i, `<meta property="og:title" content="${escapeXml(title)}">`);
+  html = html.replace(/<meta\s+property=["']og:description["'][^>]*>/i, `<meta property="og:description" content="${escapeXml(description)}">`);
+  html = html.replace(/<meta\s+property=["']og:url["'][^>]*>/i, `<meta property="og:url" content="${escapeXml(canonical)}">`);
+  if (content) html = html.replace('<div id="content"></div>', `<div id="content">${content}</div>`);
   const headers = new Headers(response.headers);
-  headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
+  headers.set('Cache-Control', 'public, max-age=300');
   headers.set('Content-Type', 'text/html; charset=utf-8');
-  return new Response(response.body, { status: response.status, headers });
+  return new Response(html, { status: response.status, headers });
 }
 
 export async function onRequestGet(context) {
