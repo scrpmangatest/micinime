@@ -10235,32 +10235,42 @@
   },
   "wonderful-new-world": {
     "slug": "wonderful-new-world",
-    "title": "wonderful-new-world",
+    "title": "Wonderful New World",
     "url": "/manga/wonderful-new-world",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2020/09/e42b53c68145be4ab38d3ee3c13c5111af6bdfb5_s2_n2.jpg",
     "chapter": "Chapter 262 End",
     "rating": "6.5",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "anata-no-semen-kaishuu-shimasu": {
     "slug": "anata-no-semen-kaishuu-shimasu",
-    "title": "anata-no-semen-kaishuu-shimasu",
+    "title": "Anata no Semen Kaishuu Shimasu",
     "url": "/manga/anata-no-semen-kaishuu-shimasu",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-1.jpg",
     "chapter": "Chapter 1",
     "rating": "8.5",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "the-seed-of-destiny": {
     "slug": "the-seed-of-destiny",
-    "title": "the-seed-of-destiny",
+    "title": "The Seed of Destiny",
     "url": "/manga/the-seed-of-destiny",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2025/11/the-seed-of-destinym.webp",
     "chapter": "Chapter 42",
     "rating": "7.5",
-    "type": null,
+    "type": "Manga",
+    "time": null
+  },
+  "how-about-we-just-stay": {
+    "slug": "how-about-we-just-stay",
+    "title": "How about we just stay",
+    "url": "/manga/how-about-we-just-stay",
+    "image": "https://komiktap.info/wp-content/uploads/2026/04/how-about-we-stay-just-friendsm.webp",
+    "chapter": "Chapter 19",
+    "rating": "7",
+    "type": "Manga",
     "time": null
   }
 }
