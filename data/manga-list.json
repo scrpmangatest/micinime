@@ -9298,7 +9298,7 @@
     "title": "Wireless Onahole",
     "url": "/manga/wireless-onahole",
     "image": "https://komiktap.info/wp-content/uploads/2025/03/pktz1xjli7br5sb01tw46z2g.jpg",
-    "chapter": "Chapter 117",
+    "chapter": "Chapter 118",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -9348,7 +9348,7 @@
     "title": "Shitataru Kano Haha",
     "url": "/manga/shitataru-kano-haha",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/01-7.jpg",
-    "chapter": "Chapter 8",
+    "chapter": "Chapter 9",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -9358,7 +9358,7 @@
     "title": "Irodori Kazoku",
     "url": "/manga/irodori-kazoku",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/01-11.jpg",
-    "chapter": "Chapter 3",
+    "chapter": "Chapter 3.5",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -9368,7 +9368,7 @@
     "title": "Torokeru Tsuma Chichi",
     "url": "/manga/torokeru-tsuma-chichi",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/01-10.jpg",
-    "chapter": "Chapter 4",
+    "chapter": "Chapter 5 End",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -9398,7 +9398,7 @@
     "title": "Taming A Female Bully",
     "url": "/manga/taming-a-female-bully",
     "image": "https://komiktap.info/wp-content/uploads/2024/12/nv91q5a41k3r48hpkhewkqwv.webp",
-    "chapter": "Chapter 82",
+    "chapter": "Chapter 83",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -9458,7 +9458,7 @@
     "title": "Slave Code",
     "url": "/manga/slave-code",
     "image": "https://komiktap.info/wp-content/uploads/2026/05/GaeTi.webp",
-    "chapter": "Chapter 20",
+    "chapter": "Chapter 21",
     "rating": "7.7",
     "type": "Manga",
     "time": null
@@ -9488,7 +9488,7 @@
     "title": "I’ll Plug It In!",
     "url": "/manga/ill-plug-it-in",
     "image": "https://komiktap.info/wp-content/uploads/2026/06/Ill-Plug-It-In.webp",
-    "chapter": "Chapter 22",
+    "chapter": "Chapter 24",
     "rating": "7.7",
     "type": "Manga",
     "time": null
@@ -9988,7 +9988,7 @@
     "title": "No Man’s Land",
     "url": "/manga/no-mans-land",
     "image": "https://komiktap.info/wp-content/uploads/2023/12/no-mans-landm.jpg",
-    "chapter": "Chapter 73",
+    "chapter": "Chapter 78",
     "rating": "7.7",
     "type": "Manga",
     "time": null
@@ -10248,7 +10248,7 @@
     "title": "Anata no Semen Kaishuu Shimasu",
     "url": "/manga/anata-no-semen-kaishuu-shimasu",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-1.jpg",
-    "chapter": "Chapter 1",
+    "chapter": "Chapter 2",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10258,7 +10258,7 @@
     "title": "The Seed of Destiny",
     "url": "/manga/the-seed-of-destiny",
     "image": "https://komiktap.info/wp-content/uploads/2025/11/the-seed-of-destinym.webp",
-    "chapter": "Chapter 42",
+    "chapter": "Chapter 45",
     "rating": "7.5",
     "type": "Manga",
     "time": null
@@ -10271,6 +10271,36 @@
     "chapter": "Chapter 22",
     "rating": "7",
     "type": "Manga",
+    "time": null
+  },
+  "smoking-hypnosis": {
+    "slug": "smoking-hypnosis",
+    "title": "smoking-hypnosis",
+    "url": "/manga/smoking-hypnosis",
+    "image": null,
+    "chapter": "Chapter 23 - Season 2",
+    "rating": "8.3",
+    "type": null,
+    "time": null
+  },
+  "mesu-no-ie-tsuma-wa-midare-ubawareru": {
+    "slug": "mesu-no-ie-tsuma-wa-midare-ubawareru",
+    "title": "Mesu no Ie – Tsuma wa Midare Ubawareru",
+    "url": "/manga/mesu-no-ie-tsuma-wa-midare-ubawareru",
+    "image": "https://komiktap.info/wp-content/uploads/2024/09/001-10.webp",
+    "chapter": "Chapter 3",
+    "rating": "9.1",
+    "type": "Manga",
+    "time": null
+  },
+  "living-with-my-teacher": {
+    "slug": "living-with-my-teacher",
+    "title": "living-with-my-teacher",
+    "url": "/manga/living-with-my-teacher",
+    "image": null,
+    "chapter": "Chapter 2",
+    "rating": "8.8",
+    "type": null,
     "time": null
   }
 }

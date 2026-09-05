@@ -1,0 +1,41 @@
+{
+  "slug": "living-with-my-teacher",
+  "title": "living-with-my-teacher",
+  "image": null,
+  "rating": "8.8",
+  "description": "Suhyeon mendapati dirinya kehilangan tempat tinggal setelah menjadi korban penipuan. Karena tidak punya tujuan lain, ia akhirnya tinggal satu atap dengan mantan wali kelasnya—sosok wanita tegas dan mengintimidasi yang dulu ia takuti semasa sekolah.",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
+    },
+    {
+      "name": "Smut",
+      "url": "/genres/smut"
+    }
+  ],
+  "chapters": [],
+  "scrapedAt": "2026-09-05T17:06:55.004Z"
+}
