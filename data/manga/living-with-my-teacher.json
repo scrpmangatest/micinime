@@ -36,6 +36,19 @@
       "url": "/genres/smut"
     }
   ],
-  "chapters": [],
-  "scrapedAt": "2026-09-05T17:06:55.004Z"
+  "chapters": [
+    {
+      "title": "Chapter 2",
+      "url": "/living-with-my-teacher-chapter-2",
+      "slug": "living-with-my-teacher-chapter-2",
+      "date": "September 5, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/living-with-my-teacher-chapter-1",
+      "slug": "living-with-my-teacher-chapter-1",
+      "date": "September 5, 2026"
+    }
+  ],
+  "scrapedAt": "2026-09-06T00:29:52.994Z"
 }
