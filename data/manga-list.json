@@ -3319,7 +3319,7 @@
     "title": "I Will Teach You Self Defense",
     "url": "/manga/i-will-teach-you-self-defense",
     "image": "https://komiktap.info/wp-content/uploads/2025/11/i-will-teach-you-self-defense-rawm.png",
-    "chapter": "Chapter 42",
+    "chapter": "Chapter 43",
     "rating": "8.3",
     "type": "Manga",
     "time": null
@@ -9388,7 +9388,7 @@
     "title": "Sugar Daddy (Wolgucheon)",
     "url": "/manga/sugar-daddy-wolgucheon",
     "image": "https://komiktap.info/wp-content/uploads/2026/02/Sugar-Daddy.webp",
-    "chapter": "Chapter 36",
+    "chapter": "Chapter 37",
     "rating": "8.3",
     "type": "Manga",
     "time": null
@@ -9988,7 +9988,7 @@
     "title": "No Man’s Land",
     "url": "/manga/no-mans-land",
     "image": "https://komiktap.info/wp-content/uploads/2023/12/no-mans-landm.jpg",
-    "chapter": "Chapter 78",
+    "chapter": "Chapter 81",
     "rating": "7.7",
     "type": "Manga",
     "time": null
@@ -10078,7 +10078,7 @@
     "title": "I’m the Only Guy at the Massage Shop",
     "url": "/manga/im-the-only-guy-at-the-massage-shop",
     "image": "https://komiktap.info/wp-content/uploads/2026/04/only-guy.webp",
-    "chapter": "Chapter 26",
+    "chapter": "Chapter 27",
     "rating": "8.1",
     "type": "Manga",
     "time": null
@@ -10258,7 +10258,7 @@
     "title": "The Seed of Destiny",
     "url": "/manga/the-seed-of-destiny",
     "image": "https://komiktap.info/wp-content/uploads/2025/11/the-seed-of-destinym.webp",
-    "chapter": "Chapter 45",
+    "chapter": "Chapter 47",
     "rating": "7.5",
     "type": "Manga",
     "time": null
@@ -10295,12 +10295,32 @@
   },
   "living-with-my-teacher": {
     "slug": "living-with-my-teacher",
-    "title": "living-with-my-teacher",
+    "title": "Living With My Teacher!",
     "url": "/manga/living-with-my-teacher",
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/cover_c33b562f.webp",
+    "chapter": "Chapter 6",
+    "rating": "8.8",
+    "type": "Manga",
+    "time": null
+  },
+  "mikami-sensei-ekohiiki-kyoushi-no-hisanna-matsuro": {
+    "slug": "mikami-sensei-ekohiiki-kyoushi-no-hisanna-matsuro",
+    "title": "mikami-sensei-ekohiiki-kyoushi-no-hisanna-matsuro",
+    "url": "/manga/mikami-sensei-ekohiiki-kyoushi-no-hisanna-matsuro",
     "image": null,
     "chapter": "Chapter 2",
     "rating": "8.8",
     "type": null,
+    "time": null
+  },
+  "master-of-the-island": {
+    "slug": "master-of-the-island",
+    "title": "Master of the Island",
+    "url": "/manga/master-of-the-island",
+    "image": "https://komiktap.info/wp-content/uploads/2026/08/master-of-the-islandm.webp",
+    "chapter": "Chapter 12",
+    "rating": "8",
+    "type": "Manga",
     "time": null
   }
 }
