@@ -1,0 +1,36 @@
+{
+  "slug": "matsuri-to-hamakaze-to",
+  "title": "matsuri-to-hamakaze-to",
+  "image": null,
+  "rating": "8.5",
+  "description": "Parodi dari Kancolle",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1 End",
+      "url": "/matsuri-to-hamakaze-to-chapter-1",
+      "slug": "matsuri-to-hamakaze-to-chapter-1",
+      "date": "September 7, 2026"
+    }
+  ],
+  "scrapedAt": "2026-09-07T20:20:52.282Z"
+}
