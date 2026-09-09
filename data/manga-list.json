@@ -9358,7 +9358,7 @@
     "title": "Irodori Kazoku",
     "url": "/manga/irodori-kazoku",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/01-11.jpg",
-    "chapter": "Chapter 5",
+    "chapter": "Chapter 6",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -9738,7 +9738,7 @@
     "title": "MILF Hunting In Another World",
     "url": "/manga/milf-hunting-in-another-world",
     "image": "https://komiktap.info/wp-content/uploads/2023/06/MILF-Hunting-In-Another-World-193x278-1.jpg",
-    "chapter": "Chapter 134",
+    "chapter": "Chapter 135",
     "rating": "8.9",
     "type": "Manga",
     "time": null
@@ -9828,7 +9828,7 @@
     "title": "The Teachers’ Effort",
     "url": "/manga/the-teachers-effort",
     "image": "https://komiktap.info/wp-content/uploads/2024/07/esfuerzo-de-los-profesores.jpg",
-    "chapter": "Chapter 109",
+    "chapter": "Chapter 110",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -10078,7 +10078,7 @@
     "title": "I’m the Only Guy at the Massage Shop",
     "url": "/manga/im-the-only-guy-at-the-massage-shop",
     "image": "https://komiktap.info/wp-content/uploads/2026/04/only-guy.webp",
-    "chapter": "Chapter 27",
+    "chapter": "Chapter 28",
     "rating": "8.1",
     "type": "Manga",
     "time": null
@@ -10248,7 +10248,7 @@
     "title": "Anata no Semen Kaishuu Shimasu",
     "url": "/manga/anata-no-semen-kaishuu-shimasu",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-1.jpg",
-    "chapter": "Chapter 4",
+    "chapter": "Chapter 5",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10355,21 +10355,171 @@
   },
   "nyuuwaku-rihoiro-ni-somaru-natsu": {
     "slug": "nyuuwaku-rihoiro-ni-somaru-natsu",
-    "title": "nyuuwaku-rihoiro-ni-somaru-natsu",
+    "title": "Nyuuwaku -Rihoiro ni Somaru Natsu",
     "url": "/manga/nyuuwaku-rihoiro-ni-somaru-natsu",
-    "image": null,
-    "chapter": "Chapter 1",
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-5.jpg",
+    "chapter": "Chapter 2",
     "rating": "8.5",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "danjo-no-teiso-kannen-ga-gyaku-ni-natta-sekai": {
     "slug": "danjo-no-teiso-kannen-ga-gyaku-ni-natta-sekai",
-    "title": "danjo-no-teiso-kannen-ga-gyaku-ni-natta-sekai",
+    "title": "Danjo no Teiso Kannen ga Gyaku ni natta Sekai",
     "url": "/manga/danjo-no-teiso-kannen-ga-gyaku-ni-natta-sekai",
-    "image": null,
-    "chapter": "Chapter 1",
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-4.jpg",
+    "chapter": "Chapter 2",
     "rating": "8.5",
+    "type": "Manga",
+    "time": null
+  },
+  "bungkin-bad": {
+    "slug": "bungkin-bad",
+    "title": "Bunking Bed",
+    "url": "/manga/bungkin-bad",
+    "image": "https://komiktap.info/wp-content/uploads/2022/10/Bunking-Bed-193x278-1.jpg",
+    "chapter": "Chapter 104 End",
+    "rating": "8.0",
+    "type": "Manga",
+    "time": null
+  },
+  "bad-guy-mojo": {
+    "slug": "bad-guy-mojo",
+    "title": "Bad Guy (Mojo)",
+    "url": "/manga/bad-guy-mojo",
+    "image": "https://komiktap.info/wp-content/uploads/2022/01/cover_250x350.jpg",
+    "chapter": "Chapter 85 End",
+    "rating": "7.7",
+    "type": "Manga",
+    "time": null
+  },
+  "akogare-no-oppai-wa-ane-no-aji": {
+    "slug": "akogare-no-oppai-wa-ane-no-aji",
+    "title": "Akogare no Oppai wa Ane no Aji",
+    "url": "/manga/akogare-no-oppai-wa-ane-no-aji",
+    "image": "https://komiktap.info/wp-content/uploads/2026/06/01-10.jpg",
+    "chapter": "Chapter 5 End",
+    "rating": "8.5",
+    "type": "Manga",
+    "time": null
+  },
+  "a-good-day-to-camp": {
+    "slug": "a-good-day-to-camp",
+    "title": "A Good Day to Camp",
+    "url": "/manga/a-good-day-to-camp",
+    "image": "https://komiktap.info/wp-content/uploads/2022/02/1644121703-2453-i376680.jpg",
+    "chapter": "Chapter 50 End",
+    "rating": "5",
+    "type": "Manga",
+    "time": null
+  },
+  "i-will-protect-you-helcher": {
+    "slug": "i-will-protect-you-helcher",
+    "title": "I Will Protect You (Helcher)",
+    "url": "/manga/i-will-protect-you-helcher",
+    "image": "https://komiktap.info/wp-content/uploads/2025/11/I-Will-Protect-You.webp",
+    "chapter": "Chapter 30",
+    "rating": "8.3",
+    "type": "Manga",
+    "time": null
+  },
+  "stop-smoking-uncen": {
+    "slug": "stop-smoking-uncen",
+    "title": "stop-smoking-uncen",
+    "url": "/manga/stop-smoking-uncen",
+    "image": null,
+    "chapter": "Chapter 61",
+    "rating": "7.9",
+    "type": null,
+    "time": null
+  },
+  "dont-be-like-this-son-in-law": {
+    "slug": "dont-be-like-this-son-in-law",
+    "title": "Don’t Be Like This! Son-In-Law",
+    "url": "/manga/dont-be-like-this-son-in-law",
+    "image": "https://komiktap.info/wp-content/uploads/2020/12/Son-In-Law.jpg",
+    "chapter": "Chapter 67 End",
+    "rating": "8.5",
+    "type": "Manga",
+    "time": null
+  },
+  "whats-wrong-with-this-family": {
+    "slug": "whats-wrong-with-this-family",
+    "title": "whats-wrong-with-this-family",
+    "url": "/manga/whats-wrong-with-this-family",
+    "image": null,
+    "chapter": "Chapter 81 End",
+    "rating": "6.9",
+    "type": null,
+    "time": null
+  },
+  "a-different-class": {
+    "slug": "a-different-class",
+    "title": "A Different Class",
+    "url": "/manga/a-different-class",
+    "image": "https://komiktap.info/wp-content/uploads/2022/01/a-different-classm.jpg",
+    "chapter": "Chapter 52 END",
+    "rating": "8",
+    "type": "Manga",
+    "time": null
+  },
+  "a-secret-lesson-with-my-younger-sister": {
+    "slug": "a-secret-lesson-with-my-younger-sister",
+    "title": "A Secret Lesson With My Younger Sister",
+    "url": "/manga/a-secret-lesson-with-my-younger-sister",
+    "image": "https://komiktap.info/wp-content/uploads/2024/06/Alien.webp",
+    "chapter": "Chapter 100 End",
+    "rating": "7.9",
+    "type": "Manga",
+    "time": null
+  },
+  "the-emperor-of-the-night": {
+    "slug": "the-emperor-of-the-night",
+    "title": "the-emperor-of-the-night",
+    "url": "/manga/the-emperor-of-the-night",
+    "image": null,
+    "chapter": "Chapter 115 End",
+    "rating": "8.2",
+    "type": null,
+    "time": null
+  },
+  "my-stepmothers-friends-uncen": {
+    "slug": "my-stepmothers-friends-uncen",
+    "title": "My Stepmother’s Friends Uncen",
+    "url": "/manga/my-stepmothers-friends-uncen",
+    "image": "https://komiktap.info/wp-content/uploads/2023/05/step.jpg",
+    "chapter": "Chapter 75",
+    "rating": "9.9",
+    "type": "Manga",
+    "time": null
+  },
+  "should-i-study-at-noryangjin": {
+    "slug": "should-i-study-at-noryangjin",
+    "title": "should-i-study-at-noryangjin",
+    "url": "/manga/should-i-study-at-noryangjin",
+    "image": null,
+    "chapter": "Chapter 101 END",
+    "rating": "8.3",
+    "type": null,
+    "time": null
+  },
+  "succubus-system": {
+    "slug": "succubus-system",
+    "title": "succubus-system",
+    "url": "/manga/succubus-system",
+    "image": null,
+    "chapter": "Chapter 60 End",
+    "rating": "8",
+    "type": null,
+    "time": null
+  },
+  "the-female-delinquent-set-her-eyes-on-me": {
+    "slug": "the-female-delinquent-set-her-eyes-on-me",
+    "title": "the-female-delinquent-set-her-eyes-on-me",
+    "url": "/manga/the-female-delinquent-set-her-eyes-on-me",
+    "image": null,
+    "chapter": "Chapter 51",
+    "rating": "7.9",
     "type": null,
     "time": null
   }

@@ -1,0 +1,720 @@
+{
+  "slug": "the-emperor-of-the-night",
+  "title": "the-emperor-of-the-night",
+  "image": null,
+  "rating": "8.2",
+  "description": "Pada hari dia datang untuk melihat rumah baru, Sung Gwi-nam, seorang pria biasa, bertemu dengan kehadiran hantu misterius dan dengan itu memulai bagian kedua dari hidupnya. Setelah memperoleh kemampuan khusus untuk menarik hati wanita dari ace legendaris dari bar host Gangnam, Gamjeong, ia terlahir kembali sebagai kaisar malam yang sebenarnya dengan menggunakan kemampuannya.",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Fantasy",
+      "url": "/genres/fantasy"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 115 End",
+      "url": "/the-emperor-of-the-night-chapter-115",
+      "slug": "the-emperor-of-the-night-chapter-115",
+      "date": "Januari 19, 2024"
+    },
+    {
+      "title": "Chapter 114",
+      "url": "/the-emperor-of-the-night-chapter-114",
+      "slug": "the-emperor-of-the-night-chapter-114",
+      "date": "Januari 11, 2024"
+    },
+    {
+      "title": "Chapter 113",
+      "url": "/the-emperor-of-the-night-chapter-113",
+      "slug": "the-emperor-of-the-night-chapter-113",
+      "date": "Januari 7, 2024"
+    },
+    {
+      "title": "Chapter 112",
+      "url": "/the-emperor-of-the-night-chapter-112",
+      "slug": "the-emperor-of-the-night-chapter-112",
+      "date": "Desember 30, 2023"
+    },
+    {
+      "title": "Chapter 111",
+      "url": "/the-emperor-of-the-night-chapter-111",
+      "slug": "the-emperor-of-the-night-chapter-111",
+      "date": "Desember 23, 2023"
+    },
+    {
+      "title": "Chapter 110",
+      "url": "/the-emperor-of-the-night-chapter-110",
+      "slug": "the-emperor-of-the-night-chapter-110",
+      "date": "Desember 14, 2023"
+    },
+    {
+      "title": "Chapter 109",
+      "url": "/the-emperor-of-the-night-chapter-109",
+      "slug": "the-emperor-of-the-night-chapter-109",
+      "date": "Desember 7, 2023"
+    },
+    {
+      "title": "Chapter 108",
+      "url": "/the-emperor-of-the-night-chapter-108",
+      "slug": "the-emperor-of-the-night-chapter-108",
+      "date": "Desember 7, 2023"
+    },
+    {
+      "title": "Chapter 107",
+      "url": "/the-emperor-of-the-night-chapter-107",
+      "slug": "the-emperor-of-the-night-chapter-107",
+      "date": "November 25, 2023"
+    },
+    {
+      "title": "Chapter 106",
+      "url": "/the-emperor-of-the-night-chapter-106",
+      "slug": "the-emperor-of-the-night-chapter-106",
+      "date": "November 21, 2023"
+    },
+    {
+      "title": "Chapter 105",
+      "url": "/the-emperor-of-the-night-chapter-105",
+      "slug": "the-emperor-of-the-night-chapter-105",
+      "date": "November 20, 2023"
+    },
+    {
+      "title": "Chapter 104",
+      "url": "/the-emperor-of-the-night-chapter-104",
+      "slug": "the-emperor-of-the-night-chapter-104",
+      "date": "November 19, 2023"
+    },
+    {
+      "title": "Chapter 103",
+      "url": "/the-emperor-of-the-night-chapter-103",
+      "slug": "the-emperor-of-the-night-chapter-103",
+      "date": "Oktober 31, 2023"
+    },
+    {
+      "title": "Chapter 102",
+      "url": "/the-emperor-of-the-night-chapter-102",
+      "slug": "the-emperor-of-the-night-chapter-102",
+      "date": "Oktober 16, 2023"
+    },
+    {
+      "title": "Chapter 101",
+      "url": "/the-emperor-of-the-night-chapter-101",
+      "slug": "the-emperor-of-the-night-chapter-101",
+      "date": "Oktober 16, 2023"
+    },
+    {
+      "title": "Chapter 100",
+      "url": "/the-emperor-of-the-night-chapter-100",
+      "slug": "the-emperor-of-the-night-chapter-100",
+      "date": "Oktober 16, 2023"
+    },
+    {
+      "title": "Chapter 99",
+      "url": "/the-emperor-of-the-night-chapter-99",
+      "slug": "the-emperor-of-the-night-chapter-99",
+      "date": "September 26, 2023"
+    },
+    {
+      "title": "Chapter 98",
+      "url": "/the-emperor-of-the-night-chapter-98",
+      "slug": "the-emperor-of-the-night-chapter-98",
+      "date": "September 24, 2023"
+    },
+    {
+      "title": "Chapter 97",
+      "url": "/the-emperor-of-the-night-chapter-97",
+      "slug": "the-emperor-of-the-night-chapter-97",
+      "date": "September 14, 2023"
+    },
+    {
+      "title": "Chapter 96",
+      "url": "/the-emperor-of-the-night-chapter-96",
+      "slug": "the-emperor-of-the-night-chapter-96",
+      "date": "September 14, 2023"
+    },
+    {
+      "title": "Chapter 95",
+      "url": "/the-emperor-of-the-night-chapter-95",
+      "slug": "the-emperor-of-the-night-chapter-95",
+      "date": "September 13, 2023"
+    },
+    {
+      "title": "Chapter 94",
+      "url": "/the-emperor-of-the-night-chapter-94",
+      "slug": "the-emperor-of-the-night-chapter-94",
+      "date": "September 11, 2023"
+    },
+    {
+      "title": "Chapter 93",
+      "url": "/the-emperor-of-the-night-chapter-93",
+      "slug": "the-emperor-of-the-night-chapter-93",
+      "date": "September 10, 2023"
+    },
+    {
+      "title": "Chapter 92",
+      "url": "/the-emperor-of-the-night-chapter-92",
+      "slug": "the-emperor-of-the-night-chapter-92",
+      "date": "September 10, 2023"
+    },
+    {
+      "title": "Chapter 91",
+      "url": "/the-emperor-of-the-night-chapter-91",
+      "slug": "the-emperor-of-the-night-chapter-91",
+      "date": "September 1, 2023"
+    },
+    {
+      "title": "Chapter 90",
+      "url": "/the-emperor-of-the-night-chapter-90",
+      "slug": "the-emperor-of-the-night-chapter-90",
+      "date": "Agustus 18, 2023"
+    },
+    {
+      "title": "Chapter 89",
+      "url": "/the-emperor-of-the-night-chapter-89",
+      "slug": "the-emperor-of-the-night-chapter-89",
+      "date": "Agustus 17, 2023"
+    },
+    {
+      "title": "Chapter 88",
+      "url": "/the-emperor-of-the-night-chapter-88",
+      "slug": "the-emperor-of-the-night-chapter-88",
+      "date": "Juli 10, 2023"
+    },
+    {
+      "title": "Chapter 87",
+      "url": "/the-emperor-of-the-night-chapter-87",
+      "slug": "the-emperor-of-the-night-chapter-87",
+      "date": "Juli 10, 2023"
+    },
+    {
+      "title": "Chapter 86",
+      "url": "/the-emperor-of-the-night-chapter-86",
+      "slug": "the-emperor-of-the-night-chapter-86",
+      "date": "Juli 8, 2023"
+    },
+    {
+      "title": "Chapter 85",
+      "url": "/the-emperor-of-the-night-chapter-85",
+      "slug": "the-emperor-of-the-night-chapter-85",
+      "date": "Juli 8, 2023"
+    },
+    {
+      "title": "Chapter 84",
+      "url": "/the-emperor-of-the-night-chapter-84-2",
+      "slug": "the-emperor-of-the-night-chapter-84-2",
+      "date": "Juli 7, 2023"
+    },
+    {
+      "title": "Chapter 83",
+      "url": "/the-emperor-of-the-night-chapter-84",
+      "slug": "the-emperor-of-the-night-chapter-84",
+      "date": "Juli 7, 2023"
+    },
+    {
+      "title": "Chapter 82",
+      "url": "/the-emperor-of-the-night-chapter-82",
+      "slug": "the-emperor-of-the-night-chapter-82",
+      "date": "Juli 7, 2023"
+    },
+    {
+      "title": "Chapter 81",
+      "url": "/the-emperor-of-the-night-chapter-81",
+      "slug": "the-emperor-of-the-night-chapter-81",
+      "date": "Juli 7, 2023"
+    },
+    {
+      "title": "Chapter 80",
+      "url": "/the-emperor-of-the-night-chapter-80",
+      "slug": "the-emperor-of-the-night-chapter-80",
+      "date": "Juli 7, 2023"
+    },
+    {
+      "title": "Chapter 79",
+      "url": "/the-emperor-of-the-night-chapter-79",
+      "slug": "the-emperor-of-the-night-chapter-79",
+      "date": "Juli 6, 2023"
+    },
+    {
+      "title": "Chapter 78",
+      "url": "/the-emperor-of-the-night-chapter-78",
+      "slug": "the-emperor-of-the-night-chapter-78",
+      "date": "Juli 6, 2023"
+    },
+    {
+      "title": "Chapter 77",
+      "url": "/the-emperor-of-the-night-chapter-77",
+      "slug": "the-emperor-of-the-night-chapter-77",
+      "date": "April 28, 2023"
+    },
+    {
+      "title": "Chapter 76",
+      "url": "/the-emperor-of-the-night-chapter-76",
+      "slug": "the-emperor-of-the-night-chapter-76",
+      "date": "April 28, 2023"
+    },
+    {
+      "title": "Chapter 75",
+      "url": "/the-emperor-of-the-night-chapter-75",
+      "slug": "the-emperor-of-the-night-chapter-75",
+      "date": "April 27, 2023"
+    },
+    {
+      "title": "Chapter 74",
+      "url": "/the-emperor-of-the-night-chapter-74",
+      "slug": "the-emperor-of-the-night-chapter-74",
+      "date": "April 27, 2023"
+    },
+    {
+      "title": "Chapter 73",
+      "url": "/the-emperor-of-the-night-chapter-73",
+      "slug": "the-emperor-of-the-night-chapter-73",
+      "date": "April 27, 2023"
+    },
+    {
+      "title": "Chapter 72",
+      "url": "/the-emperor-of-the-night-chapter-72",
+      "slug": "the-emperor-of-the-night-chapter-72",
+      "date": "April 26, 2023"
+    },
+    {
+      "title": "Chapter 71",
+      "url": "/the-emperor-of-the-night-chapter-71",
+      "slug": "the-emperor-of-the-night-chapter-71",
+      "date": "April 25, 2023"
+    },
+    {
+      "title": "Chapter 70",
+      "url": "/the-emperor-of-the-night-chapter-70",
+      "slug": "the-emperor-of-the-night-chapter-70",
+      "date": "April 25, 2023"
+    },
+    {
+      "title": "Chapter 69",
+      "url": "/the-emperor-of-the-night-chapter-69",
+      "slug": "the-emperor-of-the-night-chapter-69",
+      "date": "Februari 19, 2023"
+    },
+    {
+      "title": "Chapter 68",
+      "url": "/the-emperor-of-the-night-chapter-68",
+      "slug": "the-emperor-of-the-night-chapter-68",
+      "date": "Februari 19, 2023"
+    },
+    {
+      "title": "Chapter 67",
+      "url": "/the-emperor-of-the-night-chapter-67",
+      "slug": "the-emperor-of-the-night-chapter-67",
+      "date": "Februari 12, 2023"
+    },
+    {
+      "title": "Chapter 66",
+      "url": "/the-emperor-of-the-night-chapter-66",
+      "slug": "the-emperor-of-the-night-chapter-66",
+      "date": "Februari 12, 2023"
+    },
+    {
+      "title": "Chapter 65",
+      "url": "/the-emperor-of-the-night-chapter-65",
+      "slug": "the-emperor-of-the-night-chapter-65",
+      "date": "Februari 12, 2023"
+    },
+    {
+      "title": "Chapter 64",
+      "url": "/the-emperor-of-the-night-chapter-64",
+      "slug": "the-emperor-of-the-night-chapter-64",
+      "date": "Januari 31, 2023"
+    },
+    {
+      "title": "Chapter 63",
+      "url": "/the-emperor-of-the-night-chapter-63",
+      "slug": "the-emperor-of-the-night-chapter-63",
+      "date": "Januari 31, 2023"
+    },
+    {
+      "title": "Chapter 62",
+      "url": "/the-emperor-of-the-night-chapter-62",
+      "slug": "the-emperor-of-the-night-chapter-62",
+      "date": "Januari 31, 2023"
+    },
+    {
+      "title": "Chapter 61",
+      "url": "/the-emperor-of-the-night-chapter-61",
+      "slug": "the-emperor-of-the-night-chapter-61",
+      "date": "Januari 31, 2023"
+    },
+    {
+      "title": "Chapter 60",
+      "url": "/the-emperor-of-the-night-chapter-60",
+      "slug": "the-emperor-of-the-night-chapter-60",
+      "date": "Desember 25, 2022"
+    },
+    {
+      "title": "Chapter 59",
+      "url": "/the-emperor-of-the-night-chapter-59",
+      "slug": "the-emperor-of-the-night-chapter-59",
+      "date": "Desember 25, 2022"
+    },
+    {
+      "title": "Chapter 58",
+      "url": "/the-emperor-of-the-night-chapter-58",
+      "slug": "the-emperor-of-the-night-chapter-58",
+      "date": "Desember 9, 2022"
+    },
+    {
+      "title": "Chapter 57",
+      "url": "/the-emperor-of-the-night-chapter-57",
+      "slug": "the-emperor-of-the-night-chapter-57",
+      "date": "Desember 3, 2022"
+    },
+    {
+      "title": "Chapter 56",
+      "url": "/the-emperor-of-the-night-chapter-56",
+      "slug": "the-emperor-of-the-night-chapter-56",
+      "date": "Desember 1, 2022"
+    },
+    {
+      "title": "Chapter 55",
+      "url": "/the-emperor-of-the-night-chapter-55",
+      "slug": "the-emperor-of-the-night-chapter-55",
+      "date": "November 11, 2022"
+    },
+    {
+      "title": "Chapter 54",
+      "url": "/the-emperor-of-the-night-chapter-54",
+      "slug": "the-emperor-of-the-night-chapter-54",
+      "date": "November 11, 2022"
+    },
+    {
+      "title": "Chapter 53",
+      "url": "/the-emperor-of-the-night-chapter-53",
+      "slug": "the-emperor-of-the-night-chapter-53",
+      "date": "November 5, 2022"
+    },
+    {
+      "title": "Chapter 52",
+      "url": "/the-emperor-of-the-night-chapter-52",
+      "slug": "the-emperor-of-the-night-chapter-52",
+      "date": "November 5, 2022"
+    },
+    {
+      "title": "Chapter 51",
+      "url": "/the-emperor-of-the-night-chapter-51",
+      "slug": "the-emperor-of-the-night-chapter-51",
+      "date": "Oktober 15, 2022"
+    },
+    {
+      "title": "Chapter 50",
+      "url": "/the-emperor-of-the-night-chapter-50",
+      "slug": "the-emperor-of-the-night-chapter-50",
+      "date": "Oktober 10, 2022"
+    },
+    {
+      "title": "Chapter 49",
+      "url": "/the-emperor-of-the-night-chapter-49",
+      "slug": "the-emperor-of-the-night-chapter-49",
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "title": "Chapter 48",
+      "url": "/the-emperor-of-the-night-chapter-48",
+      "slug": "the-emperor-of-the-night-chapter-48",
+      "date": "Oktober 8, 2022"
+    },
+    {
+      "title": "Chapter 47",
+      "url": "/the-emperor-of-the-night-chapter-47",
+      "slug": "the-emperor-of-the-night-chapter-47",
+      "date": "September 26, 2022"
+    },
+    {
+      "title": "Chapter 46",
+      "url": "/the-emperor-of-the-night-chapter-46",
+      "slug": "the-emperor-of-the-night-chapter-46",
+      "date": "September 26, 2022"
+    },
+    {
+      "title": "Chapter 45",
+      "url": "/the-emperor-of-the-night-chapter-45",
+      "slug": "the-emperor-of-the-night-chapter-45",
+      "date": "September 9, 2022"
+    },
+    {
+      "title": "Chapter 44",
+      "url": "/the-emperor-of-the-night-chapter-44",
+      "slug": "the-emperor-of-the-night-chapter-44",
+      "date": "September 9, 2022"
+    },
+    {
+      "title": "Chapter 43",
+      "url": "/the-emperor-of-the-night-chapter-43",
+      "slug": "the-emperor-of-the-night-chapter-43",
+      "date": "Agustus 15, 2022"
+    },
+    {
+      "title": "Chapter 42",
+      "url": "/the-emperor-of-the-night-chapter-42",
+      "slug": "the-emperor-of-the-night-chapter-42",
+      "date": "Agustus 5, 2022"
+    },
+    {
+      "title": "Chapter 41",
+      "url": "/the-emperor-of-the-night-chapter-41",
+      "slug": "the-emperor-of-the-night-chapter-41",
+      "date": "Juli 28, 2022"
+    },
+    {
+      "title": "Chapter 40",
+      "url": "/the-emperor-of-the-night-chapter-40",
+      "slug": "the-emperor-of-the-night-chapter-40",
+      "date": "Juli 14, 2022"
+    },
+    {
+      "title": "Chapter 39",
+      "url": "/the-emperor-of-the-night-chapter-39",
+      "slug": "the-emperor-of-the-night-chapter-39",
+      "date": "Juli 8, 2022"
+    },
+    {
+      "title": "Chapter 38",
+      "url": "/the-emperor-of-the-night-chapter-38",
+      "slug": "the-emperor-of-the-night-chapter-38",
+      "date": "Juli 1, 2022"
+    },
+    {
+      "title": "Chapter 37",
+      "url": "/the-emperor-of-the-night-chapter-37",
+      "slug": "the-emperor-of-the-night-chapter-37",
+      "date": "Juni 23, 2022"
+    },
+    {
+      "title": "Chapter 36",
+      "url": "/the-emperor-of-the-night-chapter-36",
+      "slug": "the-emperor-of-the-night-chapter-36",
+      "date": "Juni 16, 2022"
+    },
+    {
+      "title": "Chapter 35",
+      "url": "/the-emperor-of-the-night-chapter-35",
+      "slug": "the-emperor-of-the-night-chapter-35",
+      "date": "Juni 9, 2022"
+    },
+    {
+      "title": "Chapter 34",
+      "url": "/the-emperor-of-the-night-chapter-34",
+      "slug": "the-emperor-of-the-night-chapter-34",
+      "date": "Juni 3, 2022"
+    },
+    {
+      "title": "Chapter 33",
+      "url": "/the-emperor-of-the-night-chapter-33-2",
+      "slug": "the-emperor-of-the-night-chapter-33-2",
+      "date": "Mei 26, 2022"
+    },
+    {
+      "title": "Chapter 32",
+      "url": "/the-emperor-of-the-night-chapter-33",
+      "slug": "the-emperor-of-the-night-chapter-33",
+      "date": "Mei 19, 2022"
+    },
+    {
+      "title": "Chapter 31",
+      "url": "/the-emperor-of-the-night-chapter-31",
+      "slug": "the-emperor-of-the-night-chapter-31",
+      "date": "Mei 12, 2022"
+    },
+    {
+      "title": "Chapter 30",
+      "url": "/the-emperor-of-the-night-chapter-30",
+      "slug": "the-emperor-of-the-night-chapter-30",
+      "date": "April 28, 2022"
+    },
+    {
+      "title": "Chapter 29",
+      "url": "/the-emperor-of-the-night-chapter-29",
+      "slug": "the-emperor-of-the-night-chapter-29",
+      "date": "April 22, 2022"
+    },
+    {
+      "title": "Chapter 28",
+      "url": "/the-emperor-of-the-night-chapter-28",
+      "slug": "the-emperor-of-the-night-chapter-28",
+      "date": "April 15, 2022"
+    },
+    {
+      "title": "Chapter 27",
+      "url": "/the-emperor-of-the-night-chapter-27",
+      "slug": "the-emperor-of-the-night-chapter-27",
+      "date": "April 7, 2022"
+    },
+    {
+      "title": "Chapter 26",
+      "url": "/the-emperor-of-the-night-chapter-26",
+      "slug": "the-emperor-of-the-night-chapter-26",
+      "date": "April 1, 2022"
+    },
+    {
+      "title": "Chapter 25",
+      "url": "/the-emperor-of-the-night-chapter-25",
+      "slug": "the-emperor-of-the-night-chapter-25",
+      "date": "Maret 25, 2022"
+    },
+    {
+      "title": "Chapter 24",
+      "url": "/the-emperor-of-the-night-chapter-24",
+      "slug": "the-emperor-of-the-night-chapter-24",
+      "date": "Maret 18, 2022"
+    },
+    {
+      "title": "Chapter 23",
+      "url": "/the-emperor-of-the-night-chapter-23",
+      "slug": "the-emperor-of-the-night-chapter-23",
+      "date": "Maret 11, 2022"
+    },
+    {
+      "title": "Chapter 22",
+      "url": "/the-emperor-of-the-night-chapter-22",
+      "slug": "the-emperor-of-the-night-chapter-22",
+      "date": "Maret 4, 2022"
+    },
+    {
+      "title": "Chapter 21",
+      "url": "/the-emperor-of-the-night-chapter-21",
+      "slug": "the-emperor-of-the-night-chapter-21",
+      "date": "Februari 24, 2022"
+    },
+    {
+      "title": "Chapter 20",
+      "url": "/the-emperor-of-the-night-chapter-20",
+      "slug": "the-emperor-of-the-night-chapter-20",
+      "date": "Februari 17, 2022"
+    },
+    {
+      "title": "Chapter 19",
+      "url": "/the-emperor-of-the-night-chapter-19",
+      "slug": "the-emperor-of-the-night-chapter-19",
+      "date": "Februari 11, 2022"
+    },
+    {
+      "title": "Chapter 18",
+      "url": "/the-emperor-of-the-night-chapter-18",
+      "slug": "the-emperor-of-the-night-chapter-18",
+      "date": "Februari 3, 2022"
+    },
+    {
+      "title": "Chapter 17",
+      "url": "/the-emperor-of-the-night-chapter-17",
+      "slug": "the-emperor-of-the-night-chapter-17",
+      "date": "Januari 27, 2022"
+    },
+    {
+      "title": "Chapter 16",
+      "url": "/the-emperor-of-the-night-chapter-16",
+      "slug": "the-emperor-of-the-night-chapter-16",
+      "date": "Januari 20, 2022"
+    },
+    {
+      "title": "Chapter 15",
+      "url": "/the-emperor-of-the-night-chapter-15",
+      "slug": "the-emperor-of-the-night-chapter-15",
+      "date": "Januari 14, 2022"
+    },
+    {
+      "title": "Chapter 14",
+      "url": "/the-emperor-of-the-night-chapter-14",
+      "slug": "the-emperor-of-the-night-chapter-14",
+      "date": "Januari 8, 2022"
+    },
+    {
+      "title": "Chapter 13",
+      "url": "/the-emperor-of-the-night-chapter-13",
+      "slug": "the-emperor-of-the-night-chapter-13",
+      "date": "Desember 31, 2021"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/the-emperor-of-the-night-chapter-12",
+      "slug": "the-emperor-of-the-night-chapter-12",
+      "date": "Desember 21, 2021"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/the-emperor-of-the-night-chapter-11",
+      "slug": "the-emperor-of-the-night-chapter-11",
+      "date": "Desember 21, 2021"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/the-emperor-of-the-night-chapter-10",
+      "slug": "the-emperor-of-the-night-chapter-10",
+      "date": "Desember 21, 2021"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/the-emperor-of-the-night-chapter-9",
+      "slug": "the-emperor-of-the-night-chapter-9",
+      "date": "Desember 17, 2021"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/the-emperor-of-the-night-chapter-8",
+      "slug": "the-emperor-of-the-night-chapter-8",
+      "date": "Desember 16, 2021"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/the-emperor-of-the-night-chapter-7",
+      "slug": "the-emperor-of-the-night-chapter-7",
+      "date": "Desember 6, 2021"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/the-emperor-of-the-night-chapter-6",
+      "slug": "the-emperor-of-the-night-chapter-6",
+      "date": "Desember 4, 2021"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/the-emperor-of-the-night-chapter-5",
+      "slug": "the-emperor-of-the-night-chapter-5",
+      "date": "Desember 2, 2021"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/the-emperor-of-the-night-chapter-4",
+      "slug": "the-emperor-of-the-night-chapter-4",
+      "date": "November 30, 2021"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/the-emperor-of-the-night-chapter-3",
+      "slug": "the-emperor-of-the-night-chapter-3",
+      "date": "November 26, 2021"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/the-night-emperor-of-the-night-chapter-2",
+      "slug": "the-night-emperor-of-the-night-chapter-2",
+      "date": "November 19, 2021"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/the-emperor-of-the-night-chapter-1",
+      "slug": "the-emperor-of-the-night-chapter-1",
+      "date": "November 10, 2021"
+    }
+  ],
+  "scrapedAt": "2026-09-09T01:01:14.727Z"
+}
