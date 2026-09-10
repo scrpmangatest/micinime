@@ -1635,7 +1635,7 @@
         hs.src = ('/api/histats/js15_as.js');
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
         })();</script>
-        <script>(function(){var p=history.pushState;history.pushState=function(){p.apply(this,arguments);setTimeout(function(){try{if(window._Hasync)window._Hasync.push(['Histats.track_hits','']);}catch{}},600);};window.addEventListener('popstate',function(){setTimeout(function(){try{if(window._Hasync)window._Hasync.push(['Histats.track_hits','']);}catch{}},600);});})();</script>
+        <script>(function(){var p=history.pushState;function hit(){setTimeout(function(){try{if(window._Hasync&&document.title&&!document.title.startsWith('undefined'))window._Hasync.push(['Histats.track_hits','']);}catch{}},2500)}history.pushState=function(){p.apply(this,arguments);hit()};window.addEventListener('popstate',hit)})();</script>
         <noscript><a href="/" target="_blank"><img  src="/api/histats/0.gif?5043963&101" alt="" border="0"></a></noscript>
         <!-- Histats.com  END  -->
     </footer>
@@ -1835,7 +1835,6 @@ function navigate(e, url) {
     window.history.pushState({}, '', localUrl);
     router.routes();
     window.scrollTo(0, 0);
-    setTimeout(function(){try{if(window._Hasync)window._Hasync.push(['Histats.track_hits','']);}catch{}},600);
     return false;
 }
 
