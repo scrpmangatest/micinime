@@ -1560,6 +1560,16 @@
             #reader-ad-frame { width: 300px; height: 250px; }
             #reader-ad-frame iframe { width: 300px; height: 250px; }
         }
+
+        #aads-sticky-2454906 { position: fixed; left: 0; right: 0; bottom: 0; z-index: 99998; text-align: center; font-size: 0; pointer-events: none; }
+        .aads-sticky-inner { width: min(720px, 90vw); height: 90px; margin: 0 auto; position: relative; pointer-events: auto; }
+        .aads-sticky-inner iframe { width: 100%; height: 90px; border: 0; padding: 0; display: block; }
+        .aads-sticky-close { position: absolute; z-index: 2; right: 4px; top: -22px; width: 22px; height: 22px; border-radius: 4px; background: rgba(248,248,249,.85); color: #000; font: 700 18px/20px Arial,sans-serif; cursor: pointer; }
+        #aads-sticky-close:checked + .aads-sticky-inner { display: none; }
+        @media (max-width: 480px) {
+            .aads-sticky-inner { width: 300px; height: 50px; }
+            .aads-sticky-inner iframe { width: 300px; height: 50px; }
+        }
     </style>
 </head>
 <body class="darkmode">
@@ -1659,6 +1669,14 @@
 <button class="scrollToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
     <i class="fas fa-chevron-up"></i>
 </button>
+
+<div id="aads-sticky-2454906">
+    <input autocomplete="off" type="checkbox" id="aads-sticky-close" hidden>
+    <div class="aads-sticky-inner">
+        <label for="aads-sticky-close" class="aads-sticky-close" aria-label="Tutup iklan">×</label>
+        <iframe data-aa="2454906" src="//acceptable.a-ads.com/2454906/?size=Adaptive"></iframe>
+    </div>
+</div>
 
 <div id="chatango-widget" style="position:fixed;bottom:10px;left:10px;z-index:9999;width:200px;height:300px;"></div>
 <script id="cid0020000447173381441" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 200px;height: 300px;">{"handle":"micinime","arch":"js","styles":{"a":"CC0000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"CC0000","l":"CC0000","m":"CC0000","n":"FFFFFF","p":"10","q":"CC0000","r":100,"pos":"br","cv":1,"cvbg":"CC0000","cvw":59,"cvh":19}}</script>
