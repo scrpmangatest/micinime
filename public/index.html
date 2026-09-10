@@ -1547,6 +1547,9 @@
         #footer-ad-frame { width: 720px; height: 90px; max-width: 100%; margin: 0 auto; overflow: hidden; position: relative; z-index: 99998; }
         #footer-ad-frame iframe { border: 0; padding: 0; width: 720px; height: 90px; display: block; margin: 0 auto; }
 
+        #reader-ad-frame { width: 720px; height: 90px; max-width: 100%; margin: 10px auto 0; position: relative; z-index: 99998; overflow: hidden; }
+        #reader-ad-frame iframe { border: 0; padding: 0; width: 720px; height: 90px; display: block; margin: 0 auto; }
+
         @media (max-width: 480px) {
             .listupd { grid-template-columns: repeat(2, 1fr); gap: 6px; }
             .bs { width: 100%; }
@@ -1554,6 +1557,8 @@
             .vl { font-size: 11px; padding: 6px 12px; }
             #footer-ad-frame { width: 300px; height: 50px; }
             #footer-ad-frame iframe { width: 300px; height: 50px; }
+            #reader-ad-frame { width: 300px; height: 250px; }
+            #reader-ad-frame iframe { width: 300px; height: 250px; }
         }
     </style>
 </head>
@@ -2734,8 +2739,8 @@ const router = {
                         : '<a class="disabled">Lanjut Chapter Berikutnya <i class="fas fa-chevron-right"></i></a>'
                     }
                 </div>
-                <div style="width:100%;margin:auto;position:relative;z-index:99998;margin:10px auto 0;">
-                    <iframe data-aa='2454895' src='//acceptable.a-ads.com/2454895/?size=Adaptive' style='border:0;padding:0;width:70%;height:auto;overflow:hidden;display:block;margin:auto'></iframe>
+                <div id="reader-ad-frame" style="margin:10px auto 0;">
+                    <iframe data-aa='2454895' src='//acceptable.a-ads.com/2454895/?size=Adaptive'></iframe>
                 </div>
 
                 <div class="reader-images">
