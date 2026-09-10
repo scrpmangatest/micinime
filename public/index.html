@@ -1655,7 +1655,7 @@
         <!-- Histats.com  (div with counter) --><div id="histats_counter" style="margin-top: 15px;"></div>
         <!-- Histats.com  START  (aync)-->
         <script>(function(){var p=location.pathname.replace(/^\//,'').replace(/-chapter-([\d.]+)(?:-end)?$/i,' Chapter $1').replace(/-/g,' ').trim();if(p){var parts=p.split(' ');document.title=parts.map(function(x){return x.charAt(0).toUpperCase()+x.slice(1)}).join(' ')+' | Micinime';}})();</script>
-        <script type="text/javascript">var _Hasync= _Hasync|| [];
+        <script type="text/javascript">if(location.hostname!=='micinime.my.id'){document.currentScript.remove()}else{var _Hasync= _Hasync|| [];
         _Hasync.push(['Histats.start', '1,5043963,4,1034,150,25,00010101']);
         _Hasync.push(['Histats.fasi', '1']);
         _Hasync.push(['Histats.track_hits', '']);
@@ -1663,8 +1663,8 @@
         var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
         hs.src = ('/api/histats/js15_as.js');
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
-        })();</script>
-        <script>(function(){var last=document.title;var p=history.pushState;function fire(){setTimeout(function(){try{if(window._Hasync&&document.title&&document.title!==last){last=document.title;window._Hasync.push(['Histats.track_hits','']);}}catch{}},300)}history.pushState=function(){p.apply(this,arguments);fire()};window.addEventListener('popstate',fire);new MutationObserver(function(){if(document.title!==last){last=document.title;setTimeout(function(){try{if(window._Hasync)window._Hasync.push(['Histats.track_hits','']);}catch{}},300)}}).observe(document.querySelector('title'),{childList:true,subtree:true,characterData:true})})();</script>
+        })();}</script>
+        <script>(function(){if(location.hostname!=='micinime.my.id')return;var last=document.title;var p=history.pushState;function fire(){setTimeout(function(){try{if(window._Hasync&&document.title&&document.title!==last){last=document.title;window._Hasync.push(['Histats.track_hits','']);}}catch{}},300)}history.pushState=function(){p.apply(this,arguments);fire()};window.addEventListener('popstate',fire);new MutationObserver(function(){if(document.title!==last){last=document.title;setTimeout(function(){try{if(window._Hasync)window._Hasync.push(['Histats.track_hits','']);}catch{}},300)}}).observe(document.querySelector('title'),{childList:true,subtree:true,characterData:true})})();</script>
         <noscript><a href="/" target="_blank"><img  src="/api/histats/0.gif?5043963&101" alt="" border="0"></a></noscript>
         <!-- Histats.com  END  -->
     </footer>
