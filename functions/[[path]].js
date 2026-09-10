@@ -229,8 +229,7 @@ async function spaFallback(context) {
 export async function onRequestGet(context) {
   const requestUrl = new URL(context.request.url);
   if (requestUrl.hostname === 'micinime.pages.dev') {
-    requestUrl.hostname = 'micinime.my.id';
-    return Response.redirect(requestUrl.toString(), 301);
+    return Response.redirect('https://micinime.my.id/', 301);
   }
   const segments = (context.params.path || []);
   if (segments.length === 1 && segments[0] === 'sitemap.xml') return handleSitemap(context);
