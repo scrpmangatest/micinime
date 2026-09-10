@@ -1635,7 +1635,7 @@
         hs.src = ('/api/histats/js15_as.js');
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
         })();</script>
-        <script>(function(){var p=history.pushState;function hit(){setTimeout(function(){try{if(window._Hasync&&document.title&&!document.title.startsWith('undefined'))window._Hasync.push(['Histats.track_hits','']);}catch{}},2500)}history.pushState=function(){p.apply(this,arguments);hit()};window.addEventListener('popstate',hit)})();</script>
+        <script>(function(){var last=document.title;var p=history.pushState;function fire(){setTimeout(function(){try{if(window._Hasync&&document.title&&document.title!==last){last=document.title;window._Hasync.push(['Histats.track_hits','']);}}catch{}},300)}history.pushState=function(){p.apply(this,arguments);fire()};window.addEventListener('popstate',fire);new MutationObserver(function(){if(document.title!==last){last=document.title;setTimeout(function(){try{if(window._Hasync)window._Hasync.push(['Histats.track_hits','']);}catch{}},300)}}).observe(document.querySelector('title'),{childList:true,subtree:true,characterData:true})})();</script>
         <noscript><a href="/" target="_blank"><img  src="/api/histats/0.gif?5043963&101" alt="" border="0"></a></noscript>
         <!-- Histats.com  END  -->
     </footer>
