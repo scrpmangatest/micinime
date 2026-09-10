@@ -56,7 +56,7 @@ if (fs.existsSync(src)) {
       { loc: 'https://micinime.my.id/genres', lastmod: now, freq: 'weekly', pri: '0.8' },
       { loc: 'https://micinime.my.id/az-lists', lastmod: now, freq: 'weekly', pri: '0.8' },
       ...(catalog.genres || []).filter((g) => g.slug).map((g) => ({ loc: `https://micinime.my.id/genres/${encodeURIComponent(g.slug)}`, lastmod: now, freq: 'weekly', pri: '0.7' })),
-      ...(catalog.items || []).filter((i) => i.slug).map((i) => ({ loc: `https://micinime.my.id/manga/${encodeURIComponent(i.slug)}`, lastmod: i.updatedAt ? new Date(i.updatedAt).toISOString() : now, freq: 'weekly', pri: '0.6' }))
+      ...(catalog.items || []).filter((i) => i.slug).map((i) => { let slug = i.slug; try { slug = decodeURIComponent(slug); } catch {} return { loc: `https://micinime.my.id/manga/${encodeURIComponent(slug)}`, lastmod: i.updatedAt ? new Date(i.updatedAt).toISOString() : now, freq: 'weekly', pri: '0.6' }; })
     ];
     const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${esc(u.loc)}</loc><lastmod>${u.lastmod}</lastmod><changefreq>${u.freq}</changefreq><priority>${u.pri}</priority></url>`).join('\n')}\n</urlset>\n`;
     fs.writeFileSync(path.join(root, 'public', 'sitemap.xml'), xml);
