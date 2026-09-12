@@ -1,0 +1,28 @@
+{
+  "slug": "osucollab-oc",
+  "title": "osucollab-oc",
+  "image": null,
+  "rating": "8.5",
+  "description": "parodi dari Hololive",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Parody",
+      "url": "/genres/parody"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1 End",
+      "url": "/osucollab-oc-chapter-1",
+      "slug": "osucollab-oc-chapter-1",
+      "date": "September 12, 2026"
+    }
+  ],
+  "scrapedAt": "2026-09-12T18:54:09.779Z"
+}

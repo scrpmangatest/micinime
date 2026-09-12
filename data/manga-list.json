@@ -9298,7 +9298,7 @@
     "title": "Wireless Onahole",
     "url": "/manga/wireless-onahole",
     "image": "https://komiktap.info/wp-content/uploads/2025/03/pktz1xjli7br5sb01tw46z2g.jpg",
-    "chapter": "Chapter 118",
+    "chapter": "Chapter 119",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -9398,7 +9398,7 @@
     "title": "Taming A Female Bully",
     "url": "/manga/taming-a-female-bully",
     "image": "https://komiktap.info/wp-content/uploads/2024/12/nv91q5a41k3r48hpkhewkqwv.webp",
-    "chapter": "Chapter 83",
+    "chapter": "Chapter 84",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -9458,7 +9458,7 @@
     "title": "Slave Code",
     "url": "/manga/slave-code",
     "image": "https://komiktap.info/wp-content/uploads/2026/05/GaeTi.webp",
-    "chapter": "Chapter 21",
+    "chapter": "Chapter 22",
     "rating": "7.7",
     "type": "Manga",
     "time": null
@@ -9618,7 +9618,7 @@
     "title": "My Lewd College Friends",
     "url": "/manga/my-lewd-college-friends",
     "image": "https://komiktap.info/wp-content/uploads/2025/08/My-Lewd-College-Friends.webp",
-    "chapter": "Chapter 62",
+    "chapter": "Chapter 63",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9748,7 +9748,7 @@
     "title": "Cleaning Service",
     "url": "/manga/cleaning-service",
     "image": "https://komiktap.info/wp-content/uploads/2024/12/Cleaning-Service.webp",
-    "chapter": "Chapter 75",
+    "chapter": "Chapter 78",
     "rating": "8",
     "type": "Manga",
     "time": null
@@ -9988,7 +9988,7 @@
     "title": "No Man’s Land",
     "url": "/manga/no-mans-land",
     "image": "https://komiktap.info/wp-content/uploads/2023/12/no-mans-landm.jpg",
-    "chapter": "Chapter 81",
+    "chapter": "Chapter 84",
     "rating": "7.7",
     "type": "Manga",
     "time": null
@@ -10135,12 +10135,12 @@
   },
   "rooftop-sex-king": {
     "slug": "rooftop-sex-king",
-    "title": "rooftop-sex-king",
+    "title": "Rooftop Sex King",
     "url": "/manga/rooftop-sex-king",
-    "image": null,
-    "chapter": "Chapter 78",
+    "image": "https://komiktap.info/wp-content/uploads/2025/02/rooftop.jpg",
+    "chapter": "Chapter 79",
     "rating": "9",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "why-live-in-a-property-with-a-history-of-accidents": {
@@ -10178,7 +10178,7 @@
     "title": "A Game of Desire",
     "url": "/manga/a-game-of-desire",
     "image": "https://komiktap.info/wp-content/uploads/2026/03/Asmodeck-A-Game-of-Desire-193x278-1.jpg",
-    "chapter": "Chapter 27",
+    "chapter": "Chapter 28",
     "rating": "7.4",
     "type": "Manga",
     "time": null
@@ -10338,7 +10338,7 @@
     "title": "Runaway Wife",
     "url": "/manga/runaway-wife",
     "image": "https://komiktap.info/wp-content/uploads/2024/12/Runaway-Wife.webp",
-    "chapter": "Chapter 58",
+    "chapter": "Chapter 60",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10358,7 +10358,7 @@
     "title": "Nyuuwaku -Rihoiro ni Somaru Natsu",
     "url": "/manga/nyuuwaku-rihoiro-ni-somaru-natsu",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-5.jpg",
-    "chapter": "Chapter 3",
+    "chapter": "Chapter 4",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10368,7 +10368,7 @@
     "title": "Danjo no Teiso Kannen ga Gyaku ni natta Sekai",
     "url": "/manga/danjo-no-teiso-kannen-ga-gyaku-ni-natta-sekai",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-4.jpg",
-    "chapter": "Chapter 3",
+    "chapter": "Chapter 4",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10651,6 +10651,36 @@
     "chapter": "Chapter 36 End",
     "rating": "8.1",
     "type": "Manga",
+    "time": null
+  },
+  "soshite-kyou-mo-moteasobareru": {
+    "slug": "soshite-kyou-mo-moteasobareru",
+    "title": "Soshite Kyou mo Moteasobareru",
+    "url": "/manga/soshite-kyou-mo-moteasobareru",
+    "image": "https://komiktap.info/wp-content/uploads/2025/03/01-4.jpg",
+    "chapter": "Chapter 3",
+    "rating": "8.1",
+    "type": "Manga",
+    "time": null
+  },
+  "sakasama-okazun": {
+    "slug": "sakasama-okazun",
+    "title": "Sakasama Okazun",
+    "url": "/manga/sakasama-okazun",
+    "image": "https://komiktap.info/wp-content/uploads/2020/09/02-22.jpg",
+    "chapter": "Chapter 1 End",
+    "rating": "8.3",
+    "type": "Manga",
+    "time": null
+  },
+  "osucollab-oc": {
+    "slug": "osucollab-oc",
+    "title": "osucollab-oc",
+    "url": "/manga/osucollab-oc",
+    "image": null,
+    "chapter": "Chapter 1 End",
+    "rating": "8.5",
+    "type": null,
     "time": null
   }
 }
