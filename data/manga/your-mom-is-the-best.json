@@ -1,0 +1,76 @@
+{
+  "slug": "your-mom-is-the-best",
+  "title": "your-mom-is-the-best",
+  "image": null,
+  "rating": "7.7",
+  "description": "Dia adalah cinta pertama pria itu. Baginya, pria itu hanyalah seorang anak laki-laki. Kini setelah pria itu beranjak dewasa, mungkinkah perasaan yang selama ini terpendam itu berubah menjadi sesuatu yang lebih?",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Smut",
+      "url": "/genres/smut"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 7",
+      "url": "/your-mom-is-the-best-chapter-7",
+      "slug": "your-mom-is-the-best-chapter-7",
+      "date": "September 15, 2026"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/your-mom-is-the-best-chapter-6",
+      "slug": "your-mom-is-the-best-chapter-6",
+      "date": "September 15, 2026"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/your-mom-is-the-best-chapter-5",
+      "slug": "your-mom-is-the-best-chapter-5",
+      "date": "September 15, 2026"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/your-mom-is-the-best-chapter-4",
+      "slug": "your-mom-is-the-best-chapter-4",
+      "date": "September 15, 2026"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/your-mom-is-the-best-chapter-3",
+      "slug": "your-mom-is-the-best-chapter-3",
+      "date": "September 15, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/your-mom-is-the-best-chapter-2",
+      "slug": "your-mom-is-the-best-chapter-2",
+      "date": "September 15, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/your-mom-is-the-best-chapter-1",
+      "slug": "your-mom-is-the-best-chapter-1",
+      "date": "September 15, 2026"
+    }
+  ],
+  "scrapedAt": "2026-09-15T19:57:11.917Z"
+}

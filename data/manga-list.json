@@ -9778,7 +9778,7 @@
     "title": "The Female Professor’s Secret Account",
     "url": "/manga/the-female-professors-secret-account",
     "image": "https://komiktap.info/wp-content/uploads/2025/09/the_professors_secret_account_8ynif.jpg",
-    "chapter": "Chapter 49",
+    "chapter": "Chapter 50",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -9788,7 +9788,7 @@
     "title": "The Father-In-Law Fucks Them All",
     "url": "/manga/the-father-in-law-fucks-them-all",
     "image": "https://komiktap.info/wp-content/uploads/2025/08/The-Father-In-Law-Fucks-Them-All-Manhwa.webp",
-    "chapter": "Chapter 57",
+    "chapter": "Chapter 58",
     "rating": "9.0",
     "type": "Manga",
     "time": null
@@ -9798,7 +9798,7 @@
     "title": "Believe! I will offer you my first",
     "url": "/manga/believe-i-will-offer-you-my-first",
     "image": "https://komiktap.info/wp-content/uploads/2025/07/1508d09e9eb45bd7cbd276a4cf6e31.jpg",
-    "chapter": "Chapter 60",
+    "chapter": "Chapter 61",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -9878,7 +9878,7 @@
     "title": "You Won’t Break Me",
     "url": "/manga/you-wont-break-me",
     "image": "https://komiktap.info/wp-content/uploads/2025/10/You-Wont-Break-Me.webp",
-    "chapter": "Chapter 53",
+    "chapter": "Chapter 54",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -10338,7 +10338,7 @@
     "title": "Runaway Wife",
     "url": "/manga/runaway-wife",
     "image": "https://komiktap.info/wp-content/uploads/2024/12/Runaway-Wife.webp",
-    "chapter": "Chapter 61",
+    "chapter": "Chapter 62",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10358,7 +10358,7 @@
     "title": "Nyuuwaku -Rihoiro ni Somaru Natsu",
     "url": "/manga/nyuuwaku-rihoiro-ni-somaru-natsu",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-5.jpg",
-    "chapter": "Chapter 4",
+    "chapter": "Chapter 5 End",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10368,7 +10368,7 @@
     "title": "Danjo no Teiso Kannen ga Gyaku ni natta Sekai",
     "url": "/manga/danjo-no-teiso-kannen-ga-gyaku-ni-natta-sekai",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-4.jpg",
-    "chapter": "Chapter 4",
+    "chapter": "Chapter 5",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10751,6 +10751,36 @@
     "chapter": "Chapter 1",
     "rating": "8.8",
     "type": "Manga",
+    "time": null
+  },
+  "your-mom-is-the-best": {
+    "slug": "your-mom-is-the-best",
+    "title": "your-mom-is-the-best",
+    "url": "/manga/your-mom-is-the-best",
+    "image": null,
+    "chapter": "Chapter 7",
+    "rating": "7.7",
+    "type": null,
+    "time": null
+  },
+  "kanojo-no-ane-incha-neet-ni-netorareta-ore": {
+    "slug": "kanojo-no-ane-incha-neet-ni-netorareta-ore",
+    "title": "kanojo-no-ane-incha-neet-ni-netorareta-ore",
+    "url": "/manga/kanojo-no-ane-incha-neet-ni-netorareta-ore",
+    "image": null,
+    "chapter": "Chapter 1 End",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "capitalist-harem": {
+    "slug": "capitalist-harem",
+    "title": "capitalist-harem",
+    "url": "/manga/capitalist-harem",
+    "image": null,
+    "chapter": "Chapter 4",
+    "rating": "8",
+    "type": null,
     "time": null
   }
 }

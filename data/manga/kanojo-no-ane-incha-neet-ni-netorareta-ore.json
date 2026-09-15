@@ -1,0 +1,40 @@
+{
+  "slug": "kanojo-no-ane-incha-neet-ni-netorareta-ore",
+  "title": "kanojo-no-ane-incha-neet-ni-netorareta-ore",
+  "image": null,
+  "rating": "8.5",
+  "description": "Baca aja",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Netorare",
+      "url": "/genres/netorare"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1 End",
+      "url": "/kanojo-no-ane-incha-neet-ni-netorareta-ore-chapter-1",
+      "slug": "kanojo-no-ane-incha-neet-ni-netorareta-ore-chapter-1",
+      "date": "September 15, 2026"
+    }
+  ],
+  "scrapedAt": "2026-09-15T19:57:30.488Z"
+}

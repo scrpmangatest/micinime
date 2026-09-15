@@ -1,0 +1,50 @@
+{
+  "slug": "capitalist-harem",
+  "title": "capitalist-harem",
+  "image": null,
+  "rating": "8",
+  "description": "Cheolsu adalah seorang investor kripto yang hidupnya telah hancur lebur. Saat hanya keputusasaan yang tersisa, sebuah pertemuan takdir dengan seorang wanita mengubah hidupnya secara drastis. Namun, semakin banyak kekayaan yang mereka kumpulkan, semakin dekat pula mereka pada sebuah pilihan yang tak bisa lagi mereka batalkan…",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 4",
+      "url": "/capitalist-harem-chapter-4",
+      "slug": "capitalist-harem-chapter-4",
+      "date": "September 15, 2026"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/capitalist-harem-chapter-3",
+      "slug": "capitalist-harem-chapter-3",
+      "date": "September 15, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/capitalist-harem-chapter-2",
+      "slug": "capitalist-harem-chapter-2",
+      "date": "September 15, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/capitalist-harem-chapter-1",
+      "slug": "capitalist-harem-chapter-1",
+      "date": "September 15, 2026"
+    }
+  ],
+  "scrapedAt": "2026-09-15T19:57:41.078Z"
+}
