@@ -10735,22 +10735,22 @@
   },
   "another-kind-of-happiness": {
     "slug": "another-kind-of-happiness",
-    "title": "another-kind-of-happiness",
+    "title": "Another Kind of Happiness",
     "url": "/manga/another-kind-of-happiness",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/001.jpg",
     "chapter": "Chapter 1",
     "rating": "8.8",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "hirotta-iede-shoujo-ga-doero-sugiru": {
     "slug": "hirotta-iede-shoujo-ga-doero-sugiru",
-    "title": "hirotta-iede-shoujo-ga-doero-sugiru",
+    "title": "Hirotta Iede Shoujo ga Doero Sugiru!!",
     "url": "/manga/hirotta-iede-shoujo-ga-doero-sugiru",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-5.webp",
     "chapter": "Chapter 1",
     "rating": "8.8",
-    "type": null,
+    "type": "Manga",
     "time": null
   }
 }
