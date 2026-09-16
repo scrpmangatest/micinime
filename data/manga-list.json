@@ -9298,7 +9298,7 @@
     "title": "Wireless Onahole",
     "url": "/manga/wireless-onahole",
     "image": "https://komiktap.info/wp-content/uploads/2025/03/pktz1xjli7br5sb01tw46z2g.jpg",
-    "chapter": "Chapter 119",
+    "chapter": "Chapter 120",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -9738,7 +9738,7 @@
     "title": "MILF Hunting In Another World",
     "url": "/manga/milf-hunting-in-another-world",
     "image": "https://komiktap.info/wp-content/uploads/2023/06/MILF-Hunting-In-Another-World-193x278-1.jpg",
-    "chapter": "Chapter 135",
+    "chapter": "Chapter 136",
     "rating": "8.9",
     "type": "Manga",
     "time": null
@@ -9828,7 +9828,7 @@
     "title": "The Teachers’ Effort",
     "url": "/manga/the-teachers-effort",
     "image": "https://komiktap.info/wp-content/uploads/2024/07/esfuerzo-de-los-profesores.jpg",
-    "chapter": "Chapter 110",
+    "chapter": "Chapter 111",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -10078,7 +10078,7 @@
     "title": "I’m the Only Guy at the Massage Shop",
     "url": "/manga/im-the-only-guy-at-the-massage-shop",
     "image": "https://komiktap.info/wp-content/uploads/2026/04/only-guy.webp",
-    "chapter": "Chapter 28",
+    "chapter": "Chapter 29",
     "rating": "8.1",
     "type": "Manga",
     "time": null
@@ -10781,6 +10781,46 @@
     "chapter": "Chapter 4",
     "rating": "8",
     "type": "Manga",
+    "time": null
+  },
+  "momoiro-kikyou-ichi": {
+    "slug": "momoiro-kikyou-ichi",
+    "title": "momoiro-kikyou-ichi",
+    "url": "/manga/momoiro-kikyou-ichi",
+    "image": null,
+    "chapter": "Chapter 01 END",
+    "rating": "9",
+    "type": null,
+    "time": null
+  },
+  "paihame-rensa-paihame-kazoku-gaiden": {
+    "slug": "paihame-rensa-paihame-kazoku-gaiden",
+    "title": "paihame-rensa-paihame-kazoku-gaiden",
+    "url": "/manga/paihame-rensa-paihame-kazoku-gaiden",
+    "image": null,
+    "chapter": "Chapter 1 End",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "15-nen-buri-ni-saikai-shita-dagashiya-no-ikiokure-nagachichi-onee-san-wa-ooatari": {
+    "slug": "15-nen-buri-ni-saikai-shita-dagashiya-no-ikiokure-nagachichi-onee-san-wa-ooatari",
+    "title": "15-nen-buri-ni-saikai-shita-dagashiya-no-ikiokure-nagachichi-onee-san-wa-ooatari",
+    "url": "/manga/15-nen-buri-ni-saikai-shita-dagashiya-no-ikiokure-nagachichi-onee-san-wa-ooatari",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.8",
+    "type": null,
+    "time": null
+  },
+  "switch-on": {
+    "slug": "switch-on",
+    "title": "switch-on",
+    "url": "/manga/switch-on",
+    "image": null,
+    "chapter": "Chapter 111",
+    "rating": "7.3",
+    "type": null,
     "time": null
   }
 }
