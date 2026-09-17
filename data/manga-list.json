@@ -10785,42 +10785,42 @@
   },
   "momoiro-kikyou-ichi": {
     "slug": "momoiro-kikyou-ichi",
-    "title": "momoiro-kikyou-ichi",
+    "title": "Momoiro Kikyou Ichi",
     "url": "/manga/momoiro-kikyou-ichi",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-6.webp",
     "chapter": "Chapter 01 END",
     "rating": "9",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "paihame-rensa-paihame-kazoku-gaiden": {
     "slug": "paihame-rensa-paihame-kazoku-gaiden",
-    "title": "paihame-rensa-paihame-kazoku-gaiden",
+    "title": "Paihame Rensa -Paihame Kazoku Gaiden-",
     "url": "/manga/paihame-rensa-paihame-kazoku-gaiden",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-8.jpg",
     "chapter": "Chapter 1 End",
     "rating": "8.5",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "15-nen-buri-ni-saikai-shita-dagashiya-no-ikiokure-nagachichi-onee-san-wa-ooatari": {
     "slug": "15-nen-buri-ni-saikai-shita-dagashiya-no-ikiokure-nagachichi-onee-san-wa-ooatari",
-    "title": "15-nen-buri-ni-saikai-shita-dagashiya-no-ikiokure-nagachichi-onee-san-wa-ooatari",
+    "title": "15-Nen-buri ni Saikai shita Dagashiya no Ikiokure Nagachichi Onee-san wa Ooatari",
     "url": "/manga/15-nen-buri-ni-saikai-shita-dagashiya-no-ikiokure-nagachichi-onee-san-wa-ooatari",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-7.webp",
     "chapter": "Chapter 1",
     "rating": "8.8",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "switch-on": {
     "slug": "switch-on",
-    "title": "switch-on",
+    "title": "Switch On",
     "url": "/manga/switch-on",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2022/05/swit.png",
     "chapter": "Chapter 111",
     "rating": "7.3",
-    "type": null,
+    "type": "Manga",
     "time": null
   }
 }
