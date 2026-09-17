@@ -7616,7 +7616,7 @@
     "title": "Soeun",
     "url": "/manga/soeun",
     "image": "https://komiktap.info/wp-content/uploads/2024/07/soeun.jpg",
-    "chapter": "Chapter 110",
+    "chapter": "Chapter 111",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9478,7 +9478,7 @@
     "title": "Regressed Warrior’s Female Dominance",
     "url": "/manga/regressed-warriors-female-dominance",
     "image": "https://komiktap.info/wp-content/uploads/2024/03/reg.webp",
-    "chapter": "Chapter 95",
+    "chapter": "Chapter 96",
     "rating": "7.7",
     "type": "Manga",
     "time": null
@@ -9598,7 +9598,7 @@
     "title": "Magical Girl Wife",
     "url": "/manga/magical-girl-wife",
     "image": "https://komiktap.info/wp-content/uploads/2026/04/imgi_2_eil2fos7tued469vo3a3xp8v.jpg",
-    "chapter": "Chapter 25",
+    "chapter": "Chapter 26",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -9638,7 +9638,7 @@
     "title": "Stop Smoking",
     "url": "/manga/stop-smoking",
     "image": "https://komiktap.info/wp-content/uploads/2024/09/Stop-Smoking-193x278-1.jpg",
-    "chapter": "Chapter 110",
+    "chapter": "Chapter 111",
     "rating": "7.1",
     "type": "Manga",
     "time": null
@@ -10368,7 +10368,7 @@
     "title": "Danjo no Teiso Kannen ga Gyaku ni natta Sekai",
     "url": "/manga/danjo-no-teiso-kannen-ga-gyaku-ni-natta-sekai",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-4.jpg",
-    "chapter": "Chapter 5",
+    "chapter": "Chapter 6 End",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10758,7 +10758,7 @@
     "title": "Your Mom Is the Best",
     "url": "/manga/your-mom-is-the-best",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/fcwsoj9vu05u4jn0i4hxwywl.webp",
-    "chapter": "Chapter 2",
+    "chapter": "Chapter 9",
     "rating": "7.7",
     "type": "Manga",
     "time": null
@@ -10778,7 +10778,7 @@
     "title": "Capitalist Harem",
     "url": "/manga/capitalist-harem",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/capitalist-haremm.jpg",
-    "chapter": "Chapter 4",
+    "chapter": "Chapter 8",
     "rating": "8",
     "type": "Manga",
     "time": null
@@ -10821,6 +10821,36 @@
     "chapter": "Chapter 111",
     "rating": "7.3",
     "type": "Manga",
+    "time": null
+  },
+  "paihame-kazoku": {
+    "slug": "paihame-kazoku",
+    "title": "paihame-kazoku",
+    "url": "/manga/paihame-kazoku",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "himetaru-mesu-no-midara-na-yuuwaku": {
+    "slug": "himetaru-mesu-no-midara-na-yuuwaku",
+    "title": "himetaru-mesu-no-midara-na-yuuwaku",
+    "url": "/manga/himetaru-mesu-no-midara-na-yuuwaku",
+    "image": null,
+    "chapter": "Chapter 2",
+    "rating": "8.8",
+    "type": null,
+    "time": null
+  },
+  "lovecome-kurai-ga-choudo-ii": {
+    "slug": "lovecome-kurai-ga-choudo-ii",
+    "title": "lovecome-kurai-ga-choudo-ii",
+    "url": "/manga/lovecome-kurai-ga-choudo-ii",
+    "image": null,
+    "chapter": "Chapter 1 End",
+    "rating": "8.5",
+    "type": null,
     "time": null
   }
 }

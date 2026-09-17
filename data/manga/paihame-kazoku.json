@@ -1,0 +1,44 @@
+{
+  "slug": "paihame-kazoku",
+  "title": "paihame-kazoku",
+  "image": null,
+  "rating": "8.5",
+  "description": "Baca aja",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    },
+    {
+      "name": "Rape",
+      "url": "/genres/rape"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/paihame-kazoku-chapter-1",
+      "slug": "paihame-kazoku-chapter-1",
+      "date": "September 17, 2026"
+    }
+  ],
+  "scrapedAt": "2026-09-17T19:58:31.576Z"
+}
