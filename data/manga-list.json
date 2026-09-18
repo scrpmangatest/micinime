@@ -10825,32 +10825,32 @@
   },
   "paihame-kazoku": {
     "slug": "paihame-kazoku",
-    "title": "paihame-kazoku",
+    "title": "Paihame Kazoku",
     "url": "/manga/paihame-kazoku",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-10.jpg",
     "chapter": "Chapter 1",
     "rating": "8.5",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "himetaru-mesu-no-midara-na-yuuwaku": {
     "slug": "himetaru-mesu-no-midara-na-yuuwaku",
-    "title": "himetaru-mesu-no-midara-na-yuuwaku",
+    "title": "Himetaru Mesu no Midara na Yuuwaku",
     "url": "/manga/himetaru-mesu-no-midara-na-yuuwaku",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/001-2.webp",
     "chapter": "Chapter 2",
     "rating": "8.8",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "lovecome-kurai-ga-choudo-ii": {
     "slug": "lovecome-kurai-ga-choudo-ii",
-    "title": "lovecome-kurai-ga-choudo-ii",
+    "title": "Lovecome Kurai ga choudo ii",
     "url": "/manga/lovecome-kurai-ga-choudo-ii",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-9.jpg",
     "chapter": "Chapter 1 End",
     "rating": "8.5",
-    "type": null,
+    "type": "Manga",
     "time": null
   }
 }
