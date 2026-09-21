@@ -10,3 +10,9 @@ data/fix-genres-log.txt
 data/fix-genres-err.txt
 .wrangler/
 .cloudflare/
+public/data/
+copy.txt
+probe-*.js
+probe-*.html
+inspect-*.js
+server-komiktap.js
