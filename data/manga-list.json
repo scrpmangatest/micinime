@@ -10838,7 +10838,7 @@
     "title": "Himetaru Mesu no Midara na Yuuwaku",
     "url": "/manga/himetaru-mesu-no-midara-na-yuuwaku",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/001-2.webp",
-    "chapter": "Chapter 4",
+    "chapter": "Chapter 6",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -10895,11 +10895,21 @@
   },
   "kekkyoku-ecchi-na-onee-san-ga-saikyou-tte-wake": {
     "slug": "kekkyoku-ecchi-na-onee-san-ga-saikyou-tte-wake",
-    "title": "kekkyoku-ecchi-na-onee-san-ga-saikyou-tte-wake",
+    "title": "Kekkyoku, Ecchi na Onee-san ga Saikyou tte Wake!",
     "url": "/manga/kekkyoku-ecchi-na-onee-san-ga-saikyou-tte-wake",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-12.jpg",
     "chapter": "Chapter 1 End",
     "rating": "8.5",
+    "type": "Manga",
+    "time": null
+  },
+  "tawamure-nara-naisho-ni-shitete": {
+    "slug": "tawamure-nara-naisho-ni-shitete",
+    "title": "tawamure-nara-naisho-ni-shitete",
+    "url": "/manga/tawamure-nara-naisho-ni-shitete",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.8",
     "type": null,
     "time": null
   }
