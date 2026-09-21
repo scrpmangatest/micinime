@@ -266,14 +266,19 @@ async function spaFallback(context) {
 }
 
 export async function onRequestGet(context) {
-  const requestUrl = new URL(context.request.url);
-  if (requestUrl.hostname === 'micinime.pages.dev') {
-    return Response.redirect('https://micinime.my.id/', 301);
+  try {
+    const requestUrl = new URL(context.request.url);
+    if (requestUrl.hostname === 'micinime.pages.dev') {
+      return Response.redirect('https://micinime.my.id/', 301);
+    }
+    const segments = (context.params.path || []);
+    if (segments.length === 1 && segments[0] === 'sitemap.xml') return handleSitemap(context);
+    if (segments.length >= 1 && segments[0] === 'api') return handleApi(context, segments.slice(1));
+    return spaFallback(context);
+  } catch (err) {
+    const response = await context.env.ASSETS.fetch(new Request(new URL('/index.html', context.request.url)));
+    return new Response(response.body, { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
   }
-  const segments = (context.params.path || []);
-  if (segments.length === 1 && segments[0] === 'sitemap.xml') return handleSitemap(context);
-  if (segments.length >= 1 && segments[0] === 'api') return handleApi(context, segments.slice(1));
-  return spaFallback(context);
 }
 
 export async function onRequestPost(context) {
