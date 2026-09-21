@@ -90,8 +90,9 @@ async function handleApi(context, segments) {
 
   if (segments.length === 2 && segments[0] === 'manga') {
     const slug = decode(segments[1]);
-    const item = (data.items || []).find((entry) => entry.slug === slug);
-    const found = mergeDetail(item, await detailFor(context, slug));
+    const rawSlug = segments[1];
+    const item = (data.items || []).find((entry) => entry.slug === slug) || (data.items || []).find((entry) => entry.slug === rawSlug);
+    const found = mergeDetail(item, await detailFor(context, item?.slug || slug));
     return found ? json(found) : json({ error: 'Manga not found' }, 404);
   }
 
@@ -198,8 +199,12 @@ async function spaFallback(context) {
 
   if (path[0] === 'manga' && path[1]) {
     const slug = decode(path[1]);
-    const item = await catalog(context).then((data) => (data?.items || []).find((entry) => entry.slug === slug)).catch(() => null);
-    const data = await detailFor(context, slug);
+    const rawSlug = path[1];
+    const item = await catalog(context).then((data) => {
+      const items = data?.items || [];
+      return items.find((entry) => entry.slug === slug) || items.find((entry) => entry.slug === rawSlug);
+    }).catch(() => null);
+    const data = await detailFor(context, item?.slug || slug);
     const manga = mergeDetail(item, data);
     if (manga) {
       const genres = (manga.genres || []).map((g) => typeof g === 'string' ? g : g.name).filter(Boolean);
