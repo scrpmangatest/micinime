@@ -5,6 +5,7 @@ const XML = (body) => new Response(body, {
 });
 
 const escapeXml = (value) => String(value || '').replace(/[<>&'\"]/g, (char) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' })[char]);
+const escapeHtml = (value) => String(value || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const decode = (value) => { try { return decodeURIComponent(value); } catch { return value; } };
 
 async function catalog(context) {
@@ -189,9 +190,11 @@ async function spaFallback(context) {
   let html = await response.text();
   const path = context.params.path || [];
   let title = 'micinime - Baca Manga & Manhwa Hentai Sub Indo Gratis';
-  let description = 'Baca manga dan manhwa hentai sub Indonesia gratis di micinime. Update chapter terbaru setiap hari.';
-  let canonical = new URL(context.request.url).origin + new URL(context.request.url).pathname;
+  let description = 'micinime adalah situs baca manga dan manhwa hentai sub Indonesia terlengkap dengan ribuan judul dan chapter terbaru. Baca gratis tanpa daftar, update setiap hari, nyaman dibaca di HP dan PC.';
+  let canonical = new URL(context.request.url).origin + '/' + (path.length ? path.join('/') : '');
+  let ogImage = 'https://micinime.my.id/logo.svg';
   let content = '';
+  let jsonLd = '';
 
   if (path[0] === 'manga' && path[1]) {
     const slug = decode(path[1]);
@@ -199,18 +202,46 @@ async function spaFallback(context) {
     const data = await detailFor(context, slug);
     const manga = mergeDetail(item, data);
     if (manga) {
-      title = `${manga.title || slug} - Baca Manga Sub Indo | micinime`;
-      description = `Baca ${manga.title || slug} bahasa Indonesia gratis di micinime. Update chapter terbaru.`;
-      content = `<main><h1>${escapeXml(manga.title || slug)}</h1><p>${escapeXml(description)}</p>${manga.image ? `<img src="${escapeXml(manga.image)}" alt="${escapeXml(manga.title || slug)}">` : ''}<h2>Chapter ${Array.isArray(manga.chapters) ? manga.chapters.length : 0}</h2><ul>${(manga.chapters || []).slice(0, 50).map((chapter) => `<li><a href="${escapeXml(chapter.url || '#')}">${escapeXml(chapter.title || '')}</a></li>`).join('')}</ul></main>`;
+      const genres = (manga.genres || []).map((g) => typeof g === 'string' ? g : g.name).filter(Boolean);
+      const chapterCount = Array.isArray(manga.chapters) ? manga.chapters.length : 0;
+      const synopsis = manga.synopsis || manga.description || '';
+      title = `${manga.title || slug} - Baca ${manga.type || 'Manga'} Sub Indo | micinime`;
+      description = `${manga.title || slug} merupakan ${manga.type || 'manga'} berbahasa Indonesia yang bisa kamu baca gratis di micinime. ${genres.length ? 'Genre: ' + genres.slice(0, 5).join(', ') + '. ' : ''}${chapterCount > 0 ? 'Tersedia ' + chapterCount + ' chapter lengkap. ' : ''}${synopsis ? synopsis.slice(0, 180).trim() : 'Baca sekarang di micinime.'}`.slice(0, 300);
+      if (manga.image) ogImage = manga.image;
+      content = `<main itemscope itemtype="https://schema.org/Book">`;
+      content += `<h1 itemprop="name">${escapeHtml(manga.title || slug)}</h1>`;
+      if (manga.image) content += `<img src="${escapeHtml(manga.image)}" alt="${escapeHtml(manga.title || slug)}" loading="lazy" itemprop="image">`;
+      if (genres.length) content += `<p><strong>Genre:</strong> <span itemprop="genre">${escapeHtml(genres.join(', '))}</span></p>`;
+      if (manga.type) content += `<p><strong>Tipe:</strong> ${escapeHtml(manga.type)}</p>`;
+      if (manga.rating) content += `<p><strong>Rating:</strong> ${escapeHtml(String(manga.rating))}</p>`;
+      if (synopsis) content += `<div itemprop="description"><strong>Sinopsis:</strong><p>${escapeHtml(synopsis)}</p></div>`;
+      if (chapterCount > 0) {
+        content += `<h2>Daftar Chapter (${chapterCount} chapter)</h2><ul>`;
+        content += (manga.chapters || []).map((ch) => `<li><a href="${escapeHtml(ch.url || '#')}">${escapeHtml(ch.title || '')}</a></li>`).join('');
+        content += '</ul>';
+      }
+      content += '</main>';
+      jsonLd = `<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":${JSON.stringify(manga.title || slug)},"image":${JSON.stringify(manga.image || '')},"genre":${JSON.stringify(genres)},"numberOfChapters":${chapterCount},"description":${JSON.stringify(synopsis.slice(0, 500))},"publisher":{"@type":"Organization","name":"micinime","url":"https://micinime.my.id"}}</script>`;
     }
   } else if (path[0] === 'genres' && path[1]) {
-    const genre = decode(path[1]).replace(/-/g, ' ');
-    title = `Genre ${genre} - Baca Manga Sub Indo | micinime`;
-    description = `Kumpulan manga dan manhwa genre ${genre} sub Indonesia di micinime.`;
-    content = `<main><h1>Genre ${escapeXml(genre)}</h1><p>${escapeXml(description)}</p></main>`;
+    const genreSlug = path[1];
+    const genreName = decode(genreSlug).replace(/-/g, ' ');
+    const data = await catalog(context).catch(() => null);
+    const index = data ? await assetJson(context, '/data/genre-index.json').catch(() => null) : null;
+    const count = index && Array.isArray(index[genreSlug]) ? index[genreSlug].length : 0;
+    title = `Genre ${genreName} - Baca Manga & Manhwa Sub Indo | micinime`;
+    description = `Koleksi ${count > 0 ? count + ' ' : ''}manga dan manhwa genre ${genreName} sub Indonesia di micinime. Baca gratis dengan update chapter terbaru setiap hari. Lengkap dari action, romance, comedy, drama, horror, dan banyak lagi.`;
+    content = `<main><h1>Genre ${escapeHtml(genreName)}</h1><p>${escapeHtml(description)}</p>`;
+    if (count > 0) content += `<p>Total ${count} manga dalam genre ini.</p>`;
+    content += '</main>';
   } else if (path[0] === 'az-lists') {
-    title = 'Daftar Manga AZ Sub Indo | micinime';
-    description = 'Daftar manga dan manhwa sub Indonesia berdasarkan abjad di micinime.';
+    title = 'Daftar Manga A-Z - Baca Manga & Manhwa Sub Indo | micinime';
+    description = 'Jelajahi daftar lengkap manga dan manhwa sub Indonesia dari A sampai Z di micinime. Temukan manga favoritmu berdasarkan abjad judul, koleksi terlengkap dan gratis.';
+    content = '<main><h1>Daftar Manga A-Z</h1><p>Jelajahi seluruh koleksi manga dan manhwa sub Indonesia yang tersedia di micinime secara lengkap dan gratis.</p></main>';
+  } else if (path[0] === 'genres') {
+    title = 'Daftar Genre Manga & Manhwa - micinime';
+    description = 'Lihat semua genre manga dan manhwa yang tersedia di micinime. Pilih genre favoritmu seperti action, romance, comedy, drama, horror, slice of life, dan banyak lagi. Baca gratis sub Indonesia.';
+    content = '<main><h1>Daftar Genre Manga & Manhwa</h1><p>Semua genre manga dan manhwa yang tersedia di micinime. Pilih dan baca sesuai selera kamu.</p></main>';
   }
 
   html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeXml(title)}</title>`);
@@ -219,7 +250,10 @@ async function spaFallback(context) {
   html = html.replace(/<meta\s+property=["']og:title["'][^>]*>/i, `<meta property="og:title" content="${escapeXml(title)}">`);
   html = html.replace(/<meta\s+property=["']og:description["'][^>]*>/i, `<meta property="og:description" content="${escapeXml(description)}">`);
   html = html.replace(/<meta\s+property=["']og:url["'][^>]*>/i, `<meta property="og:url" content="${escapeXml(canonical)}">`);
-  if (content) html = html.replace('<div id="content"></div>', `<div id="content">${content}</div>`);
+  html = html.replace(/<meta\s+property=["']og:image["'][^>]*>/i, `<meta property="og:image" content="${escapeXml(ogImage)}">`);
+  html = html.replace(/<meta\s+name=["']twitter:description["'][^>]*>/i, `<meta name="twitter:description" content="${escapeXml(description)}">`);
+  if (content && jsonLd) html = html.replace('<div id="content"></div>', `${jsonLd}<div id="content">${content}</div>`);
+  else if (content) html = html.replace('<div id="content"></div>', `<div id="content">${content}</div>`);
   const headers = new Headers(response.headers);
   headers.set('Cache-Control', 'public, max-age=300');
   headers.set('Content-Type', 'text/html; charset=utf-8');
