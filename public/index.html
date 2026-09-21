@@ -3142,8 +3142,9 @@ const router = {
     },
 
     proxyImg(url) {
-        if (!url || url.startsWith('data:')) return url || '';
-        return '/api/proxy?url=' + encodeURIComponent(url);
+        if (!url || url.startsWith('data:') || url.startsWith('/')) return url || '';
+        if (url.includes('komiktap.info')) return '/api/proxy?url=' + encodeURIComponent(url);
+        return url;
     },
     injectMangaSchema(data, slug) {
         const old = document.getElementById('manga-schema');

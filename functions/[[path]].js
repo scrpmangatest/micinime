@@ -135,11 +135,19 @@ async function handleApi(context, segments) {
   if (segments.length === 1 && segments[0] === 'proxy') {
     const remote = url.searchParams.get('url');
     if (!remote || !/^https?:\/\//i.test(remote)) return new Response('Bad url', { status: 400 });
-    const response = await fetch(remote, { headers: { 'User-Agent': 'Mozilla/5.0', Referer: 'https://komiktap.info/' }, cf: { cacheTtl: 86400, cacheEverything: true } });
-    if (!response.ok) return new Response('Image unavailable', { status: response.status });
-    const headers = new Headers(response.headers);
-    headers.set('Cache-Control', 'public, max-age=86400');
-    return new Response(response.body, { status: response.status, headers });
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 8000);
+      const response = await fetch(remote, { headers: { 'User-Agent': 'Mozilla/5.0', Referer: 'https://komiktap.info/' }, signal: controller.signal, cf: { cacheTtl: 86400, cacheEverything: true } });
+      clearTimeout(timeout);
+      if (!response.ok) return new Response('Image unavailable', { status: response.status });
+      const headers = new Response(response.headers).headers;
+      headers.set('Cache-Control', 'public, max-age=86400');
+      headers.set('Access-Control-Allow-Origin', '*');
+      return new Response(response.body, { status: response.status, headers });
+    } catch {
+      return new Response('Image unavailable', { status: 502 });
+    }
   }
 
   if (segments.length >= 1 && segments[0] === 'histats') {
