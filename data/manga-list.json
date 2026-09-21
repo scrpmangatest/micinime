@@ -7616,7 +7616,7 @@
     "title": "Soeun",
     "url": "/manga/soeun",
     "image": "https://komiktap.info/wp-content/uploads/2024/07/soeun.jpg",
-    "chapter": "Chapter 111",
+    "chapter": "Chapter 112",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9278,7 +9278,7 @@
     "title": "Love Quest",
     "url": "/manga/love-quest",
     "image": "https://komiktap.info/wp-content/uploads/2026/03/Love_Quest.webp",
-    "chapter": "Chapter 33",
+    "chapter": "Chapter 34",
     "rating": "8.2",
     "type": "Manga",
     "time": null
@@ -9308,7 +9308,7 @@
     "title": "I Became an Apartment Security Manager",
     "url": "/manga/i-became-an-apartment-security-manager",
     "image": "https://komiktap.info/wp-content/uploads/2025/08/I-Became-an-Apartment-Security-Manager.webp",
-    "chapter": "Chapter 60",
+    "chapter": "Chapter 61",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9628,7 +9628,7 @@
     "title": "I Banged All My Classmates After Graduation",
     "url": "/manga/i-banged-all-my-classmates-after-graduation",
     "image": "https://komiktap.info/wp-content/uploads/2026/07/g8ir8upu9faxljistncn8hnk.webp",
-    "chapter": "Chapter 15",
+    "chapter": "Chapter 16",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -10418,7 +10418,7 @@
     "title": "I Will Protect You (Helcher)",
     "url": "/manga/i-will-protect-you-helcher",
     "image": "https://komiktap.info/wp-content/uploads/2025/11/I-Will-Protect-You.webp",
-    "chapter": "Chapter 30",
+    "chapter": "Chapter 31",
     "rating": "8.3",
     "type": "Manga",
     "time": null
@@ -10827,8 +10827,8 @@
     "slug": "paihame-kazoku",
     "title": "Paihame Kazoku",
     "url": "/manga/paihame-kazoku",
-    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-10.jpg",
-    "chapter": "Chapter 2",
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-13.jpg",
+    "chapter": "Chapter 3",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10891,6 +10891,16 @@
     "chapter": "Chapter 1",
     "rating": "8.8",
     "type": "Manga",
+    "time": null
+  },
+  "kekkyoku-ecchi-na-onee-san-ga-saikyou-tte-wake": {
+    "slug": "kekkyoku-ecchi-na-onee-san-ga-saikyou-tte-wake",
+    "title": "kekkyoku-ecchi-na-onee-san-ga-saikyou-tte-wake",
+    "url": "/manga/kekkyoku-ecchi-na-onee-san-ga-saikyou-tte-wake",
+    "image": null,
+    "chapter": "Chapter 1 End",
+    "rating": "8.5",
+    "type": null,
     "time": null
   }
 }

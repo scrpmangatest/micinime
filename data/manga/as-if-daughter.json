@@ -1,52 +1,391 @@
 {
   "slug": "as-if-daughter",
   "title": "As If Daughter",
-  "image": "https://i3.wp.com/komikhentaiku.com/wp-content/uploads/2026/03/cover-241.jpg",
-  "rating": "8.50",
-  "description": "For my friend’s father, to him, I’m just a child. He says he thinks of me as a daughter, but does he know? I’m lusting towards him every day…",
-  "status": "Ongoing",
-  "type": "Manga",
+  "image": "https://komiktap.info/wp-content/uploads/2021/04/53026.jpg",
+  "rating": "5.5",
+  "description": "Untuk ayah temanku, baginya, aku hanyalah seorang anak kecil. Dia bilang dia menganggapku seperti anak perempuan, tapi apakah dia tahu? Aku bernafsu padanya setiap hari …",
+  "status": "Completed",
+  "type": "Manhwa",
   "genres": [
     {
-      "name": "adult",
+      "name": "Adult",
       "url": "/genres/adult"
     },
     {
-      "name": "berwarna",
-      "url": "/genres/berwarna"
+      "name": "Comedy",
+      "url": "/genres/comedy"
     },
     {
-      "name": "big ass",
-      "url": "/genres/big-ass"
-    },
-    {
-      "name": "big boobs",
-      "url": "/genres/big-boobs"
-    },
-    {
-      "name": "big tits",
-      "url": "/genres/big-tits"
-    },
-    {
-      "name": "ecchi",
-      "url": "/genres/ecchi"
-    },
-    {
-      "name": "full color",
+      "name": "Full Color",
       "url": "/genres/full-color"
     },
     {
-      "name": "Uncensored",
-      "url": "/genres/uncensored"
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Slice of Life",
+      "url": "/genres/slice-of-life"
     }
   ],
   "chapters": [
     {
+      "slug": "as-if-daughter-chapter-50-end",
+      "title": "Chapter 50 End",
+      "url": "/as-if-daughter-chapter-50-end",
+      "number": 50,
+      "date": "Oktober 25, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-49",
+      "title": "Chapter 49",
+      "url": "/as-if-daughter-chapter-49",
+      "number": 49,
+      "date": "Oktober 25, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-48",
+      "title": "Chapter 48",
+      "url": "/as-if-daughter-chapter-48",
+      "number": 48,
+      "date": "Oktober 25, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-47",
+      "title": "Chapter 47",
+      "url": "/as-if-daughter-chapter-47",
+      "number": 47,
+      "date": "Oktober 25, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-46",
+      "title": "Chapter 46",
+      "url": "/as-if-daughter-chapter-46",
+      "number": 46,
+      "date": "Oktober 25, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-45",
+      "title": "Chapter 46",
+      "url": "/as-if-daughter-chapter-45",
+      "number": 46,
+      "date": "Oktober 25, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-44",
+      "title": "Chapter 44",
+      "url": "/as-if-daughter-chapter-44",
+      "number": 44,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-43",
+      "title": "Chapter 43",
+      "url": "/as-if-daughter-chapter-43",
+      "number": 43,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-42",
+      "title": "Chapter 42",
+      "url": "/as-if-daughter-chapter-42",
+      "number": 42,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-41",
+      "title": "Chapter 41",
+      "url": "/as-if-daughter-chapter-41",
+      "number": 41,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-40",
+      "title": "Chapter 40",
+      "url": "/as-if-daughter-chapter-40",
+      "number": 40,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-39",
+      "title": "Chapter 39",
+      "url": "/as-if-daughter-chapter-39",
+      "number": 39,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-38",
+      "title": "Chapter 38",
+      "url": "/as-if-daughter-chapter-38",
+      "number": 38,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-37",
+      "title": "Chapter 37",
+      "url": "/as-if-daughter-chapter-37",
+      "number": 37,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-36",
+      "title": "Chapter 36",
+      "url": "/as-if-daughter-chapter-36",
+      "number": 36,
+      "date": "September 11, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-35",
+      "title": "Chapter 35",
+      "url": "/as-if-daughter-chapter-35",
+      "number": 35,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-34",
+      "title": "Chapter 34",
+      "url": "/as-if-daughter-chapter-34",
+      "number": 34,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-33",
+      "title": "Chapter 33",
+      "url": "/as-if-daughter-chapter-33",
+      "number": 33,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-32",
+      "title": "Chapter 32",
+      "url": "/as-if-daughter-chapter-32",
+      "number": 32,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-31",
+      "title": "Chapter 31",
+      "url": "/as-if-daughter-chapter-31",
+      "number": 31,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-30",
+      "title": "Chapter 30",
+      "url": "/as-if-daughter-chapter-30",
+      "number": 30,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-29",
+      "title": "Chapter 29",
+      "url": "/as-if-daughter-chapter-29",
+      "number": 29,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-28",
+      "title": "Chapter 28",
+      "url": "/as-if-daughter-chapter-28",
+      "number": 28,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-27",
+      "title": "Chapter 27",
+      "url": "/as-if-daughter-chapter-27",
+      "number": 27,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-26",
+      "title": "Chapter 26",
+      "url": "/as-if-daughter-chapter-26",
+      "number": 26,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-25",
+      "title": "Chapter 25",
+      "url": "/as-if-daughter-chapter-25",
+      "number": 25,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-24",
+      "title": "Chapter 24",
+      "url": "/as-if-daughter-chapter-24",
+      "number": 24,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-23",
+      "title": "Chapter 23",
+      "url": "/as-if-daughter-chapter-23",
+      "number": 23,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-22",
+      "title": "Chapter 22",
+      "url": "/as-if-daughter-chapter-22",
+      "number": 22,
+      "date": "Juli 24, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-21",
+      "title": "Chapter 21",
+      "url": "/as-if-daughter-chapter-21",
+      "number": 21,
+      "date": "Juli 6, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-20",
+      "title": "Chapter 20",
+      "url": "/as-if-daughter-chapter-20",
+      "number": 20,
+      "date": "Juni 22, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-19",
+      "title": "Chapter 19",
+      "url": "/as-if-daughter-chapter-19",
+      "number": 19,
+      "date": "Juni 22, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-18",
+      "title": "Chapter 18",
+      "url": "/as-if-daughter-chapter-18",
+      "number": 18,
+      "date": "Juni 22, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-17",
+      "title": "Chapter 17",
+      "url": "/as-if-daughter-chapter-17",
+      "number": 17,
+      "date": "April 20, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-16",
+      "title": "Chapter 16",
+      "url": "/as-if-daughter-chapter-16",
+      "number": 16,
+      "date": "April 20, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-15",
+      "title": "Chapter 15",
+      "url": "/as-if-daughter-chapter-15",
+      "number": 15,
+      "date": "April 20, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-14",
+      "title": "Chapter 14",
+      "url": "/as-if-daughter-chapter-14",
+      "number": 14,
+      "date": "April 20, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-13",
+      "title": "Chapter 13",
+      "url": "/as-if-daughter-chapter-13",
+      "number": 13,
+      "date": "April 20, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-12",
+      "title": "Chapter 12",
+      "url": "/as-if-daughter-chapter-12",
+      "number": 12,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-11",
+      "title": "Chapter 11",
+      "url": "/as-if-daughter-chapter-11",
+      "number": 11,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-10",
+      "title": "Chapter 10",
+      "url": "/as-if-daughter-chapter-10",
+      "number": 10,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-9",
+      "title": "Chapter 9",
+      "url": "/as-if-daughter-chapter-9",
+      "number": 9,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-8",
+      "title": "Chapter 8",
+      "url": "/as-if-daughter-chapter-8",
+      "number": 8,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-7",
+      "title": "Chapter 7",
+      "url": "/as-if-daughter-chapter-7",
+      "number": 7,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-6",
+      "title": "Chapter 6",
+      "url": "/as-if-daughter-chapter-6",
+      "number": 6,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-5",
+      "title": "Chapter 5",
+      "url": "/as-if-daughter-chapter-5",
+      "number": 5,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-4",
+      "title": "Chapter 4",
+      "url": "/as-if-daughter-chapter-4",
+      "number": 4,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-3",
+      "title": "Chapter 3",
+      "url": "/as-if-daughter-chapter-3",
+      "number": 3,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-2",
+      "title": "Chapter 2",
+      "url": "/as-if-daughter-chapter-2",
+      "number": 2,
+      "date": "April 4, 2021"
+    },
+    {
+      "slug": "as-if-daughter-chapter-1",
       "title": "Chapter 1",
       "url": "/as-if-daughter-chapter-1",
-      "slug": "as-if-daughter-chapter-1",
-      "date": "26/03/2026"
+      "number": 1,
+      "date": "April 4, 2021"
     }
-  ],
-  "scrapedAt": "2026-08-06T13:14:19.010Z"
+  ]
 }

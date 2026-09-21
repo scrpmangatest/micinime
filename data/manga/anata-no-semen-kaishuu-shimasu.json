@@ -1,11 +1,11 @@
 {
   "slug": "anata-no-semen-kaishuu-shimasu",
-  "title": "anata-no-semen-kaishuu-shimasu",
-  "image": null,
+  "title": "Anata no Semen Kaishuu Shimasu",
+  "image": "https://komiktap.info/wp-content/uploads/2026/09/01-1.jpg",
   "rating": "8.5",
   "description": "Doujin dari artist Wakamesan",
-  "status": null,
-  "type": null,
+  "status": "Ongoing",
+  "type": "Manga",
   "genres": [
     {
       "name": "Adult",
@@ -26,11 +26,39 @@
   ],
   "chapters": [
     {
+      "slug": "anata-no-semen-kaishuu-shimasu-chapter-5",
+      "title": "Chapter 5",
+      "url": "/anata-no-semen-kaishuu-shimasu-chapter-5",
+      "number": 5,
+      "date": "September 9, 2026"
+    },
+    {
+      "slug": "anata-no-semen-kaishuu-shimasu-chapter-4",
+      "title": "Chapter 4",
+      "url": "/anata-no-semen-kaishuu-shimasu-chapter-4",
+      "number": 4,
+      "date": "September 8, 2026"
+    },
+    {
+      "slug": "anata-no-semen-kaishuu-shimasu-chapter-3",
+      "title": "Chapter 3",
+      "url": "/anata-no-semen-kaishuu-shimasu-chapter-3",
+      "number": 3,
+      "date": "September 7, 2026"
+    },
+    {
+      "slug": "anata-no-semen-kaishuu-shimasu-chapter-2",
+      "title": "Chapter 2",
+      "url": "/anata-no-semen-kaishuu-shimasu-chapter-2",
+      "number": 2,
+      "date": "September 5, 2026"
+    },
+    {
+      "slug": "anata-no-semen-kaishuu-shimasu-chapter-1",
       "title": "Chapter 1",
       "url": "/anata-no-semen-kaishuu-shimasu-chapter-1",
-      "slug": "anata-no-semen-kaishuu-shimasu-chapter-1",
+      "number": 1,
       "date": "September 3, 2026"
     }
-  ],
-  "scrapedAt": "2026-09-03T17:06:58.269Z"
+  ]
 }
