@@ -6360,12 +6360,13 @@
   },
   "pay-with-sperm-pay": {
     "slug": "pay-with-sperm-pay",
-    "title": "Pay with Sperm Pay",
+    "title": "Pay With Sperm Pay",
     "url": "/manga/pay-with-sperm-pay",
-    "image": "https://i0.wp.com/komikhentaiku.com/wp-content/uploads/2026/03/cover-262.jpg?resize=285,425",
-    "chapter": "Chapter 1",
-    "rating": "9.00",
-    "type": null
+    "image": "https://komiktap.info/wp-content/uploads/2023/05/1684341680-7946-i416711.png",
+    "chapter": "Chapter 85",
+    "rating": "8",
+    "type": "Manga",
+    "time": null
   },
   "pc-cafe-goddess": {
     "slug": "pc-cafe-goddess",
@@ -10595,12 +10596,12 @@
   },
   "the-hole-diary": {
     "slug": "the-hole-diary",
-    "title": "the-hole-diary",
+    "title": "The Hole Diary",
     "url": "/manga/the-hole-diary",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2023/10/hole-diary.jpg",
     "chapter": "Chapter 119",
     "rating": "8.2",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "its-okay-because-its-family": {
@@ -10828,7 +10829,7 @@
     "title": "Paihame Kazoku",
     "url": "/manga/paihame-kazoku",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-13.jpg",
-    "chapter": "Chapter 3",
+    "chapter": "Chapter 4 End",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10905,11 +10906,21 @@
   },
   "tawamure-nara-naisho-ni-shitete": {
     "slug": "tawamure-nara-naisho-ni-shitete",
-    "title": "tawamure-nara-naisho-ni-shitete",
+    "title": "Tawamure nara, Naisho ni Shitete",
     "url": "/manga/tawamure-nara-naisho-ni-shitete",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-9.webp",
     "chapter": "Chapter 1",
     "rating": "8.8",
+    "type": "Manga",
+    "time": null
+  },
+  "isekai-saimin-oji-san-saimin-gift-de-elf-tachi-o-chinpohame": {
+    "slug": "isekai-saimin-oji-san-saimin-gift-de-elf-tachi-o-chinpohame",
+    "title": "isekai-saimin-oji-san-saimin-gift-de-elf-tachi-o-chinpohame",
+    "url": "/manga/isekai-saimin-oji-san-saimin-gift-de-elf-tachi-o-chinpohame",
+    "image": null,
+    "chapter": "Chapter 1 End",
+    "rating": "8.5",
     "type": null,
     "time": null
   }
