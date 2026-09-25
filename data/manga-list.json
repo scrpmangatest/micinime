@@ -7102,7 +7102,7 @@
     "title": "Secret Class",
     "url": "/manga/secret-class",
     "image": "https://komiktap.info/wp-content/uploads/2020/09/SECRET-CLASS-PORTA-006.jpg",
-    "chapter": "Chapter 317",
+    "chapter": "Chapter 318",
     "rating": "7.1",
     "type": "Manga",
     "time": null
@@ -9500,7 +9500,7 @@
     "title": "MILF Exchange Plan",
     "url": "/manga/milf-exchange-plan",
     "image": "https://komiktap.info/wp-content/uploads/2025/01/MILF-Exchange-Plan_waifu2x_art_scan_noise2_scale-min.png",
-    "chapter": "Chapter 89",
+    "chapter": "Chapter 90",
     "rating": "8.7",
     "type": "Manga",
     "time": null
@@ -9510,7 +9510,7 @@
     "title": "There are Not Enough Men",
     "url": "/manga/there-are-not-enough-men",
     "image": "https://komiktap.info/wp-content/uploads/2026/05/there-are-not-enough-men-rawm.jpg",
-    "chapter": "Chapter 25",
+    "chapter": "Chapter 26",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -9520,7 +9520,7 @@
     "title": "New Town Massage",
     "url": "/manga/new-town-massage",
     "image": "https://komiktap.info/wp-content/uploads/2026/04/imgi_9_image.jpeg",
-    "chapter": "Chapter 27",
+    "chapter": "Chapter 28",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -9580,7 +9580,7 @@
     "title": "A Dangerous Deal and The Girl Next Door",
     "url": "/manga/a-dangerous-deal-and-the-girl-next-door",
     "image": "https://komiktap.info/wp-content/uploads/2025/07/Risky-Deals-and-The-Girl-Next-Door.webp",
-    "chapter": "Chapter 64",
+    "chapter": "Chapter 65",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9700,7 +9700,7 @@
     "title": "Ogh Reboot",
     "url": "/manga/ogh-reboot",
     "image": "https://komiktap.info/wp-content/uploads/2026/07/llzhkif2jy59kkns1czip5h9.webp",
-    "chapter": "Chapter 20",
+    "chapter": "Chapter 23",
     "rating": "9",
     "type": "Manga",
     "time": null
@@ -9940,7 +9940,7 @@
     "title": "Intimate Tutoring",
     "url": "/manga/intimate-tutoring",
     "image": "https://komiktap.info/wp-content/uploads/2026/07/intimate-tutoringm.webp",
-    "chapter": "Chapter 26",
+    "chapter": "Chapter 27",
     "rating": "8",
     "type": "Manga",
     "time": null
@@ -10953,6 +10953,46 @@
     "chapter": "Chapter 1",
     "rating": "8.8",
     "type": "Manga",
+    "time": null
+  },
+  "seiyoku-ga-tsuyosugiru-tomodachi-no-okaa-san": {
+    "slug": "seiyoku-ga-tsuyosugiru-tomodachi-no-okaa-san",
+    "title": "seiyoku-ga-tsuyosugiru-tomodachi-no-okaa-san",
+    "url": "/manga/seiyoku-ga-tsuyosugiru-tomodachi-no-okaa-san",
+    "image": null,
+    "chapter": "Chapter 1 End",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "hahaoya-datte-shosen-wa-mesu": {
+    "slug": "hahaoya-datte-shosen-wa-mesu",
+    "title": "hahaoya-datte-shosen-wa-mesu",
+    "url": "/manga/hahaoya-datte-shosen-wa-mesu",
+    "image": null,
+    "chapter": "Chapter 1 End",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "watashi-de-nuite-ikemasenka": {
+    "slug": "watashi-de-nuite-ikemasenka",
+    "title": "watashi-de-nuite-ikemasenka",
+    "url": "/manga/watashi-de-nuite-ikemasenka",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "da-ra-shi-na-sister": {
+    "slug": "da-ra-shi-na-sister",
+    "title": "da-ra-shi-na-sister",
+    "url": "/manga/da-ra-shi-na-sister",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.5",
+    "type": null,
     "time": null
   }
 }

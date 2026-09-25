@@ -1,0 +1,32 @@
+{
+  "slug": "da-ra-shi-na-sister",
+  "title": "da-ra-shi-na-sister",
+  "image": null,
+  "rating": "8.5",
+  "description": "Doujin dari artist IAPOC",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Shotacon",
+      "url": "/genres/shotacon"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/da-ra-shi-na-sister-chapter-1",
+      "slug": "da-ra-shi-na-sister-chapter-1",
+      "date": "September 25, 2026"
+    }
+  ],
+  "scrapedAt": "2026-09-25T20:12:51.221Z"
+}
