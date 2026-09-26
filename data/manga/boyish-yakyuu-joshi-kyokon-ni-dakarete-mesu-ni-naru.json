@@ -1,0 +1,36 @@
+{
+  "slug": "boyish-yakyuu-joshi-kyokon-ni-dakarete-mesu-ni-naru",
+  "title": "boyish-yakyuu-joshi-kyokon-ni-dakarete-mesu-ni-naru",
+  "image": null,
+  "rating": "8.5",
+  "description": "Bertemu teman sekampung di bordil",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Vanilla",
+      "url": "/genres/vanilla"
+    },
+    {
+      "name": "Virgin",
+      "url": "/genres/virgin"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1 End",
+      "url": "/boyish-yakyuu-joshi-kyokon-ni-dakarete-mesu-ni-naru-chapter-1",
+      "slug": "boyish-yakyuu-joshi-kyokon-ni-dakarete-mesu-ni-naru-chapter-1",
+      "date": "September 26, 2026"
+    }
+  ],
+  "scrapedAt": "2026-09-26T19:30:50.627Z"
+}
