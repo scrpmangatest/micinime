@@ -11037,22 +11037,22 @@
   },
   "teacher-yunji": {
     "slug": "teacher-yunji",
-    "title": "teacher-yunji",
+    "title": "Teacher Yunji",
     "url": "/manga/teacher-yunji",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2025/07/Teacher-Yunji.webp",
     "chapter": "Chapter 39 End",
     "rating": "7.9",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "bakunyuu-seiso-maid-tsuma-bou-chan-ni-otosareru": {
     "slug": "bakunyuu-seiso-maid-tsuma-bou-chan-ni-otosareru",
-    "title": "bakunyuu-seiso-maid-tsuma-bou-chan-ni-otosareru",
+    "title": "Bakunyuu Seiso Maid Tsuma Bou-chan ni Otosareru",
     "url": "/manga/bakunyuu-seiso-maid-tsuma-bou-chan-ni-otosareru",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/09/01-10.webp",
     "chapter": "Chapter 1",
     "rating": "8.8",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "how-transferring-to-a-former-all-girls-facility-turned-my-life-into-a-total-harem": {
@@ -11062,6 +11062,86 @@
     "image": "https://komiktap.info/wp-content/uploads/2026/04/001-6.jpg",
     "chapter": "Chapter 3",
     "rating": "8.8",
+    "type": "Manga",
+    "time": null
+  },
+  "secret-class-uncen": {
+    "slug": "secret-class-uncen",
+    "title": "secret-class-uncen",
+    "url": "/manga/secret-class-uncen",
+    "image": null,
+    "chapter": "Chapter 167",
+    "rating": "9.3",
+    "type": null,
+    "time": null
+  },
+  "stepmothers-friends": {
+    "slug": "stepmothers-friends",
+    "title": "stepmothers-friends",
+    "url": "/manga/stepmothers-friends",
+    "image": null,
+    "chapter": "Chapter 147 END",
+    "rating": "8.9",
+    "type": null,
+    "time": null
+  },
+  "not-the-daughter-but-the-mother": {
+    "slug": "not-the-daughter-but-the-mother",
+    "title": "Not the Daughter, but the Mother",
+    "url": "/manga/not-the-daughter-but-the-mother",
+    "image": "https://komiktap.info/wp-content/uploads/2024/06/dg.webp",
+    "chapter": "Chapter 100 End",
+    "rating": "8.0",
+    "type": "Manga",
+    "time": null
+  },
+  "boarding-diary": {
+    "slug": "boarding-diary",
+    "title": "Boarding Diary",
+    "url": "/manga/boarding-diary",
+    "image": "https://komiktap.info/wp-content/uploads/2020/10/13-870.jpg",
+    "chapter": "Chapter 9",
+    "rating": "9.2",
+    "type": "Manga",
+    "time": null
+  },
+  "new-town": {
+    "slug": "new-town",
+    "title": "New Town",
+    "url": "/manga/new-town",
+    "image": "https://komiktap.info/wp-content/uploads/2021/09/New-Town.jpg",
+    "chapter": "Chapter 108 End",
+    "rating": "8.5",
+    "type": "Manga",
+    "time": null
+  },
+  "circles": {
+    "slug": "circles",
+    "title": "Circles",
+    "url": "/manga/circles",
+    "image": "https://komiktap.info/wp-content/uploads/2021/05/circles-193x278-1.jpg",
+    "chapter": "Chapter 215 End",
+    "rating": "7.7",
+    "type": "Manga",
+    "time": null
+  },
+  "intern-haenyeo": {
+    "slug": "intern-haenyeo",
+    "title": "Intern Haenyeo",
+    "url": "/manga/intern-haenyeo",
+    "image": "https://komiktap.info/wp-content/uploads/2022/09/intern-haenyeo.webp",
+    "chapter": "Chapter 102 End",
+    "rating": "7",
+    "type": "Manga",
+    "time": null
+  },
+  "bought-by-the-demon-lord-before-the-ending": {
+    "slug": "bought-by-the-demon-lord-before-the-ending",
+    "title": "Bought By The Demon Lord Before The Ending",
+    "url": "/manga/bought-by-the-demon-lord-before-the-ending",
+    "image": "https://komiktap.info/wp-content/uploads/2023/01/Bought-By-The-Demon-Lord-Before-The-Ending-193x278-1.jpg",
+    "chapter": "Chapter 54 end",
+    "rating": "8",
     "type": "Manga",
     "time": null
   }
