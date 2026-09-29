@@ -9280,7 +9280,7 @@
     "title": "Love Quest",
     "url": "/manga/love-quest",
     "image": "https://komiktap.info/wp-content/uploads/2026/03/Love_Quest.webp",
-    "chapter": "Chapter 34",
+    "chapter": "Chapter 35",
     "rating": "8.2",
     "type": "Manga",
     "time": null
@@ -9310,7 +9310,7 @@
     "title": "I Became an Apartment Security Manager",
     "url": "/manga/i-became-an-apartment-security-manager",
     "image": "https://komiktap.info/wp-content/uploads/2025/08/I-Became-an-Apartment-Security-Manager.webp",
-    "chapter": "Chapter 61",
+    "chapter": "Chapter 62",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -10180,7 +10180,7 @@
     "title": "A Game of Desire",
     "url": "/manga/a-game-of-desire",
     "image": "https://komiktap.info/wp-content/uploads/2026/03/Asmodeck-A-Game-of-Desire-193x278-1.jpg",
-    "chapter": "Chapter 28",
+    "chapter": "Chapter 29",
     "rating": "7.4",
     "type": "Manga",
     "time": null
@@ -10340,7 +10340,7 @@
     "title": "Runaway Wife",
     "url": "/manga/runaway-wife",
     "image": "https://komiktap.info/wp-content/uploads/2024/12/Runaway-Wife.webp",
-    "chapter": "Chapter 62",
+    "chapter": "Chapter 66",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10780,7 +10780,7 @@
     "title": "Capitalist Harem",
     "url": "/manga/capitalist-harem",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/capitalist-haremm.jpg",
-    "chapter": "Chapter 11",
+    "chapter": "Chapter 14",
     "rating": "8",
     "type": "Manga",
     "time": null
@@ -10980,7 +10980,7 @@
     "title": "Watashi de Nuite Ikemasenka",
     "url": "/manga/watashi-de-nuite-ikemasenka",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-18.jpg",
-    "chapter": "Chapter 2",
+    "chapter": "Chapter 3",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -10990,7 +10990,7 @@
     "title": "DA RA SHI NA SISTER",
     "url": "/manga/da-ra-shi-na-sister",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-15.jpg",
-    "chapter": "Chapter 2",
+    "chapter": "Chapter 3",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11143,6 +11143,26 @@
     "chapter": "Chapter 54 end",
     "rating": "8",
     "type": "Manga",
+    "time": null
+  },
+  "dakaretagari-no-tsuma-onna-tachi": {
+    "slug": "dakaretagari-no-tsuma-onna-tachi",
+    "title": "dakaretagari-no-tsuma-onna-tachi",
+    "url": "/manga/dakaretagari-no-tsuma-onna-tachi",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "inniku-jukujo-no-namashibori": {
+    "slug": "inniku-jukujo-no-namashibori",
+    "title": "inniku-jukujo-no-namashibori",
+    "url": "/manga/inniku-jukujo-no-namashibori",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.5",
+    "type": null,
     "time": null
   }
 }
