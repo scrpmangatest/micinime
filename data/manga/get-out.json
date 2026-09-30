@@ -1,0 +1,38 @@
+{
+  "slug": "get-out",
+  "title": "get-out",
+  "image": null,
+  "rating": "8.5",
+  "description": "Jika Anda punya kesempatan untuk mengubah hidup Anda, apakah Anda akan mengambilnya? Bahkan jika itu berarti harus mengusir para wanita yang memiliki segala macam daya tarik? Misalnya saja, seorang wanita manis penjual lauk-pauk, atau sosok jelita yang anggun dan sensual!",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 2",
+      "url": "/get-out-chapter-2",
+      "slug": "get-out-chapter-2",
+      "date": "September 30, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/get-out-chapter-1",
+      "slug": "get-out-chapter-1",
+      "date": "September 30, 2026"
+    }
+  ],
+  "scrapedAt": "2026-09-30T21:10:24.053Z"
+}
