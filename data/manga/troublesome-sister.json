@@ -1,0 +1,658 @@
+{
+  "slug": "troublesome-sister",
+  "title": "troublesome-sister",
+  "image": null,
+  "rating": "8.2",
+  "description": "Ketika aku sakit dan teman-temanku tidak bermain denganku, aku sangat berterima kasih kepada noonaku Eun-Seol yang selalu merawatku dan bermain denganku. Masalahnya adalah bahkan sebagai orang dewasa, dia repot-repot mengikutiku kemana-mana dan terus memperlakukanku seperti anak kecil. Pada akhirnya, bahkan setelah masuk perguruan tinggi, julukan “Bae-Doo” menyebar dan menjadi gangguan… Sekarang, bahkan jika dia tidak tampak seperti laki-laki bagi Noona-ku, aku harus mencoba membuatnya berhenti menyukaiku.perlakukan seperti anak kecil.",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Comedy",
+      "url": "/genres/comedy"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Ecchi",
+      "url": "/genres/ecchi"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 103.5",
+      "url": "/troublesome-sister-chapter-104",
+      "slug": "troublesome-sister-chapter-104",
+      "date": "Desember 4, 2022"
+    },
+    {
+      "title": "Chapter 103 End",
+      "url": "/troublesome-sister-chapter-103",
+      "slug": "troublesome-sister-chapter-103",
+      "date": "Desember 2, 2022"
+    },
+    {
+      "title": "Chapter 102",
+      "url": "/troublesome-sister-chapter-102",
+      "slug": "troublesome-sister-chapter-102",
+      "date": "November 30, 2022"
+    },
+    {
+      "title": "Chapter 101",
+      "url": "/troublesome-sister-chapter-101",
+      "slug": "troublesome-sister-chapter-101",
+      "date": "November 28, 2022"
+    },
+    {
+      "title": "Chapter 100",
+      "url": "/troublesome-sister-chapter-100",
+      "slug": "troublesome-sister-chapter-100",
+      "date": "November 24, 2022"
+    },
+    {
+      "title": "Chapter 99",
+      "url": "/troublesome-sister-chapter-99",
+      "slug": "troublesome-sister-chapter-99",
+      "date": "November 23, 2022"
+    },
+    {
+      "title": "Chapter 98",
+      "url": "/troublesome-sister-chapter-98",
+      "slug": "troublesome-sister-chapter-98",
+      "date": "November 23, 2022"
+    },
+    {
+      "title": "Chapter 97",
+      "url": "/troublesome-sister-chapter-97",
+      "slug": "troublesome-sister-chapter-97",
+      "date": "November 23, 2022"
+    },
+    {
+      "title": "Chapter 96",
+      "url": "/troublesome-sister-chapter-96",
+      "slug": "troublesome-sister-chapter-96",
+      "date": "November 20, 2022"
+    },
+    {
+      "title": "Chapter 95",
+      "url": "/troublesome-sister-chapter-95",
+      "slug": "troublesome-sister-chapter-95",
+      "date": "November 17, 2022"
+    },
+    {
+      "title": "Chapter 94",
+      "url": "/troublesome-sister-chapter-94",
+      "slug": "troublesome-sister-chapter-94",
+      "date": "November 17, 2022"
+    },
+    {
+      "title": "Chapter 93",
+      "url": "/troublesome-sister-chapter-93",
+      "slug": "troublesome-sister-chapter-93",
+      "date": "November 17, 2022"
+    },
+    {
+      "title": "Chapter 92",
+      "url": "/troublesome-sister-chapter-92",
+      "slug": "troublesome-sister-chapter-92",
+      "date": "November 17, 2022"
+    },
+    {
+      "title": "Chapter 91",
+      "url": "/troublesome-sister-chapter-91",
+      "slug": "troublesome-sister-chapter-91",
+      "date": "November 16, 2022"
+    },
+    {
+      "title": "Chapter 90",
+      "url": "/troublesome-sister-chapter-90",
+      "slug": "troublesome-sister-chapter-90",
+      "date": "November 16, 2022"
+    },
+    {
+      "title": "Chapter 89",
+      "url": "/troublesome-sister-chapter-89",
+      "slug": "troublesome-sister-chapter-89",
+      "date": "November 15, 2022"
+    },
+    {
+      "title": "Chapter 88",
+      "url": "/troublesome-sister-chapter-88",
+      "slug": "troublesome-sister-chapter-88",
+      "date": "November 15, 2022"
+    },
+    {
+      "title": "Chapter 87",
+      "url": "/troublesome-sister-chapter-87",
+      "slug": "troublesome-sister-chapter-87",
+      "date": "November 13, 2022"
+    },
+    {
+      "title": "Chapter 86",
+      "url": "/troublesome-sister-chapter-86",
+      "slug": "troublesome-sister-chapter-86",
+      "date": "November 13, 2022"
+    },
+    {
+      "title": "Chapter 85",
+      "url": "/troublesome-sister-chapter-85",
+      "slug": "troublesome-sister-chapter-85",
+      "date": "November 6, 2022"
+    },
+    {
+      "title": "Chapter 84",
+      "url": "/troublesome-sister-chapter-84",
+      "slug": "troublesome-sister-chapter-84",
+      "date": "November 6, 2022"
+    },
+    {
+      "title": "Chapter 83",
+      "url": "/troublesome-sister-chapter-83",
+      "slug": "troublesome-sister-chapter-83",
+      "date": "November 6, 2022"
+    },
+    {
+      "title": "Chapter 82",
+      "url": "/troublesome-sister-chapter-82",
+      "slug": "troublesome-sister-chapter-82",
+      "date": "Oktober 15, 2022"
+    },
+    {
+      "title": "Chapter 81",
+      "url": "/troublesome-sister-chapter-81",
+      "slug": "troublesome-sister-chapter-81",
+      "date": "Oktober 14, 2022"
+    },
+    {
+      "title": "Chapter 80",
+      "url": "/troublesome-sister-chapter-80",
+      "slug": "troublesome-sister-chapter-80",
+      "date": "Oktober 14, 2022"
+    },
+    {
+      "title": "Chapter 79",
+      "url": "/troublesome-sister-chapter-79",
+      "slug": "troublesome-sister-chapter-79",
+      "date": "Oktober 8, 2022"
+    },
+    {
+      "title": "Chapter 78",
+      "url": "/troublesome-sister-chapter-78",
+      "slug": "troublesome-sister-chapter-78",
+      "date": "Oktober 6, 2022"
+    },
+    {
+      "title": "Chapter 77",
+      "url": "/troublesomes-sister-chapter-77",
+      "slug": "troublesomes-sister-chapter-77",
+      "date": "Oktober 6, 2022"
+    },
+    {
+      "title": "Chapter 76",
+      "url": "/troublesome-sister-chapter-76",
+      "slug": "troublesome-sister-chapter-76",
+      "date": "Oktober 6, 2022"
+    },
+    {
+      "title": "Chapter 75",
+      "url": "/troublesome-sister-chapter-75",
+      "slug": "troublesome-sister-chapter-75",
+      "date": "Oktober 6, 2022"
+    },
+    {
+      "title": "Chapter 74",
+      "url": "/troublesome-sister-chapter-74",
+      "slug": "troublesome-sister-chapter-74",
+      "date": "Oktober 6, 2022"
+    },
+    {
+      "title": "Chapter 73",
+      "url": "/troublesome-siter-chapter-73",
+      "slug": "troublesome-siter-chapter-73",
+      "date": "Oktober 6, 2022"
+    },
+    {
+      "title": "Chapter 72",
+      "url": "/troublesome-sister-chapter-72",
+      "slug": "troublesome-sister-chapter-72",
+      "date": "Oktober 6, 2022"
+    },
+    {
+      "title": "Chapter 71",
+      "url": "/troublesome-sister-chapter-71",
+      "slug": "troublesome-sister-chapter-71",
+      "date": "Oktober 5, 2022"
+    },
+    {
+      "title": "Chapter 70",
+      "url": "/troublesome-sister-chapter-70",
+      "slug": "troublesome-sister-chapter-70",
+      "date": "Oktober 4, 2022"
+    },
+    {
+      "title": "Chapter 69",
+      "url": "/troublesome-sister-chapter-69",
+      "slug": "troublesome-sister-chapter-69",
+      "date": "Oktober 4, 2022"
+    },
+    {
+      "title": "Chapter 68",
+      "url": "/troublesome-sister-chapter-68",
+      "slug": "troublesome-sister-chapter-68",
+      "date": "Oktober 4, 2022"
+    },
+    {
+      "title": "Chapter 67",
+      "url": "/troublesome-sister-chapter-67",
+      "slug": "troublesome-sister-chapter-67",
+      "date": "September 28, 2022"
+    },
+    {
+      "title": "Chapter 66",
+      "url": "/troublesome-sister-chapter-66",
+      "slug": "troublesome-sister-chapter-66",
+      "date": "September 28, 2022"
+    },
+    {
+      "title": "Chapter 65",
+      "url": "/troublesome-sister-chapter-65",
+      "slug": "troublesome-sister-chapter-65",
+      "date": "September 28, 2022"
+    },
+    {
+      "title": "Chapter 64",
+      "url": "/troublesome-sister-chapter-64",
+      "slug": "troublesome-sister-chapter-64",
+      "date": "September 28, 2022"
+    },
+    {
+      "title": "Chapter 63",
+      "url": "/troublesome-sister-chapter-63",
+      "slug": "troublesome-sister-chapter-63",
+      "date": "September 28, 2022"
+    },
+    {
+      "title": "Chapter 62",
+      "url": "/troublesome-sister-chapter-62",
+      "slug": "troublesome-sister-chapter-62",
+      "date": "September 28, 2022"
+    },
+    {
+      "title": "Chapter 61",
+      "url": "/troublesome-sister-chapter-61",
+      "slug": "troublesome-sister-chapter-61",
+      "date": "September 19, 2022"
+    },
+    {
+      "title": "Chapter 60",
+      "url": "/troublesome-sister-chapter-60",
+      "slug": "troublesome-sister-chapter-60",
+      "date": "September 19, 2022"
+    },
+    {
+      "title": "Chapter 59",
+      "url": "/troublesome-sister-chapter-59",
+      "slug": "troublesome-sister-chapter-59",
+      "date": "September 5, 2022"
+    },
+    {
+      "title": "Chapter 58",
+      "url": "/troublesome-sister-chapter-58",
+      "slug": "troublesome-sister-chapter-58",
+      "date": "September 1, 2022"
+    },
+    {
+      "title": "Chapter 57",
+      "url": "/troublesome-sister-chapter-57",
+      "slug": "troublesome-sister-chapter-57",
+      "date": "Agustus 31, 2022"
+    },
+    {
+      "title": "Chapter 56",
+      "url": "/troublesome-sister-chapter-56",
+      "slug": "troublesome-sister-chapter-56",
+      "date": "Agustus 31, 2022"
+    },
+    {
+      "title": "Chapter 55",
+      "url": "/troublesome-sister-chapter-55",
+      "slug": "troublesome-sister-chapter-55",
+      "date": "Agustus 29, 2022"
+    },
+    {
+      "title": "Chapter 54",
+      "url": "/troublesome-sister-chapter-54",
+      "slug": "troublesome-sister-chapter-54",
+      "date": "Agustus 29, 2022"
+    },
+    {
+      "title": "Chapter 53",
+      "url": "/troublesome-sister-chapter-53",
+      "slug": "troublesome-sister-chapter-53",
+      "date": "Agustus 29, 2022"
+    },
+    {
+      "title": "Chapter 52",
+      "url": "/troublesome-sister-chapter-52",
+      "slug": "troublesome-sister-chapter-52",
+      "date": "Agustus 28, 2022"
+    },
+    {
+      "title": "Chapter 51",
+      "url": "/troublesome-sister-chapter-51",
+      "slug": "troublesome-sister-chapter-51",
+      "date": "Agustus 28, 2022"
+    },
+    {
+      "title": "Chapter 50",
+      "url": "/troublesome-sister-chapter-50",
+      "slug": "troublesome-sister-chapter-50",
+      "date": "Agustus 25, 2022"
+    },
+    {
+      "title": "Chapter 49",
+      "url": "/troublesome-sister-chapter-49",
+      "slug": "troublesome-sister-chapter-49",
+      "date": "Agustus 25, 2022"
+    },
+    {
+      "title": "Chapter 48",
+      "url": "/troublesome-sister-chapter-48",
+      "slug": "troublesome-sister-chapter-48",
+      "date": "Agustus 25, 2022"
+    },
+    {
+      "title": "Chapter 47",
+      "url": "/troublesome-sister-chapter-47",
+      "slug": "troublesome-sister-chapter-47",
+      "date": "Agustus 25, 2022"
+    },
+    {
+      "title": "Chapter 46",
+      "url": "/troublesome-sister-chapter-46",
+      "slug": "troublesome-sister-chapter-46",
+      "date": "Agustus 24, 2022"
+    },
+    {
+      "title": "Chapter 45",
+      "url": "/troublesome-sister-chapter-45",
+      "slug": "troublesome-sister-chapter-45",
+      "date": "Agustus 24, 2022"
+    },
+    {
+      "title": "Chapter 44",
+      "url": "/troublesome-sister-chapter-44",
+      "slug": "troublesome-sister-chapter-44",
+      "date": "Agustus 24, 2022"
+    },
+    {
+      "title": "Chapter 43",
+      "url": "/troublesome-sister-chapter-43",
+      "slug": "troublesome-sister-chapter-43",
+      "date": "Agustus 24, 2022"
+    },
+    {
+      "title": "Chapter 42",
+      "url": "/troublesome-sister-chapter-42",
+      "slug": "troublesome-sister-chapter-42",
+      "date": "Agustus 18, 2022"
+    },
+    {
+      "title": "Chapter 41",
+      "url": "/troublesome-sister-chapter-41",
+      "slug": "troublesome-sister-chapter-41",
+      "date": "Agustus 18, 2022"
+    },
+    {
+      "title": "Chapter 40",
+      "url": "/troublesome-sister-chapter-40",
+      "slug": "troublesome-sister-chapter-40",
+      "date": "Agustus 17, 2022"
+    },
+    {
+      "title": "Chapter 39",
+      "url": "/troublesome-sister-chapter-39",
+      "slug": "troublesome-sister-chapter-39",
+      "date": "Agustus 17, 2022"
+    },
+    {
+      "title": "Chapter 38",
+      "url": "/troublesome-sister-chapter-38",
+      "slug": "troublesome-sister-chapter-38",
+      "date": "Agustus 17, 2022"
+    },
+    {
+      "title": "Chapter 37",
+      "url": "/troublesome-sister-chapter-37",
+      "slug": "troublesome-sister-chapter-37",
+      "date": "Agustus 17, 2022"
+    },
+    {
+      "title": "Chapter 36",
+      "url": "/troublesome-sister-chapter-36",
+      "slug": "troublesome-sister-chapter-36",
+      "date": "Agustus 16, 2022"
+    },
+    {
+      "title": "Chapter 35",
+      "url": "/troublesome-sister-chapter-35",
+      "slug": "troublesome-sister-chapter-35",
+      "date": "Agustus 16, 2022"
+    },
+    {
+      "title": "Chapter 34",
+      "url": "/troublesome-sister-chapter-34",
+      "slug": "troublesome-sister-chapter-34",
+      "date": "Agustus 14, 2022"
+    },
+    {
+      "title": "Chapter 33",
+      "url": "/troublesome-sister-chapter-33",
+      "slug": "troublesome-sister-chapter-33",
+      "date": "Agustus 14, 2022"
+    },
+    {
+      "title": "Chapter 32",
+      "url": "/troublesome-sister-chapter-32",
+      "slug": "troublesome-sister-chapter-32",
+      "date": "Agustus 14, 2022"
+    },
+    {
+      "title": "Chapter 31",
+      "url": "/troublesome-sister-chapter-31",
+      "slug": "troublesome-sister-chapter-31",
+      "date": "Agustus 14, 2022"
+    },
+    {
+      "title": "Chapter 30",
+      "url": "/troublesome-sister-chapter-30",
+      "slug": "troublesome-sister-chapter-30",
+      "date": "Agustus 14, 2022"
+    },
+    {
+      "title": "Chapter 29",
+      "url": "/troublesome-sister-chapter-29",
+      "slug": "troublesome-sister-chapter-29",
+      "date": "Agustus 14, 2022"
+    },
+    {
+      "title": "Chapter 28",
+      "url": "/troublesome-sister-chapter-28",
+      "slug": "troublesome-sister-chapter-28",
+      "date": "Agustus 11, 2022"
+    },
+    {
+      "title": "Chapter 27",
+      "url": "/troublesome-sister-chapter-27",
+      "slug": "troublesome-sister-chapter-27",
+      "date": "Agustus 11, 2022"
+    },
+    {
+      "title": "Chapter 26",
+      "url": "/troublesome-sister-chapter-26",
+      "slug": "troublesome-sister-chapter-26",
+      "date": "Agustus 11, 2022"
+    },
+    {
+      "title": "Chapter 25",
+      "url": "/troublesome-sister-chapter-25",
+      "slug": "troublesome-sister-chapter-25",
+      "date": "Agustus 11, 2022"
+    },
+    {
+      "title": "Chapter 24",
+      "url": "/troublesome-sister-chapter-24",
+      "slug": "troublesome-sister-chapter-24",
+      "date": "Agustus 11, 2022"
+    },
+    {
+      "title": "Chapter 23",
+      "url": "/troublesome-sister-chapter-23",
+      "slug": "troublesome-sister-chapter-23",
+      "date": "Agustus 7, 2022"
+    },
+    {
+      "title": "Chapter 22",
+      "url": "/troublesome-sister-chapter-22",
+      "slug": "troublesome-sister-chapter-22",
+      "date": "Agustus 7, 2022"
+    },
+    {
+      "title": "Chapter 21",
+      "url": "/troublesome-sister-chapter-21",
+      "slug": "troublesome-sister-chapter-21",
+      "date": "Agustus 7, 2022"
+    },
+    {
+      "title": "Chapter 20",
+      "url": "/troublesome-sister-chapter-20",
+      "slug": "troublesome-sister-chapter-20",
+      "date": "Agustus 6, 2022"
+    },
+    {
+      "title": "Chapter 19",
+      "url": "/troublesome-sister-chapter-19",
+      "slug": "troublesome-sister-chapter-19",
+      "date": "Agustus 6, 2022"
+    },
+    {
+      "title": "Chapter 18",
+      "url": "/troublesome-sister-chapter-18",
+      "slug": "troublesome-sister-chapter-18",
+      "date": "Agustus 4, 2022"
+    },
+    {
+      "title": "Chapter 17",
+      "url": "/troublesome-sister-chapter-17",
+      "slug": "troublesome-sister-chapter-17",
+      "date": "Agustus 4, 2022"
+    },
+    {
+      "title": "Chapter 16",
+      "url": "/troublesome-sister-chapter-16",
+      "slug": "troublesome-sister-chapter-16",
+      "date": "Agustus 4, 2022"
+    },
+    {
+      "title": "Chapter 15",
+      "url": "/troublesome-sister-chapter-15",
+      "slug": "troublesome-sister-chapter-15",
+      "date": "Agustus 4, 2022"
+    },
+    {
+      "title": "Chapter 14",
+      "url": "/troublesome-sister-chapter-14",
+      "slug": "troublesome-sister-chapter-14",
+      "date": "Juli 30, 2022"
+    },
+    {
+      "title": "Chapter 13",
+      "url": "/troublesome-sister-chapter-13",
+      "slug": "troublesome-sister-chapter-13",
+      "date": "Juli 28, 2022"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/troublesome-sister-chapter-12",
+      "slug": "troublesome-sister-chapter-12",
+      "date": "Juli 28, 2022"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/troublesome-sister-chapter-11",
+      "slug": "troublesome-sister-chapter-11",
+      "date": "Juli 26, 2022"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/troublesome-sister-chapter-10",
+      "slug": "troublesome-sister-chapter-10",
+      "date": "Juli 24, 2022"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/troublesome-sister-chapter-9",
+      "slug": "troublesome-sister-chapter-9",
+      "date": "Juli 23, 2022"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/troublesome-sister-chapter-8",
+      "slug": "troublesome-sister-chapter-8",
+      "date": "Juli 19, 2022"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/troublesome-sister-chapter-7",
+      "slug": "troublesome-sister-chapter-7",
+      "date": "Juli 18, 2022"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/troublesome-sister-chapter-6",
+      "slug": "troublesome-sister-chapter-6",
+      "date": "Juli 5, 2022"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/troublesome-sister-chapter-5",
+      "slug": "troublesome-sister-chapter-5",
+      "date": "Juli 4, 2022"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/troublesome-sister-chapter-4",
+      "slug": "troublesome-sister-chapter-4",
+      "date": "Juli 3, 2022"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/troublesome-sister-chapter-3",
+      "slug": "troublesome-sister-chapter-3",
+      "date": "Juni 13, 2022"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/troublesome-noona-chapter-2",
+      "slug": "troublesome-noona-chapter-2",
+      "date": "Mei 25, 2022"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/troublesome-sister-chapter-1",
+      "slug": "troublesome-sister-chapter-1",
+      "date": "Mei 18, 2022"
+    }
+  ],
+  "scrapedAt": "2026-09-30T01:47:50.118Z"
+}

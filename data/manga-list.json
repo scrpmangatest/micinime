@@ -1101,10 +1101,11 @@
     "slug": "brothel",
     "title": "Brothel",
     "url": "/manga/brothel",
-    "image": "https://i2.wp.com/komikhentaiku.com/wp-content/uploads/2026/03/cover-28.webp?resize=285,425",
-    "chapter": "Chapter 1",
-    "rating": "9.00",
-    "type": null
+    "image": "https://komiktap.info/wp-content/uploads/2024/07/Brothel.webp",
+    "chapter": "Chapter 90 END",
+    "rating": "7.9",
+    "type": "Manga",
+    "time": null
   },
   "buguru-dan-murid-kesayangannya": {
     "slug": "buguru-dan-murid-kesayangannya",
@@ -10447,12 +10448,12 @@
   },
   "whats-wrong-with-this-family": {
     "slug": "whats-wrong-with-this-family",
-    "title": "whats-wrong-with-this-family",
+    "title": "What’s Wrong With This Family",
     "url": "/manga/whats-wrong-with-this-family",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2024/02/whats.jpg",
     "chapter": "Chapter 81 End",
     "rating": "6.9",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "a-different-class": {
@@ -10587,12 +10588,12 @@
   },
   "the-unforeseen-guest": {
     "slug": "the-unforeseen-guest",
-    "title": "the-unforeseen-guest",
+    "title": "The Unforeseen Guest",
     "url": "/manga/the-unforeseen-guest",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2022/04/aunt.png",
     "chapter": "Chapter 140 End",
     "rating": "6.9",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "the-hole-diary": {
@@ -11163,6 +11164,76 @@
     "chapter": "Chapter 2",
     "rating": "8.5",
     "type": "Manga",
+    "time": null
+  },
+  "ones-in-laws-virgins": {
+    "slug": "ones-in-laws-virgins",
+    "title": "One’s In-Laws Virgins",
+    "url": "/manga/ones-in-laws-virgins",
+    "image": "https://komiktap.info/wp-content/uploads/2020/10/Ones-In-Laws-Virgins.jpg",
+    "chapter": "Chapter 112 Review",
+    "rating": "8.4",
+    "type": "Manga",
+    "time": null
+  },
+  "troublesome-sister": {
+    "slug": "troublesome-sister",
+    "title": "troublesome-sister",
+    "url": "/manga/troublesome-sister",
+    "image": null,
+    "chapter": "Chapter 103.5",
+    "rating": "8.2",
+    "type": null,
+    "time": null
+  },
+  "i-became-a-pornhwa-npc": {
+    "slug": "i-became-a-pornhwa-npc",
+    "title": "I Became a Pornhwa NPC",
+    "url": "/manga/i-became-a-pornhwa-npc",
+    "image": "https://komiktap.info/wp-content/uploads/2024/11/I-Became-a-Pornhwa-NPC.webp",
+    "chapter": "Chapter 80 End",
+    "rating": "7.8",
+    "type": "Manga",
+    "time": null
+  },
+  "youre-so-handsome": {
+    "slug": "youre-so-handsome",
+    "title": "youre-so-handsome",
+    "url": "/manga/youre-so-handsome",
+    "image": null,
+    "chapter": "Chapter 100 End",
+    "rating": "7.8",
+    "type": null,
+    "time": null
+  },
+  "never-too-late": {
+    "slug": "never-too-late",
+    "title": "Never Too Late",
+    "url": "/manga/never-too-late",
+    "image": "https://komiktap.info/wp-content/uploads/2021/01/images.jpg",
+    "chapter": "Chapter 132 END",
+    "rating": "7.3",
+    "type": "Manga",
+    "time": null
+  },
+  "the-warrior-dissatisfied-with-everyone": {
+    "slug": "the-warrior-dissatisfied-with-everyone",
+    "title": "the-warrior-dissatisfied-with-everyone",
+    "url": "/manga/the-warrior-dissatisfied-with-everyone",
+    "image": null,
+    "chapter": "Chapter 55",
+    "rating": "7.5",
+    "type": null,
+    "time": null
+  },
+  "sister-neighbor": {
+    "slug": "sister-neighbor",
+    "title": "sister-neighbor",
+    "url": "/manga/sister-neighbor",
+    "image": null,
+    "chapter": "Chapter 160 End",
+    "rating": "6.7",
+    "type": null,
     "time": null
   }
 }
