@@ -9241,7 +9241,7 @@
     "title": "Affair Agency",
     "url": "/manga/affair-agency",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/i532123.jpg",
-    "chapter": "Chapter 17",
+    "chapter": "Chapter 18",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9581,7 +9581,7 @@
     "title": "A Dangerous Deal and The Girl Next Door",
     "url": "/manga/a-dangerous-deal-and-the-girl-next-door",
     "image": "https://komiktap.info/wp-content/uploads/2025/07/Risky-Deals-and-The-Girl-Next-Door.webp",
-    "chapter": "Chapter 65",
+    "chapter": "Chapter 66",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -11151,7 +11151,7 @@
     "title": "Dakaretagari no Tsuma (Onna) Tachi",
     "url": "/manga/dakaretagari-no-tsuma-onna-tachi",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-20.jpg",
-    "chapter": "Chapter 3",
+    "chapter": "Chapter 5",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11284,6 +11284,36 @@
     "chapter": "Chapter 104 END",
     "rating": "8.8",
     "type": "Manga",
+    "time": null
+  },
+  "tensei-shinakutemo-kami-appli-de-jinsei-ippatsu-gyakuten-dekita-ken-mtl": {
+    "slug": "tensei-shinakutemo-kami-appli-de-jinsei-ippatsu-gyakuten-dekita-ken-mtl",
+    "title": "tensei-shinakutemo-kami-appli-de-jinsei-ippatsu-gyakuten-dekita-ken-mtl",
+    "url": "/manga/tensei-shinakutemo-kami-appli-de-jinsei-ippatsu-gyakuten-dekita-ken-mtl",
+    "image": null,
+    "chapter": "Chapter 4 END",
+    "rating": "9",
+    "type": null,
+    "time": null
+  },
+  "rakuen-yoru-midarezuma": {
+    "slug": "rakuen-yoru-midarezuma",
+    "title": "Rakuen -Yoru Midarezuma-",
+    "url": "/manga/rakuen-yoru-midarezuma",
+    "image": "https://komiktap.info/wp-content/uploads/2026/07/001_cover.webp",
+    "chapter": "Chapter 6",
+    "rating": "8.8",
+    "type": "Manga",
+    "time": null
+  },
+  "tsuma-ga-ossan-ni-netorareta-hanashi": {
+    "slug": "tsuma-ga-ossan-ni-netorareta-hanashi",
+    "title": "tsuma-ga-ossan-ni-netorareta-hanashi",
+    "url": "/manga/tsuma-ga-ossan-ni-netorareta-hanashi",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.8",
+    "type": null,
     "time": null
   }
 }
