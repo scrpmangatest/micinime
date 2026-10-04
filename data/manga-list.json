@@ -3320,7 +3320,7 @@
     "title": "I Will Teach You Self Defense",
     "url": "/manga/i-will-teach-you-self-defense",
     "image": "https://komiktap.info/wp-content/uploads/2025/11/i-will-teach-you-self-defense-rawm.png",
-    "chapter": "Chapter 46",
+    "chapter": "Chapter 47",
     "rating": "8.3",
     "type": "Manga",
     "time": null
@@ -9612,7 +9612,7 @@
     "title": "Set It!",
     "url": "/manga/set-it",
     "image": "https://komiktap.info/wp-content/uploads/2024/08/see-it.webp",
-    "chapter": "Chapter 114",
+    "chapter": "Chapter 115",
     "rating": "8.2",
     "type": "Manga",
     "time": null
@@ -9622,7 +9622,7 @@
     "title": "My Lewd College Friends",
     "url": "/manga/my-lewd-college-friends",
     "image": "https://komiktap.info/wp-content/uploads/2025/08/My-Lewd-College-Friends.webp",
-    "chapter": "Chapter 65",
+    "chapter": "Chapter 66",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -10422,7 +10422,7 @@
     "title": "I Will Protect You (Helcher)",
     "url": "/manga/i-will-protect-you-helcher",
     "image": "https://komiktap.info/wp-content/uploads/2025/11/I-Will-Protect-You.webp",
-    "chapter": "Chapter 32",
+    "chapter": "Chapter 34",
     "rating": "8.3",
     "type": "Manga",
     "time": null
@@ -11069,12 +11069,12 @@
   },
   "secret-class-uncen": {
     "slug": "secret-class-uncen",
-    "title": "secret-class-uncen",
+    "title": "Secret Class Uncen",
     "url": "/manga/secret-class-uncen",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2022/04/Secret-Class-uncen.jpg",
     "chapter": "Chapter 167",
     "rating": "9.3",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "stepmothers-friends": {
@@ -11262,7 +11262,7 @@
     "title": "Get Out!",
     "url": "/manga/get-out",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/get-outm.webp",
-    "chapter": "Chapter 6",
+    "chapter": "Chapter 10",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11302,7 +11302,7 @@
     "title": "Rakuen -Yoru Midarezuma-",
     "url": "/manga/rakuen-yoru-midarezuma",
     "image": "https://komiktap.info/wp-content/uploads/2026/07/001_cover.webp",
-    "chapter": "Chapter 6",
+    "chapter": "Chapter 8 End",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -11374,6 +11374,16 @@
     "image": null,
     "chapter": "Chapter 105",
     "rating": "8",
+    "type": null,
+    "time": null
+  },
+  "tsugou-no-ii-onaho-jimi-kyonyuu-jc": {
+    "slug": "tsugou-no-ii-onaho-jimi-kyonyuu-jc",
+    "title": "tsugou-no-ii-onaho-jimi-kyonyuu-jc",
+    "url": "/manga/tsugou-no-ii-onaho-jimi-kyonyuu-jc",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.7",
     "type": null,
     "time": null
   }
