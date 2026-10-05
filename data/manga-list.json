@@ -10499,12 +10499,12 @@
   },
   "should-i-study-at-noryangjin": {
     "slug": "should-i-study-at-noryangjin",
-    "title": "should-i-study-at-noryangjin",
+    "title": "Should I Study at Noryangjin",
     "url": "/manga/should-i-study-at-noryangjin",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2020/12/noryang-193x278-1.jpg",
     "chapter": "Chapter 101 END",
     "rating": "8.3",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "succubus-system": {
@@ -11199,12 +11199,12 @@
   },
   "youre-so-handsome": {
     "slug": "youre-so-handsome",
-    "title": "youre-so-handsome",
+    "title": "You’re so Handsome",
     "url": "/manga/youre-so-handsome",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2022/01/Screenshot_11.png",
     "chapter": "Chapter 100 End",
     "rating": "7.8",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "never-too-late": {
@@ -11379,12 +11379,42 @@
   },
   "tsugou-no-ii-onaho-jimi-kyonyuu-jc": {
     "slug": "tsugou-no-ii-onaho-jimi-kyonyuu-jc",
-    "title": "tsugou-no-ii-onaho-jimi-kyonyuu-jc",
+    "title": "Tsugou no Ii Onaho Jimi Kyonyuu JC",
     "url": "/manga/tsugou-no-ii-onaho-jimi-kyonyuu-jc",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/10/01-1.webp",
     "chapter": "Chapter 1",
     "rating": "8.7",
-    "type": null,
+    "type": "Manga",
+    "time": null
+  },
+  "a-guide-to-corrupting-them-with-hypnosis": {
+    "slug": "a-guide-to-corrupting-them-with-hypnosis",
+    "title": "A Guide to Corrupting Them With Hypnosis",
+    "url": "/manga/a-guide-to-corrupting-them-with-hypnosis",
+    "image": "https://komiktap.info/wp-content/uploads/2024/03/Screenshot-2024-03-20-013027.png",
+    "chapter": "Chapter 44 End",
+    "rating": "7.8",
+    "type": "Manga",
+    "time": null
+  },
+  "your-girlfriend-was-amazing": {
+    "slug": "your-girlfriend-was-amazing",
+    "title": "Your Girlfriend Was Amazing",
+    "url": "/manga/your-girlfriend-was-amazing",
+    "image": "https://komiktap.info/wp-content/uploads/2023/09/gk-aman.jpg",
+    "chapter": "Chapter 80 End",
+    "rating": "7.4",
+    "type": "Manga",
+    "time": null
+  },
+  "childhood-bride": {
+    "slug": "childhood-bride",
+    "title": "Childhood Bride",
+    "url": "/manga/childhood-bride",
+    "image": "https://komiktap.info/wp-content/uploads/2022/06/Childhood-Bride-193x278-1.jpg",
+    "chapter": "Chapter 60 End",
+    "rating": "7.8",
+    "type": "Manga",
     "time": null
   }
 }
