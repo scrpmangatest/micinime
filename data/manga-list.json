@@ -2463,7 +2463,7 @@
     "title": "Glorious Homecoming",
     "url": "/manga/glorious-homecoming",
     "image": "https://komiktap.info/wp-content/uploads/2025/06/Glorious-Homecoming-Manhwa-Free.webp",
-    "chapter": "Chapter 70",
+    "chapter": "Chapter 73",
     "rating": "7.7",
     "type": "Manga",
     "time": null
@@ -9282,7 +9282,7 @@
     "title": "Love Quest",
     "url": "/manga/love-quest",
     "image": "https://komiktap.info/wp-content/uploads/2026/03/Love_Quest.webp",
-    "chapter": "Chapter 35",
+    "chapter": "Chapter 36",
     "rating": "8.2",
     "type": "Manga",
     "time": null
@@ -9312,7 +9312,7 @@
     "title": "I Became an Apartment Security Manager",
     "url": "/manga/i-became-an-apartment-security-manager",
     "image": "https://komiktap.info/wp-content/uploads/2025/08/I-Became-an-Apartment-Security-Manager.webp",
-    "chapter": "Chapter 62",
+    "chapter": "Chapter 63",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9632,7 +9632,7 @@
     "title": "I Banged All My Classmates After Graduation",
     "url": "/manga/i-banged-all-my-classmates-after-graduation",
     "image": "https://komiktap.info/wp-content/uploads/2026/07/g8ir8upu9faxljistncn8hnk.webp",
-    "chapter": "Chapter 17",
+    "chapter": "Chapter 18",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9752,7 +9752,7 @@
     "title": "Cleaning Service",
     "url": "/manga/cleaning-service",
     "image": "https://komiktap.info/wp-content/uploads/2024/12/Cleaning-Service.webp",
-    "chapter": "Chapter 78",
+    "chapter": "Chapter 81",
     "rating": "8",
     "type": "Manga",
     "time": null
@@ -10282,7 +10282,7 @@
     "title": "Smoking Hypnosis",
     "url": "/manga/smoking-hypnosis",
     "image": "https://komiktap.info/wp-content/uploads/2023/05/00.jpg",
-    "chapter": "Chapter 23",
+    "chapter": "Chapter 24",
     "rating": "8.3",
     "type": "Manga",
     "time": null
@@ -10992,7 +10992,7 @@
     "title": "DA RA SHI NA SISTER",
     "url": "/manga/da-ra-shi-na-sister",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-15.jpg",
-    "chapter": "Chapter 6",
+    "chapter": "Chapter 7 End",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11152,7 +11152,7 @@
     "title": "Dakaretagari no Tsuma (Onna) Tachi",
     "url": "/manga/dakaretagari-no-tsuma-onna-tachi",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-20.jpg",
-    "chapter": "Chapter 7",
+    "chapter": "Chapter 9",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11162,7 +11162,7 @@
     "title": "Inniku Jukujo no Namashibori",
     "url": "/manga/inniku-jukujo-no-namashibori",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/01-21.jpg",
-    "chapter": "Chapter 4",
+    "chapter": "Chapter 5",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11262,7 +11262,7 @@
     "title": "Get Out!",
     "url": "/manga/get-out",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/get-outm.webp",
-    "chapter": "Chapter 10",
+    "chapter": "Chapter 11",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11322,7 +11322,7 @@
     "title": "A Midsummer NTR Dream",
     "url": "/manga/a-midsummer-ntr-dream",
     "image": "https://komiktap.info/wp-content/uploads/2022/05/01-18.jpg",
-    "chapter": "Chapter 3",
+    "chapter": "Chapter 3 Fix",
     "rating": "8.7",
     "type": "Manga",
     "time": null
@@ -11415,6 +11415,26 @@
     "chapter": "Chapter 60 End",
     "rating": "7.8",
     "type": "Manga",
+    "time": null
+  },
+  "inshudanchi": {
+    "slug": "inshudanchi",
+    "title": "Inshudanchi",
+    "url": "/manga/inshudanchi",
+    "image": "https://komiktap.info/wp-content/uploads/2026/07/01-5.webp",
+    "chapter": "Chapter 7",
+    "rating": "8.8",
+    "type": "Manga",
+    "time": null
+  },
+  "fuushuu-sex-ni-hamatta-onnanoko": {
+    "slug": "fuushuu-sex-ni-hamatta-onnanoko",
+    "title": "fuushuu-sex-ni-hamatta-onnanoko",
+    "url": "/manga/fuushuu-sex-ni-hamatta-onnanoko",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.8",
+    "type": null,
     "time": null
   }
 }
