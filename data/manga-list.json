@@ -7618,7 +7618,7 @@
     "title": "Soeun",
     "url": "/manga/soeun",
     "image": "https://komiktap.info/wp-content/uploads/2024/07/soeun.jpg",
-    "chapter": "Chapter 113",
+    "chapter": "Chapter 114",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9692,7 +9692,7 @@
     "title": "People of The Dark",
     "url": "/manga/people-of-the-dark",
     "image": "https://komiktap.info/wp-content/uploads/2026/03/people-of-the-darkm.webp",
-    "chapter": "Chapter 39",
+    "chapter": "Chapter 41",
     "rating": "9.5",
     "type": "Manga",
     "time": null
@@ -9742,7 +9742,7 @@
     "title": "MILF Hunting In Another World",
     "url": "/manga/milf-hunting-in-another-world",
     "image": "https://komiktap.info/wp-content/uploads/2023/06/MILF-Hunting-In-Another-World-193x278-1.jpg",
-    "chapter": "Chapter 138",
+    "chapter": "Chapter 139",
     "rating": "8.9",
     "type": "Manga",
     "time": null
@@ -9832,7 +9832,7 @@
     "title": "The Teachers’ Effort",
     "url": "/manga/the-teachers-effort",
     "image": "https://komiktap.info/wp-content/uploads/2024/07/esfuerzo-de-los-profesores.jpg",
-    "chapter": "Chapter 113",
+    "chapter": "Chapter 114",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9912,7 +9912,7 @@
     "title": "Sex Story",
     "url": "/manga/sex-story",
     "image": "https://komiktap.info/wp-content/uploads/2026/06/sex-storym.webp",
-    "chapter": "Chapter 32",
+    "chapter": "Chapter 34",
     "rating": "8",
     "type": "Manga",
     "time": null
@@ -10822,7 +10822,7 @@
     "title": "Switch On",
     "url": "/manga/switch-on",
     "image": "https://komiktap.info/wp-content/uploads/2022/05/swit.png",
-    "chapter": "Chapter 111",
+    "chapter": "Chapter 114",
     "rating": "7.3",
     "type": "Manga",
     "time": null
@@ -11445,6 +11445,16 @@
     "chapter": "Chapter 1",
     "rating": "8.8",
     "type": "Manga",
+    "time": null
+  },
+  "nureta-mamade": {
+    "slug": "nureta-mamade",
+    "title": "nureta-mamade",
+    "url": "/manga/nureta-mamade",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.8",
+    "type": null,
     "time": null
   }
 }
