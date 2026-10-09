@@ -9242,7 +9242,7 @@
     "title": "Affair Agency",
     "url": "/manga/affair-agency",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/i532123.jpg",
-    "chapter": "Chapter 18",
+    "chapter": "Chapter 20",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9642,7 +9642,7 @@
     "title": "Stop Smoking",
     "url": "/manga/stop-smoking",
     "image": "https://komiktap.info/wp-content/uploads/2024/09/Stop-Smoking-193x278-1.jpg",
-    "chapter": "Chapter 113",
+    "chapter": "Chapter 114",
     "rating": "7.1",
     "type": "Manga",
     "time": null
@@ -9652,7 +9652,7 @@
     "title": "Mother and Daughters Home",
     "url": "/manga/mother-and-daughters-home",
     "image": "https://komiktap.info/wp-content/uploads/2025/11/The-Mother-and-Daughter-Live-In.webp",
-    "chapter": "Chapter 48",
+    "chapter": "Chapter 49",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -10082,7 +10082,7 @@
     "title": "I’m the Only Guy at the Massage Shop",
     "url": "/manga/im-the-only-guy-at-the-massage-shop",
     "image": "https://komiktap.info/wp-content/uploads/2026/04/only-guy.webp",
-    "chapter": "Chapter 31",
+    "chapter": "Chapter 32",
     "rating": "8.1",
     "type": "Manga",
     "time": null
@@ -10552,7 +10552,7 @@
     "title": "Junjou Decamelon – Pure Decamelon",
     "url": "/manga/junjou-decamelon-pure-decamelon",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/001.webp",
-    "chapter": "Chapter 3",
+    "chapter": "Chapter 5",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -11499,11 +11499,51 @@
   },
   "o-oku-san-mou-gaman-dekimasen": {
     "slug": "o-oku-san-mou-gaman-dekimasen",
-    "title": "o-oku-san-mou-gaman-dekimasen",
+    "title": "O, Oku-san! Mou Gaman Dekimasen!!",
     "url": "/manga/o-oku-san-mou-gaman-dekimasen",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/10/01.jpg",
     "chapter": "Chapter 2",
     "rating": "8.5",
+    "type": "Manga",
+    "time": null
+  },
+  "toujou-yukiyo-37-sai-manatsu-no-beach-de-aokan-hamedori-sex-oi-no-iu-koto-ni-wa-sakaraenai-watashi": {
+    "slug": "toujou-yukiyo-37-sai-manatsu-no-beach-de-aokan-hamedori-sex-oi-no-iu-koto-ni-wa-sakaraenai-watashi",
+    "title": "toujou-yukiyo-37-sai-manatsu-no-beach-de-aokan-hamedori-sex-oi-no-iu-koto-ni-wa-sakaraenai-watashi",
+    "url": "/manga/toujou-yukiyo-37-sai-manatsu-no-beach-de-aokan-hamedori-sex-oi-no-iu-koto-ni-wa-sakaraenai-watashi",
+    "image": null,
+    "chapter": "Chapter 1 END",
+    "rating": "8",
+    "type": null,
+    "time": null
+  },
+  "uruwashi-bijo-gahou-pictorial-of-charming-and-alluring-women": {
+    "slug": "uruwashi-bijo-gahou-pictorial-of-charming-and-alluring-women",
+    "title": "uruwashi-bijo-gahou-pictorial-of-charming-and-alluring-women",
+    "url": "/manga/uruwashi-bijo-gahou-pictorial-of-charming-and-alluring-women",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.8",
+    "type": null,
+    "time": null
+  },
+  "kono-koi-ni-kizuite-kureta": {
+    "slug": "kono-koi-ni-kizuite-kureta",
+    "title": "kono-koi-ni-kizuite-kureta",
+    "url": "/manga/kono-koi-ni-kizuite-kureta",
+    "image": null,
+    "chapter": "Chapter 1 END",
+    "rating": "8",
+    "type": null,
+    "time": null
+  },
+  "oyashiki-ni-tsukaeru-elf-wa-goshujin-sama-ni-xxxx-de-gohoushi-suru-no-ga-shigoto-desu": {
+    "slug": "oyashiki-ni-tsukaeru-elf-wa-goshujin-sama-ni-xxxx-de-gohoushi-suru-no-ga-shigoto-desu",
+    "title": "oyashiki-ni-tsukaeru-elf-wa-goshujin-sama-ni-xxxx-de-gohoushi-suru-no-ga-shigoto-desu",
+    "url": "/manga/oyashiki-ni-tsukaeru-elf-wa-goshujin-sama-ni-xxxx-de-gohoushi-suru-no-ga-shigoto-desu",
+    "image": null,
+    "chapter": "Chapter 1 END",
+    "rating": "8",
     "type": null,
     "time": null
   }
