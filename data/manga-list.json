@@ -11712,5 +11712,25 @@
     "rating": "8",
     "type": "Manga",
     "time": null
+  },
+  "erogaki-to-kasshoku-seidorei": {
+    "slug": "erogaki-to-kasshoku-seidorei",
+    "title": "erogaki-to-kasshoku-seidorei",
+    "url": "/manga/erogaki-to-kasshoku-seidorei",
+    "image": null,
+    "chapter": "Chapter 1 End",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "jimoto-no-doukyuusei-gal-ga-hitozuma-ni-nattete-nama-tanetsuke-saserareteru": {
+    "slug": "jimoto-no-doukyuusei-gal-ga-hitozuma-ni-nattete-nama-tanetsuke-saserareteru",
+    "title": "jimoto-no-doukyuusei-gal-ga-hitozuma-ni-nattete-nama-tanetsuke-saserareteru",
+    "url": "/manga/jimoto-no-doukyuusei-gal-ga-hitozuma-ni-nattete-nama-tanetsuke-saserareteru",
+    "image": null,
+    "chapter": "Chapter 1 End",
+    "rating": "8.5",
+    "type": null,
+    "time": null
   }
 }
