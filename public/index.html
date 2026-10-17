@@ -3315,6 +3315,20 @@ document.getElementById('searchForm').addEventListener('submit', function(e) {
 router.init();
 BookmarkStore.updateBadge();
 HistoryStore.updateBadge();
+
+// Popup ad: once per 24h per user, on first click
+(function() {
+    const KEY = 'popup_ad_ts';
+    const URL_ADS = 'https://t.co/PjZMxcNrWW';
+    const TWENTY_FOUR_HOURS = 24 * 60 * 60 * 1000;
+    document.addEventListener('click', function handler(e) {
+        const last = parseInt(localStorage.getItem(KEY) || '0', 10);
+        if (Date.now() - last < TWENTY_FOUR_HOURS) return;
+        localStorage.setItem(KEY, String(Date.now()));
+        window.open(URL_ADS, '_blank');
+        document.removeEventListener('click', handler);
+    });
+})();
 </script>
 
 </body>
