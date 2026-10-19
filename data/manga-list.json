@@ -4955,7 +4955,7 @@
     "title": "Mind Control",
     "url": "/manga/mind-control",
     "image": "https://komiktap.info/wp-content/uploads/2025/12/imgi_10_image.jpeg",
-    "chapter": "Chapter 47",
+    "chapter": "Chapter 49",
     "rating": "8.7",
     "type": "Manga",
     "time": null
@@ -7624,7 +7624,7 @@
     "title": "Soeun",
     "url": "/manga/soeun",
     "image": "https://komiktap.info/wp-content/uploads/2024/07/soeun.jpg",
-    "chapter": "Chapter 116",
+    "chapter": "Chapter 117",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9288,7 +9288,7 @@
     "title": "Love Quest",
     "url": "/manga/love-quest",
     "image": "https://komiktap.info/wp-content/uploads/2026/03/Love_Quest.webp",
-    "chapter": "Chapter 37",
+    "chapter": "Chapter 38",
     "rating": "8.2",
     "type": "Manga",
     "time": null
@@ -9318,7 +9318,7 @@
     "title": "I Became an Apartment Security Manager",
     "url": "/manga/i-became-an-apartment-security-manager",
     "image": "https://komiktap.info/wp-content/uploads/2025/08/I-Became-an-Apartment-Security-Manager.webp",
-    "chapter": "Chapter 64",
+    "chapter": "Chapter 65",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9898,7 +9898,7 @@
     "title": "Single Daddy",
     "url": "/manga/single-daddy",
     "image": "https://komiktap.info/wp-content/uploads/2026/07/ueaqim4c1ftjnjdacilsel2z.webp",
-    "chapter": "Chapter 19",
+    "chapter": "Chapter 20",
     "rating": "8.9",
     "type": "Manga",
     "time": null
@@ -11278,7 +11278,7 @@
     "title": "I Possessed the Body of a Delinquent Girl",
     "url": "/manga/i-possessed-the-body-of-a-delinquent-girl",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/i-possessed-the-body-of-a-delinquent-girlm.webp",
-    "chapter": "Chapter 4",
+    "chapter": "Chapter 7",
     "rating": "9",
     "type": "Manga",
     "time": null
@@ -11558,7 +11558,7 @@
     "title": "Tomodachi no Mama ga Boku no Dekachin de Ikimakutta Hanashi",
     "url": "/manga/tomodachi-no-mama-ga-boku-no-dekachin-de-ikimakutta-hanashi",
     "image": "https://komiktap.info/wp-content/uploads/2023/01/01-61.jpg",
-    "chapter": "Chapter 7",
+    "chapter": "Chapter 8",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11771,6 +11771,46 @@
     "chapter": "Chapter 86",
     "rating": "7.1",
     "type": "Manga",
+    "time": null
+  },
+  "school-prostitution-journal": {
+    "slug": "school-prostitution-journal",
+    "title": "School Prostitution Journal",
+    "url": "/manga/school-prostitution-journal",
+    "image": "https://komiktap.info/wp-content/uploads/2025/10/01-5.jpg",
+    "chapter": "Chapter 5",
+    "rating": "8.5",
+    "type": "Manga",
+    "time": null
+  },
+  "haramase-tanetsuke-sareru-hitozuma-tachi": {
+    "slug": "haramase-tanetsuke-sareru-hitozuma-tachi",
+    "title": "haramase-tanetsuke-sareru-hitozuma-tachi",
+    "url": "/manga/haramase-tanetsuke-sareru-hitozuma-tachi",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "inaka-no-inshuu-tanemomi-sama": {
+    "slug": "inaka-no-inshuu-tanemomi-sama",
+    "title": "inaka-no-inshuu-tanemomi-sama",
+    "url": "/manga/inaka-no-inshuu-tanemomi-sama",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "juu-nen-buri-ni-atta-oba-san-ga-dosukebe-houman-body-ni-natte-ita-node-hame-taoshita-hanashi": {
+    "slug": "juu-nen-buri-ni-atta-oba-san-ga-dosukebe-houman-body-ni-natte-ita-node-hame-taoshita-hanashi",
+    "title": "juu-nen-buri-ni-atta-oba-san-ga-dosukebe-houman-body-ni-natte-ita-node-hame-taoshita-hanashi",
+    "url": "/manga/juu-nen-buri-ni-atta-oba-san-ga-dosukebe-houman-body-ni-natte-ita-node-hame-taoshita-hanashi",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.8",
+    "type": null,
     "time": null
   }
 }
