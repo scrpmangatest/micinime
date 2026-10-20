@@ -1,11 +1,11 @@
 {
-  "startedAt": "2026-10-19T21:18:58.713Z",
-  "finishedAt": "2026-10-19T21:20:19.466Z",
-  "durationMs": 80753,
+  "startedAt": "2026-10-20T01:26:31.879Z",
+  "finishedAt": "2026-10-20T01:27:03.951Z",
+  "durationMs": 32072,
   "ok": true,
   "latestFound": 100,
-  "mangaUpdated": 3,
-  "chaptersScraped": 6,
+  "mangaUpdated": 0,
+  "chaptersScraped": 0,
   "stoppedReason": "completed",
   "error": null
 }
