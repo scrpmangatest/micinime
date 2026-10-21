@@ -2150,10 +2150,11 @@
     "slug": "friends-mom-is-mine",
     "title": "Friend’s Mom Is Mine",
     "url": "/manga/friends-mom-is-mine",
-    "image": "https://i0.wp.com/komikhentaiku.com/wp-content/uploads/2026/03/cover-80.jpg?resize=285,425",
-    "chapter": "Chapter 1",
-    "rating": "9.00",
-    "type": null
+    "image": "https://komiktap.info/wp-content/uploads/2024/02/Friend-Mom-is-Mine.webp",
+    "chapter": "Chapter 50 End",
+    "rating": "7.3",
+    "type": "Manga",
+    "time": null
   },
   "from-pauper-to-prince": {
     "slug": "from-pauper-to-prince",
@@ -11235,12 +11236,12 @@
   },
   "sister-neighbor": {
     "slug": "sister-neighbor",
-    "title": "sister-neighbor",
+    "title": "Sister Neighbor",
     "url": "/manga/sister-neighbor",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2020/10/Sister-Neighbor.jpg",
     "chapter": "Chapter 160 End",
     "rating": "6.7",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "sinful-lust-lizana-adventure": {
@@ -11810,6 +11811,46 @@
     "image": "https://komiktap.info/wp-content/uploads/2026/10/01_1.webp",
     "chapter": "Chapter 1",
     "rating": "8.8",
+    "type": "Manga",
+    "time": null
+  },
+  "mom-eat-first": {
+    "slug": "mom-eat-first",
+    "title": "Mom Eat First",
+    "url": "/manga/mom-eat-first",
+    "image": "https://komiktap.info/wp-content/uploads/2023/07/vdc.jpg",
+    "chapter": "Chapter 141 End",
+    "rating": "8.3",
+    "type": "Manga",
+    "time": null
+  },
+  "sex-stopwatch": {
+    "slug": "sex-stopwatch",
+    "title": "sex-stopwatch",
+    "url": "/manga/sex-stopwatch",
+    "image": null,
+    "chapter": "Chapter 155 End",
+    "rating": "7.8",
+    "type": null,
+    "time": null
+  },
+  "is-it-your-mother-or-sister": {
+    "slug": "is-it-your-mother-or-sister",
+    "title": "Is It Your Mother or Sister?",
+    "url": "/manga/is-it-your-mother-or-sister",
+    "image": "https://komiktap.info/wp-content/uploads/2023/10/Screenshot_3.jpg",
+    "chapter": "Chapter 50 End",
+    "rating": "7.8",
+    "type": "Manga",
+    "time": null
+  },
+  "i-will-protect-the-lady": {
+    "slug": "i-will-protect-the-lady",
+    "title": "I Will Protect the Lady",
+    "url": "/manga/i-will-protect-the-lady",
+    "image": "https://komiktap.info/wp-content/uploads/2025/05/I-Will-Protect-the-Lady.webp",
+    "chapter": "Chapter 55 End",
+    "rating": "7.8",
     "type": "Manga",
     "time": null
   }
