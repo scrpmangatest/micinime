@@ -9349,7 +9349,7 @@
     "title": "I’m the Only Man on the Military Base",
     "url": "/manga/im-the-only-man-on-the-military-base",
     "image": "https://komiktap.info/wp-content/uploads/2025/05/Screenshot-2025-05-16-164436.webp",
-    "chapter": "Chapter 78",
+    "chapter": "Chapter 79",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9419,7 +9419,7 @@
     "title": "The Reincarnated Man",
     "url": "/manga/the-reincarnated-man",
     "image": "https://komiktap.info/wp-content/uploads/2025/06/The-Reincarnated-Man-Manhwa-Free.webp",
-    "chapter": "Chapter 70",
+    "chapter": "Chapter 72",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9429,7 +9429,7 @@
     "title": "Taming My Stepsister",
     "url": "/manga/taming-my-stepsister",
     "image": "https://komiktap.info/wp-content/uploads/2026/05/Screenshot-2026-05-05-093655.png",
-    "chapter": "Chapter 33",
+    "chapter": "Chapter 34",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9439,7 +9439,7 @@
     "title": "My Sex Partners Were Actually Family",
     "url": "/manga/my-sex-partners-were-actually-family",
     "image": "https://komiktap.info/wp-content/uploads/2026/05/Screenshot-2026-05-14-080959.png",
-    "chapter": "Chapter 31",
+    "chapter": "Chapter 32",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9449,7 +9449,7 @@
     "title": "Love Cheer!",
     "url": "/manga/love-cheer",
     "image": "https://komiktap.info/wp-content/uploads/2026/06/Screenshot-2026-06-05-131352.png",
-    "chapter": "Chapter 24",
+    "chapter": "Chapter 26",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -10329,7 +10329,7 @@
     "title": "Master of the Island",
     "url": "/manga/master-of-the-island",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/master-of-the-islandm.webp",
-    "chapter": "Chapter 16",
+    "chapter": "Chapter 19",
     "rating": "8",
     "type": "Manga",
     "time": null
@@ -11856,12 +11856,102 @@
   },
   "sodate-no-oya-no-mitsuko-san-to-juu-nen-buri-ni-inaka-de-saikai-shite-sugu-ni-sex-shita-hanashi": {
     "slug": "sodate-no-oya-no-mitsuko-san-to-juu-nen-buri-ni-inaka-de-saikai-shite-sugu-ni-sex-shita-hanashi",
-    "title": "sodate-no-oya-no-mitsuko-san-to-juu-nen-buri-ni-inaka-de-saikai-shite-sugu-ni-sex-shita-hanashi",
+    "title": "Sodate no Oya no Mitsuko-san to Juu-nen-buri ni Inaka de Saikai Shite Sugu ni Sex Shita Hanashi",
     "url": "/manga/sodate-no-oya-no-mitsuko-san-to-juu-nen-buri-ni-inaka-de-saikai-shite-sugu-ni-sex-shita-hanashi",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/10/01_1-1.webp",
     "chapter": "Chapter 1",
     "rating": "8.8",
+    "type": "Manga",
+    "time": null
+  },
+  "madam": {
+    "slug": "madam",
+    "title": "Madam",
+    "url": "/manga/madam",
+    "image": "https://komiktap.info/wp-content/uploads/2022/03/622b9e26be2c0.jpg",
+    "chapter": "Chapter 144",
+    "rating": "8.2",
+    "type": "Manga",
+    "time": null
+  },
+  "that-mans-epilepsy": {
+    "slug": "that-mans-epilepsy",
+    "title": "that-mans-epilepsy",
+    "url": "/manga/that-mans-epilepsy",
+    "image": null,
+    "chapter": "Chapter 176 End",
+    "rating": "8.3",
     "type": null,
+    "time": null
+  },
+  "great-disciple": {
+    "slug": "great-disciple",
+    "title": "Great Disciple",
+    "url": "/manga/great-disciple",
+    "image": "https://komiktap.info/wp-content/uploads/2022/12/Grand-Disciple-193x278-1.jpg",
+    "chapter": "Chapter 80 End",
+    "rating": "8.0",
+    "type": "Manga",
+    "time": null
+  },
+  "big-guy": {
+    "slug": "big-guy",
+    "title": "Big Guy",
+    "url": "/manga/big-guy",
+    "image": "https://komiktap.info/wp-content/uploads/2025/02/The-Biggest.webp",
+    "chapter": "Chapter 80 END",
+    "rating": "7.1",
+    "type": "Manga",
+    "time": null
+  },
+  "the-runaway-family": {
+    "slug": "the-runaway-family",
+    "title": "the-runaway-family",
+    "url": "/manga/the-runaway-family",
+    "image": null,
+    "chapter": "Chapter 75 End",
+    "rating": "8.5",
+    "type": null,
+    "time": null
+  },
+  "summer-with-daughter-and-mother": {
+    "slug": "summer-with-daughter-and-mother",
+    "title": "summer-with-daughter-and-mother",
+    "url": "/manga/summer-with-daughter-and-mother",
+    "image": null,
+    "chapter": "Chapter 40 End",
+    "rating": "7.9",
+    "type": null,
+    "time": null
+  },
+  "a-mean-guy": {
+    "slug": "a-mean-guy",
+    "title": "A Mean Guy",
+    "url": "/manga/a-mean-guy",
+    "image": "https://komiktap.info/wp-content/uploads/2024/12/Bastard.jpg",
+    "chapter": "Chapter 76 End",
+    "rating": "7.9",
+    "type": "Manga",
+    "time": null
+  },
+  "body-bind": {
+    "slug": "body-bind",
+    "title": "Body Bind",
+    "url": "/manga/body-bind",
+    "image": "https://komiktap.info/wp-content/uploads/2023/06/1685718872-5833-i418324.jpg",
+    "chapter": "Chapter 63 End",
+    "rating": "10",
+    "type": "Manga",
+    "time": null
+  },
+  "high-tension": {
+    "slug": "high-tension",
+    "title": "High Tension",
+    "url": "/manga/high-tension",
+    "image": "https://komiktap.info/wp-content/uploads/2022/09/High-Tension-193x278-1.jpg",
+    "chapter": "Chapter 44",
+    "rating": "7.4",
+    "type": "Manga",
     "time": null
   }
 }
