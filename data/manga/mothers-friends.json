@@ -1,0 +1,86 @@
+{
+  "slug": "mothers-friends",
+  "title": "mothers-friends",
+  "image": null,
+  "rating": "8.4",
+  "description": "“Bibi akan mengajarimu segalanya, satu per satu~♥︎” Setelah terus-menerus diperlakukan layaknya anak mama, ia akhirnya berhasil lepas dari ibunya—namun kini, teman-teman ibunya justru mulai terobsesi padanya.",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Harem",
+      "url": "/genres/harem"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Smut",
+      "url": "/genres/smut"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 8",
+      "url": "/mothers-friends-chapter-8",
+      "slug": "mothers-friends-chapter-8",
+      "date": "Oktober 23, 2026"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/mothers-friends-chapter-7",
+      "slug": "mothers-friends-chapter-7",
+      "date": "Oktober 23, 2026"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/mothers-friends-chapter-6",
+      "slug": "mothers-friends-chapter-6",
+      "date": "Oktober 23, 2026"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/mothers-friends-chapter-5",
+      "slug": "mothers-friends-chapter-5",
+      "date": "Oktober 23, 2026"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/mothers-friends-chapter-4",
+      "slug": "mothers-friends-chapter-4",
+      "date": "Oktober 23, 2026"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/mothers-friends-chapter-3",
+      "slug": "mothers-friends-chapter-3",
+      "date": "Oktober 23, 2026"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/mothers-friends-chapter-2",
+      "slug": "mothers-friends-chapter-2",
+      "date": "Oktober 23, 2026"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/mothers-friends-chapter-1",
+      "slug": "mothers-friends-chapter-1",
+      "date": "Oktober 23, 2026"
+    }
+  ],
+  "scrapedAt": "2026-10-23T20:10:52.698Z"
+}
