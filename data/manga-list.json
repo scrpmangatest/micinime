@@ -9709,7 +9709,7 @@
     "title": "Ogh Reboot",
     "url": "/manga/ogh-reboot",
     "image": "https://komiktap.info/wp-content/uploads/2026/07/llzhkif2jy59kkns1czip5h9.webp",
-    "chapter": "Chapter 29",
+    "chapter": "Chapter 33",
     "rating": "9",
     "type": "Manga",
     "time": null
@@ -11799,7 +11799,7 @@
     "title": "Inaka no Inshuu Tanemomi-sama",
     "url": "/manga/inaka-no-inshuu-tanemomi-sama",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/01-5.jpg",
-    "chapter": "Chapter 2",
+    "chapter": "Chapter 3",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11966,12 +11966,32 @@
   },
   "mothers-friends": {
     "slug": "mothers-friends",
-    "title": "mothers-friends",
+    "title": "Mother’s Friends",
     "url": "/manga/mothers-friends",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/10/fr4kbivs1h1nrknqvmx14ddw.webp",
     "chapter": "Chapter 8",
     "rating": "8.4",
-    "type": null,
+    "type": "Manga",
+    "time": null
+  },
+  "ju-nen-no-koi-yori-isshukan-no-sei-rebirthweek": {
+    "slug": "ju-nen-no-koi-yori-isshukan-no-sei-rebirthweek",
+    "title": "Jū-nen no koi yori isshūkan no sei -RebirthWeek-",
+    "url": "/manga/ju-nen-no-koi-yori-isshukan-no-sei-rebirthweek",
+    "image": "https://komiktap.info/wp-content/uploads/2024/08/002-1.jpg",
+    "chapter": "Chapter 3",
+    "rating": "8.4",
+    "type": "Manga",
+    "time": null
+  },
+  "corruption-in-the-dungeon": {
+    "slug": "corruption-in-the-dungeon",
+    "title": "Corruption in the Dungeon",
+    "url": "/manga/corruption-in-the-dungeon",
+    "image": "https://komiktap.info/wp-content/uploads/2024/04/Corruption-in-the-Dungeon-193x278-1.jpg",
+    "chapter": "Chapter 60 End",
+    "rating": "8.4",
+    "type": "Manga",
     "time": null
   }
 }
