@@ -1,0 +1,666 @@
+{
+  "slug": "today-dinner",
+  "title": "today-dinner",
+  "image": null,
+  "rating": "7.8",
+  "description": "Suho adalah seorang yang gemuk baik hati, yang memiliki rasa yang unik dan selera yang luar biasa, itu sebabnya pria yang dikutuk itu sangat gemuk, dia jatuh cinta pada pandangan pertama dengan Yeseul yang merupakan dewi universitas tempat dia belajar, tapi ada juga teman spesialnya Sieun yang selalu berada di sisinya melindungi dan mendukungnya, siapa yang bisa membantunya mengatasi trauma masa kecilnya yang disebabkan oleh ibunya?",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Romance",
+      "url": "/genres/romance"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 106 End",
+      "url": "/today-dinner-chapter-106",
+      "slug": "today-dinner-chapter-106",
+      "date": "Desember 21, 2023"
+    },
+    {
+      "title": "Chapter 105",
+      "url": "/today-dinner-chapter-105",
+      "slug": "today-dinner-chapter-105",
+      "date": "Desember 20, 2023"
+    },
+    {
+      "title": "Chapter 104",
+      "url": "/today-dinner-chapter-104",
+      "slug": "today-dinner-chapter-104",
+      "date": "Desember 15, 2023"
+    },
+    {
+      "title": "Chapter 103",
+      "url": "/today-dinner-chapter-103",
+      "slug": "today-dinner-chapter-103",
+      "date": "Desember 10, 2023"
+    },
+    {
+      "title": "Chapter 102",
+      "url": "/today-dinner-chapter-102",
+      "slug": "today-dinner-chapter-102",
+      "date": "Desember 10, 2023"
+    },
+    {
+      "title": "Chapter 101",
+      "url": "/today-dinner-chapter-101",
+      "slug": "today-dinner-chapter-101",
+      "date": "Desember 10, 2023"
+    },
+    {
+      "title": "Chapter 100",
+      "url": "/today-dinner-chapter-100",
+      "slug": "today-dinner-chapter-100",
+      "date": "November 27, 2023"
+    },
+    {
+      "title": "Chapter 99",
+      "url": "/today-dinner-chapter-99",
+      "slug": "today-dinner-chapter-99",
+      "date": "November 19, 2023"
+    },
+    {
+      "title": "Chapter 98",
+      "url": "/today-dinner-chapter-98",
+      "slug": "today-dinner-chapter-98",
+      "date": "Oktober 11, 2023"
+    },
+    {
+      "title": "Chapter 97",
+      "url": "/today-dinner-chapter-97",
+      "slug": "today-dinner-chapter-97",
+      "date": "Oktober 9, 2023"
+    },
+    {
+      "title": "Chapter 96",
+      "url": "/today-dinner-chapter-96",
+      "slug": "today-dinner-chapter-96",
+      "date": "September 25, 2023"
+    },
+    {
+      "title": "Chapter 95",
+      "url": "/today-dinner-chapter-95",
+      "slug": "today-dinner-chapter-95",
+      "date": "September 17, 2023"
+    },
+    {
+      "title": "Chapter 94",
+      "url": "/today-dinner-chapter-94",
+      "slug": "today-dinner-chapter-94",
+      "date": "September 11, 2023"
+    },
+    {
+      "title": "Chapter 93",
+      "url": "/today-dinner-chapter-93",
+      "slug": "today-dinner-chapter-93",
+      "date": "September 3, 2023"
+    },
+    {
+      "title": "Chapter 92",
+      "url": "/today-dinner-chapter-92",
+      "slug": "today-dinner-chapter-92",
+      "date": "September 1, 2023"
+    },
+    {
+      "title": "Chapter 91",
+      "url": "/today-dinner-chapter-91",
+      "slug": "today-dinner-chapter-91",
+      "date": "Agustus 21, 2023"
+    },
+    {
+      "title": "Chapter 90",
+      "url": "/today-dinner-chapter-90",
+      "slug": "today-dinner-chapter-90",
+      "date": "Agustus 13, 2023"
+    },
+    {
+      "title": "Chapter 89",
+      "url": "/today-dinner-chapter-89",
+      "slug": "today-dinner-chapter-89",
+      "date": "Agustus 8, 2023"
+    },
+    {
+      "title": "Chapter 88",
+      "url": "/today-dinner-chapter-88",
+      "slug": "today-dinner-chapter-88",
+      "date": "Agustus 1, 2023"
+    },
+    {
+      "title": "Chapter 87",
+      "url": "/today-dinner-chapter-87",
+      "slug": "today-dinner-chapter-87",
+      "date": "Juli 31, 2023"
+    },
+    {
+      "title": "Chapter 86",
+      "url": "/today-dinner-chapter-86",
+      "slug": "today-dinner-chapter-86",
+      "date": "Juli 21, 2023"
+    },
+    {
+      "title": "Chapter 85",
+      "url": "/today-dinner-chapter-85",
+      "slug": "today-dinner-chapter-85",
+      "date": "Juli 15, 2023"
+    },
+    {
+      "title": "Chapter 84",
+      "url": "/today-dinner-chapter-84",
+      "slug": "today-dinner-chapter-84",
+      "date": "Juli 6, 2023"
+    },
+    {
+      "title": "Chapter 83",
+      "url": "/today-dinner-chapter-83",
+      "slug": "today-dinner-chapter-83",
+      "date": "Juni 29, 2023"
+    },
+    {
+      "title": "Chapter 82",
+      "url": "/today-dinner-chapter-82",
+      "slug": "today-dinner-chapter-82",
+      "date": "Juni 20, 2023"
+    },
+    {
+      "title": "Chapter 81",
+      "url": "/today-dinner-chapter-81",
+      "slug": "today-dinner-chapter-81",
+      "date": "Juni 12, 2023"
+    },
+    {
+      "title": "Chapter 80",
+      "url": "/today-dinner-chapter-80",
+      "slug": "today-dinner-chapter-80",
+      "date": "Juni 4, 2023"
+    },
+    {
+      "title": "Chapter 79",
+      "url": "/today-dinner-chapter-79",
+      "slug": "today-dinner-chapter-79",
+      "date": "Mei 28, 2023"
+    },
+    {
+      "title": "Chapter 78",
+      "url": "/today-dinner-chapter-78",
+      "slug": "today-dinner-chapter-78",
+      "date": "Mei 21, 2023"
+    },
+    {
+      "title": "Chapter 77",
+      "url": "/today-dinner-chapter-77",
+      "slug": "today-dinner-chapter-77",
+      "date": "Mei 16, 2023"
+    },
+    {
+      "title": "Chapter 76",
+      "url": "/today-dinner-chapter-76",
+      "slug": "today-dinner-chapter-76",
+      "date": "Mei 10, 2023"
+    },
+    {
+      "title": "Chapter 75",
+      "url": "/today-dinner-chapter-75",
+      "slug": "today-dinner-chapter-75",
+      "date": "April 30, 2023"
+    },
+    {
+      "title": "Chapter 74",
+      "url": "/today-dinner-chapter-74",
+      "slug": "today-dinner-chapter-74",
+      "date": "April 22, 2023"
+    },
+    {
+      "title": "Chapter 73",
+      "url": "/today-dinner-chapter-73",
+      "slug": "today-dinner-chapter-73",
+      "date": "April 16, 2023"
+    },
+    {
+      "title": "Chapter 72",
+      "url": "/today-dinner-chapter-72",
+      "slug": "today-dinner-chapter-72",
+      "date": "April 9, 2023"
+    },
+    {
+      "title": "Chapter 71",
+      "url": "/today-dinner-chapter-71",
+      "slug": "today-dinner-chapter-71",
+      "date": "April 2, 2023"
+    },
+    {
+      "title": "Chapter 70",
+      "url": "/today-dinner-chapter-70",
+      "slug": "today-dinner-chapter-70",
+      "date": "Maret 26, 2023"
+    },
+    {
+      "title": "Chapter 69",
+      "url": "/today-dinner-chapter-69",
+      "slug": "today-dinner-chapter-69",
+      "date": "Maret 19, 2023"
+    },
+    {
+      "title": "Chapter 68",
+      "url": "/today-dinner-chapter-68",
+      "slug": "today-dinner-chapter-68",
+      "date": "Maret 12, 2023"
+    },
+    {
+      "title": "Chapter 67",
+      "url": "/today-dinner-chapter-67",
+      "slug": "today-dinner-chapter-67",
+      "date": "Maret 5, 2023"
+    },
+    {
+      "title": "Chapter 66",
+      "url": "/today-dinner-chapter-66",
+      "slug": "today-dinner-chapter-66",
+      "date": "Februari 28, 2023"
+    },
+    {
+      "title": "Chapter 65",
+      "url": "/today-dinner-chapter-65",
+      "slug": "today-dinner-chapter-65",
+      "date": "Februari 19, 2023"
+    },
+    {
+      "title": "Chapter 64",
+      "url": "/today-dinner-chapter-64",
+      "slug": "today-dinner-chapter-64",
+      "date": "Februari 12, 2023"
+    },
+    {
+      "title": "Chapter 63",
+      "url": "/today-dinner-chapter-63",
+      "slug": "today-dinner-chapter-63",
+      "date": "Februari 5, 2023"
+    },
+    {
+      "title": "Chapter 62",
+      "url": "/today-dinner-chapter-62",
+      "slug": "today-dinner-chapter-62",
+      "date": "Januari 30, 2023"
+    },
+    {
+      "title": "Chapter 61",
+      "url": "/today-dinner-chapter-61",
+      "slug": "today-dinner-chapter-61",
+      "date": "Januari 30, 2023"
+    },
+    {
+      "title": "Chapter 60",
+      "url": "/today-dinner-chapter-60",
+      "slug": "today-dinner-chapter-60",
+      "date": "Januari 17, 2023"
+    },
+    {
+      "title": "Chapter 59",
+      "url": "/today-dinner-chapter-59",
+      "slug": "today-dinner-chapter-59",
+      "date": "Januari 8, 2023"
+    },
+    {
+      "title": "Chapter 58",
+      "url": "/today-dinner-chapter-58",
+      "slug": "today-dinner-chapter-58",
+      "date": "Januari 1, 2023"
+    },
+    {
+      "title": "Chapter 57",
+      "url": "/today-dinner-chapter-57",
+      "slug": "today-dinner-chapter-57",
+      "date": "Desember 25, 2022"
+    },
+    {
+      "title": "Chapter 56",
+      "url": "/today-dinner-chapter-56",
+      "slug": "today-dinner-chapter-56",
+      "date": "Desember 18, 2022"
+    },
+    {
+      "title": "Chapter 55",
+      "url": "/today-dinner-chapter-55",
+      "slug": "today-dinner-chapter-55",
+      "date": "Desember 13, 2022"
+    },
+    {
+      "title": "Chapter 54",
+      "url": "/today-dinner-chapter-54",
+      "slug": "today-dinner-chapter-54",
+      "date": "Desember 4, 2022"
+    },
+    {
+      "title": "Chapter 53",
+      "url": "/today-dinner-chapter-53",
+      "slug": "today-dinner-chapter-53",
+      "date": "November 27, 2022"
+    },
+    {
+      "title": "Chapter 52",
+      "url": "/today-dinner-chapter-52",
+      "slug": "today-dinner-chapter-52",
+      "date": "November 13, 2022"
+    },
+    {
+      "title": "Chapter 51",
+      "url": "/today-dinner-chapter-51",
+      "slug": "today-dinner-chapter-51",
+      "date": "November 6, 2022"
+    },
+    {
+      "title": "Chapter 50",
+      "url": "/today-dinner-chapter-50",
+      "slug": "today-dinner-chapter-50",
+      "date": "Oktober 30, 2022"
+    },
+    {
+      "title": "Chapter 49",
+      "url": "/today-dinner-chapter-49",
+      "slug": "today-dinner-chapter-49",
+      "date": "Oktober 23, 2022"
+    },
+    {
+      "title": "Chapter 48",
+      "url": "/today-dinner-chapter-48",
+      "slug": "today-dinner-chapter-48",
+      "date": "Oktober 16, 2022"
+    },
+    {
+      "title": "Chapter 47",
+      "url": "/today-dinner-chapter-47",
+      "slug": "today-dinner-chapter-47",
+      "date": "Oktober 9, 2022"
+    },
+    {
+      "title": "Chapter 46",
+      "url": "/today-dinner-chapter-46",
+      "slug": "today-dinner-chapter-46",
+      "date": "Oktober 2, 2022"
+    },
+    {
+      "title": "Chapter 45",
+      "url": "/today-dinner-chapter-45",
+      "slug": "today-dinner-chapter-45",
+      "date": "September 26, 2022"
+    },
+    {
+      "title": "Chapter 44",
+      "url": "/today-dinner-chapter-44",
+      "slug": "today-dinner-chapter-44",
+      "date": "September 18, 2022"
+    },
+    {
+      "title": "Chapter 43",
+      "url": "/today-dinner-chapter-43",
+      "slug": "today-dinner-chapter-43",
+      "date": "September 11, 2022"
+    },
+    {
+      "title": "Chapter 42",
+      "url": "/today-dinner-chapter-42",
+      "slug": "today-dinner-chapter-42",
+      "date": "September 4, 2022"
+    },
+    {
+      "title": "Chapter 41",
+      "url": "/today-dinner-chapter-41",
+      "slug": "today-dinner-chapter-41",
+      "date": "Agustus 28, 2022"
+    },
+    {
+      "title": "Chapter 40",
+      "url": "/today-dinner-chapter-40",
+      "slug": "today-dinner-chapter-40",
+      "date": "Agustus 22, 2022"
+    },
+    {
+      "title": "Chapter 39",
+      "url": "/today-dinner-chapter-39",
+      "slug": "today-dinner-chapter-39",
+      "date": "Agustus 14, 2022"
+    },
+    {
+      "title": "Chapter 38",
+      "url": "/today-dinner-chapter-38",
+      "slug": "today-dinner-chapter-38",
+      "date": "Agustus 7, 2022"
+    },
+    {
+      "title": "Chapter 37",
+      "url": "/today-dinner-chapter-37",
+      "slug": "today-dinner-chapter-37",
+      "date": "Juli 31, 2022"
+    },
+    {
+      "title": "Chapter 36",
+      "url": "/today-dinner-chapter-36",
+      "slug": "today-dinner-chapter-36",
+      "date": "Juli 24, 2022"
+    },
+    {
+      "title": "Chapter 35",
+      "url": "/today-dinner-chapter-35",
+      "slug": "today-dinner-chapter-35",
+      "date": "Juli 17, 2022"
+    },
+    {
+      "title": "Chapter 34",
+      "url": "/today-dinner-chapter-34",
+      "slug": "today-dinner-chapter-34",
+      "date": "Juli 10, 2022"
+    },
+    {
+      "title": "Chapter 33",
+      "url": "/today-dinner-chapter-33",
+      "slug": "today-dinner-chapter-33",
+      "date": "Juli 3, 2022"
+    },
+    {
+      "title": "Chapter 32",
+      "url": "/today-dinner-chapter-32",
+      "slug": "today-dinner-chapter-32",
+      "date": "Juni 26, 2022"
+    },
+    {
+      "title": "Chapter 31",
+      "url": "/today-dinner-chapter-31",
+      "slug": "today-dinner-chapter-31",
+      "date": "Juni 19, 2022"
+    },
+    {
+      "title": "Chapter 30",
+      "url": "/today-dinner-chapter-30",
+      "slug": "today-dinner-chapter-30",
+      "date": "Juni 12, 2022"
+    },
+    {
+      "title": "Chapter 29",
+      "url": "/today-dinner-chapter-29",
+      "slug": "today-dinner-chapter-29",
+      "date": "Juni 5, 2022"
+    },
+    {
+      "title": "Chapter 28",
+      "url": "/today-dinner-chapter-28",
+      "slug": "today-dinner-chapter-28",
+      "date": "Mei 29, 2022"
+    },
+    {
+      "title": "Chapter 27",
+      "url": "/today-dinner-chapter-27",
+      "slug": "today-dinner-chapter-27",
+      "date": "Mei 24, 2022"
+    },
+    {
+      "title": "Chapter 26",
+      "url": "/today-dinner-chapter-26",
+      "slug": "today-dinner-chapter-26",
+      "date": "Mei 10, 2022"
+    },
+    {
+      "title": "Chapter 25",
+      "url": "/today-dinner-chapter-25",
+      "slug": "today-dinner-chapter-25",
+      "date": "Mei 1, 2022"
+    },
+    {
+      "title": "Chapter 24",
+      "url": "/today-dinner-chapter-24",
+      "slug": "today-dinner-chapter-24",
+      "date": "Mei 1, 2022"
+    },
+    {
+      "title": "Chapter 23",
+      "url": "/today-dinner-chapter-23",
+      "slug": "today-dinner-chapter-23",
+      "date": "April 19, 2022"
+    },
+    {
+      "title": "Chapter 22",
+      "url": "/today-dinner-chapter-22",
+      "slug": "today-dinner-chapter-22",
+      "date": "April 11, 2022"
+    },
+    {
+      "title": "Chapter 21",
+      "url": "/today-dinner-chapter-21",
+      "slug": "today-dinner-chapter-21",
+      "date": "April 3, 2022"
+    },
+    {
+      "title": "Chapter 20",
+      "url": "/today-dinner-chapter-20",
+      "slug": "today-dinner-chapter-20",
+      "date": "Maret 29, 2022"
+    },
+    {
+      "title": "Chapter 19",
+      "url": "/today-dinner-chapter-19",
+      "slug": "today-dinner-chapter-19",
+      "date": "Maret 21, 2022"
+    },
+    {
+      "title": "Chapter 18",
+      "url": "/today-dinner-chapter-18",
+      "slug": "today-dinner-chapter-18",
+      "date": "Maret 15, 2022"
+    },
+    {
+      "title": "Chapter 17",
+      "url": "/today-dinner-chapter-17",
+      "slug": "today-dinner-chapter-17",
+      "date": "Maret 15, 2022"
+    },
+    {
+      "title": "Chapter 16",
+      "url": "/today-dinner-chapter-16",
+      "slug": "today-dinner-chapter-16",
+      "date": "Maret 15, 2022"
+    },
+    {
+      "title": "Chapter 15",
+      "url": "/today-dinner-chapter-15",
+      "slug": "today-dinner-chapter-15",
+      "date": "Maret 12, 2022"
+    },
+    {
+      "title": "Chapter 14",
+      "url": "/today-dinner-chapter-14",
+      "slug": "today-dinner-chapter-14",
+      "date": "Maret 10, 2022"
+    },
+    {
+      "title": "Chapter 13",
+      "url": "/today-dinner-chapter-13",
+      "slug": "today-dinner-chapter-13",
+      "date": "Maret 9, 2022"
+    },
+    {
+      "title": "Chapter 12",
+      "url": "/today-dinner-chapter-12",
+      "slug": "today-dinner-chapter-12",
+      "date": "Januari 31, 2022"
+    },
+    {
+      "title": "Chapter 11",
+      "url": "/today-dinner-chapter-11",
+      "slug": "today-dinner-chapter-11",
+      "date": "Januari 27, 2022"
+    },
+    {
+      "title": "Chapter 10",
+      "url": "/today-dinner-chapter-10",
+      "slug": "today-dinner-chapter-10",
+      "date": "Januari 24, 2022"
+    },
+    {
+      "title": "Chapter 9",
+      "url": "/today-dinner-chapter-9",
+      "slug": "today-dinner-chapter-9",
+      "date": "Januari 23, 2022"
+    },
+    {
+      "title": "Chapter 8",
+      "url": "/today-dinner-chapter-8",
+      "slug": "today-dinner-chapter-8",
+      "date": "Januari 20, 2022"
+    },
+    {
+      "title": "Chapter 7",
+      "url": "/today-dinner-chapter-7",
+      "slug": "today-dinner-chapter-7",
+      "date": "Januari 20, 2022"
+    },
+    {
+      "title": "Chapter 6",
+      "url": "/today-dinner-chapter-6",
+      "slug": "today-dinner-chapter-6",
+      "date": "Januari 7, 2022"
+    },
+    {
+      "title": "Chapter 5",
+      "url": "/today-dinner-chapter-5",
+      "slug": "today-dinner-chapter-5",
+      "date": "Januari 7, 2022"
+    },
+    {
+      "title": "Chapter 4",
+      "url": "/today-dinner-chapter-4",
+      "slug": "today-dinner-chapter-4",
+      "date": "Desember 30, 2021"
+    },
+    {
+      "title": "Chapter 3",
+      "url": "/today-dinner-chapter-3",
+      "slug": "today-dinner-chapter-3",
+      "date": "Desember 24, 2021"
+    },
+    {
+      "title": "Chapter 2",
+      "url": "/today-dinner-chapter-2",
+      "slug": "today-dinner-chapter-2",
+      "date": "Desember 19, 2021"
+    },
+    {
+      "title": "Chapter 1",
+      "url": "/today-dinner-chapter-1",
+      "slug": "today-dinner-chapter-1",
+      "date": "Desember 14, 2021"
+    }
+  ],
+  "scrapedAt": "2026-10-25T00:45:05.811Z"
+}
