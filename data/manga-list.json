@@ -7625,7 +7625,7 @@
     "title": "Soeun",
     "url": "/manga/soeun",
     "image": "https://komiktap.info/wp-content/uploads/2024/07/soeun.jpg",
-    "chapter": "Chapter 117",
+    "chapter": "Chapter 118",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9289,7 +9289,7 @@
     "title": "Love Quest",
     "url": "/manga/love-quest",
     "image": "https://komiktap.info/wp-content/uploads/2026/03/Love_Quest.webp",
-    "chapter": "Chapter 38",
+    "chapter": "Chapter 39",
     "rating": "8.2",
     "type": "Manga",
     "time": null
@@ -9319,7 +9319,7 @@
     "title": "I Became an Apartment Security Manager",
     "url": "/manga/i-became-an-apartment-security-manager",
     "image": "https://komiktap.info/wp-content/uploads/2025/08/I-Became-an-Apartment-Security-Manager.webp",
-    "chapter": "Chapter 65",
+    "chapter": "Chapter 66",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9639,7 +9639,7 @@
     "title": "I Banged All My Classmates After Graduation",
     "url": "/manga/i-banged-all-my-classmates-after-graduation",
     "image": "https://komiktap.info/wp-content/uploads/2026/07/g8ir8upu9faxljistncn8hnk.webp",
-    "chapter": "Chapter 20",
+    "chapter": "Chapter 21",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -11529,7 +11529,7 @@
     "title": "Uruwashi Bijo Gahou – Pictorial of Charming and Alluring Women",
     "url": "/manga/uruwashi-bijo-gahou-pictorial-of-charming-and-alluring-women",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/001-1.webp",
-    "chapter": "Chapter 6",
+    "chapter": "Chapter 7",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -11649,7 +11649,7 @@
     "title": "Nandemo Yarimasu ~Tabegoro Tsuma ni Tanetsuke Piston~",
     "url": "/manga/nandemo-yarimasu-tabegoro-tsuma-ni-tanetsuke-piston",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/001-2.webp",
-    "chapter": "Chapter 5",
+    "chapter": "Chapter 8 End",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -11789,7 +11789,7 @@
     "title": "Haramase! ~Tanetsuke sareru Hitozuma-tachi~",
     "url": "/manga/haramase-tanetsuke-sareru-hitozuma-tachi",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/01-4.jpg",
-    "chapter": "Chapter 3",
+    "chapter": "Chapter 5",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11799,7 +11799,7 @@
     "title": "Inaka no Inshuu Tanemomi-sama",
     "url": "/manga/inaka-no-inshuu-tanemomi-sama",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/01-5.jpg",
-    "chapter": "Chapter 3",
+    "chapter": "Chapter 4",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -12092,6 +12092,16 @@
     "chapter": "Chapter 4",
     "rating": "8.5",
     "type": "Manga",
+    "time": null
+  },
+  "mama-san-volley-nanoni-mama-janai-kara-mama-ni-shite": {
+    "slug": "mama-san-volley-nanoni-mama-janai-kara-mama-ni-shite",
+    "title": "mama-san-volley-nanoni-mama-janai-kara-mama-ni-shite",
+    "url": "/manga/mama-san-volley-nanoni-mama-janai-kara-mama-ni-shite",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.5",
+    "type": null,
     "time": null
   }
 }
