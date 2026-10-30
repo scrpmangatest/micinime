@@ -1,0 +1,29 @@
+{
+  "slug": "berhenti-merokok",
+  "title": "berhenti-merokok",
+  "image": null,
+  "rating": "7.1",
+  "description": "njir tumben manhwa ada shota",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Manhwa",
+      "url": "/genres/manhwa"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    }
+  ],
+  "chapters": [],
+  "scrapedAt": "2026-10-29T21:30:46.327Z"
+}

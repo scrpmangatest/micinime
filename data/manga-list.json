@@ -7107,7 +7107,7 @@
   },
   "secret-class": {
     "slug": "secret-class",
-    "title": "Secret Class",
+    "title": "Kelas Rahasia",
     "url": "/manga/secret-class",
     "image": "https://komiktap.info/wp-content/uploads/2020/09/SECRET-CLASS-PORTA-006.jpg",
     "chapter": "Chapter 321",
@@ -9349,7 +9349,7 @@
     "title": "I’m the Only Man on the Military Base",
     "url": "/manga/im-the-only-man-on-the-military-base",
     "image": "https://komiktap.info/wp-content/uploads/2025/05/Screenshot-2025-05-16-164436.webp",
-    "chapter": "Chapter 79",
+    "chapter": "Chapter 80",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9419,7 +9419,7 @@
     "title": "The Reincarnated Man",
     "url": "/manga/the-reincarnated-man",
     "image": "https://komiktap.info/wp-content/uploads/2025/06/The-Reincarnated-Man-Manhwa-Free.webp",
-    "chapter": "Chapter 72",
+    "chapter": "Chapter 73 End",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9429,7 +9429,7 @@
     "title": "Taming My Stepsister",
     "url": "/manga/taming-my-stepsister",
     "image": "https://komiktap.info/wp-content/uploads/2026/05/Screenshot-2026-05-05-093655.png",
-    "chapter": "Chapter 34",
+    "chapter": "Chapter 35",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9439,7 +9439,7 @@
     "title": "My Sex Partners Were Actually Family",
     "url": "/manga/my-sex-partners-were-actually-family",
     "image": "https://komiktap.info/wp-content/uploads/2026/05/Screenshot-2026-05-14-080959.png",
-    "chapter": "Chapter 32",
+    "chapter": "Chapter 33",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9449,7 +9449,7 @@
     "title": "Love Cheer!",
     "url": "/manga/love-cheer",
     "image": "https://komiktap.info/wp-content/uploads/2026/06/Screenshot-2026-06-05-131352.png",
-    "chapter": "Chapter 26",
+    "chapter": "Chapter 27",
     "rating": "7.8",
     "type": "Manga",
     "time": null
@@ -9606,10 +9606,10 @@
   },
   "magical-girl-wife": {
     "slug": "magical-girl-wife",
-    "title": "Magical Girl Wife",
+    "title": "Istriku Adalah Gadis Penyihir",
     "url": "/manga/magical-girl-wife",
     "image": "https://komiktap.info/wp-content/uploads/2026/04/imgi_2_eil2fos7tued469vo3a3xp8v.jpg",
-    "chapter": "Chapter 31",
+    "chapter": "Chapter 32",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -9759,7 +9759,7 @@
     "title": "Cleaning Service",
     "url": "/manga/cleaning-service",
     "image": "https://komiktap.info/wp-content/uploads/2024/12/Cleaning-Service.webp",
-    "chapter": "Chapter 83",
+    "chapter": "Chapter 85",
     "rating": "8",
     "type": "Manga",
     "time": null
@@ -10306,10 +10306,10 @@
   },
   "living-with-my-teacher": {
     "slug": "living-with-my-teacher",
-    "title": "Living With My Teacher!",
+    "title": "Tinggal Bersama Guruku!",
     "url": "/manga/living-with-my-teacher",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/cover_c33b562f.webp",
-    "chapter": "Chapter 13",
+    "chapter": "Chapter 14",
     "rating": "8.8",
     "type": "Manga",
     "time": null
@@ -11269,7 +11269,7 @@
     "title": "Get Out!",
     "url": "/manga/get-out",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/get-outm.webp",
-    "chapter": "Chapter 13",
+    "chapter": "Chapter 15",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -12172,6 +12172,56 @@
     "chapter": "Chapter 92",
     "rating": "7.3",
     "type": "Manga",
+    "time": null
+  },
+  "teman-teman-ibu": {
+    "slug": "teman-teman-ibu",
+    "title": "teman-teman-ibu",
+    "url": "/manga/teman-teman-ibu",
+    "image": null,
+    "chapter": null,
+    "rating": "8.4",
+    "type": null,
+    "time": null
+  },
+  "ibumu-adalah-yang-terbaik": {
+    "slug": "ibumu-adalah-yang-terbaik",
+    "title": "ibumu-adalah-yang-terbaik",
+    "url": "/manga/ibumu-adalah-yang-terbaik",
+    "image": null,
+    "chapter": null,
+    "rating": "7.7",
+    "type": null,
+    "time": null
+  },
+  "shuudengo-boku-o-matteita-bakunyuu-hitozuma-joushi-32-ni-loveho-e-tsurekomarete-asa-made-nando-mo-nakadashi-shita-hanashi": {
+    "slug": "shuudengo-boku-o-matteita-bakunyuu-hitozuma-joushi-32-ni-loveho-e-tsurekomarete-asa-made-nando-mo-nakadashi-shita-hanashi",
+    "title": "shuudengo-boku-o-matteita-bakunyuu-hitozuma-joushi-32-ni-loveho-e-tsurekomarete-asa-made-nando-mo-nakadashi-shita-hanashi",
+    "url": "/manga/shuudengo-boku-o-matteita-bakunyuu-hitozuma-joushi-32-ni-loveho-e-tsurekomarete-asa-made-nando-mo-nakadashi-shita-hanashi",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.8",
+    "type": null,
+    "time": null
+  },
+  "berhenti-merokok": {
+    "slug": "berhenti-merokok",
+    "title": "berhenti-merokok",
+    "url": "/manga/berhenti-merokok",
+    "image": null,
+    "chapter": null,
+    "rating": "7.1",
+    "type": null,
+    "time": null
+  },
+  "agensi-perselingkuhan": {
+    "slug": "agensi-perselingkuhan",
+    "title": "agensi-perselingkuhan",
+    "url": "/manga/agensi-perselingkuhan",
+    "image": null,
+    "chapter": null,
+    "rating": "7.8",
+    "type": null,
     "time": null
   }
 }

@@ -1,0 +1,33 @@
+{
+  "slug": "ibumu-adalah-yang-terbaik",
+  "title": "ibumu-adalah-yang-terbaik",
+  "image": null,
+  "rating": "7.7",
+  "description": "Dia adalah cinta pertama pria itu. Baginya, pria itu hanyalah seorang anak laki-laki. Kini setelah pria itu beranjak dewasa, mungkinkah perasaan yang selama ini terpendam itu berubah menjadi sesuatu yang lebih?",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Drama",
+      "url": "/genres/drama"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "Seinen",
+      "url": "/genres/seinen"
+    },
+    {
+      "name": "Smut",
+      "url": "/genres/smut"
+    }
+  ],
+  "chapters": [],
+  "scrapedAt": "2026-10-29T21:30:33.139Z"
+}
