@@ -1,0 +1,44 @@
+{
+  "slug": "watashi-no-musuko",
+  "title": "watashi-no-musuko",
+  "image": null,
+  "rating": "8.5",
+  "description": "Baca aja",
+  "status": null,
+  "type": null,
+  "genres": [
+    {
+      "name": "Adult",
+      "url": "/genres/adult"
+    },
+    {
+      "name": "Cheating",
+      "url": "/genres/cheating"
+    },
+    {
+      "name": "Femdom",
+      "url": "/genres/femdom"
+    },
+    {
+      "name": "Incest",
+      "url": "/genres/incest"
+    },
+    {
+      "name": "Mature",
+      "url": "/genres/mature"
+    },
+    {
+      "name": "MILF",
+      "url": "/genres/milf"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1",
+      "url": "/watashi-no-musuko-chapter-1",
+      "slug": "watashi-no-musuko-chapter-1",
+      "date": "Oktober 30, 2026"
+    }
+  ],
+  "scrapedAt": "2026-10-30T02:20:05.074Z"
+}

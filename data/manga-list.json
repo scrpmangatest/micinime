@@ -9246,7 +9246,7 @@
   },
   "affair-agency": {
     "slug": "affair-agency",
-    "title": "Affair Agency",
+    "title": "Agensi Perselingkuhan",
     "url": "/manga/affair-agency",
     "image": "https://komiktap.info/wp-content/uploads/2026/08/i532123.jpg",
     "chapter": "Chapter 21",
@@ -9589,7 +9589,7 @@
     "title": "A Dangerous Deal and The Girl Next Door",
     "url": "/manga/a-dangerous-deal-and-the-girl-next-door",
     "image": "https://komiktap.info/wp-content/uploads/2025/07/Risky-Deals-and-The-Girl-Next-Door.webp",
-    "chapter": "Chapter 69",
+    "chapter": "Chapter 70",
     "rating": "7.9",
     "type": "Manga",
     "time": null
@@ -9646,10 +9646,10 @@
   },
   "stop-smoking": {
     "slug": "stop-smoking",
-    "title": "Stop Smoking",
+    "title": "Berhenti Merokok",
     "url": "/manga/stop-smoking",
     "image": "https://komiktap.info/wp-content/uploads/2024/09/Stop-Smoking-193x278-1.jpg",
-    "chapter": "Chapter 116",
+    "chapter": "Chapter 117",
     "rating": "7.1",
     "type": "Manga",
     "time": null
@@ -10766,7 +10766,7 @@
   },
   "your-mom-is-the-best": {
     "slug": "your-mom-is-the-best",
-    "title": "Your Mom Is the Best",
+    "title": "Ibumu adalah yang terbaik",
     "url": "/manga/your-mom-is-the-best",
     "image": "https://komiktap.info/wp-content/uploads/2026/09/fcwsoj9vu05u4jn0i4hxwywl.webp",
     "chapter": "Chapter 16",
@@ -11789,7 +11789,7 @@
     "title": "Haramase! ~Tanetsuke sareru Hitozuma-tachi~",
     "url": "/manga/haramase-tanetsuke-sareru-hitozuma-tachi",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/01-4.jpg",
-    "chapter": "Chapter 6",
+    "chapter": "Chapter 7",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -11966,7 +11966,7 @@
   },
   "mothers-friends": {
     "slug": "mothers-friends",
-    "title": "Mother’s Friends",
+    "title": "Teman-teman Ibu",
     "url": "/manga/mothers-friends",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/fr4kbivs1h1nrknqvmx14ddw.webp",
     "chapter": "Chapter 9",
@@ -12099,7 +12099,7 @@
     "title": "Mama-san Volley nanoni Mama janai kara Mama ni Shite!!",
     "url": "/manga/mama-san-volley-nanoni-mama-janai-kara-mama-ni-shite",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/01-7.jpg",
-    "chapter": "Chapter 2",
+    "chapter": "Chapter 3",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -12139,7 +12139,7 @@
     "title": "Senpai, Kyou Tomatte mo Ii yo ne",
     "url": "/manga/senpai-kyou-tomatte-mo-ii-yo-ne",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/01-8.jpg",
-    "chapter": "Chapter 1",
+    "chapter": "Chapter 2",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -12196,12 +12196,12 @@
   },
   "shuudengo-boku-o-matteita-bakunyuu-hitozuma-joushi-32-ni-loveho-e-tsurekomarete-asa-made-nando-mo-nakadashi-shita-hanashi": {
     "slug": "shuudengo-boku-o-matteita-bakunyuu-hitozuma-joushi-32-ni-loveho-e-tsurekomarete-asa-made-nando-mo-nakadashi-shita-hanashi",
-    "title": "shuudengo-boku-o-matteita-bakunyuu-hitozuma-joushi-32-ni-loveho-e-tsurekomarete-asa-made-nando-mo-nakadashi-shita-hanashi",
+    "title": "Shuudengo, Boku o Matteita Bakunyuu Hitozuma Joushi (32) ni LoveHo e Tsurekomarete Asa made Nando mo Nakadashi shita Hanashi",
     "url": "/manga/shuudengo-boku-o-matteita-bakunyuu-hitozuma-joushi-32-ni-loveho-e-tsurekomarete-asa-made-nando-mo-nakadashi-shita-hanashi",
-    "image": null,
+    "image": "https://komiktap.info/wp-content/uploads/2026/10/01-5.webp",
     "chapter": "Chapter 1",
     "rating": "8.8",
-    "type": null,
+    "type": "Manga",
     "time": null
   },
   "berhenti-merokok": {
@@ -12221,6 +12221,26 @@
     "image": null,
     "chapter": null,
     "rating": "7.8",
+    "type": null,
+    "time": null
+  },
+  "my-landlady-noona": {
+    "slug": "my-landlady-noona",
+    "title": "My Landlady Noona",
+    "url": "/manga/my-landlady-noona",
+    "image": "https://komiktap.info/wp-content/uploads/2021/11/809d5351-7cd5-49d5-b2ce-da1c4ac570ef.webp",
+    "chapter": "Chapter 156 End",
+    "rating": "8.3",
+    "type": "Manga",
+    "time": null
+  },
+  "watashi-no-musuko": {
+    "slug": "watashi-no-musuko",
+    "title": "watashi-no-musuko",
+    "url": "/manga/watashi-no-musuko",
+    "image": null,
+    "chapter": "Chapter 1",
+    "rating": "8.5",
     "type": null,
     "time": null
   }
