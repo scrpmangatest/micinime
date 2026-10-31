@@ -238,10 +238,11 @@
     "slug": "a-wise-drivers-life",
     "title": "A Wise Driver’s Life",
     "url": "/manga/a-wise-drivers-life",
-    "image": "https://i0.wp.com/komikhentaiku.com/wp-content/uploads/2026/03/cover-190.jpg?resize=285,425",
-    "chapter": "Chapter 1",
-    "rating": "9.00",
-    "type": null
+    "image": "https://komiktap.info/wp-content/uploads/2023/10/Kkeondae.jpg",
+    "chapter": "Chapter 56 End",
+    "rating": "7.4",
+    "type": "Manga",
+    "time": null
   },
   "a-woman-of-the-gods": {
     "slug": "a-woman-of-the-gods",
@@ -11789,7 +11790,7 @@
     "title": "Haramase! ~Tanetsuke sareru Hitozuma-tachi~",
     "url": "/manga/haramase-tanetsuke-sareru-hitozuma-tachi",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/01-4.jpg",
-    "chapter": "Chapter 7",
+    "chapter": "Chapter 8",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -12139,7 +12140,7 @@
     "title": "Senpai, Kyou Tomatte mo Ii yo ne",
     "url": "/manga/senpai-kyou-tomatte-mo-ii-yo-ne",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/01-8.jpg",
-    "chapter": "Chapter 2",
+    "chapter": "Chapter 3",
     "rating": "8.5",
     "type": "Manga",
     "time": null
@@ -12239,8 +12240,38 @@
     "title": "Watashi no Musuko",
     "url": "/manga/watashi-no-musuko",
     "image": "https://komiktap.info/wp-content/uploads/2026/10/01-9.jpg",
-    "chapter": "Chapter 1",
+    "chapter": "Chapter 2",
     "rating": "8.5",
+    "type": "Manga",
+    "time": null
+  },
+  "sextudy-group": {
+    "slug": "sextudy-group",
+    "title": "sextudy-group",
+    "url": "/manga/sextudy-group",
+    "image": null,
+    "chapter": "Chapter 110 End",
+    "rating": "7.8",
+    "type": null,
+    "time": null
+  },
+  "mom-addiction": {
+    "slug": "mom-addiction",
+    "title": "Mom Addiction",
+    "url": "/manga/mom-addiction",
+    "image": "https://komiktap.info/wp-content/uploads/2023/07/kt-2.jpg",
+    "chapter": "Chapter 101 End",
+    "rating": "8.2",
+    "type": "Manga",
+    "time": null
+  },
+  "drunk-on-you-uncen": {
+    "slug": "drunk-on-you-uncen",
+    "title": "Drunk on You Uncen",
+    "url": "/manga/drunk-on-you-uncen",
+    "image": "https://komiktap.info/wp-content/uploads/2024/02/Drunk-on-You-193x278-1.jpg",
+    "chapter": "Chapter 100 End",
+    "rating": "7.7",
     "type": "Manga",
     "time": null
   }
